@@ -1,0 +1,668 @@
+import type { Season, ShowInfo } from '../model/types';
+
+export const SHOW_INFO: ShowInfo = {
+  titleKo: '나는 SOLO',
+  titleEn: 'I AM SOLO',
+  officialVod: 'https://programs.sbs.co.kr/plus/iamsolo/vods/69610',
+};
+
+/**
+ * 전 기수 데이터.
+ * - 새 기수 추가 시 배열 맨 앞에 추가(최신순 정렬 유지).
+ * - instagram 필드: 실제 username 확인 후 입력 (@제외).
+ */
+export const SEASONS_DATA: Season[] = [
+  {
+    seasonNo: 30,
+    label: '30기 (에겐남 & 테토녀)',
+    episodes: [
+      { ep: 238, airDate: '2026-02-04' },
+      { ep: 239, airDate: '2026-02-11' },
+    ],
+    participants: [
+      {
+        seasonNo: 30,
+        gender: 'M',
+        handle: '영수',
+        photo: { src: null, alt: '나는 SOLO 30기 영수' },
+        instagram: null,
+        profile: {
+          birthYear: 1992,
+          ageKorean: null,
+          job: '패션 브랜드 회사 신규 브랜드 기획',
+          region: '서울 중구 거주',
+          traits: ['에겐남', '커리어 이동 경험 언급'],
+          notableQuotes: [],
+          issues: [],
+        },
+        sources: [
+          {
+            title: 'OSEN: 30기 남자 출연자 직업 공개(영수/영호/영식/영철/광수)',
+            url: 'https://www.osen.co.kr/article/G1112739784',
+            confidence: 'high',
+          },
+        ],
+      },
+      {
+        seasonNo: 30,
+        gender: 'M',
+        handle: '영호',
+        photo: { src: null, alt: '나는 SOLO 30기 영호' },
+        instagram: null,
+        profile: {
+          birthYear: 1992,
+          ageKorean: null,
+          job: '에너지 전력 공기업 배관 설계(전역 후 엔지니어)',
+          region: null,
+          traits: ['해군사관학교/장교 경력 언급'],
+          notableQuotes: [],
+          issues: [],
+        },
+        sources: [
+          {
+            title: 'OSEN: 30기 남자 출연자 직업 공개(영호 소개 포함)',
+            url: 'https://www.osen.co.kr/article/G1112739784',
+            confidence: 'high',
+          },
+        ],
+      },
+      {
+        seasonNo: 30,
+        gender: 'M',
+        handle: '영식',
+        photo: { src: null, alt: '나는 SOLO 30기 영식' },
+        instagram: null,
+        profile: {
+          birthYear: 1992,
+          ageKorean: null,
+          job: '부동산 전문 변호사 / 로펌 대표',
+          region: null,
+          traits: ['전문직', '감정기복 적다고 어필'],
+          notableQuotes: [],
+          issues: [],
+        },
+        sources: [
+          {
+            title: 'OSEN: 30기 남자 출연자 직업 공개(영식 소개 포함)',
+            url: 'https://www.osen.co.kr/article/G1112739784',
+            confidence: 'high',
+          },
+          {
+            title: 'tvdaily(다음): 30기 자기소개(영식/영자 관련 언급)',
+            url: 'https://v.daum.net/v/20260205000742464',
+            confidence: 'medium',
+          },
+        ],
+      },
+      {
+        seasonNo: 30,
+        gender: 'M',
+        handle: '영철',
+        photo: { src: null, alt: '나는 SOLO 30기 영철' },
+        instagram: null,
+        profile: {
+          birthYear: 1991,
+          ageKorean: null,
+          job: '태양광 발전 사업(대구·경북, 가업 이어받는 중)',
+          region: '대구·경북',
+          traits: [],
+          notableQuotes: [],
+          issues: [],
+        },
+        sources: [
+          {
+            title: 'OSEN: 30기 남자 출연자 직업 공개(영철 소개 포함)',
+            url: 'https://www.osen.co.kr/article/G1112739784',
+            confidence: 'high',
+          },
+        ],
+      },
+      {
+        seasonNo: 30,
+        gender: 'M',
+        handle: '광수',
+        photo: { src: null, alt: '나는 SOLO 30기 광수' },
+        instagram: null,
+        profile: {
+          birthYear: 1992,
+          ageKorean: null,
+          job: '삼성 반도체 엔지니어(전자전기 학·석)',
+          region: null,
+          traits: ['과학고 졸업 언급'],
+          notableQuotes: [],
+          issues: [],
+        },
+        sources: [
+          {
+            title: 'OSEN: 30기 남자 출연자 직업 공개(광수 소개 포함)',
+            url: 'https://www.osen.co.kr/article/G1112739784',
+            confidence: 'high',
+          },
+        ],
+      },
+      {
+        seasonNo: 30,
+        gender: 'M',
+        handle: '상철',
+        photo: { src: null, alt: '나는 SOLO 30기 상철' },
+        instagram: null,
+        profile: {
+          birthYear: null,
+          ageKorean: null,
+          job: null,
+          region: null,
+          traits: [],
+          notableQuotes: [],
+          issues: ['신뢰도 높은 단일 기사에서 직업/나이를 아직 확보 못함(추가 리서치 필요)'],
+        },
+        sources: [
+          {
+            title: 'SBS 다시보기(회차/방영일 확인)',
+            url: 'https://programs.sbs.co.kr/plus/iamsolo/vods/69610',
+            confidence: 'medium',
+          },
+        ],
+      },
+      {
+        seasonNo: 30,
+        gender: 'F',
+        handle: '영숙',
+        photo: { src: null, alt: '나는 SOLO 30기 영숙' },
+        instagram: null,
+        profile: {
+          birthYear: 1991,
+          ageKorean: null,
+          job: '외국계 제약회사 마케팅(약학대학 졸업, 약사)',
+          region: '서울 동작구',
+          traits: ['자기관리(영단어 암기 루틴 언급)'],
+          notableQuotes: [],
+          issues: [],
+        },
+        sources: [
+          {
+            title: 'OSEN: 30기 여성 출연자 스펙(영숙/정숙/순자/옥순/영자/현숙)',
+            url: 'https://www5.osen.co.kr/article/G1112739811',
+            confidence: 'high',
+          },
+        ],
+      },
+      {
+        seasonNo: 30,
+        gender: 'F',
+        handle: '정숙',
+        photo: { src: null, alt: '나는 SOLO 30기 정숙' },
+        instagram: null,
+        profile: {
+          birthYear: 1993,
+          ageKorean: null,
+          job: '경기도 소재 경찰청 소속 경찰 공무원',
+          region: '의정부 거주(업무로 거주 언급)',
+          traits: ['솔로나라 최초 직업이라고 소개', '체력 걱정 언급'],
+          notableQuotes: [],
+          issues: [],
+        },
+        sources: [
+          {
+            title: 'OSEN: 30기 여성 출연자 스펙(정숙 경찰 공무원 언급)',
+            url: 'https://www5.osen.co.kr/article/G1112739811',
+            confidence: 'high',
+          },
+          {
+            title: 'OSEN: 30기 테토녀 등장(정숙 경찰공무원 언급)',
+            url: 'https://www.osen.co.kr/article/G1112736029',
+            confidence: 'high',
+          },
+        ],
+      },
+      {
+        seasonNo: 30,
+        gender: 'F',
+        handle: '순자',
+        photo: { src: null, alt: '나는 SOLO 30기 순자' },
+        instagram: null,
+        profile: {
+          birthYear: 1995,
+          ageKorean: null,
+          job: '계열사 헬스 브랜드 상품 기획/개발(PM)',
+          region: '서울 관악구(울산 출생 언급)',
+          traits: ['복싱 생활체육 대회 출전 언급'],
+          notableQuotes: [],
+          issues: [],
+        },
+        sources: [
+          {
+            title: 'OSEN: 30기 여성 출연자 스펙(순자 직무/복싱 언급)',
+            url: 'https://www5.osen.co.kr/article/G1112739811',
+            confidence: 'high',
+          },
+          {
+            title: 'OSEN: 30기 테토녀 등장(복싱 아마추어 언급)',
+            url: 'https://www.osen.co.kr/article/G1112736029',
+            confidence: 'high',
+          },
+        ],
+      },
+      {
+        seasonNo: 30,
+        gender: 'F',
+        handle: '옥순',
+        photo: { src: null, alt: '나는 SOLO 30기 옥순' },
+        instagram: null,
+        profile: {
+          birthYear: null,
+          ageKorean: null,
+          job: '필라테스 센터 2곳 운영(무용 전공)',
+          region: null,
+          traits: ['선화예중·예고, 이화여대 무용과 졸업 언급'],
+          notableQuotes: [],
+          issues: [],
+        },
+        sources: [
+          {
+            title: 'OSEN: 30기 여성 출연자 스펙(옥순 무용/필라테스 운영)',
+            url: 'https://www5.osen.co.kr/article/G1112739811',
+            confidence: 'high',
+          },
+        ],
+      },
+      {
+        seasonNo: 30,
+        gender: 'F',
+        handle: '영자',
+        photo: { src: null, alt: '나는 SOLO 30기 영자' },
+        instagram: null,
+        profile: {
+          birthYear: null,
+          ageKorean: null,
+          job: '건설 현장 근무(H건설 현장 근무직 언급)',
+          region: null,
+          traits: ['이동 잦아 장거리/주말부부 이슈', '한식기능사·요리/재봉/낚시/캠핑 언급', '서울 자가 언급'],
+          notableQuotes: ['"주말 부부 어떠냐" 질문 언급'],
+          issues: [],
+        },
+        sources: [
+          {
+            title: 'OSEN: 30기 여성 출연자 스펙(영자 현장근무/서울 자가 등)',
+            url: 'https://www5.osen.co.kr/article/G1112739811',
+            confidence: 'high',
+          },
+          {
+            title: 'tvdaily(다음): 30기 자기소개(영자 직업 맥락 언급)',
+            url: 'https://v.daum.net/v/20260205000742464',
+            confidence: 'medium',
+          },
+        ],
+      },
+      {
+        seasonNo: 30,
+        gender: 'F',
+        handle: '현숙',
+        photo: { src: null, alt: '나는 SOLO 30기 현숙' },
+        instagram: null,
+        profile: {
+          birthYear: null,
+          ageKorean: null,
+          job: '국제 회계법인 텍스 매니저(미국·캐나다 회계사 자격)',
+          region: '캐나다 밴쿠버 고향(자가 언급)',
+          traits: ['미국·캐나다 회계사 자격증 언급'],
+          notableQuotes: [],
+          issues: [],
+        },
+        sources: [
+          {
+            title: 'OSEN: 30기 여성 출연자 스펙(현숙 회계사/밴쿠버 자가)',
+            url: 'https://www5.osen.co.kr/article/G1112739811',
+            confidence: 'high',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    seasonNo: 29,
+    label: '29기 (연상연하 특집)',
+    episodes: [
+      { ep: 228, airDate: '2025-11-19' },
+      { ep: 229, airDate: '2025-11-26' },
+    ],
+    participants: [
+      {
+        seasonNo: 29,
+        gender: 'F',
+        handle: '영숙',
+        photo: { src: null, alt: '나는 SOLO 29기 영숙' },
+        instagram: null,
+        profile: {
+          birthYear: 1988,
+          ageKorean: null,
+          job: '서울 소재 대학교 연구 전담 교수',
+          region: '제주 출신(언급)',
+          traits: ['수영 선수 경험 언급', '장거리/나이 열려 있다고 언급'],
+          notableQuotes: [],
+          issues: [],
+        },
+        sources: [
+          {
+            title: 'MK: 29기 연상녀 자기소개(영숙/정숙/순자/영자/옥순/현숙)',
+            url: 'https://www.mk.co.kr/news/broadcasting-service/11483777',
+            confidence: 'high',
+          },
+        ],
+      },
+      {
+        seasonNo: 29,
+        gender: 'F',
+        handle: '정숙',
+        photo: { src: null, alt: '나는 SOLO 29기 정숙' },
+        instagram: null,
+        profile: {
+          birthYear: 1988,
+          ageKorean: null,
+          job: '대구 영어 학원 운영',
+          region: '대구',
+          traits: ['"정말 사랑한다면 길을 만들고 싶다" 취지 언급'],
+          notableQuotes: [],
+          issues: [],
+        },
+        sources: [
+          {
+            title: 'MK: 29기 연상녀 자기소개(정숙 영어학원 운영)',
+            url: 'https://www.mk.co.kr/news/broadcasting-service/11483777',
+            confidence: 'high',
+          },
+        ],
+      },
+      {
+        seasonNo: 29,
+        gender: 'F',
+        handle: '순자',
+        photo: { src: null, alt: '나는 SOLO 29기 순자' },
+        instagram: null,
+        profile: {
+          birthYear: 1990,
+          ageKorean: null,
+          job: '부친 건설회사 분양관리팀 근무(서울·광주 오가며)',
+          region: '서울·광주',
+          traits: [],
+          notableQuotes: [],
+          issues: [],
+        },
+        sources: [
+          {
+            title: 'MK: 29기 연상녀 자기소개(순자 분양관리팀)',
+            url: 'https://www.mk.co.kr/news/broadcasting-service/11483777',
+            confidence: 'high',
+          },
+        ],
+      },
+      {
+        seasonNo: 29,
+        gender: 'F',
+        handle: '영자',
+        photo: { src: null, alt: '나는 SOLO 29기 영자' },
+        instagram: null,
+        profile: {
+          birthYear: 1988,
+          ageKorean: null,
+          job: '대치동 수학 학원 운영',
+          region: '서울 대치동',
+          traits: ['"모은 건 없지만 잘 번다" 취지 언급'],
+          notableQuotes: [],
+          issues: [],
+        },
+        sources: [
+          {
+            title: 'MK: 29기 연상녀 자기소개(영자 수학학원 운영)',
+            url: 'https://www.mk.co.kr/news/broadcasting-service/11483777',
+            confidence: 'high',
+          },
+        ],
+      },
+      {
+        seasonNo: 29,
+        gender: 'F',
+        handle: '옥순',
+        photo: { src: null, alt: '나는 SOLO 29기 옥순' },
+        instagram: null,
+        profile: {
+          birthYear: 1989,
+          ageKorean: null,
+          job: '병원 간호사(13년차, 간호사 국가고시 전국 수석 언급)',
+          region: '서울(기사 기준)',
+          traits: [],
+          notableQuotes: [],
+          issues: [],
+        },
+        sources: [
+          {
+            title: 'MK: 29기 연상녀 자기소개(옥순 간호사/국시 수석 언급)',
+            url: 'https://www.mk.co.kr/news/broadcasting-service/11483777',
+            confidence: 'high',
+          },
+        ],
+      },
+      {
+        seasonNo: 29,
+        gender: 'F',
+        handle: '현숙',
+        photo: { src: null, alt: '나는 SOLO 29기 현숙' },
+        instagram: null,
+        profile: {
+          birthYear: 1990,
+          ageKorean: null,
+          job: '약사(3년차)',
+          region: null,
+          traits: [],
+          notableQuotes: [],
+          issues: [],
+        },
+        sources: [
+          {
+            title: 'MK: 29기 연상녀 자기소개(현숙 약사 3년차)',
+            url: 'https://www.mk.co.kr/news/broadcasting-service/11483777',
+            confidence: 'high',
+          },
+        ],
+      },
+      {
+        seasonNo: 29,
+        gender: 'M',
+        handle: '영수',
+        photo: { src: null, alt: '나는 SOLO 29기 영수' },
+        instagram: null,
+        profile: {
+          birthYear: null,
+          ageKorean: null,
+          job: null,
+          region: null,
+          traits: ['3개국어 구사', '소개팅 100번 이상(언급)'],
+          notableQuotes: ['"미치도록 예쁘다"(첫인상 선택 멘트로 언급)'],
+          issues: ['직업/지역은 기사에서 확정적으로 못 찾음'],
+        },
+        sources: [
+          {
+            title: 'bnt(다음): 나는솔로 29기 프로필(요약 프로필/멘트)',
+            url: 'https://v.daum.net/v/20251127074546302',
+            confidence: 'medium',
+          },
+        ],
+      },
+      {
+        seasonNo: 29,
+        gender: 'M',
+        handle: '영호',
+        photo: { src: null, alt: '나는 SOLO 29기 영호' },
+        instagram: null,
+        profile: {
+          birthYear: null,
+          ageKorean: null,
+          job: null,
+          region: null,
+          traits: ['200평 오리 식당 막내아들(언급)', '연상 선호(언급)'],
+          notableQuotes: [],
+          issues: ['직업/지역은 기사에서 확정적으로 못 찾음'],
+        },
+        sources: [
+          {
+            title: 'bnt(다음): 나는솔로 29기 프로필(요약 프로필)',
+            url: 'https://v.daum.net/v/20251127074546302',
+            confidence: 'medium',
+          },
+        ],
+      },
+      {
+        seasonNo: 29,
+        gender: 'M',
+        handle: '영식',
+        photo: { src: null, alt: '나는 SOLO 29기 영식' },
+        instagram: null,
+        profile: {
+          birthYear: null,
+          ageKorean: null,
+          job: null,
+          region: null,
+          traits: ['K대 출신(언급)', '나이 제한 없음(언급)'],
+          notableQuotes: [],
+          issues: ['직업/지역은 기사에서 확정적으로 못 찾음'],
+        },
+        sources: [
+          {
+            title: 'bnt(다음): 나는솔로 29기 프로필(요약 프로필)',
+            url: 'https://v.daum.net/v/20251127074546302',
+            confidence: 'medium',
+          },
+        ],
+      },
+      {
+        seasonNo: 29,
+        gender: 'M',
+        handle: '영철',
+        photo: { src: null, alt: '나는 SOLO 29기 영철' },
+        instagram: null,
+        profile: {
+          birthYear: null,
+          ageKorean: null,
+          job: null,
+          region: null,
+          traits: ['유도 선수 출신(언급)', '아이 5명 원함(언급)'],
+          notableQuotes: [],
+          issues: ['직업/지역은 기사에서 확정적으로 못 찾음'],
+        },
+        sources: [
+          {
+            title: 'bnt(다음): 나는솔로 29기 프로필(요약 프로필)',
+            url: 'https://v.daum.net/v/20251127074546302',
+            confidence: 'medium',
+          },
+        ],
+      },
+      {
+        seasonNo: 29,
+        gender: 'M',
+        handle: '광수',
+        photo: { src: null, alt: '나는 SOLO 29기 광수' },
+        instagram: null,
+        profile: {
+          birthYear: 1994,
+          ageKorean: null,
+          job: null,
+          region: null,
+          traits: ['8세 연상과 연애 경험(언급)'],
+          notableQuotes: [],
+          issues: ['직업/지역은 기사에서 확정적으로 못 찾음'],
+        },
+        sources: [
+          {
+            title: 'bnt(다음): 나는솔로 29기 프로필(요약 프로필)',
+            url: 'https://v.daum.net/v/20251127074546302',
+            confidence: 'medium',
+          },
+        ],
+      },
+      {
+        seasonNo: 29,
+        gender: 'M',
+        handle: '상철',
+        photo: { src: null, alt: '나는 SOLO 29기 상철' },
+        instagram: null,
+        profile: {
+          birthYear: 1997,
+          ageKorean: null,
+          job: null,
+          region: null,
+          traits: ['8세 연상까지 가능(언급)', '황금색 래핑카(언급)'],
+          notableQuotes: [],
+          issues: ['직업/지역은 기사에서 확정적으로 못 찾음'],
+        },
+        sources: [
+          {
+            title: 'bnt(다음): 나는솔로 29기 프로필(요약 프로필)',
+            url: 'https://v.daum.net/v/20251127074546302',
+            confidence: 'medium',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    seasonNo: 28,
+    label: '28기 (돌싱 특집)',
+    episodes: [{ ep: 217, airDate: '2025-09-03' }],
+    participants: [
+      {
+        seasonNo: 28,
+        gender: 'M',
+        handle: '영철',
+        photo: { src: null, alt: '나는 SOLO 28기 영철' },
+        instagram: null,
+        profile: {
+          birthYear: null,
+          ageKorean: null,
+          job: null,
+          region: '충남 서산 출신(언급), 대전 지역 자가 보유(언급)',
+          traits: ['한양대 공학 박사(언급)', '자가 4채 보유(언급)', '연상/아이 있는 여성 선호(언급)'],
+          notableQuotes: [],
+          issues: [],
+        },
+        sources: [
+          {
+            title: '머니투데이(다음): 28기 영철 공학박사/자가 4채/이상형',
+            url: 'https://v.daum.net/v/20250904024547047',
+            confidence: 'high',
+          },
+        ],
+      },
+      {
+        seasonNo: 28,
+        gender: 'F',
+        handle: '영숙',
+        photo: { src: null, alt: '나는 SOLO 28기 영숙' },
+        instagram: null,
+        profile: {
+          birthYear: null,
+          ageKorean: null,
+          job: null,
+          region: null,
+          traits: [],
+          notableQuotes: ['"농락당했다"(기사 제목/내용에 등장)'],
+          issues: ['28기는 전원 프로필(직업/지역/나이) 고신뢰 소스를 일괄 확보 못함'],
+        },
+        sources: [
+          {
+            title: 'iMBC: 28기 영숙 관련 방송 내용(발언/갈등)',
+            url: 'https://enews.imbc.com/News/RetrieveNewsInfo/481389',
+            confidence: 'medium',
+          },
+          {
+            title: '스타뉴스: 28기 영숙 암투병 관련 해명(라이브 언급)',
+            url: 'https://www.starnewskorea.com/broadcast-show/2025/11/13/2025111316044228633',
+            confidence: 'medium',
+          },
+        ],
+      },
+    ],
+  },
+];
+
+/** 가장 최신 기수 (배열 첫 번째 = 최신순 정렬 기준) */
+export const LATEST_SEASON = SEASONS_DATA[0];
