@@ -1,0 +1,221 @@
+import type { Metadata } from 'next';
+import { notFound } from 'next/navigation';
+import Link from 'next/link';
+import { SEASONS_DATA } from '@/lib/data';
+import { getSiteUrl, calcKoreanAge, getParticipantSummary } from '@/lib/utils';
+import JsonLd from '@/components/JsonLd';
+
+interface Props {
+  params: Promise<{ seasonNo: string; gender: string; handle: string }>;
+}
+
+export function generateStaticParams() {
+  return SEASONS_DATA.flatMap((s) =>
+    s.participants.map((p) => ({
+      seasonNo: String(p.seasonNo),
+      gender: p.gender.toLowerCase(),
+      handle: p.handle,
+    })),
+  );
+}
+
+function findParticipant(seasonNo: string, gender: string, handle: string) {
+  const season = SEASONS_DATA.find((s) => s.seasonNo === Number(seasonNo));
+  if (!season) return null;
+  return (
+    season.participants.find(
+      (p) =>
+        p.gender.toLowerCase() === gender.toLowerCase() &&
+        p.handle === decodeURIComponent(handle),
+    ) ?? null
+  );
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { seasonNo, gender, handle } = await params;
+  const p = findParticipant(seasonNo, gender, handle);
+  if (!p) return {};
+
+  const base = getSiteUrl();
+  const url = `${base}/season/${p.seasonNo}/${p.gender.toLowerCase()}/${encodeURIComponent(p.handle)}`;
+  const age = calcKoreanAge(p.profile.birthYear);
+  const summary = getParticipantSummary(p);
+
+  const title = `${p.handle} (나는 SOLO ${p.seasonNo}기) 프로필`;
+  const description = `나는 SOLO ${p.seasonNo}기 ${p.gender === 'M' ? '남' : '여'} 출연자 ${p.handle}. ${age !== '미공개' ? `${age} · ` : ''}${summary}`;
+
+  return {
+    title,
+    description,
+    alternates: { canonical: url },
+    openGraph: {
+      title,
+      description,
+      url,
+      type: 'profile',
+    },
+  };
+}
+
+export default async function ParticipantPage({ params }: Props) {
+  const { seasonNo, gender, handle } = await params;
+  const p = findParticipant(seasonNo, gender, handle);
+  if (!p) notFound();
+
+  const base = getSiteUrl();
+  const age = calcKoreanAge(p.profile.birthYear);
+  const summary = getParticipantSummary(p);
+
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    name: `${p.handle} (나는 SOLO ${p.seasonNo}기)`,
+    description: summary,
+    jobTitle: p.profile.job ?? undefined,
+    homeLocation: p.profile.region
+      ? { '@type': 'Place', name: p.profile.region }
+      : undefined,
+    url: `${base}/season/${p.seasonNo}/${p.gender.toLowerCase()}/${encodeURIComponent(p.handle)}`,
+    sameAs: p.sources.map((s) => s.url),
+  };
+
+  const accentM = 'from-blue-600 to-blue-900';
+  const accentF = 'from-rose-400 to-rose-700';
+  const accent = p.gender === 'M' ? accentM : accentF;
+  const accentText = p.gender === 'M' ? 'text-blue-700' : 'text-rose-600';
+  const accentBadge = p.gender === 'M' ? 'bg-blue-100 text-blue-700' : 'bg-rose-100 text-rose-600';
+
+  return (
+    <>
+      <JsonLd data={jsonLd} />
+
+      {/* Hero */}
+      <section className={`bg-gradient-to-br ${accent} text-white py-12 px-4`}>
+        <div className="max-w-2xl mx-auto">
+          <Link
+            href={`/season/${p.seasonNo}`}
+            className="text-white/60 hover:text-white text-sm mb-4 inline-flex items-center gap-1 transition-colors"
+          >
+            ← {p.seasonNo}기 출연자 목록
+          </Link>
+          <div className="flex items-end gap-6 mt-3">
+            {/* Avatar placeholder */}
+            <div className="w-24 h-24 rounded-2xl bg-white/20 flex items-center justify-center text-4xl font-bold shrink-0">
+              {p.handle[0]}
+            </div>
+            <div>
+              <div className="text-white/70 text-sm">
+                {p.seasonNo}기 · {p.gender === 'M' ? '남' : '여'}
+              </div>
+              <h1 className="text-4xl font-bold">{p.handle}</h1>
+              <p className="text-white/80 mt-1 text-sm">{summary}</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Detail */}
+      <div className="max-w-2xl mx-auto px-4 py-8 space-y-6">
+        {/* Basic info */}
+        <section className="bg-white rounded-2xl shadow-sm border border-slate-100 p-6">
+          <h2 className={`text-base font-bold mb-4 ${accentText}`}>기본 정보</h2>
+          <dl className="grid grid-cols-2 gap-4">
+            <InfoItem label="나이" value={age} />
+            <InfoItem label="직업" value={p.profile.job} />
+            <InfoItem label="지역" value={p.profile.region} />
+            <InfoItem label="성별" value={p.gender === 'M' ? '남' : '여'} />
+          </dl>
+        </section>
+
+        {/* Traits */}
+        {p.profile.traits.length > 0 && (
+          <section className="bg-white rounded-2xl shadow-sm border border-slate-100 p-6">
+            <h2 className={`text-base font-bold mb-3 ${accentText}`}>특징</h2>
+            <div className="flex flex-wrap gap-2">
+              {p.profile.traits.map((t, i) => (
+                <span key={i} className={`px-3 py-1.5 rounded-full text-sm font-medium ${accentBadge}`}>
+                  {t}
+                </span>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Notable quotes */}
+        {p.profile.notableQuotes.length > 0 && (
+          <section className="bg-white rounded-2xl shadow-sm border border-slate-100 p-6">
+            <h2 className={`text-base font-bold mb-3 ${accentText}`}>화제 멘트</h2>
+            <ul className="space-y-3">
+              {p.profile.notableQuotes.map((q, i) => (
+                <li
+                  key={i}
+                  className="text-slate-700 text-sm italic border-l-4 border-rose-300 pl-4 py-1"
+                >
+                  {q}
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        {/* Issues */}
+        {p.profile.issues.length > 0 && (
+          <section className="bg-amber-50 rounded-2xl border border-amber-200 p-6">
+            <h2 className="text-base font-bold mb-3 text-amber-700">이슈 / 미확인 정보</h2>
+            <ul className="space-y-2">
+              {p.profile.issues.map((issue, i) => (
+                <li key={i} className="text-sm text-amber-800 flex gap-2">
+                  <span>⚠</span>
+                  <span>{issue}</span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        {/* Sources */}
+        {p.sources.length > 0 && (
+          <section className="bg-white rounded-2xl shadow-sm border border-slate-100 p-6">
+            <h2 className={`text-base font-bold mb-3 ${accentText}`}>출처</h2>
+            <ul className="space-y-3">
+              {p.sources.map((s, i) => (
+                <li key={i} className="flex items-start gap-2">
+                  <span
+                    className={`mt-1 w-2.5 h-2.5 rounded-full shrink-0 ${
+                      s.confidence === 'high'
+                        ? 'bg-green-500'
+                        : s.confidence === 'medium'
+                          ? 'bg-yellow-500'
+                          : 'bg-red-400'
+                    }`}
+                    title={`신뢰도: ${s.confidence}`}
+                  />
+                  <a
+                    href={s.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-blue-600 hover:underline leading-snug"
+                  >
+                    {s.title}
+                  </a>
+                </li>
+              ))}
+            </ul>
+            <p className="text-xs text-slate-400 mt-4">
+              ● 초록: 고신뢰 · ● 노랑: 중간 신뢰 · ● 빨강: 낮은 신뢰
+            </p>
+          </section>
+        )}
+      </div>
+    </>
+  );
+}
+
+function InfoItem({ label, value }: { label: string; value: string | null | undefined }) {
+  return (
+    <div>
+      <dt className="text-xs font-semibold text-slate-400 uppercase tracking-wide">{label}</dt>
+      <dd className="text-sm text-slate-800 mt-0.5 font-medium">{value ?? '미공개'}</dd>
+    </div>
+  );
+}
