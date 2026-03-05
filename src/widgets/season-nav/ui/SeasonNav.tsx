@@ -76,7 +76,7 @@ export default function SeasonNav({ seasons, currentSeasonNo }: Props) {
                   href={`/season/${s.seasonNo}`}
                   onClick={close}
                   className={`
-                    relative flex flex-col items-center justify-center rounded-xl py-2.5 px-1 text-xs font-semibold
+                    flex flex-col items-center justify-center rounded-xl py-2 px-1 text-xs font-semibold
                     transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rose-400
                     ${
                       isCurrent
@@ -85,10 +85,12 @@ export default function SeasonNav({ seasons, currentSeasonNo }: Props) {
                     }
                   `}
                 >
-                  {isLatest && !isCurrent && (
-                    <span className="absolute -top-1.5 -right-1 text-[8px] bg-rose-500 text-white px-1 rounded-full leading-4">
+                  {isLatest && !isCurrent ? (
+                    <span className="text-[8px] bg-rose-500 text-white px-1.5 rounded-full leading-[14px] mb-0.5">
                       최신
                     </span>
+                  ) : (
+                    <span className="h-[14px] mb-0.5" />
                   )}
                   {s.seasonNo}기
                 </Link>
