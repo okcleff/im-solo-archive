@@ -94,7 +94,7 @@ export default async function ParticipantPage({ params }: Props) {
     ],
   };
 
-  const accentGrad = p.gender === 'M' ? 'from-blue-600 to-blue-900' : 'from-rose-400 to-rose-700';
+  const accentGrad = p.gender === 'M' ? 'from-[#1C2B4A] to-[#070E1D]' : 'from-[#C01442] to-[#7F0E2C]';
   const accentText = p.gender === 'M' ? 'text-blue-700' : 'text-rose-600';
   const accentBadge = p.gender === 'M' ? 'bg-blue-100 text-blue-700' : 'bg-rose-100 text-rose-600';
 
@@ -105,7 +105,7 @@ export default async function ParticipantPage({ params }: Props) {
       <section className={`bg-gradient-to-br ${accentGrad} text-white py-12 px-4`}>
         <div className="max-w-2xl mx-auto">
           <Link href={`/season/${p.seasonNo}`}
-            className="text-white/60 hover:text-white text-sm mb-4 inline-flex items-center gap-1 transition-colors">
+            className="text-white/40 hover:text-white/80 text-xs tracking-wide mb-4 inline-flex items-center gap-1 transition-colors">
             ← {p.seasonNo}기 출연자 목록
           </Link>
           <div className="flex items-end gap-5 mt-3">

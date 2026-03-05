@@ -42,21 +42,22 @@ export default function HomePage() {
       <JsonLd data={jsonLd} />
 
       {/* Hero */}
-      <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-rose-950 text-white py-12 px-4">
+      <section className="bg-[#0F0F0F] text-white py-14 px-4">
         <div className="max-w-6xl mx-auto">
-          <div className="flex items-center gap-2 text-rose-400 text-sm font-medium mb-3">
-            <span>♥</span>
-            <span>비공식 팬 아카이브</span>
-          </div>
-          <h1 className="text-3xl sm:text-4xl font-bold mb-3">나는 SOLO 출연자 아카이브</h1>
-          <p className="text-slate-300 text-base sm:text-lg max-w-2xl">
+          <p className="text-[11px] font-semibold tracking-[0.2em] uppercase text-rose-400/80 mb-5">
+            비공식 팬 아카이브
+          </p>
+          <h1 className="text-4xl sm:text-5xl font-bold tracking-tight mb-4 leading-tight">
+            나는 SOLO<br className="sm:hidden" /> 출연자 아카이브
+          </h1>
+          <p className="text-white/50 text-base sm:text-lg max-w-xl leading-relaxed">
             전 기수 출연자 직업, 나이, 지역, 특징을 검색하고 한눈에 비교하세요.
           </p>
-          <div className="mt-4 flex flex-wrap gap-3 text-sm">
-            <span className="bg-rose-500/20 text-rose-300 border border-rose-500/30 px-3 py-1 rounded-full">
+          <div className="mt-6 flex flex-wrap gap-2.5 text-xs">
+            <span className="bg-rose-500/15 text-rose-300 border border-rose-500/20 px-3 py-1.5 rounded-full font-medium">
               최신 방영: {latestAirDate} ({LATEST_SEASON.label})
             </span>
-            <span className="bg-slate-700/50 text-slate-300 border border-slate-600/30 px-3 py-1 rounded-full">
+            <span className="bg-white/[0.06] text-white/40 border border-white/[0.08] px-3 py-1.5 rounded-full">
               {SEASONS_DATA.length}개 기수 · 총 {totalParticipants}명
             </span>
           </div>
@@ -81,8 +82,8 @@ export default function HomePage() {
       </div>
 
       {/* 기수별 바로가기 (SEO 정적 콘텐츠) */}
-      <section className="max-w-6xl mx-auto px-4 pb-12">
-        <h2 className="text-xl font-bold text-slate-700 mb-4 pt-8 border-t border-slate-200">
+      <section className="max-w-6xl mx-auto px-4 pb-14">
+        <h2 className="text-xs font-bold tracking-[0.18em] uppercase text-[#999] mb-5 pt-10">
           기수별 바로가기
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
@@ -90,26 +91,27 @@ export default function HomePage() {
             <a
               key={s.seasonNo}
               href={`/season/${s.seasonNo}`}
-              className="block bg-white rounded-xl p-4 shadow-sm border border-slate-200 hover:border-rose-300
-                hover:shadow-md transition-all group"
+              className="block bg-white rounded-xl p-4
+                shadow-[0_1px_6px_rgba(0,0,0,0.06)]
+                hover:shadow-[0_8px_24px_rgba(0,0,0,0.1)]
+                hover:-translate-y-0.5
+                transition-all duration-300 group"
             >
-              <div className="flex items-start justify-between">
-                <div className="text-rose-500 font-bold text-lg group-hover:text-rose-600">
+              <div className="flex items-start justify-between mb-1">
+                <span className="text-[#111] font-bold text-lg group-hover:text-rose-600 transition-colors">
                   {s.seasonNo}기
-                </div>
-                {/* 최신 기수 배지 */}
+                </span>
                 {i === 0 && (
-                  <span className="text-[10px] bg-rose-500 text-white px-1.5 py-0.5 rounded-full font-bold">
+                  <span className="text-[9px] bg-rose-500 text-white px-2 py-0.5 rounded-full font-bold tracking-wide">
                     최신
                   </span>
                 )}
               </div>
-              <div className="text-slate-500 text-xs mt-1 line-clamp-2">{s.label}</div>
-              <div className="text-slate-400 text-xs mt-2">
-                출연자 {s.participants.length}명 · EP
-                {s.episodes[0].ep}
-                {s.episodes.length > 1 ? `~${s.episodes.at(-1)!.ep}` : ''}
-              </div>
+              <p className="text-[#888] text-xs line-clamp-2 leading-relaxed">{s.label}</p>
+              <p className="text-[#bbb] text-[11px] mt-2">
+                {s.participants.length}명 · EP{s.episodes[0].ep}
+                {s.episodes.length > 1 ? `–${s.episodes.at(-1)!.ep}` : ''}
+              </p>
             </a>
           ))}
         </div>

@@ -82,14 +82,14 @@ export default function ParticipantModal({ participant: p, onClose }: Props) {
     return () => document.removeEventListener('keydown', handleKeyDown);
   }, [handleKeyDown]);
 
-  const accent = p.gender === 'M' ? 'from-blue-600 to-blue-900' : 'from-rose-400 to-rose-700';
+  const accent = p.gender === 'M' ? 'from-[#1C2B4A] to-[#070E1D]' : 'from-[#C01442] to-[#7F0E2C]';
   const accentBadge = p.gender === 'M' ? 'bg-blue-100 text-blue-700' : 'bg-rose-100 text-rose-600';
   const accentText = p.gender === 'M' ? 'text-blue-700' : 'text-rose-600';
 
   return (
     <div
       ref={overlayRef}
-      className="fixed inset-0 z-50 bg-black/60 flex items-end sm:items-center justify-center p-0 sm:p-4"
+      className="fixed inset-0 z-50 bg-black/50 backdrop-blur-sm flex items-end sm:items-center justify-center p-0 sm:p-4 animate-modal-overlay"
       onClick={(e) => e.target === overlayRef.current && onClose()}
       aria-modal="true"
       role="dialog"
@@ -97,7 +97,7 @@ export default function ParticipantModal({ participant: p, onClose }: Props) {
     >
       <div
         ref={modalRef}
-        className="bg-white w-full sm:max-w-lg rounded-t-3xl sm:rounded-2xl shadow-2xl max-h-[92vh] overflow-y-auto"
+        className="bg-white w-full sm:max-w-lg rounded-t-3xl sm:rounded-2xl shadow-2xl max-h-[92vh] overflow-y-auto animate-modal-content"
       >
         {/* 헤더 */}
         <div className={`bg-gradient-to-r ${accent} text-white p-6 rounded-t-3xl sm:rounded-t-2xl`}>

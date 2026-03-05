@@ -29,7 +29,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="ko">
       <body>
-        <header className="bg-slate-900 text-white shadow-lg sticky top-0 z-40">
+        <header className="bg-[#0F0F0F] text-white border-b border-white/[0.06] sticky top-0 z-40">
           <div className="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between">
             <Link
               href="/"
@@ -47,7 +47,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
         <main>{children}</main>
 
-        <footer className="mt-16 border-t border-slate-200 bg-white py-8 text-center text-sm text-slate-400">
+        <footer className="mt-16 border-t border-[#E8E7E3] bg-white py-8 text-center text-sm text-[#aaa]">
           <p>
             본 사이트는 공개된 뉴스 기사 기반의 비공식 아카이브입니다.{' '}
             <a

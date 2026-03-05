@@ -18,7 +18,7 @@ export default function SeasonTabs({ seasons, selectedSeasonNo, onChange }: Prop
   }, [selectedSeasonNo]);
 
   return (
-    <div className="border-b border-slate-200 bg-white sticky top-14 z-30">
+    <div className="border-b border-[#E8E7E3] bg-white sticky top-14 z-30">
       <div className="max-w-6xl mx-auto px-4">
         <div
           role="tablist"
@@ -35,19 +35,19 @@ export default function SeasonTabs({ seasons, selectedSeasonNo, onChange }: Prop
                 aria-selected={active}
                 onClick={() => onChange(s.seasonNo)}
                 className={`
-                  shrink-0 px-4 py-3.5 text-sm font-medium whitespace-nowrap border-b-2 transition-all
+                  shrink-0 px-4 py-3.5 text-sm font-medium whitespace-nowrap border-b-2 transition-all duration-200
                   focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rose-400 focus-visible:ring-inset
                   ${
                     active
-                      ? 'border-rose-500 text-rose-600'
-                      : 'border-transparent text-slate-500 hover:text-slate-800 hover:border-slate-300'
+                      ? 'border-[#111] text-[#111]'
+                      : 'border-transparent text-[#999] hover:text-[#444] hover:border-[#ccc]'
                   }
                 `}
               >
                 {s.seasonNo}기
                 <span
                   className={`ml-1.5 text-[10px] px-1.5 py-0.5 rounded-full ${
-                    active ? 'bg-rose-100 text-rose-600' : 'bg-slate-100 text-slate-500'
+                    active ? 'bg-[#111] text-white' : 'bg-[#EEEDE9] text-[#999]'
                   }`}
                 >
                   {s.participants.length}

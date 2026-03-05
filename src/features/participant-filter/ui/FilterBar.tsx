@@ -19,7 +19,7 @@ export default function FilterBar({ gender, query, onGenderChange, onQueryChange
   const inputRef = useRef<HTMLInputElement>(null);
 
   return (
-    <div className="bg-white border-b border-slate-100 px-4 py-3">
+    <div className="bg-white border-b border-[#E8E7E3] px-4 py-3">
       <div className="max-w-6xl mx-auto flex flex-wrap items-center gap-3">
         {/* 성별 필터 */}
         <div role="group" aria-label="성별 필터" className="flex gap-1.5 shrink-0">
@@ -28,12 +28,12 @@ export default function FilterBar({ gender, query, onGenderChange, onQueryChange
               key={g.value}
               onClick={() => onGenderChange(g.value)}
               aria-pressed={gender === g.value}
-              className={`px-3.5 py-1.5 rounded-full text-sm font-medium transition-all
+              className={`px-3.5 py-1.5 rounded-full text-sm font-medium transition-all duration-200
                 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rose-400
                 ${
                   gender === g.value
-                    ? 'bg-rose-500 text-white shadow-sm'
-                    : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+                    ? 'bg-[#111] text-white'
+                    : 'bg-[#EEEDE9] text-[#555] hover:bg-[#E2E1DC]'
                 }`}
             >
               {g.label}
@@ -55,8 +55,8 @@ export default function FilterBar({ gender, query, onGenderChange, onQueryChange
             onChange={(e) => onQueryChange(e.target.value)}
             placeholder="이름, 직업, 지역 검색…"
             aria-label="출연자 검색"
-            className="w-full pl-9 pr-8 py-1.5 text-sm rounded-full border border-slate-200 bg-slate-50
-              focus:outline-none focus:ring-2 focus:ring-rose-400 focus:border-transparent"
+            className="w-full pl-9 pr-8 py-1.5 text-sm rounded-full border border-[#E0DFD9] bg-[#F5F4F0]
+              focus:outline-none focus:ring-2 focus:ring-[#111] focus:border-transparent transition-all"
           />
           {query && (
             <button

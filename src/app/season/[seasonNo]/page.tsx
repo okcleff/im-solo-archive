@@ -59,16 +59,16 @@ export default async function SeasonPage({ params }: Props) {
     <>
       <JsonLd data={jsonLd} />
 
-      <section className="bg-gradient-to-br from-slate-900 to-slate-800 text-white py-10 px-4">
+      <section className="bg-[#0F0F0F] text-white py-12 px-4">
         <div className="max-w-6xl mx-auto">
-          <Link href="/" className="text-slate-400 hover:text-white text-sm mb-3 inline-flex items-center gap-1 transition-colors">
+          <Link href="/" className="text-white/40 hover:text-white/80 text-xs tracking-wide mb-4 inline-flex items-center gap-1 transition-colors">
             ← 전체 기수
           </Link>
-          <h1 className="text-3xl font-bold mt-2">나는 SOLO {season.seasonNo}기</h1>
-          <p className="text-slate-300 mt-1">{season.label}</p>
-          <div className="flex flex-wrap gap-2 mt-3 text-sm text-slate-400">
+          <h1 className="text-3xl sm:text-4xl font-bold mt-2 tracking-tight">나는 SOLO {season.seasonNo}기</h1>
+          <p className="text-white/50 mt-1.5">{season.label}</p>
+          <div className="flex flex-wrap gap-2 mt-3">
             {season.episodes.map((e) => (
-              <span key={e.ep} className="bg-slate-700/50 px-2 py-0.5 rounded">
+              <span key={e.ep} className="bg-white/[0.07] border border-white/[0.08] text-white/40 text-xs px-2.5 py-1 rounded-full">
                 EP{e.ep} · {e.airDate}
               </span>
             ))}
@@ -76,14 +76,14 @@ export default async function SeasonPage({ params }: Props) {
         </div>
       </section>
 
-      <div className="max-w-6xl mx-auto px-4 py-8 space-y-10">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10 sm:py-12 space-y-12">
         {males.length > 0 && (
           <section>
-            <h2 className="text-lg font-bold text-blue-700 mb-4 flex items-center gap-2">
-              <span className="w-1.5 h-6 bg-blue-600 rounded-full" />
+            <h2 className="text-xs font-bold tracking-[0.18em] uppercase text-[#999] mb-5 flex items-center gap-2">
+              <span className="w-1 h-3 bg-blue-500 rounded-full" />
               남자 출연자 ({males.length}명)
             </h2>
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-5 sm:gap-6">
               {males.map((p) => (
                 <ParticipantCard key={p.handle} participant={p} asLink />
               ))}
@@ -92,11 +92,11 @@ export default async function SeasonPage({ params }: Props) {
         )}
         {females.length > 0 && (
           <section>
-            <h2 className="text-lg font-bold text-rose-600 mb-4 flex items-center gap-2">
-              <span className="w-1.5 h-6 bg-rose-500 rounded-full" />
+            <h2 className="text-xs font-bold tracking-[0.18em] uppercase text-[#999] mb-5 flex items-center gap-2">
+              <span className="w-1 h-3 bg-rose-500 rounded-full" />
               여자 출연자 ({females.length}명)
             </h2>
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-5 sm:gap-6">
               {females.map((p) => (
                 <ParticipantCard key={p.handle} participant={p} asLink />
               ))}

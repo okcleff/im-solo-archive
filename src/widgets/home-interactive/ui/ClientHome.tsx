@@ -59,8 +59,8 @@ export default function ClientHome({ seasons }: Props) {
         onQueryChange={(q) => updateParams({ q })}
       />
 
-      <div className="px-4 pt-5 pb-2 max-w-6xl mx-auto">
-        <p className="text-sm text-slate-400">
+      <div className="px-4 sm:px-6 pt-6 pb-3 max-w-6xl mx-auto">
+        <p className="text-xs text-[#999]">
           {currentSeason.label} · {filtered.length}명
           {searchQuery && (
             <span className="ml-2 text-rose-500">&ldquo;{searchQuery}&rdquo; 검색 결과</span>
@@ -69,17 +69,17 @@ export default function ClientHome({ seasons }: Props) {
       </div>
 
       {filtered.length === 0 ? (
-        <div className="py-16 text-center text-slate-400 text-sm">검색 결과가 없습니다.</div>
+        <div className="py-16 text-center text-[#bbb] text-sm">검색 결과가 없습니다.</div>
       ) : (
-        <div className="max-w-6xl mx-auto px-4 pb-8 space-y-8">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 pb-14 space-y-10">
           {selectedGender === 'all' ? (
             <>
               {males.length > 0 && (
                 <section>
-                  <h2 className="text-sm font-bold text-blue-600 mb-3 flex items-center gap-2">
-                    <span className="w-1 h-4 bg-blue-500 rounded-full" />남 ({males.length})
+                  <h2 className="text-xs font-bold tracking-[0.18em] uppercase text-[#999] mb-4 flex items-center gap-2">
+                    <span className="w-1 h-3 bg-blue-500 rounded-full" />남 ({males.length})
                   </h2>
-                  <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+                  <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-5 sm:gap-6">
                     {males.map((p) => (
                       <ParticipantCard
                         key={`${p.seasonNo}-${p.gender}-${p.handle}`}
@@ -92,10 +92,10 @@ export default function ClientHome({ seasons }: Props) {
               )}
               {females.length > 0 && (
                 <section>
-                  <h2 className="text-sm font-bold text-rose-500 mb-3 flex items-center gap-2">
-                    <span className="w-1 h-4 bg-rose-500 rounded-full" />여 ({females.length})
+                  <h2 className="text-xs font-bold tracking-[0.18em] uppercase text-[#999] mb-4 flex items-center gap-2">
+                    <span className="w-1 h-3 bg-rose-500 rounded-full" />여 ({females.length})
                   </h2>
-                  <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+                  <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-5 sm:gap-6">
                     {females.map((p) => (
                       <ParticipantCard
                         key={`${p.seasonNo}-${p.gender}-${p.handle}`}
@@ -108,7 +108,7 @@ export default function ClientHome({ seasons }: Props) {
               )}
             </>
           ) : (
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-5 sm:gap-6">
               {filtered.map((p) => (
                 <ParticipantCard
                   key={`${p.seasonNo}-${p.gender}-${p.handle}`}
