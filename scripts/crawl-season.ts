@@ -685,6 +685,12 @@ async function main(): Promise<void> {
 
   if (doInject) {
     await injectIntoDataTs(tsCode, seasonNo);
+    try {
+      await fs.unlink(outFile);
+      console.log(`   📄 초안 파일 삭제: ${outFile}`);
+    } catch {
+      // 삭제 실패 시 무시 (파일이 없거나 권한 문제 등)
+    }
   } else {
     console.log(`\n다음 단계:`);
     console.log(`  1. ${outFile} 열어서 내용 검토 및 수동 수정`);

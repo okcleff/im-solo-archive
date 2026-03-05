@@ -8,10 +8,1149 @@ export const SHOW_INFO: ShowInfo = {
 
 /**
  * 전 기수 데이터.
- * - 새 기수 추가 시 배열 맨 앞에 추가(최신순 정렬 유지).
+ * - seasonNo 내림차순(최신순)으로 자동 정렬됨. 기수 추가 시 순서 무관.
  * - instagram 필드: 실제 username 확인 후 입력 (@제외).
  */
 export const SEASONS_DATA: Season[] = [
+  {
+    seasonNo: 24,
+    label: "24기",
+    episodes: [
+      // 181~190회
+      // 2024년 12월 25일~2025년 2월 26일
+      { ep: 181, airDate: "2024-12-25" },
+      { ep: 182, airDate: "2025-01-01" },
+      { ep: 183, airDate: "2025-01-08" },
+      { ep: 184, airDate: "2025-01-15" },
+      { ep: 185, airDate: "2025-01-22" },
+      { ep: 186, airDate: "2025-01-29" },
+      { ep: 187, airDate: "2025-02-05" },
+      { ep: 188, airDate: "2025-02-12" },
+      { ep: 189, airDate: "2025-02-19" },
+      { ep: 190, airDate: "2025-02-26" },
+    ],
+    participants: [
+      {
+        seasonNo: 24,
+        gender: "M",
+        handle: "영호",
+        photo: { src: null, alt: "나는 SOLO 24기 영호" },
+        instagram: null,
+        profile: {
+          birthYear: 1993,
+          ageKorean: null,
+          job: "IT 개발자​나이: 33세​특징: 논리적이고 섬세한 성격으로 여심을 사로잡는 매력을 보여주고 있습니다.​​​",
+          region: null,
+          traits: [],
+          notableQuotes: [],
+          issues: [],
+        },
+        sources: [
+          {
+            title: "아윌리치 Y : 네이버 블로그",
+            url: "https://blog.naver.com/pan6606/223719650839",
+            confidence: "medium",
+          },
+          {
+            title: "생생정보통통이의 일상 : 네이버 블로그",
+            url: "https://blog.naver.com/jaeyeong_1000/223775780274",
+            confidence: "medium",
+          },
+          {
+            title: "소소한 주엔느 이야기 : 네이버 블로그",
+            url: "https://blog.naver.com/noriam/223719681536",
+            confidence: "medium",
+          },
+          {
+            title:
+              "나는solo 나솔24기 직업 나이 총정리 옥순 선택 받은 남자 누구 ? + 연애예능 : 네이버 블로그",
+            url: "https://m.blog.naver.com/euene1111/223719373881?isInf=true",
+            confidence: "medium",
+          },
+        ],
+      },
+      {
+        seasonNo: 24,
+        gender: "M",
+        handle: "영식",
+        photo: { src: null, alt: "나는 SOLO 24기 영식" },
+        instagram: null,
+        profile: {
+          birthYear: 1990,
+          ageKorean: null,
+          job: "외국계 금융회사 근무​나이: 36세​특징: 안정적인 직장과 지적인 이미지를 바탕으로 성숙한 매력을 발산 중입",
+          region: null,
+          traits: [],
+          notableQuotes: [],
+          issues: [],
+        },
+        sources: [
+          {
+            title: "아윌리치 Y : 네이버 블로그",
+            url: "https://blog.naver.com/pan6606/223719650839",
+            confidence: "medium",
+          },
+          {
+            title: "생생정보통통이의 일상 : 네이버 블로그",
+            url: "https://blog.naver.com/jaeyeong_1000/223775780274",
+            confidence: "medium",
+          },
+          {
+            title: "소소한 주엔느 이야기 : 네이버 블로그",
+            url: "https://blog.naver.com/noriam/223719681536",
+            confidence: "medium",
+          },
+          {
+            title:
+              "나는solo 나솔24기 직업 나이 총정리 옥순 선택 받은 남자 누구 ? + 연애예능 : 네이버 블로그",
+            url: "https://m.blog.naver.com/euene1111/223719373881?isInf=true",
+            confidence: "medium",
+          },
+        ],
+      },
+      {
+        seasonNo: 24,
+        gender: "M",
+        handle: "영철",
+        photo: { src: null, alt: "나는 SOLO 24기 영철" },
+        instagram: null,
+        profile: {
+          birthYear: 1992,
+          ageKorean: null,
+          job: "한의사​나이: 34세​특징: 건강한 삶에 대한 깊은 철학을 가지고 있어 출연진들에게 신뢰감을 주고 있습니다.",
+          region: null,
+          traits: [],
+          notableQuotes: [],
+          issues: [],
+        },
+        sources: [
+          {
+            title: "아윌리치 Y : 네이버 블로그",
+            url: "https://blog.naver.com/pan6606/223719650839",
+            confidence: "medium",
+          },
+          {
+            title: "생생정보통통이의 일상 : 네이버 블로그",
+            url: "https://blog.naver.com/jaeyeong_1000/223775780274",
+            confidence: "medium",
+          },
+          {
+            title: "소소한 주엔느 이야기 : 네이버 블로그",
+            url: "https://blog.naver.com/noriam/223719681536",
+            confidence: "medium",
+          },
+          {
+            title:
+              "나는solo 나솔24기 직업 나이 총정리 옥순 선택 받은 남자 누구 ? + 연애예능 : 네이버 블로그",
+            url: "https://m.blog.naver.com/euene1111/223719373881?isInf=true",
+            confidence: "medium",
+          },
+        ],
+      },
+      {
+        seasonNo: 24,
+        gender: "M",
+        handle: "영수",
+        photo: { src: null, alt: "나는 SOLO 24기 영수" },
+        instagram: null,
+        profile: {
+          birthYear: 1986,
+          ageKorean: null,
+          job: "수의사인스타그램",
+          region: null,
+          traits: [],
+          notableQuotes: [],
+          issues: [],
+        },
+        sources: [
+          {
+            title: "생생정보통통이의 일상 : 네이버 블로그",
+            url: "https://blog.naver.com/jaeyeong_1000/223775780274",
+            confidence: "medium",
+          },
+          {
+            title: "소소한 주엔느 이야기 : 네이버 블로그",
+            url: "https://blog.naver.com/noriam/223719681536",
+            confidence: "medium",
+          },
+          {
+            title:
+              "나는solo 나솔24기 직업 나이 총정리 옥순 선택 받은 남자 누구 ? + 연애예능 : 네이버 블로그",
+            url: "https://m.blog.naver.com/euene1111/223719373881?isInf=true",
+            confidence: "medium",
+          },
+        ],
+      },
+      {
+        seasonNo: 24,
+        gender: "M",
+        handle: "광수",
+        photo: { src: null, alt: "나는 SOLO 24기 광수" },
+        instagram: null,
+        profile: {
+          birthYear: 1992,
+          ageKorean: null,
+          job: null,
+          region: null,
+          traits: [],
+          notableQuotes: [],
+          issues: ["직업 정보 자동 추출 실패 - 수동 입력 필요"],
+        },
+        sources: [
+          {
+            title: "생생정보통통이의 일상 : 네이버 블로그",
+            url: "https://blog.naver.com/jaeyeong_1000/223775780274",
+            confidence: "medium",
+          },
+          {
+            title: "소소한 주엔느 이야기 : 네이버 블로그",
+            url: "https://blog.naver.com/noriam/223719681536",
+            confidence: "medium",
+          },
+          {
+            title:
+              "나는solo 나솔24기 직업 나이 총정리 옥순 선택 받은 남자 누구 ? + 연애예능 : 네이버 블로그",
+            url: "https://m.blog.naver.com/euene1111/223719373881?isInf=true",
+            confidence: "medium",
+          },
+        ],
+      },
+      {
+        seasonNo: 24,
+        gender: "M",
+        handle: "상철",
+        photo: { src: null, alt: "나는 SOLO 24기 상철" },
+        instagram: null,
+        profile: {
+          birthYear: 1990,
+          ageKorean: null,
+          job: "대동물 수의사인스타그램",
+          region: null,
+          traits: [],
+          notableQuotes: [],
+          issues: [],
+        },
+        sources: [
+          {
+            title: "생생정보통통이의 일상 : 네이버 블로그",
+            url: "https://blog.naver.com/jaeyeong_1000/223775780274",
+            confidence: "medium",
+          },
+          {
+            title: "소소한 주엔느 이야기 : 네이버 블로그",
+            url: "https://blog.naver.com/noriam/223719681536",
+            confidence: "medium",
+          },
+          {
+            title:
+              "나는solo 나솔24기 직업 나이 총정리 옥순 선택 받은 남자 누구 ? + 연애예능 : 네이버 블로그",
+            url: "https://m.blog.naver.com/euene1111/223719373881?isInf=true",
+            confidence: "medium",
+          },
+        ],
+      },
+      {
+        seasonNo: 24,
+        gender: "F",
+        handle: "영숙",
+        photo: { src: null, alt: "나는 SOLO 24기 영숙" },
+        instagram: null,
+        profile: {
+          birthYear: 1994,
+          ageKorean: null,
+          job: "급 공무원이었다",
+          region: "서울 광진구",
+          traits: ["테니스와 필라테스 ​"],
+          notableQuotes: [],
+          issues: [],
+        },
+        sources: [
+          {
+            title: "아윌리치 Y : 네이버 블로그",
+            url: "https://blog.naver.com/pan6606/223719650839",
+            confidence: "medium",
+          },
+          {
+            title: "시호 : 네이버 블로그",
+            url: "https://blog.naver.com/qjtejrjf/223720307448",
+            confidence: "medium",
+          },
+          {
+            title: "라라의 답만바로 : 네이버 블로그",
+            url: "https://blog.naver.com/shbg0226/223719816316",
+            confidence: "medium",
+          },
+          {
+            title: "생생정보통통이의 일상 : 네이버 블로그",
+            url: "https://blog.naver.com/jaeyeong_1000/223775780274",
+            confidence: "medium",
+          },
+          {
+            title: "경제와 정치 세상으로 : 네이버 블로그",
+            url: "https://blog.naver.com/wwdresscom/223719554928",
+            confidence: "medium",
+          },
+          {
+            title: "소소한 주엔느 이야기 : 네이버 블로그",
+            url: "https://blog.naver.com/noriam/223719681536",
+            confidence: "medium",
+          },
+          {
+            title:
+              "나는solo 나솔24기 직업 나이 총정리 옥순 선택 받은 남자 누구 ? + 연애예능 : 네이버 블로그",
+            url: "https://m.blog.naver.com/euene1111/223719373881?isInf=true",
+            confidence: "medium",
+          },
+        ],
+      },
+      {
+        seasonNo: 24,
+        gender: "F",
+        handle: "정숙",
+        photo: { src: null, alt: "나는 SOLO 24기 정숙" },
+        instagram: null,
+        profile: {
+          birthYear: 1993,
+          ageKorean: null,
+          job: "서울 중앙부처에서 행정직 공무원으로 근무 중인 순자는 인테리어",
+          region: "경기도 수원취미",
+          traits: ["골프 런닝  ​"],
+          notableQuotes: [],
+          issues: [],
+        },
+        sources: [
+          {
+            title: "아윌리치 Y : 네이버 블로그",
+            url: "https://blog.naver.com/pan6606/223719650839",
+            confidence: "medium",
+          },
+          {
+            title: "시호 : 네이버 블로그",
+            url: "https://blog.naver.com/qjtejrjf/223720307448",
+            confidence: "medium",
+          },
+          {
+            title: "라라의 답만바로 : 네이버 블로그",
+            url: "https://blog.naver.com/shbg0226/223719816316",
+            confidence: "medium",
+          },
+          {
+            title: "생생정보통통이의 일상 : 네이버 블로그",
+            url: "https://blog.naver.com/jaeyeong_1000/223775780274",
+            confidence: "medium",
+          },
+          {
+            title: "경제와 정치 세상으로 : 네이버 블로그",
+            url: "https://blog.naver.com/wwdresscom/223719554928",
+            confidence: "medium",
+          },
+          {
+            title: "소소한 주엔느 이야기 : 네이버 블로그",
+            url: "https://blog.naver.com/noriam/223719681536",
+            confidence: "medium",
+          },
+          {
+            title:
+              "나는solo 나솔24기 직업 나이 총정리 옥순 선택 받은 남자 누구 ? + 연애예능 : 네이버 블로그",
+            url: "https://m.blog.naver.com/euene1111/223719373881?isInf=true",
+            confidence: "medium",
+          },
+        ],
+      },
+      {
+        seasonNo: 24,
+        gender: "F",
+        handle: "순자",
+        photo: { src: null, alt: "나는 SOLO 24기 순자" },
+        instagram: null,
+        profile: {
+          birthYear: 1992,
+          ageKorean: null,
+          job: "서울 중앙부처에서 행정직 공무원으로 근무 중인 순자는 인테리어",
+          region: "서울취미",
+          traits: ["인테리어 클라이밍 등 ​"],
+          notableQuotes: [],
+          issues: [],
+        },
+        sources: [
+          {
+            title: "아윌리치 Y : 네이버 블로그",
+            url: "https://blog.naver.com/pan6606/223719650839",
+            confidence: "medium",
+          },
+          {
+            title: "시호 : 네이버 블로그",
+            url: "https://blog.naver.com/qjtejrjf/223720307448",
+            confidence: "medium",
+          },
+          {
+            title: "라라의 답만바로 : 네이버 블로그",
+            url: "https://blog.naver.com/shbg0226/223719816316",
+            confidence: "medium",
+          },
+          {
+            title: "생생정보통통이의 일상 : 네이버 블로그",
+            url: "https://blog.naver.com/jaeyeong_1000/223775780274",
+            confidence: "medium",
+          },
+          {
+            title: "경제와 정치 세상으로 : 네이버 블로그",
+            url: "https://blog.naver.com/wwdresscom/223719554928",
+            confidence: "medium",
+          },
+          {
+            title: "소소한 주엔느 이야기 : 네이버 블로그",
+            url: "https://blog.naver.com/noriam/223719681536",
+            confidence: "medium",
+          },
+          {
+            title:
+              "나는solo 나솔24기 직업 나이 총정리 옥순 선택 받은 남자 누구 ? + 연애예능 : 네이버 블로그",
+            url: "https://m.blog.naver.com/euene1111/223719373881?isInf=true",
+            confidence: "medium",
+          },
+        ],
+      },
+      {
+        seasonNo: 24,
+        gender: "F",
+        handle: "옥순",
+        photo: { src: null, alt: "나는 SOLO 24기 옥순" },
+        instagram: null,
+        profile: {
+          birthYear: 1988,
+          ageKorean: null,
+          job: null,
+          region: null,
+          traits: [],
+          notableQuotes: [],
+          issues: ["직업 정보 자동 추출 실패 - 수동 입력 필요"],
+        },
+        sources: [
+          {
+            title: "아윌리치 Y : 네이버 블로그",
+            url: "https://blog.naver.com/pan6606/223719650839",
+            confidence: "medium",
+          },
+          {
+            title: "시호 : 네이버 블로그",
+            url: "https://blog.naver.com/qjtejrjf/223720307448",
+            confidence: "medium",
+          },
+          {
+            title: "라라의 답만바로 : 네이버 블로그",
+            url: "https://blog.naver.com/shbg0226/223719816316",
+            confidence: "medium",
+          },
+          {
+            title: "생생정보통통이의 일상 : 네이버 블로그",
+            url: "https://blog.naver.com/jaeyeong_1000/223775780274",
+            confidence: "medium",
+          },
+          {
+            title: "경제와 정치 세상으로 : 네이버 블로그",
+            url: "https://blog.naver.com/wwdresscom/223719554928",
+            confidence: "medium",
+          },
+          {
+            title: "소소한 주엔느 이야기 : 네이버 블로그",
+            url: "https://blog.naver.com/noriam/223719681536",
+            confidence: "medium",
+          },
+          {
+            title:
+              "나는solo 나솔24기 직업 나이 총정리 옥순 선택 받은 남자 누구 ? + 연애예능 : 네이버 블로그",
+            url: "https://m.blog.naver.com/euene1111/223719373881?isInf=true",
+            confidence: "medium",
+          },
+        ],
+      },
+      {
+        seasonNo: 24,
+        gender: "F",
+        handle: "영자",
+        photo: { src: null, alt: "나는 SOLO 24기 영자" },
+        instagram: null,
+        profile: {
+          birthYear: 1990,
+          ageKorean: null,
+          job: "유아 강좌를 진행하는 오감놀이 업체 대표라는 반전 직업을 공개했다",
+          region: "부산취미",
+          traits: ["한식- 중식 조리사 자격증 보유로 요리 ​"],
+          notableQuotes: [],
+          issues: [],
+        },
+        sources: [
+          {
+            title: "아윌리치 Y : 네이버 블로그",
+            url: "https://blog.naver.com/pan6606/223719650839",
+            confidence: "medium",
+          },
+          {
+            title: "시호 : 네이버 블로그",
+            url: "https://blog.naver.com/qjtejrjf/223720307448",
+            confidence: "medium",
+          },
+          {
+            title: "라라의 답만바로 : 네이버 블로그",
+            url: "https://blog.naver.com/shbg0226/223719816316",
+            confidence: "medium",
+          },
+          {
+            title: "생생정보통통이의 일상 : 네이버 블로그",
+            url: "https://blog.naver.com/jaeyeong_1000/223775780274",
+            confidence: "medium",
+          },
+          {
+            title: "경제와 정치 세상으로 : 네이버 블로그",
+            url: "https://blog.naver.com/wwdresscom/223719554928",
+            confidence: "medium",
+          },
+          {
+            title: "소소한 주엔느 이야기 : 네이버 블로그",
+            url: "https://blog.naver.com/noriam/223719681536",
+            confidence: "medium",
+          },
+          {
+            title:
+              "나는solo 나솔24기 직업 나이 총정리 옥순 선택 받은 남자 누구 ? + 연애예능 : 네이버 블로그",
+            url: "https://m.blog.naver.com/euene1111/223719373881?isInf=true",
+            confidence: "medium",
+          },
+        ],
+      },
+      {
+        seasonNo: 24,
+        gender: "F",
+        handle: "현숙",
+        photo: { src: null, alt: "나는 SOLO 24기 현숙" },
+        instagram: null,
+        profile: {
+          birthYear: 1990,
+          ageKorean: null,
+          job: "전남 장성군에 위치한 병원 약사로 근무 중이라는 현숙은",
+          region: "고향은 전주",
+          traits: ["베이킹 , 만화그리기 ​> 최소 2명이상 아이를 낳고 싶음"],
+          notableQuotes: [],
+          issues: [],
+        },
+        sources: [
+          {
+            title: "아윌리치 Y : 네이버 블로그",
+            url: "https://blog.naver.com/pan6606/223719650839",
+            confidence: "medium",
+          },
+          {
+            title: "시호 : 네이버 블로그",
+            url: "https://blog.naver.com/qjtejrjf/223720307448",
+            confidence: "medium",
+          },
+          {
+            title: "라라의 답만바로 : 네이버 블로그",
+            url: "https://blog.naver.com/shbg0226/223719816316",
+            confidence: "medium",
+          },
+          {
+            title: "생생정보통통이의 일상 : 네이버 블로그",
+            url: "https://blog.naver.com/jaeyeong_1000/223775780274",
+            confidence: "medium",
+          },
+          {
+            title: "경제와 정치 세상으로 : 네이버 블로그",
+            url: "https://blog.naver.com/wwdresscom/223719554928",
+            confidence: "medium",
+          },
+          {
+            title: "소소한 주엔느 이야기 : 네이버 블로그",
+            url: "https://blog.naver.com/noriam/223719681536",
+            confidence: "medium",
+          },
+          {
+            title:
+              "나는solo 나솔24기 직업 나이 총정리 옥순 선택 받은 남자 누구 ? + 연애예능 : 네이버 블로그",
+            url: "https://m.blog.naver.com/euene1111/223719373881?isInf=true",
+            confidence: "medium",
+          },
+        ],
+      },
+    ],
+  },
+
+  {
+    seasonNo: 25,
+    label: "25기",
+    episodes: [
+      // 191~198회
+      // 2025년 3월 5일~2025년 4월 23일
+      { ep: 191, airDate: "2025-03-05" },
+      { ep: 192, airDate: "2025-03-12" },
+      { ep: 193, airDate: "2025-03-19" },
+      { ep: 194, airDate: "2025-03-26" },
+      { ep: 195, airDate: "2025-04-02" },
+      { ep: 196, airDate: "2025-04-09" },
+      { ep: 197, airDate: "2025-04-16" },
+      { ep: 198, airDate: "2025-04-23" },
+    ],
+    participants: [
+      {
+        seasonNo: 25,
+        gender: "M",
+        handle: "광수",
+        photo: { src: null, alt: "나는 SOLO 25기 광수" },
+        instagram: null,
+        profile: {
+          birthYear: 1986,
+          ageKorean: null,
+          job: "광수 의사",
+          region: "중이었는데요",
+          traits: [],
+          notableQuotes: [],
+          issues: [],
+        },
+        sources: [
+          {
+            title: "컬처캐스트 방송맨S : 네이버 블로그",
+            url: "https://blog.naver.com/ttbb90/223794485465",
+            confidence: "medium",
+          },
+          {
+            title: "오늘의 드라마 : 네이버 블로그",
+            url: "https://blog.naver.com/micahyesung/223794044376",
+            confidence: "medium",
+          },
+          {
+            title:
+              "나는 SOLO 25기 남녀 출연진 직업 총정리! 반전 매력 속 숨겨진 프로필 공개",
+            url: "https://deefbeef.tistory.com/428",
+            confidence: "medium",
+          },
+          {
+            title: "NAKTA : 네이버 블로그",
+            url: "https://blog.naver.com/yzzzii/223798133735",
+            confidence: "medium",
+          },
+          {
+            title: "생생정보통통이의 일상 : 네이버 블로그",
+            url: "https://blog.naver.com/jaeyeong_1000/223844990194",
+            confidence: "medium",
+          },
+          {
+            title:
+              "나는솔로 25기 귀여운허세남 특집 출연자 프로필 정보 총정리 : 직업, 나이, 학력, 이상형, 취미, 출신학교, 전공, 연애경험 등 자기소개 내용 :: Being here",
+            url: "https://angryinch.tistory.com/833",
+            confidence: "medium",
+          },
+        ],
+      },
+      {
+        seasonNo: 25,
+        gender: "M",
+        handle: "영수",
+        photo: { src: null, alt: "나는 SOLO 25기 영수" },
+        instagram: null,
+        profile: {
+          birthYear: 1991,
+          ageKorean: null,
+          job: "보험회사 본부장",
+          region: "성악가이며 오토바이",
+          traits: ["디제잉을 즐기며 반전 매력을 가지고 있어요."],
+          notableQuotes: [],
+          issues: [],
+        },
+        sources: [
+          {
+            title: "오늘의 드라마 : 네이버 블로그",
+            url: "https://blog.naver.com/micahyesung/223794044376",
+            confidence: "medium",
+          },
+          {
+            title:
+              "나는 SOLO 25기 남녀 출연진 직업 총정리! 반전 매력 속 숨겨진 프로필 공개",
+            url: "https://deefbeef.tistory.com/428",
+            confidence: "medium",
+          },
+          {
+            title: "NAKTA : 네이버 블로그",
+            url: "https://blog.naver.com/yzzzii/223798133735",
+            confidence: "medium",
+          },
+          {
+            title: "생생정보통통이의 일상 : 네이버 블로그",
+            url: "https://blog.naver.com/jaeyeong_1000/223844990194",
+            confidence: "medium",
+          },
+          {
+            title:
+              "나는솔로 25기 귀여운허세남 특집 출연자 프로필 정보 총정리 : 직업, 나이, 학력, 이상형, 취미, 출신학교, 전공, 연애경험 등 자기소개 내용 :: Being here",
+            url: "https://angryinch.tistory.com/833",
+            confidence: "medium",
+          },
+        ],
+      },
+      {
+        seasonNo: 25,
+        gender: "M",
+        handle: "영호",
+        photo: { src: null, alt: "나는 SOLO 25기 영호" },
+        instagram: null,
+        profile: {
+          birthYear: 1988,
+          ageKorean: null,
+          job: "직업은 개인 약국을 운영하는 약사로",
+          region: "하고 있다고",
+          traits: ["디제잉을 즐기며 반전 매력을 가지고 있어요."],
+          notableQuotes: [],
+          issues: [],
+        },
+        sources: [
+          {
+            title: "오늘의 드라마 : 네이버 블로그",
+            url: "https://blog.naver.com/micahyesung/223794044376",
+            confidence: "medium",
+          },
+          {
+            title:
+              "나는 SOLO 25기 남녀 출연진 직업 총정리! 반전 매력 속 숨겨진 프로필 공개",
+            url: "https://deefbeef.tistory.com/428",
+            confidence: "medium",
+          },
+          {
+            title: "NAKTA : 네이버 블로그",
+            url: "https://blog.naver.com/yzzzii/223798133735",
+            confidence: "medium",
+          },
+          {
+            title: "생생정보통통이의 일상 : 네이버 블로그",
+            url: "https://blog.naver.com/jaeyeong_1000/223844990194",
+            confidence: "medium",
+          },
+          {
+            title:
+              "나는솔로 25기 귀여운허세남 특집 출연자 프로필 정보 총정리 : 직업, 나이, 학력, 이상형, 취미, 출신학교, 전공, 연애경험 등 자기소개 내용 :: Being here",
+            url: "https://angryinch.tistory.com/833",
+            confidence: "medium",
+          },
+        ],
+      },
+      {
+        seasonNo: 25,
+        gender: "M",
+        handle: "영식",
+        photo: { src: null, alt: "나는 SOLO 25기 영식" },
+        instagram: null,
+        profile: {
+          birthYear: 1990,
+          ageKorean: null,
+          job: "대출 담당 은행원",
+          region: "학교 출신대학",
+          traits: [
+            "디제잉을 즐기며 반전 매력을 가지고 있어요.",
+            "홈트, 자기계발, 영화감상 /",
+          ],
+          notableQuotes: [],
+          issues: [],
+        },
+        sources: [
+          {
+            title: "오늘의 드라마 : 네이버 블로그",
+            url: "https://blog.naver.com/micahyesung/223794044376",
+            confidence: "medium",
+          },
+          {
+            title:
+              "나는 SOLO 25기 남녀 출연진 직업 총정리! 반전 매력 속 숨겨진 프로필 공개",
+            url: "https://deefbeef.tistory.com/428",
+            confidence: "medium",
+          },
+          {
+            title: "NAKTA : 네이버 블로그",
+            url: "https://blog.naver.com/yzzzii/223798133735",
+            confidence: "medium",
+          },
+          {
+            title: "생생정보통통이의 일상 : 네이버 블로그",
+            url: "https://blog.naver.com/jaeyeong_1000/223844990194",
+            confidence: "medium",
+          },
+          {
+            title:
+              "나는솔로 25기 귀여운허세남 특집 출연자 프로필 정보 총정리 : 직업, 나이, 학력, 이상형, 취미, 출신학교, 전공, 연애경험 등 자기소개 내용 :: Being here",
+            url: "https://angryinch.tistory.com/833",
+            confidence: "medium",
+          },
+        ],
+      },
+      {
+        seasonNo: 25,
+        gender: "M",
+        handle: "영철",
+        photo: { src: null, alt: "나는 SOLO 25기 영철" },
+        instagram: null,
+        profile: {
+          birthYear: 1993,
+          ageKorean: null,
+          job: "중학교 엘리트 운동부 지도자",
+          region: null,
+          traits: ["피아노 연주(배운지 석달째)"],
+          notableQuotes: ["K리그 선수에서 뛰었던 이력이 있다"],
+          issues: [],
+        },
+        sources: [
+          {
+            title: "오늘의 드라마 : 네이버 블로그",
+            url: "https://blog.naver.com/micahyesung/223794044376",
+            confidence: "medium",
+          },
+          {
+            title:
+              "나는 SOLO 25기 남녀 출연진 직업 총정리! 반전 매력 속 숨겨진 프로필 공개",
+            url: "https://deefbeef.tistory.com/428",
+            confidence: "medium",
+          },
+          {
+            title: "NAKTA : 네이버 블로그",
+            url: "https://blog.naver.com/yzzzii/223798133735",
+            confidence: "medium",
+          },
+          {
+            title: "생생정보통통이의 일상 : 네이버 블로그",
+            url: "https://blog.naver.com/jaeyeong_1000/223844990194",
+            confidence: "medium",
+          },
+          {
+            title:
+              "나는솔로 25기 귀여운허세남 특집 출연자 프로필 정보 총정리 : 직업, 나이, 학력, 이상형, 취미, 출신학교, 전공, 연애경험 등 자기소개 내용 :: Being here",
+            url: "https://angryinch.tistory.com/833",
+            confidence: "medium",
+          },
+        ],
+      },
+      {
+        seasonNo: 25,
+        gender: "M",
+        handle: "상철",
+        photo: { src: null, alt: "나는 SOLO 25기 상철" },
+        instagram: null,
+        profile: {
+          birthYear: 1990,
+          ageKorean: null,
+          job: "S반도체 회사 판매 전략팀 직원",
+          region: "중구",
+          traits: [],
+          notableQuotes: [],
+          issues: [],
+        },
+        sources: [
+          {
+            title: "오늘의 드라마 : 네이버 블로그",
+            url: "https://blog.naver.com/micahyesung/223794044376",
+            confidence: "medium",
+          },
+          {
+            title:
+              "나는 SOLO 25기 남녀 출연진 직업 총정리! 반전 매력 속 숨겨진 프로필 공개",
+            url: "https://deefbeef.tistory.com/428",
+            confidence: "medium",
+          },
+          {
+            title: "NAKTA : 네이버 블로그",
+            url: "https://blog.naver.com/yzzzii/223798133735",
+            confidence: "medium",
+          },
+          {
+            title: "생생정보통통이의 일상 : 네이버 블로그",
+            url: "https://blog.naver.com/jaeyeong_1000/223844990194",
+            confidence: "medium",
+          },
+          {
+            title:
+              "나는솔로 25기 귀여운허세남 특집 출연자 프로필 정보 총정리 : 직업, 나이, 학력, 이상형, 취미, 출신학교, 전공, 연애경험 등 자기소개 내용 :: Being here",
+            url: "https://angryinch.tistory.com/833",
+            confidence: "medium",
+          },
+        ],
+      },
+      {
+        seasonNo: 25,
+        gender: "F",
+        handle: "영숙",
+        photo: { src: null, alt: "나는 SOLO 25기 영숙" },
+        instagram: null,
+        profile: {
+          birthYear: 1993,
+          ageKorean: null,
+          job: "L그룹 마케팅 담당",
+          region: "이며",
+          traits: [
+            "활동적인 것도 좋아하지만 손으로 무언가 만드는 것 좋아함. 유화 그리기, 뜨개질",
+          ],
+          notableQuotes: [],
+          issues: [],
+        },
+        sources: [
+          {
+            title: "컬처캐스트 방송맨S : 네이버 블로그",
+            url: "https://blog.naver.com/ttbb90/223794485465",
+            confidence: "medium",
+          },
+          {
+            title: "오늘의 드라마 : 네이버 블로그",
+            url: "https://blog.naver.com/micahyesung/223794044376",
+            confidence: "medium",
+          },
+          {
+            title:
+              "나는 SOLO 25기 남녀 출연진 직업 총정리! 반전 매력 속 숨겨진 프로필 공개",
+            url: "https://deefbeef.tistory.com/428",
+            confidence: "medium",
+          },
+          {
+            title: "NAKTA : 네이버 블로그",
+            url: "https://blog.naver.com/yzzzii/223798133735",
+            confidence: "medium",
+          },
+          {
+            title: "생생정보통통이의 일상 : 네이버 블로그",
+            url: "https://blog.naver.com/jaeyeong_1000/223844990194",
+            confidence: "medium",
+          },
+          {
+            title:
+              "나는솔로 25기 귀여운허세남 특집 출연자 프로필 정보 총정리 : 직업, 나이, 학력, 이상형, 취미, 출신학교, 전공, 연애경험 등 자기소개 내용 :: Being here",
+            url: "https://angryinch.tistory.com/833",
+            confidence: "medium",
+          },
+        ],
+      },
+      {
+        seasonNo: 25,
+        gender: "F",
+        handle: "순자",
+        photo: { src: null, alt: "나는 SOLO 25기 순자" },
+        instagram: null,
+        profile: {
+          birthYear: 1991,
+          ageKorean: null,
+          job: "C라이프케어 회사 직원",
+          region: "이라 남사친",
+          traits: [],
+          notableQuotes: [],
+          issues: [],
+        },
+        sources: [
+          {
+            title: "컬처캐스트 방송맨S : 네이버 블로그",
+            url: "https://blog.naver.com/ttbb90/223794485465",
+            confidence: "medium",
+          },
+          {
+            title: "오늘의 드라마 : 네이버 블로그",
+            url: "https://blog.naver.com/micahyesung/223794044376",
+            confidence: "medium",
+          },
+          {
+            title:
+              "나는 SOLO 25기 남녀 출연진 직업 총정리! 반전 매력 속 숨겨진 프로필 공개",
+            url: "https://deefbeef.tistory.com/428",
+            confidence: "medium",
+          },
+          {
+            title: "NAKTA : 네이버 블로그",
+            url: "https://blog.naver.com/yzzzii/223798133735",
+            confidence: "medium",
+          },
+          {
+            title: "생생정보통통이의 일상 : 네이버 블로그",
+            url: "https://blog.naver.com/jaeyeong_1000/223844990194",
+            confidence: "medium",
+          },
+          {
+            title:
+              "나는솔로 25기 귀여운허세남 특집 출연자 프로필 정보 총정리 : 직업, 나이, 학력, 이상형, 취미, 출신학교, 전공, 연애경험 등 자기소개 내용 :: Being here",
+            url: "https://angryinch.tistory.com/833",
+            confidence: "medium",
+          },
+        ],
+      },
+      {
+        seasonNo: 25,
+        gender: "F",
+        handle: "옥순",
+        photo: { src: null, alt: "나는 SOLO 25기 옥순" },
+        instagram: null,
+        profile: {
+          birthYear: 1989,
+          ageKorean: null,
+          job: "미국 1위 명문 음대 & S대 대학원 출신 플루티스트",
+          region: "이라 새로운",
+          traits: ["피아노 연주(배운지 석달째)"],
+          notableQuotes: [],
+          issues: [],
+        },
+        sources: [
+          {
+            title: "컬처캐스트 방송맨S : 네이버 블로그",
+            url: "https://blog.naver.com/ttbb90/223794485465",
+            confidence: "medium",
+          },
+          {
+            title: "오늘의 드라마 : 네이버 블로그",
+            url: "https://blog.naver.com/micahyesung/223794044376",
+            confidence: "medium",
+          },
+          {
+            title:
+              "나는 SOLO 25기 남녀 출연진 직업 총정리! 반전 매력 속 숨겨진 프로필 공개",
+            url: "https://deefbeef.tistory.com/428",
+            confidence: "medium",
+          },
+          {
+            title: "NAKTA : 네이버 블로그",
+            url: "https://blog.naver.com/yzzzii/223798133735",
+            confidence: "medium",
+          },
+          {
+            title: "생생정보통통이의 일상 : 네이버 블로그",
+            url: "https://blog.naver.com/jaeyeong_1000/223844990194",
+            confidence: "medium",
+          },
+          {
+            title:
+              "나는솔로 25기 귀여운허세남 특집 출연자 프로필 정보 총정리 : 직업, 나이, 학력, 이상형, 취미, 출신학교, 전공, 연애경험 등 자기소개 내용 :: Being here",
+            url: "https://angryinch.tistory.com/833",
+            confidence: "medium",
+          },
+        ],
+      },
+      {
+        seasonNo: 25,
+        gender: "F",
+        handle: "영자",
+        photo: { src: null, alt: "나는 SOLO 25기 영자" },
+        instagram: null,
+        profile: {
+          birthYear: 1994,
+          ageKorean: null,
+          job: "년생 그림 작가로",
+          region: "진주 토박이",
+          traits: [],
+          notableQuotes: [],
+          issues: [],
+        },
+        sources: [
+          {
+            title: "컬처캐스트 방송맨S : 네이버 블로그",
+            url: "https://blog.naver.com/ttbb90/223794485465",
+            confidence: "medium",
+          },
+          {
+            title: "오늘의 드라마 : 네이버 블로그",
+            url: "https://blog.naver.com/micahyesung/223794044376",
+            confidence: "medium",
+          },
+          {
+            title:
+              "나는 SOLO 25기 남녀 출연진 직업 총정리! 반전 매력 속 숨겨진 프로필 공개",
+            url: "https://deefbeef.tistory.com/428",
+            confidence: "medium",
+          },
+          {
+            title: "NAKTA : 네이버 블로그",
+            url: "https://blog.naver.com/yzzzii/223798133735",
+            confidence: "medium",
+          },
+          {
+            title: "생생정보통통이의 일상 : 네이버 블로그",
+            url: "https://blog.naver.com/jaeyeong_1000/223844990194",
+            confidence: "medium",
+          },
+          {
+            title:
+              "나는솔로 25기 귀여운허세남 특집 출연자 프로필 정보 총정리 : 직업, 나이, 학력, 이상형, 취미, 출신학교, 전공, 연애경험 등 자기소개 내용 :: Being here",
+            url: "https://angryinch.tistory.com/833",
+            confidence: "medium",
+          },
+        ],
+      },
+      {
+        seasonNo: 25,
+        gender: "F",
+        handle: "현숙",
+        photo: { src: null, alt: "나는 SOLO 25기 현숙" },
+        instagram: null,
+        profile: {
+          birthYear: 1993,
+          ageKorean: null,
+          job: "서울시청 공무원",
+          region: "중인데요",
+          traits: [],
+          notableQuotes: [],
+          issues: [],
+        },
+        sources: [
+          {
+            title: "컬처캐스트 방송맨S : 네이버 블로그",
+            url: "https://blog.naver.com/ttbb90/223794485465",
+            confidence: "medium",
+          },
+          {
+            title: "오늘의 드라마 : 네이버 블로그",
+            url: "https://blog.naver.com/micahyesung/223794044376",
+            confidence: "medium",
+          },
+          {
+            title:
+              "나는 SOLO 25기 남녀 출연진 직업 총정리! 반전 매력 속 숨겨진 프로필 공개",
+            url: "https://deefbeef.tistory.com/428",
+            confidence: "medium",
+          },
+          {
+            title: "NAKTA : 네이버 블로그",
+            url: "https://blog.naver.com/yzzzii/223798133735",
+            confidence: "medium",
+          },
+          {
+            title: "생생정보통통이의 일상 : 네이버 블로그",
+            url: "https://blog.naver.com/jaeyeong_1000/223844990194",
+            confidence: "medium",
+          },
+          {
+            title:
+              "나는솔로 25기 귀여운허세남 특집 출연자 프로필 정보 총정리 : 직업, 나이, 학력, 이상형, 취미, 출신학교, 전공, 연애경험 등 자기소개 내용 :: Being here",
+            url: "https://angryinch.tistory.com/833",
+            confidence: "medium",
+          },
+        ],
+      },
+      {
+        seasonNo: 25,
+        gender: "F",
+        handle: "정숙",
+        photo: { src: null, alt: "나는 SOLO 25기 정숙" },
+        instagram: null,
+        profile: {
+          birthYear: null,
+          ageKorean: null,
+          job: null,
+          region: null,
+          traits: [],
+          notableQuotes: [],
+          issues: [
+            "직업 정보 자동 추출 실패 - 수동 입력 필요",
+            "생년 정보 자동 추출 실패 - 수동 입력 필요",
+          ],
+        },
+        sources: [
+          {
+            title: "NAKTA : 네이버 블로그",
+            url: "https://blog.naver.com/yzzzii/223798133735",
+            confidence: "medium",
+          },
+        ],
+      },
+    ],
+  },
+
   {
     seasonNo: 30,
     label: "30기 (에겐남 & 테토녀)",
@@ -1633,6 +2772,8 @@ export const SEASONS_DATA: Season[] = [
     ],
   },
 ];
+
+SEASONS_DATA.sort((a, b) => b.seasonNo - a.seasonNo);
 
 /** 가장 최신 기수 (배열 첫 번째 = 최신순 정렬 기준) */
 export const LATEST_SEASON = SEASONS_DATA[0];
