@@ -1,6 +1,7 @@
 import type { Season, ShowInfo } from "../model/types";
 import { SeasonSchema, ShowInfoSchema } from "../model/schemas";
 
+import s23 from "./seasons/season-23.json";
 import s24 from "./seasons/season-24.json";
 import s25 from "./seasons/season-25.json";
 import s26 from "./seasons/season-26.json";
@@ -15,7 +16,7 @@ export const SHOW_INFO: ShowInfo = ShowInfoSchema.parse({
   officialVod: "https://programs.sbs.co.kr/plus/iamsolo/vods/69610",
 });
 
-const rawSeasons = [s24, s25, s26, s27, s28, s29, s30];
+const rawSeasons = [s23, s24, s25, s26, s27, s28, s29, s30];
 
 /**
  * 전 기수 데이터.
@@ -27,7 +28,7 @@ export const SEASONS_DATA: Season[] = rawSeasons
     const result = SeasonSchema.safeParse(raw);
     if (!result.success) {
       throw new Error(
-        `season-${rawSeasons[i].seasonNo}.json 데이터 검증 실패:\n${result.error.toString()}`
+        `season-${rawSeasons[i].seasonNo}.json 데이터 검증 실패:\n${result.error.toString()}`,
       );
     }
     return result.data;

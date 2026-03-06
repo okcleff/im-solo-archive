@@ -66,7 +66,7 @@ export default function SeasonNav({ seasons, currentSeasonNo }: Props) {
           </p>
 
           {/* 기수 그리드: 4열, 많은 기수도 스크롤 대응 */}
-          <div className="grid grid-cols-4 gap-1.5 max-h-[60vh] overflow-y-auto pr-0.5">
+          <div className="grid grid-cols-4 gap-1.5 max-h-[60vh] overflow-y-auto pt-2 pr-0.5">
             {seasons.map((s) => {
               const isLatest = s.seasonNo === latestSeasonNo;
               const isCurrent = s.seasonNo === currentSeasonNo;
@@ -76,7 +76,7 @@ export default function SeasonNav({ seasons, currentSeasonNo }: Props) {
                   href={`/season/${s.seasonNo}`}
                   onClick={close}
                   className={`
-                    flex flex-col items-center justify-center rounded-xl py-2 px-1 text-xs font-semibold
+                    relative flex items-center justify-center rounded-xl py-2.5 px-1 text-xs font-semibold
                     transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rose-400
                     ${
                       isCurrent
@@ -85,12 +85,10 @@ export default function SeasonNav({ seasons, currentSeasonNo }: Props) {
                     }
                   `}
                 >
-                  {isLatest && !isCurrent ? (
-                    <span className="text-[8px] bg-rose-500 text-white px-1.5 rounded-full leading-[14px] mb-0.5">
+                  {isLatest && !isCurrent && (
+                    <span className="absolute -top-1.5 -right-1.5 text-[8px] bg-rose-500 text-white px-1.5 rounded-full leading-[14px]">
                       최신
                     </span>
-                  ) : (
-                    <span className="h-[14px] mb-0.5" />
                   )}
                   {s.seasonNo}기
                 </Link>
