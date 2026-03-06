@@ -1,7 +1,8 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { SEASONS_DATA, ParticipantCard, getParticipantUrl, getParticipantSummary } from '@/entities/participant';
+import { SEASONS_DATA } from '@/entities/participant/lib/data';
+import { ParticipantCard, getParticipantUrl, getParticipantSummary } from '@/entities/participant';
 import { getSiteUrl } from '@/shared/config/site';
 import JsonLd from '@/shared/ui/JsonLd';
 

@@ -13,7 +13,7 @@
 SBS Plus 예능 **나는 SOLO**의 역대 출연자 정보를 수집·정리한 비공식 아카이브 웹 앱입니다.
 기수별 출연자의 직업, 나이, 지역, 특징, 화제 멘트, 인스타그램을 검색하고 비교할 수 있습니다.
 
-현재 **28기 · 29기 · 30기** 데이터 수록. 이후 기수는 데이터 추가로 자동 반영됩니다.
+현재 **23기 ~ 26기** 데이터 수록. 이후 기수는 JSON 파일 추가만으로 자동 반영됩니다.
 
 ---
 
@@ -25,6 +25,8 @@ SBS Plus 예능 **나는 SOLO**의 역대 출연자 정보를 수집·정리한 
 - **개별 출연자 페이지** — SEO용 정적 페이지 (`/season/[기수]/[성별]/[이름]`)
 - **인스타그램 링크** — 출연자 instagram 핸들 등록 시 카드·모달·상세 페이지에서 바로 이동
 - **기수 드롭다운 네비게이션** — 헤더의 "기수별 ▾" 클릭으로 전 기수 바로가기
+- **다크 모드** — 헤더 토글로 라이트/다크 전환, 시스템 설정 자동 감지, 플래시 없는 초기 로딩
+- **접근성(A11y)** — WCAG AA 명암비 준수, ARIA 속성, 포커스 트랩, 스크린리더 대응
 - **SEO 최적화** — JSON-LD(ItemList · Person), sitemap.xml, robots.txt, Open Graph 메타태그
 
 ---
@@ -35,7 +37,8 @@ SBS Plus 예능 **나는 SOLO**의 역대 출연자 정보를 수집·정리한 
 | ---------- | ---------------------------- |
 | 프레임워크 | Next.js 15 (App Router, SSG) |
 | 언어       | TypeScript 5                 |
-| 스타일     | Tailwind CSS 3               |
+| 스타일     | Tailwind CSS 3 (darkMode: class) |
+| 검증       | Zod (빌드 시 JSON 스키마 검증) |
 | 배포       | Vercel                       |
 
 ---
@@ -50,8 +53,8 @@ src/
 ├── app/          # Next.js 라우팅 (thin wrapper)
 ├── widgets/      # 복합 UI 블록 (SeasonNav, ParticipantModal, ClientHome)
 ├── features/     # 사용자 인터랙션 (SeasonTabs, FilterBar)
-├── entities/     # 비즈니스 객체 (Participant, Season, ParticipantCard)
-└── shared/       # 공통 유틸 (utils, JsonLd, site config)
+├── entities/     # 비즈니스 객체 (Participant, Season, ParticipantCard, SourceConfidenceLegend)
+└── shared/       # 공통 유틸 (utils, JsonLd, Tooltip, ThemeProvider, ThemeToggle, site config)
 ```
 
 각 slice는 `index.ts`로 public API를 노출하며, **상위 레이어만 하위 레이어를 참조**합니다.
@@ -64,7 +67,6 @@ src/
 AI 도구를 페어 프로그래밍 파트너로 활용하여 빠르게 프로토타입을 구현하고 반복 개선했습니다.
 
 - **[Claude Code](https://claude.ai/claude-code)** — 코드 생성 및 리팩토링
-- **[OpenAI Codex](https://openai.com/codex)** — 로직 보완 및 코드 검토
 - **[Cursor](https://cursor.sh)** — AI 기반 IDE, 인라인 편집 및 컨텍스트 이해
 
 > FSD 아키텍처 설계 및 전체 구조 의사결정은 개발자가 직접 수행하였으며,
@@ -119,39 +121,78 @@ cp .env.example .env.local
 
 ## 데이터 관리
 
-모든 출연자 데이터는 외부 API 없이 **로컬 상수**로 관리됩니다.
+출연자 데이터는 외부 API 없이 **기수별 JSON 파일**로 관리됩니다.
+`data.ts`에서 각 JSON을 import하고 **Zod 스키마로 빌드 시 자동 검증**합니다.
 
-**파일 위치**: [`src/entities/participant/lib/data.ts`](src/entities/participant/lib/data.ts)
+**파일 위치**: `src/entities/participant/lib/seasons/season-{기수}.json`
 
 ### 새 기수 추가
 
-`SEASONS_DATA` 배열 맨 앞에 새 시즌 객체를 추가합니다 (최신순 정렬 유지).
+1. `season-{기수}.json` 파일 작성 (기존 파일 구조 참고)
+2. `data.ts`에 import 한 줄 추가
 
 ```typescript
-export const SEASONS_DATA: Season[] = [
-  {
-    seasonNo: 31, // 새 기수 번호
-    label: "31기 (특집명)",
-    episodes: [{ ep: 250, airDate: "2026-06-01" }],
-    participants: [
-      /* ... */
-    ],
-  },
-  // 기존 시즌들...
-];
+// src/entities/participant/lib/data.ts
+import s27 from './seasons/season-27.json'; // 새 기수 추가
+
+const rawSeasons = [/* 기존 */, s27];
 ```
+
+스키마 검증에 실패하면 빌드 시 에러가 발생하여 잘못된 데이터가 배포되지 않습니다.
+
+### 데이터 구조
+
+```json
+{
+  "seasonNo": 27,
+  "label": "27기 (특집명)",
+  "episodes": [{ "ep": 210, "airDate": "2025-07-01" }],
+  "participants": [
+    {
+      "seasonNo": 27,
+      "gender": "M",
+      "handle": "영수",
+      "photo": { "src": null, "alt": "나는 SOLO 27기 영수" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1990,
+        "ageKorean": null,
+        "job": "직업",
+        "region": "지역",
+        "traits": ["특징1"],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        { "title": "출처 제목", "url": "https://...", "confidence": "medium" }
+      ]
+    }
+  ]
+}
+```
+
+`confidence` 값: `"high"` (1차 출처) · `"medium"` (블로그/커뮤니티) · `"low"` (미확인)
 
 ### 인스타그램 추가
 
 해당 출연자의 `instagram` 필드에 `@` 없이 username만 입력합니다.
 
-```typescript
+```json
 {
-  handle: '영수',
-  instagram: 'actual_instagram_handle',  // @ 제외
-  // ...
+  "handle": "영수",
+  "instagram": "actual_instagram_handle"
 }
 ```
+
+---
+
+## 다크 모드
+
+외부 라이브러리 없이 직접 구현되었습니다.
+
+- **저장**: `localStorage`에 `"light"` / `"dark"` 저장, 미설정 시 `prefers-color-scheme` 자동 감지
+- **플래시 방지**: `<head>` 인라인 스크립트로 React 하이드레이션 전에 `dark` 클래스 즉시 적용
+- **Tailwind**: `darkMode: 'class'` 전략 사용
 
 ---
 

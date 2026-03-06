@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Suspense } from 'react';
-import { SEASONS_DATA, LATEST_SEASON, getLatestAirDate } from '@/entities/participant';
+import { SEASONS_DATA, LATEST_SEASON } from '@/entities/participant/lib/data';
+import { getLatestAirDate } from '@/entities/participant';
 import { getSiteUrl, SITE_NAME } from '@/shared/config/site';
 import JsonLd from '@/shared/ui/JsonLd';
 import { ClientHome } from '@/widgets/home-interactive';

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import './globals.css';
-import { SEASONS_DATA, SHOW_INFO } from '@/entities/participant';
+import { SEASONS_DATA, SHOW_INFO } from '@/entities/participant/lib/data';
 import { SeasonNav } from '@/widgets/season-nav';
 import { getSiteUrl, SITE_NAME } from '@/shared/config/site';
 import ThemeProvider from '@/shared/ui/ThemeProvider';

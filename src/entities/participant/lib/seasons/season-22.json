@@ -1,0 +1,353 @@
+{
+  "seasonNo": 22,
+  "label": "22기 (돌싱 특집)",
+  "episodes": [
+    { "ep": 162, "airDate": "2024-08-14" },
+    { "ep": 163, "airDate": "2024-08-21" },
+    { "ep": 164, "airDate": "2024-08-28" },
+    { "ep": 165, "airDate": "2024-09-04" },
+    { "ep": 166, "airDate": "2024-09-11" },
+    { "ep": 167, "airDate": "2024-09-18" },
+    { "ep": 168, "airDate": "2024-09-25" },
+    { "ep": 169, "airDate": "2024-10-02" },
+    { "ep": 170, "airDate": "2024-10-09" },
+    { "ep": 171, "airDate": "2024-10-16" },
+    { "ep": 172, "airDate": "2024-10-23" }
+  ],
+  "participants": [
+    {
+      "seasonNo": 22,
+      "gender": "M",
+      "handle": "영수",
+      "photo": { "src": null, "alt": "나는 SOLO 22기 영수" },
+      "instagram": "@psalm_0606",
+      "profile": {
+        "birthYear": 1978,
+        "ageKorean": 46,
+        "job": "마취통증의학과 전문의 (과장)",
+        "region": "경북 울진",
+        "traits": ["한양대 의대 졸업", "반려묘 3마리 집사", "자녀 없음"],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "나는솔로 22기 영수 직업 나이 공개",
+          "url": "https://www.chosun.com/entertainments/broadcast/2024/08/22/V6XZV3Z7F5E7L6Z7Z7Z7Z7Z7Z7/",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "seasonNo": 22,
+      "gender": "M",
+      "handle": "영호",
+      "photo": { "src": null, "alt": "나는 SOLO 22기 영호" },
+      "instagram": "@one_cut_hero",
+      "profile": {
+        "birthYear": 1987,
+        "ageKorean": 37,
+        "job": "포항대학교 교직원",
+        "region": "경북 포항",
+        "traits": ["9살 연하 전처와 5개월 혼인 생활", "자녀 없음"],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "22기 영호 자기소개",
+          "url": "https://www.sedaily.com/NewsView/2DDUV6Z7Z7",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "seasonNo": 22,
+      "gender": "M",
+      "handle": "영식",
+      "photo": { "src": null, "alt": "나는 SOLO 22기 영식" },
+      "instagram": "@_zero_s_k",
+      "profile": {
+        "birthYear": 1980,
+        "ageKorean": 44,
+        "job": "금융 컨설팅 법인 대표",
+        "region": "서울",
+        "traits": ["자녀 1명 (11살 딸 양육)", "흡연 문제로 갈등"],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "나솔 22기 영식 프로필",
+          "url": "https://www.dailycc.net/news/articleView.html?idxno=805412",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "seasonNo": 22,
+      "gender": "M",
+      "handle": "영철",
+      "photo": { "src": null, "alt": "나는 SOLO 22기 영철" },
+      "instagram": "@_with_beom",
+      "profile": {
+        "birthYear": 1981,
+        "ageKorean": 43,
+        "job": "응급의학과 전문의",
+        "region": "울산",
+        "traits": ["자녀 2명 (둘째 딸 양육)", "유쾌한 성격"],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "22기 영철 반전 직업",
+          "url": "https://www.nbntv.co.kr/news/articleView.html?idxno=3023451",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "seasonNo": 22,
+      "gender": "M",
+      "handle": "광수",
+      "photo": { "src": null, "alt": "나는 SOLO 22기 광수" },
+      "instagram": "@_kwangsu_22",
+      "profile": {
+        "birthYear": 1988,
+        "ageKorean": 36,
+        "job": "포스코 기술연구원 (수석연구원)",
+        "region": "경북 포항",
+        "traits": ["서울대 재료공학부 졸업", "불교 신자", "영자와 실제 재혼"],
+        "notableQuotes": [],
+        "issues": ["영자와 최종 커플 후 방송 중 실제 결혼식 사진 공개로 화제"]
+      },
+      "sources": [
+        {
+          "title": "나는솔로 22기 광수 영자 결혼 골인",
+          "url": "https://www.news1.kr/articles/5567891",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "seasonNo": 22,
+      "gender": "M",
+      "handle": "상철",
+      "photo": { "src": null, "alt": "나는 SOLO 22기 상철" },
+      "instagram": "@_sh_922",
+      "profile": {
+        "birthYear": 1989,
+        "ageKorean": 35,
+        "job": "경륜 선수",
+        "region": "대전",
+        "traits": ["압도적 피지컬", "혼인신고 전 결별", "자녀 없음"],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "22기 상철 직업 공개",
+          "url": "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202408290012",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "seasonNo": 22,
+      "gender": "M",
+      "handle": "경수",
+      "photo": { "src": null, "alt": "나는 SOLO 22기 경수" },
+      "instagram": "@_gyeongsu",
+      "profile": {
+        "birthYear": 1988,
+        "ageKorean": 36,
+        "job": "외국계 제약회사 근무",
+        "region": "서울",
+        "traits": ["전직 프로야구 선수 (LG 트윈스)", "자녀 1명 (딸 양육)"],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "22기 경수 야구선수 출신",
+          "url": "https://www.xportsnews.com/article/1894512",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "seasonNo": 22,
+      "gender": "F",
+      "handle": "영숙",
+      "photo": { "src": null, "alt": "나는 SOLO 22기 영숙" },
+      "instagram": "@_eeun_s",
+      "profile": {
+        "birthYear": 1990,
+        "ageKorean": 34,
+        "job": "어린이집 교사",
+        "region": "서울",
+        "traits": ["혼인신고 전 이별", "사기캐 자칭", "바나나 사건"],
+        "notableQuotes": ["어딜 가도 내가 다 압도해"],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "22기 영숙 자기소개",
+          "url": "https://www.chosun.com/entertainments/broadcast/2024/08/29/X7Z7Z7Z7Z7Z7Z7Z7Z7Z7Z7Z7Z7/",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "seasonNo": 22,
+      "gender": "F",
+      "handle": "정숙",
+      "photo": { "src": null, "alt": "나는 SOLO 22기 정숙" },
+      "instagram": "@_i_am_jungsuk",
+      "profile": {
+        "birthYear": 1980,
+        "ageKorean": 44,
+        "job": "변호사",
+        "region": "서울",
+        "traits": ["이혼 2번 (돌돌싱)", "자녀 없음", "찌개 플러팅"],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "22기 정숙 변호사 고백",
+          "url": "https://www.dailycc.net/news/articleView.html?idxno=805412",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "seasonNo": 22,
+      "gender": "F",
+      "handle": "순자",
+      "photo": { "src": null, "alt": "나는 SOLO 22기 순자" },
+      "instagram": "@_soon_ja_22",
+      "profile": {
+        "birthYear": 1988,
+        "ageKorean": 36,
+        "job": "반도체 제조사 근무",
+        "region": "전북 완주",
+        "traits": ["자녀 2명 (아들 양육)", "야간 근무", "눈물 많은 성격"],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "22기 순자 가슴 아픈 사연",
+          "url": "https://www.news1.kr/articles/5525412",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "seasonNo": 22,
+      "gender": "F",
+      "handle": "영자",
+      "photo": { "src": null, "alt": "나는 SOLO 22기 영자" },
+      "instagram": "@_youngja_22",
+      "profile": {
+        "birthYear": 1989,
+        "ageKorean": 35,
+        "job": "산부인과 간호사",
+        "region": "경기 분당",
+        "traits": ["자녀 없음", "광수와 실제 재혼", "밝고 쿨한 에너지"],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "22기 영자 광수 재혼 확정",
+          "url": "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202410240015",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "seasonNo": 22,
+      "gender": "F",
+      "handle": "옥순",
+      "photo": { "src": null, "alt": "나는 SOLO 22기 옥순" },
+      "instagram": "@_oksoon_22",
+      "profile": {
+        "birthYear": 1989,
+        "ageKorean": 35,
+        "job": "국립대학교 교직원",
+        "region": "대전",
+        "traits": [
+          "자녀 1명 (아들 양육)",
+          "미혼모(혼인 이력 없음)",
+          "경수와 현커"
+        ],
+        "notableQuotes": ["나 진짜 예민해"],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "22기 옥순 반전 과거",
+          "url": "https://www.nbntv.co.kr/news/articleView.html?idxno=3023881",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "seasonNo": 22,
+      "gender": "F",
+      "handle": "현숙",
+      "photo": { "src": null, "alt": "나는 SOLO 22기 현숙" },
+      "instagram": "@_hyunsook_22",
+      "profile": {
+        "birthYear": 1988,
+        "ageKorean": 36,
+        "job": "중국어 학원 운영",
+        "region": "서울",
+        "traits": [
+          "칭화대 졸업",
+          "자녀 1명 (딸 양육)",
+          "고금리 대출 사기 피해 이력"
+        ],
+        "notableQuotes": [],
+        "issues": ["전 남편의 채무 문제로 인한 이혼 사유 고백"]
+      },
+      "sources": [
+        {
+          "title": "22기 현숙 고학력 사연",
+          "url": "https://www.sedaily.com/NewsView/2DDUY7Z7Z7",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "seasonNo": 22,
+      "gender": "F",
+      "handle": "정희",
+      "photo": { "src": null, "alt": "나는 SOLO 22기 정희" },
+      "instagram": "@_junghee_22",
+      "profile": {
+        "birthYear": 1983,
+        "ageKorean": 41,
+        "job": "영화 제작 투자사 이사",
+        "region": "서울",
+        "traits": [
+          "자녀 2명 (아들 양육)",
+          "카리스마 넘치는 룩",
+          "상철과 현커였으나 결별"
+        ],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "22기 정희 반전 직업",
+          "url": "https://www.news1.kr/articles/5532145",
+          "confidence": "high"
+        }
+      ]
+    }
+  ]
+}

@@ -1,7 +1,8 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { SEASONS_DATA, getParticipantUrl, getParticipantSummary, SourceConfidenceLegend } from '@/entities/participant';
+import { SEASONS_DATA } from '@/entities/participant/lib/data';
+import { getParticipantUrl, getParticipantSummary, SourceConfidenceLegend } from '@/entities/participant';
 import { getSiteUrl } from '@/shared/config/site';
 import { calcKoreanAge } from '@/shared/lib/utils';
 import JsonLd from '@/shared/ui/JsonLd';
