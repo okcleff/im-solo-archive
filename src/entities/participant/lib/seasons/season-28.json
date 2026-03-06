@@ -1,0 +1,356 @@
+{
+  "seasonNo": 28,
+  "label": "28기 (돌싱 특집)",
+  "episodes": [
+    { "ep": 217, "airDate": "2025-09-03" }
+  ],
+  "participants": [
+    {
+      "seasonNo": 28,
+      "gender": "M",
+      "handle": "영수",
+      "photo": { "src": null, "alt": "나는 SOLO 28기 영수" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1984,
+        "ageKorean": null,
+        "job": "식품 관련 스타트업 CEO(국무총리 표창 경력 언급)",
+        "region": null,
+        "traits": [
+          "자녀 없는 돌싱(방송 자기소개 기준)",
+          "재혼 시 상대 자녀 양육 의지 언급"
+        ],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "OSEN(다음): 28기 솔로남 스펙(영수 자기소개)",
+          "url": "https://v.daum.net/v/20250911073049863",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "seasonNo": 28,
+      "gender": "M",
+      "handle": "영호",
+      "photo": { "src": null, "alt": "나는 SOLO 28기 영호" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1989,
+        "ageKorean": null,
+        "job": "잠수·인명구조 장비 납품 사업",
+        "region": null,
+        "traits": [
+          "3년 사실혼 후 이혼 언급",
+          "자녀 있는 상대도 가능하다고 언급"
+        ],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "OSEN(다음): 28기 솔로남 스펙(영호 자기소개)",
+          "url": "https://v.daum.net/v/20250911073049863",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "seasonNo": 28,
+      "gender": "M",
+      "handle": "영식",
+      "photo": { "src": null, "alt": "나는 SOLO 28기 영식" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1980,
+        "ageKorean": null,
+        "job": "도시계획 엔지니어",
+        "region": "광주",
+        "traits": ["18세 딸 양육 언급", "딸 권유로 출연 언급"],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "OSEN(다음): 28기 솔로남 스펙(영식 자기소개)",
+          "url": "https://v.daum.net/v/20250911073049863",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "seasonNo": 28,
+      "gender": "M",
+      "handle": "영철",
+      "photo": { "src": null, "alt": "나는 SOLO 28기 영철" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1983,
+        "ageKorean": null,
+        "job": "연구원",
+        "region": "대전 근무(자기소개 기준)",
+        "traits": [
+          "충남 서산 출신 언급",
+          "한양대 공학 박사 언급",
+          "자가 4채 보유 언급"
+        ],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "OSEN(다음): 28기 솔로남 스펙(영철 자기소개)",
+          "url": "https://v.daum.net/v/20250911073049863",
+          "confidence": "high"
+        },
+        {
+          "title": "머니투데이(다음): 28기 영철 공학박사/자가 4채",
+          "url": "https://v.daum.net/v/20250904024547047",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "seasonNo": 28,
+      "gender": "M",
+      "handle": "광수",
+      "photo": { "src": null, "alt": "나는 SOLO 28기 광수" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1981,
+        "ageKorean": null,
+        "job": "음반 제작 총괄 이사",
+        "region": null,
+        "traits": ["딸을 생후 6개월부터 양육, 현재 고3이라고 언급"],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "OSEN(다음): 28기 솔로남 스펙(광수 자기소개)",
+          "url": "https://v.daum.net/v/20250911073049863",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "seasonNo": 28,
+      "gender": "M",
+      "handle": "상철",
+      "photo": { "src": null, "alt": "나는 SOLO 28기 상철" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1983,
+        "ageKorean": null,
+        "job": "대학병원 교직원",
+        "region": "충북 청주",
+        "traits": ["정년보장·사학연금 언급"],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "OSEN(다음): 28기 솔로남 스펙(상철 자기소개)",
+          "url": "https://v.daum.net/v/20250911073049863",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "seasonNo": 28,
+      "gender": "M",
+      "handle": "경수",
+      "photo": { "src": null, "alt": "나는 SOLO 28기 경수" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1978,
+        "ageKorean": null,
+        "job": "스포츠 영상 스타트업·축구 교실 운영",
+        "region": null,
+        "traits": ["한국 1호 유럽 진출 골키퍼 출신 언급"],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "OSEN(다음): 28기 솔로남 스펙(경수 자기소개)",
+          "url": "https://v.daum.net/v/20250911073049863",
+          "confidence": "high"
+        },
+        {
+          "title": "텐아시아(다음): 28기 경수 1978년생 언급",
+          "url": "https://v.daum.net/v/20251027210339517",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "seasonNo": 28,
+      "gender": "F",
+      "handle": "영숙",
+      "photo": { "src": null, "alt": "나는 SOLO 28기 영숙" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1986,
+        "ageKorean": null,
+        "job": "간호사(나이트 근무 언급)",
+        "region": null,
+        "traits": ["두 자녀 양육 언급"],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "bnt(다음): 28기 돌싱녀 스펙(영숙 자기소개)",
+          "url": "https://v.daum.net/v/20250918073646728",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "seasonNo": 28,
+      "gender": "F",
+      "handle": "정숙",
+      "photo": { "src": null, "alt": "나는 SOLO 28기 정숙" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1988,
+        "ageKorean": null,
+        "job": "회계사",
+        "region": null,
+        "traits": ["이상형으로 책임감 강한 남자 언급"],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "bnt(다음): 28기 돌싱녀 스펙(정숙 자기소개)",
+          "url": "https://v.daum.net/v/20250918073646728",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "seasonNo": 28,
+      "gender": "F",
+      "handle": "순자",
+      "photo": { "src": null, "alt": "나는 SOLO 28기 순자" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1987,
+        "ageKorean": null,
+        "job": "수학학원 강사",
+        "region": null,
+        "traits": ["6세 아들 양육 언급", "소송 이혼 언급"],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "bnt(다음): 28기 돌싱녀 스펙(순자 자기소개)",
+          "url": "https://v.daum.net/v/20250918073646728",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "seasonNo": 28,
+      "gender": "F",
+      "handle": "영자",
+      "photo": { "src": null, "alt": "나는 SOLO 28기 영자" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1983,
+        "ageKorean": null,
+        "job": "피아노 학원 원장",
+        "region": null,
+        "traits": ["온라인 쇼핑몰·베이킹숍 운영(쓰리잡) 언급"],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "bnt(다음): 28기 돌싱녀 스펙(영자 자기소개)",
+          "url": "https://v.daum.net/v/20250918073646728",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "seasonNo": 28,
+      "gender": "F",
+      "handle": "옥순",
+      "photo": { "src": null, "alt": "나는 SOLO 28기 옥순" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1991,
+        "ageKorean": null,
+        "job": "학원 팀장급 강사",
+        "region": null,
+        "traits": ["7세 딸 양육 언급"],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "bnt(다음): 28기 돌싱녀 스펙(옥순 자기소개)",
+          "url": "https://v.daum.net/v/20250918073646728",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "seasonNo": 28,
+      "gender": "F",
+      "handle": "현숙",
+      "photo": { "src": null, "alt": "나는 SOLO 28기 현숙" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1988,
+        "ageKorean": null,
+        "job": "플로리스트",
+        "region": null,
+        "traits": ["세 자녀 양육 언급", "부업으로 부동산 경매 언급"],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "bnt(다음): 28기 돌싱녀 스펙(현숙 자기소개)",
+          "url": "https://v.daum.net/v/20250918073646728",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "seasonNo": 28,
+      "gender": "F",
+      "handle": "정희",
+      "photo": { "src": null, "alt": "나는 SOLO 28기 정희" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1985,
+        "ageKorean": null,
+        "job": "치과의사",
+        "region": "서울",
+        "traits": ["8세 딸 양육 언급", "서울 개원 언급"],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "bnt(다음): 28기 돌싱녀 스펙(정희 자기소개)",
+          "url": "https://v.daum.net/v/20250918073646728",
+          "confidence": "high"
+        },
+        {
+          "title": "텐아시아(다음): 28기 정희 직업/거주 추가 확인",
+          "url": "https://v.daum.net/v/20250918074038779",
+          "confidence": "medium"
+        }
+      ]
+    }
+  ]
+}

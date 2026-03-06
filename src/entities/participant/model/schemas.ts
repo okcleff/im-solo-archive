@@ -1,0 +1,53 @@
+import { z } from "zod";
+
+export const GenderSchema = z.enum(["M", "F"]);
+export const ConfidenceSchema = z.enum(["high", "medium", "low"]);
+
+export const PhotoSchema = z.object({
+  src: z.string().nullable(),
+  alt: z.string(),
+});
+
+export const SourceSchema = z.object({
+  title: z.string(),
+  url: z.string().url(),
+  confidence: ConfidenceSchema,
+});
+
+export const ProfileSchema = z.object({
+  birthYear: z.number().int().nullable(),
+  ageKorean: z.number().int().nullable(),
+  job: z.string().nullable(),
+  region: z.string().nullable(),
+  traits: z.array(z.string()),
+  notableQuotes: z.array(z.string()),
+  issues: z.array(z.string()),
+});
+
+export const ParticipantSchema = z.object({
+  seasonNo: z.number().int().positive(),
+  gender: GenderSchema,
+  handle: z.string().min(1),
+  photo: PhotoSchema,
+  instagram: z.string().nullable(),
+  profile: ProfileSchema,
+  sources: z.array(SourceSchema),
+});
+
+export const EpisodeSchema = z.object({
+  ep: z.number().int().positive(),
+  airDate: z.string().regex(/^\d{4}-\d{2}-\d{2}$/, "YYYY-MM-DD 형식이어야 합니다"),
+});
+
+export const SeasonSchema = z.object({
+  seasonNo: z.number().int().positive(),
+  label: z.string().min(1),
+  episodes: z.array(EpisodeSchema),
+  participants: z.array(ParticipantSchema),
+});
+
+export const ShowInfoSchema = z.object({
+  titleKo: z.string(),
+  titleEn: z.string(),
+  officialVod: z.string().url(),
+});

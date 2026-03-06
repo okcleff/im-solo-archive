@@ -1,0 +1,553 @@
+{
+  "seasonNo": 24,
+  "label": "24기",
+  "episodes": [
+    { "ep": 181, "airDate": "2024-12-25" },
+    { "ep": 182, "airDate": "2025-01-01" },
+    { "ep": 183, "airDate": "2025-01-08" },
+    { "ep": 184, "airDate": "2025-01-15" },
+    { "ep": 185, "airDate": "2025-01-22" },
+    { "ep": 186, "airDate": "2025-01-29" },
+    { "ep": 187, "airDate": "2025-02-05" },
+    { "ep": 188, "airDate": "2025-02-12" },
+    { "ep": 189, "airDate": "2025-02-19" },
+    { "ep": 190, "airDate": "2025-02-26" }
+  ],
+  "participants": [
+    {
+      "seasonNo": 24,
+      "gender": "M",
+      "handle": "영호",
+      "photo": { "src": null, "alt": "나는 SOLO 24기 영호" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1993,
+        "ageKorean": null,
+        "job": "IT 개발자",
+        "region": null,
+        "traits": [],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "아윌리치 Y : 네이버 블로그",
+          "url": "https://blog.naver.com/pan6606/223719650839",
+          "confidence": "medium"
+        },
+        {
+          "title": "생생정보통통이의 일상 : 네이버 블로그",
+          "url": "https://blog.naver.com/jaeyeong_1000/223775780274",
+          "confidence": "medium"
+        },
+        {
+          "title": "소소한 주엔느 이야기 : 네이버 블로그",
+          "url": "https://blog.naver.com/noriam/223719681536",
+          "confidence": "medium"
+        },
+        {
+          "title": "나는solo 나솔24기 직업 나이 총정리 옥순 선택 받은 남자 누구 ? + 연애예능 : 네이버 블로그",
+          "url": "https://m.blog.naver.com/euene1111/223719373881?isInf=true",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "seasonNo": 24,
+      "gender": "M",
+      "handle": "영식",
+      "photo": { "src": null, "alt": "나는 SOLO 24기 영식" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1990,
+        "ageKorean": null,
+        "job": "외국계 금융회사 근무",
+        "region": null,
+        "traits": [],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "아윌리치 Y : 네이버 블로그",
+          "url": "https://blog.naver.com/pan6606/223719650839",
+          "confidence": "medium"
+        },
+        {
+          "title": "생생정보통통이의 일상 : 네이버 블로그",
+          "url": "https://blog.naver.com/jaeyeong_1000/223775780274",
+          "confidence": "medium"
+        },
+        {
+          "title": "소소한 주엔느 이야기 : 네이버 블로그",
+          "url": "https://blog.naver.com/noriam/223719681536",
+          "confidence": "medium"
+        },
+        {
+          "title": "나는solo 나솔24기 직업 나이 총정리 옥순 선택 받은 남자 누구 ? + 연애예능 : 네이버 블로그",
+          "url": "https://m.blog.naver.com/euene1111/223719373881?isInf=true",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "seasonNo": 24,
+      "gender": "M",
+      "handle": "영철",
+      "photo": { "src": null, "alt": "나는 SOLO 24기 영철" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1992,
+        "ageKorean": null,
+        "job": "한의사",
+        "region": null,
+        "traits": [],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "아윌리치 Y : 네이버 블로그",
+          "url": "https://blog.naver.com/pan6606/223719650839",
+          "confidence": "medium"
+        },
+        {
+          "title": "생생정보통통이의 일상 : 네이버 블로그",
+          "url": "https://blog.naver.com/jaeyeong_1000/223775780274",
+          "confidence": "medium"
+        },
+        {
+          "title": "소소한 주엔느 이야기 : 네이버 블로그",
+          "url": "https://blog.naver.com/noriam/223719681536",
+          "confidence": "medium"
+        },
+        {
+          "title": "나는solo 나솔24기 직업 나이 총정리 옥순 선택 받은 남자 누구 ? + 연애예능 : 네이버 블로그",
+          "url": "https://m.blog.naver.com/euene1111/223719373881?isInf=true",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "seasonNo": 24,
+      "gender": "M",
+      "handle": "영수",
+      "photo": { "src": null, "alt": "나는 SOLO 24기 영수" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1986,
+        "ageKorean": null,
+        "job": "수의사",
+        "region": null,
+        "traits": [],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "생생정보통통이의 일상 : 네이버 블로그",
+          "url": "https://blog.naver.com/jaeyeong_1000/223775780274",
+          "confidence": "medium"
+        },
+        {
+          "title": "소소한 주엔느 이야기 : 네이버 블로그",
+          "url": "https://blog.naver.com/noriam/223719681536",
+          "confidence": "medium"
+        },
+        {
+          "title": "나는solo 나솔24기 직업 나이 총정리 옥순 선택 받은 남자 누구 ? + 연애예능 : 네이버 블로그",
+          "url": "https://m.blog.naver.com/euene1111/223719373881?isInf=true",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "seasonNo": 24,
+      "gender": "M",
+      "handle": "광수",
+      "photo": { "src": null, "alt": "나는 SOLO 24기 광수" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1992,
+        "ageKorean": null,
+        "job": "스타트업 COO (전 행정고시 토목직 수석합격 → 5급 공무원 출신)",
+        "region": "서울 동작구",
+        "traits": [
+          "과학고·연세대 졸업",
+          "행정고시 토목직 수석합격 후 공무원 → 스타트업 이직",
+          "파혼 이력 (직업 변경에 따른 시댁 반대)"
+        ],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "생생정보통통이의 일상 : 네이버 블로그",
+          "url": "https://blog.naver.com/jaeyeong_1000/223775780274",
+          "confidence": "medium"
+        },
+        {
+          "title": "소소한 주엔느 이야기 : 네이버 블로그",
+          "url": "https://blog.naver.com/noriam/223719681536",
+          "confidence": "medium"
+        },
+        {
+          "title": "나는solo 나솔24기 직업 나이 총정리 옥순 선택 받은 남자 누구 ? + 연애예능 : 네이버 블로그",
+          "url": "https://m.blog.naver.com/euene1111/223719373881?isInf=true",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "seasonNo": 24,
+      "gender": "M",
+      "handle": "상철",
+      "photo": { "src": null, "alt": "나는 SOLO 24기 상철" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1990,
+        "ageKorean": null,
+        "job": "대동물 수의사",
+        "region": null,
+        "traits": [],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "생생정보통통이의 일상 : 네이버 블로그",
+          "url": "https://blog.naver.com/jaeyeong_1000/223775780274",
+          "confidence": "medium"
+        },
+        {
+          "title": "소소한 주엔느 이야기 : 네이버 블로그",
+          "url": "https://blog.naver.com/noriam/223719681536",
+          "confidence": "medium"
+        },
+        {
+          "title": "나는solo 나솔24기 직업 나이 총정리 옥순 선택 받은 남자 누구 ? + 연애예능 : 네이버 블로그",
+          "url": "https://m.blog.naver.com/euene1111/223719373881?isInf=true",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "seasonNo": 24,
+      "gender": "F",
+      "handle": "영숙",
+      "photo": { "src": null, "alt": "나는 SOLO 24기 영숙" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1994,
+        "ageKorean": null,
+        "job": "공무원",
+        "region": "서울 광진구",
+        "traits": ["테니스와 필라테스"],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "아윌리치 Y : 네이버 블로그",
+          "url": "https://blog.naver.com/pan6606/223719650839",
+          "confidence": "medium"
+        },
+        {
+          "title": "시호 : 네이버 블로그",
+          "url": "https://blog.naver.com/qjtejrjf/223720307448",
+          "confidence": "medium"
+        },
+        {
+          "title": "라라의 답만바로 : 네이버 블로그",
+          "url": "https://blog.naver.com/shbg0226/223719816316",
+          "confidence": "medium"
+        },
+        {
+          "title": "생생정보통통이의 일상 : 네이버 블로그",
+          "url": "https://blog.naver.com/jaeyeong_1000/223775780274",
+          "confidence": "medium"
+        },
+        {
+          "title": "경제와 정치 세상으로 : 네이버 블로그",
+          "url": "https://blog.naver.com/wwdresscom/223719554928",
+          "confidence": "medium"
+        },
+        {
+          "title": "소소한 주엔느 이야기 : 네이버 블로그",
+          "url": "https://blog.naver.com/noriam/223719681536",
+          "confidence": "medium"
+        },
+        {
+          "title": "나는solo 나솔24기 직업 나이 총정리 옥순 선택 받은 남자 누구 ? + 연애예능 : 네이버 블로그",
+          "url": "https://m.blog.naver.com/euene1111/223719373881?isInf=true",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "seasonNo": 24,
+      "gender": "F",
+      "handle": "정숙",
+      "photo": { "src": null, "alt": "나는 SOLO 24기 정숙" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1993,
+        "ageKorean": null,
+        "job": "행정직 공무원",
+        "region": "경기도 수원",
+        "traits": ["골프 런닝"],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "아윌리치 Y : 네이버 블로그",
+          "url": "https://blog.naver.com/pan6606/223719650839",
+          "confidence": "medium"
+        },
+        {
+          "title": "시호 : 네이버 블로그",
+          "url": "https://blog.naver.com/qjtejrjf/223720307448",
+          "confidence": "medium"
+        },
+        {
+          "title": "라라의 답만바로 : 네이버 블로그",
+          "url": "https://blog.naver.com/shbg0226/223719816316",
+          "confidence": "medium"
+        },
+        {
+          "title": "생생정보통통이의 일상 : 네이버 블로그",
+          "url": "https://blog.naver.com/jaeyeong_1000/223775780274",
+          "confidence": "medium"
+        },
+        {
+          "title": "경제와 정치 세상으로 : 네이버 블로그",
+          "url": "https://blog.naver.com/wwdresscom/223719554928",
+          "confidence": "medium"
+        },
+        {
+          "title": "소소한 주엔느 이야기 : 네이버 블로그",
+          "url": "https://blog.naver.com/noriam/223719681536",
+          "confidence": "medium"
+        },
+        {
+          "title": "나는solo 나솔24기 직업 나이 총정리 옥순 선택 받은 남자 누구 ? + 연애예능 : 네이버 블로그",
+          "url": "https://m.blog.naver.com/euene1111/223719373881?isInf=true",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "seasonNo": 24,
+      "gender": "F",
+      "handle": "순자",
+      "photo": { "src": null, "alt": "나는 SOLO 24기 순자" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1992,
+        "ageKorean": null,
+        "job": "행정직 공무원",
+        "region": "서울",
+        "traits": ["인테리어 클라이밍 등"],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "아윌리치 Y : 네이버 블로그",
+          "url": "https://blog.naver.com/pan6606/223719650839",
+          "confidence": "medium"
+        },
+        {
+          "title": "시호 : 네이버 블로그",
+          "url": "https://blog.naver.com/qjtejrjf/223720307448",
+          "confidence": "medium"
+        },
+        {
+          "title": "라라의 답만바로 : 네이버 블로그",
+          "url": "https://blog.naver.com/shbg0226/223719816316",
+          "confidence": "medium"
+        },
+        {
+          "title": "생생정보통통이의 일상 : 네이버 블로그",
+          "url": "https://blog.naver.com/jaeyeong_1000/223775780274",
+          "confidence": "medium"
+        },
+        {
+          "title": "경제와 정치 세상으로 : 네이버 블로그",
+          "url": "https://blog.naver.com/wwdresscom/223719554928",
+          "confidence": "medium"
+        },
+        {
+          "title": "소소한 주엔느 이야기 : 네이버 블로그",
+          "url": "https://blog.naver.com/noriam/223719681536",
+          "confidence": "medium"
+        },
+        {
+          "title": "나는solo 나솔24기 직업 나이 총정리 옥순 선택 받은 남자 누구 ? + 연애예능 : 네이버 블로그",
+          "url": "https://m.blog.naver.com/euene1111/223719373881?isInf=true",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "seasonNo": 24,
+      "gender": "F",
+      "handle": "옥순",
+      "photo": { "src": null, "alt": "나는 SOLO 24기 옥순" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1988,
+        "ageKorean": null,
+        "job": "대기업 브랜드 전략실 근무 (K사)",
+        "region": "서울",
+        "traits": ["난자 냉동 언급", "성형 사실 쿨하게 인정"],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "아윌리치 Y : 네이버 블로그",
+          "url": "https://blog.naver.com/pan6606/223719650839",
+          "confidence": "medium"
+        },
+        {
+          "title": "시호 : 네이버 블로그",
+          "url": "https://blog.naver.com/qjtejrjf/223720307448",
+          "confidence": "medium"
+        },
+        {
+          "title": "라라의 답만바로 : 네이버 블로그",
+          "url": "https://blog.naver.com/shbg0226/223719816316",
+          "confidence": "medium"
+        },
+        {
+          "title": "생생정보통통이의 일상 : 네이버 블로그",
+          "url": "https://blog.naver.com/jaeyeong_1000/223775780274",
+          "confidence": "medium"
+        },
+        {
+          "title": "경제와 정치 세상으로 : 네이버 블로그",
+          "url": "https://blog.naver.com/wwdresscom/223719554928",
+          "confidence": "medium"
+        },
+        {
+          "title": "소소한 주엔느 이야기 : 네이버 블로그",
+          "url": "https://blog.naver.com/noriam/223719681536",
+          "confidence": "medium"
+        },
+        {
+          "title": "나는solo 나솔24기 직업 나이 총정리 옥순 선택 받은 남자 누구 ? + 연애예능 : 네이버 블로그",
+          "url": "https://m.blog.naver.com/euene1111/223719373881?isInf=true",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "seasonNo": 24,
+      "gender": "F",
+      "handle": "영자",
+      "photo": { "src": null, "alt": "나는 SOLO 24기 영자" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1990,
+        "ageKorean": null,
+        "job": "유아 오감놀이 업체 대표",
+        "region": "부산",
+        "traits": ["한식·중식 조리사 자격증 보유로 요리"],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "아윌리치 Y : 네이버 블로그",
+          "url": "https://blog.naver.com/pan6606/223719650839",
+          "confidence": "medium"
+        },
+        {
+          "title": "시호 : 네이버 블로그",
+          "url": "https://blog.naver.com/qjtejrjf/223720307448",
+          "confidence": "medium"
+        },
+        {
+          "title": "라라의 답만바로 : 네이버 블로그",
+          "url": "https://blog.naver.com/shbg0226/223719816316",
+          "confidence": "medium"
+        },
+        {
+          "title": "생생정보통통이의 일상 : 네이버 블로그",
+          "url": "https://blog.naver.com/jaeyeong_1000/223775780274",
+          "confidence": "medium"
+        },
+        {
+          "title": "경제와 정치 세상으로 : 네이버 블로그",
+          "url": "https://blog.naver.com/wwdresscom/223719554928",
+          "confidence": "medium"
+        },
+        {
+          "title": "소소한 주엔느 이야기 : 네이버 블로그",
+          "url": "https://blog.naver.com/noriam/223719681536",
+          "confidence": "medium"
+        },
+        {
+          "title": "나는solo 나솔24기 직업 나이 총정리 옥순 선택 받은 남자 누구 ? + 연애예능 : 네이버 블로그",
+          "url": "https://m.blog.naver.com/euene1111/223719373881?isInf=true",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "seasonNo": 24,
+      "gender": "F",
+      "handle": "현숙",
+      "photo": { "src": null, "alt": "나는 SOLO 24기 현숙" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1990,
+        "ageKorean": null,
+        "job": "약사",
+        "region": "고향은 전주",
+        "traits": ["베이킹, 만화그리기", "최소 2명 이상 아이를 낳고 싶음"],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "아윌리치 Y : 네이버 블로그",
+          "url": "https://blog.naver.com/pan6606/223719650839",
+          "confidence": "medium"
+        },
+        {
+          "title": "시호 : 네이버 블로그",
+          "url": "https://blog.naver.com/qjtejrjf/223720307448",
+          "confidence": "medium"
+        },
+        {
+          "title": "라라의 답만바로 : 네이버 블로그",
+          "url": "https://blog.naver.com/shbg0226/223719816316",
+          "confidence": "medium"
+        },
+        {
+          "title": "생생정보통통이의 일상 : 네이버 블로그",
+          "url": "https://blog.naver.com/jaeyeong_1000/223775780274",
+          "confidence": "medium"
+        },
+        {
+          "title": "경제와 정치 세상으로 : 네이버 블로그",
+          "url": "https://blog.naver.com/wwdresscom/223719554928",
+          "confidence": "medium"
+        },
+        {
+          "title": "소소한 주엔느 이야기 : 네이버 블로그",
+          "url": "https://blog.naver.com/noriam/223719681536",
+          "confidence": "medium"
+        },
+        {
+          "title": "나는solo 나솔24기 직업 나이 총정리 옥순 선택 받은 남자 누구 ? + 연애예능 : 네이버 블로그",
+          "url": "https://m.blog.naver.com/euene1111/223719373881?isInf=true",
+          "confidence": "medium"
+        }
+      ]
+    }
+  ]
+}

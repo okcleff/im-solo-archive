@@ -1,0 +1,549 @@
+{
+  "seasonNo": 25,
+  "label": "25기",
+  "episodes": [
+    { "ep": 191, "airDate": "2025-03-05" },
+    { "ep": 192, "airDate": "2025-03-12" },
+    { "ep": 193, "airDate": "2025-03-19" },
+    { "ep": 194, "airDate": "2025-03-26" },
+    { "ep": 195, "airDate": "2025-04-02" },
+    { "ep": 196, "airDate": "2025-04-09" },
+    { "ep": 197, "airDate": "2025-04-16" },
+    { "ep": 198, "airDate": "2025-04-23" }
+  ],
+  "participants": [
+    {
+      "seasonNo": 25,
+      "gender": "M",
+      "handle": "광수",
+      "photo": { "src": null, "alt": "나는 SOLO 25기 광수" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1986,
+        "ageKorean": null,
+        "job": "의사",
+        "region": null,
+        "traits": [],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "컬처캐스트 방송맨S : 네이버 블로그",
+          "url": "https://blog.naver.com/ttbb90/223794485465",
+          "confidence": "medium"
+        },
+        {
+          "title": "오늘의 드라마 : 네이버 블로그",
+          "url": "https://blog.naver.com/micahyesung/223794044376",
+          "confidence": "medium"
+        },
+        {
+          "title": "나는 SOLO 25기 남녀 출연진 직업 총정리! 반전 매력 속 숨겨진 프로필 공개",
+          "url": "https://deefbeef.tistory.com/428",
+          "confidence": "medium"
+        },
+        {
+          "title": "NAKTA : 네이버 블로그",
+          "url": "https://blog.naver.com/yzzzii/223798133735",
+          "confidence": "medium"
+        },
+        {
+          "title": "생생정보통통이의 일상 : 네이버 블로그",
+          "url": "https://blog.naver.com/jaeyeong_1000/223844990194",
+          "confidence": "medium"
+        },
+        {
+          "title": "나는솔로 25기 귀여운허세남 특집 출연자 프로필 정보 총정리 : 직업, 나이, 학력, 이상형, 취미, 출신학교, 전공, 연애경험 등 자기소개 내용 :: Being here",
+          "url": "https://angryinch.tistory.com/833",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "seasonNo": 25,
+      "gender": "M",
+      "handle": "영수",
+      "photo": { "src": null, "alt": "나는 SOLO 25기 영수" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1991,
+        "ageKorean": null,
+        "job": "보험회사 본부장",
+        "region": null,
+        "traits": ["성악가 이력", "오토바이·디제잉 취미 (반전 매력)"],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "오늘의 드라마 : 네이버 블로그",
+          "url": "https://blog.naver.com/micahyesung/223794044376",
+          "confidence": "medium"
+        },
+        {
+          "title": "나는 SOLO 25기 남녀 출연진 직업 총정리! 반전 매력 속 숨겨진 프로필 공개",
+          "url": "https://deefbeef.tistory.com/428",
+          "confidence": "medium"
+        },
+        {
+          "title": "NAKTA : 네이버 블로그",
+          "url": "https://blog.naver.com/yzzzii/223798133735",
+          "confidence": "medium"
+        },
+        {
+          "title": "생생정보통통이의 일상 : 네이버 블로그",
+          "url": "https://blog.naver.com/jaeyeong_1000/223844990194",
+          "confidence": "medium"
+        },
+        {
+          "title": "나는솔로 25기 귀여운허세남 특집 출연자 프로필 정보 총정리 : 직업, 나이, 학력, 이상형, 취미, 출신학교, 전공, 연애경험 등 자기소개 내용 :: Being here",
+          "url": "https://angryinch.tistory.com/833",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "seasonNo": 25,
+      "gender": "M",
+      "handle": "영호",
+      "photo": { "src": null, "alt": "나는 SOLO 25기 영호" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1988,
+        "ageKorean": null,
+        "job": "개인 약국 운영 (약사)",
+        "region": null,
+        "traits": ["디제잉 취미 (반전 매력)"],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "오늘의 드라마 : 네이버 블로그",
+          "url": "https://blog.naver.com/micahyesung/223794044376",
+          "confidence": "medium"
+        },
+        {
+          "title": "나는 SOLO 25기 남녀 출연진 직업 총정리! 반전 매력 속 숨겨진 프로필 공개",
+          "url": "https://deefbeef.tistory.com/428",
+          "confidence": "medium"
+        },
+        {
+          "title": "NAKTA : 네이버 블로그",
+          "url": "https://blog.naver.com/yzzzii/223798133735",
+          "confidence": "medium"
+        },
+        {
+          "title": "생생정보통통이의 일상 : 네이버 블로그",
+          "url": "https://blog.naver.com/jaeyeong_1000/223844990194",
+          "confidence": "medium"
+        },
+        {
+          "title": "나는솔로 25기 귀여운허세남 특집 출연자 프로필 정보 총정리 : 직업, 나이, 학력, 이상형, 취미, 출신학교, 전공, 연애경험 등 자기소개 내용 :: Being here",
+          "url": "https://angryinch.tistory.com/833",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "seasonNo": 25,
+      "gender": "M",
+      "handle": "영식",
+      "photo": { "src": null, "alt": "나는 SOLO 25기 영식" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1990,
+        "ageKorean": null,
+        "job": "대출 담당 은행원",
+        "region": null,
+        "traits": ["홈트, 자기계발, 영화감상"],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "오늘의 드라마 : 네이버 블로그",
+          "url": "https://blog.naver.com/micahyesung/223794044376",
+          "confidence": "medium"
+        },
+        {
+          "title": "나는 SOLO 25기 남녀 출연진 직업 총정리! 반전 매력 속 숨겨진 프로필 공개",
+          "url": "https://deefbeef.tistory.com/428",
+          "confidence": "medium"
+        },
+        {
+          "title": "NAKTA : 네이버 블로그",
+          "url": "https://blog.naver.com/yzzzii/223798133735",
+          "confidence": "medium"
+        },
+        {
+          "title": "생생정보통통이의 일상 : 네이버 블로그",
+          "url": "https://blog.naver.com/jaeyeong_1000/223844990194",
+          "confidence": "medium"
+        },
+        {
+          "title": "나는솔로 25기 귀여운허세남 특집 출연자 프로필 정보 총정리 : 직업, 나이, 학력, 이상형, 취미, 출신학교, 전공, 연애경험 등 자기소개 내용 :: Being here",
+          "url": "https://angryinch.tistory.com/833",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "seasonNo": 25,
+      "gender": "M",
+      "handle": "영철",
+      "photo": { "src": null, "alt": "나는 SOLO 25기 영철" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1993,
+        "ageKorean": null,
+        "job": "중학교 엘리트 운동부 지도자",
+        "region": null,
+        "traits": ["피아노 연주(배운지 석달째)"],
+        "notableQuotes": ["K리그 선수에서 뛰었던 이력이 있다"],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "오늘의 드라마 : 네이버 블로그",
+          "url": "https://blog.naver.com/micahyesung/223794044376",
+          "confidence": "medium"
+        },
+        {
+          "title": "나는 SOLO 25기 남녀 출연진 직업 총정리! 반전 매력 속 숨겨진 프로필 공개",
+          "url": "https://deefbeef.tistory.com/428",
+          "confidence": "medium"
+        },
+        {
+          "title": "NAKTA : 네이버 블로그",
+          "url": "https://blog.naver.com/yzzzii/223798133735",
+          "confidence": "medium"
+        },
+        {
+          "title": "생생정보통통이의 일상 : 네이버 블로그",
+          "url": "https://blog.naver.com/jaeyeong_1000/223844990194",
+          "confidence": "medium"
+        },
+        {
+          "title": "나는솔로 25기 귀여운허세남 특집 출연자 프로필 정보 총정리 : 직업, 나이, 학력, 이상형, 취미, 출신학교, 전공, 연애경험 등 자기소개 내용 :: Being here",
+          "url": "https://angryinch.tistory.com/833",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "seasonNo": 25,
+      "gender": "M",
+      "handle": "상철",
+      "photo": { "src": null, "alt": "나는 SOLO 25기 상철" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1990,
+        "ageKorean": null,
+        "job": "삼성전자 반도체 판매 전략팀 직원",
+        "region": null,
+        "traits": [],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "오늘의 드라마 : 네이버 블로그",
+          "url": "https://blog.naver.com/micahyesung/223794044376",
+          "confidence": "medium"
+        },
+        {
+          "title": "나는 SOLO 25기 남녀 출연진 직업 총정리! 반전 매력 속 숨겨진 프로필 공개",
+          "url": "https://deefbeef.tistory.com/428",
+          "confidence": "medium"
+        },
+        {
+          "title": "NAKTA : 네이버 블로그",
+          "url": "https://blog.naver.com/yzzzii/223798133735",
+          "confidence": "medium"
+        },
+        {
+          "title": "생생정보통통이의 일상 : 네이버 블로그",
+          "url": "https://blog.naver.com/jaeyeong_1000/223844990194",
+          "confidence": "medium"
+        },
+        {
+          "title": "나는솔로 25기 귀여운허세남 특집 출연자 프로필 정보 총정리 : 직업, 나이, 학력, 이상형, 취미, 출신학교, 전공, 연애경험 등 자기소개 내용 :: Being here",
+          "url": "https://angryinch.tistory.com/833",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "seasonNo": 25,
+      "gender": "F",
+      "handle": "영숙",
+      "photo": { "src": null, "alt": "나는 SOLO 25기 영숙" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1993,
+        "ageKorean": null,
+        "job": "L그룹 마케팅 담당",
+        "region": null,
+        "traits": [
+          "활동적인 것도 좋아하지만 손으로 무언가 만드는 것 좋아함. 유화 그리기, 뜨개질"
+        ],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "컬처캐스트 방송맨S : 네이버 블로그",
+          "url": "https://blog.naver.com/ttbb90/223794485465",
+          "confidence": "medium"
+        },
+        {
+          "title": "오늘의 드라마 : 네이버 블로그",
+          "url": "https://blog.naver.com/micahyesung/223794044376",
+          "confidence": "medium"
+        },
+        {
+          "title": "나는 SOLO 25기 남녀 출연진 직업 총정리! 반전 매력 속 숨겨진 프로필 공개",
+          "url": "https://deefbeef.tistory.com/428",
+          "confidence": "medium"
+        },
+        {
+          "title": "NAKTA : 네이버 블로그",
+          "url": "https://blog.naver.com/yzzzii/223798133735",
+          "confidence": "medium"
+        },
+        {
+          "title": "생생정보통통이의 일상 : 네이버 블로그",
+          "url": "https://blog.naver.com/jaeyeong_1000/223844990194",
+          "confidence": "medium"
+        },
+        {
+          "title": "나는솔로 25기 귀여운허세남 특집 출연자 프로필 정보 총정리 : 직업, 나이, 학력, 이상형, 취미, 출신학교, 전공, 연애경험 등 자기소개 내용 :: Being here",
+          "url": "https://angryinch.tistory.com/833",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "seasonNo": 25,
+      "gender": "F",
+      "handle": "순자",
+      "photo": { "src": null, "alt": "나는 SOLO 25기 순자" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1991,
+        "ageKorean": null,
+        "job": "CJ라이프케어 회사 직원",
+        "region": null,
+        "traits": [],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "컬처캐스트 방송맨S : 네이버 블로그",
+          "url": "https://blog.naver.com/ttbb90/223794485465",
+          "confidence": "medium"
+        },
+        {
+          "title": "오늘의 드라마 : 네이버 블로그",
+          "url": "https://blog.naver.com/micahyesung/223794044376",
+          "confidence": "medium"
+        },
+        {
+          "title": "나는 SOLO 25기 남녀 출연진 직업 총정리! 반전 매력 속 숨겨진 프로필 공개",
+          "url": "https://deefbeef.tistory.com/428",
+          "confidence": "medium"
+        },
+        {
+          "title": "NAKTA : 네이버 블로그",
+          "url": "https://blog.naver.com/yzzzii/223798133735",
+          "confidence": "medium"
+        },
+        {
+          "title": "생생정보통통이의 일상 : 네이버 블로그",
+          "url": "https://blog.naver.com/jaeyeong_1000/223844990194",
+          "confidence": "medium"
+        },
+        {
+          "title": "나는솔로 25기 귀여운허세남 특집 출연자 프로필 정보 총정리 : 직업, 나이, 학력, 이상형, 취미, 출신학교, 전공, 연애경험 등 자기소개 내용 :: Being here",
+          "url": "https://angryinch.tistory.com/833",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "seasonNo": 25,
+      "gender": "F",
+      "handle": "옥순",
+      "photo": { "src": null, "alt": "나는 SOLO 25기 옥순" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1989,
+        "ageKorean": null,
+        "job": "플루티스트 (미국 명문 음대·S대 대학원 졸업, 오케스트라·개인 레슨)",
+        "region": null,
+        "traits": [],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "컬처캐스트 방송맨S : 네이버 블로그",
+          "url": "https://blog.naver.com/ttbb90/223794485465",
+          "confidence": "medium"
+        },
+        {
+          "title": "오늘의 드라마 : 네이버 블로그",
+          "url": "https://blog.naver.com/micahyesung/223794044376",
+          "confidence": "medium"
+        },
+        {
+          "title": "나는 SOLO 25기 남녀 출연진 직업 총정리! 반전 매력 속 숨겨진 프로필 공개",
+          "url": "https://deefbeef.tistory.com/428",
+          "confidence": "medium"
+        },
+        {
+          "title": "NAKTA : 네이버 블로그",
+          "url": "https://blog.naver.com/yzzzii/223798133735",
+          "confidence": "medium"
+        },
+        {
+          "title": "생생정보통통이의 일상 : 네이버 블로그",
+          "url": "https://blog.naver.com/jaeyeong_1000/223844990194",
+          "confidence": "medium"
+        },
+        {
+          "title": "나는솔로 25기 귀여운허세남 특집 출연자 프로필 정보 총정리 : 직업, 나이, 학력, 이상형, 취미, 출신학교, 전공, 연애경험 등 자기소개 내용 :: Being here",
+          "url": "https://angryinch.tistory.com/833",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "seasonNo": 25,
+      "gender": "F",
+      "handle": "영자",
+      "photo": { "src": null, "alt": "나는 SOLO 25기 영자" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1994,
+        "ageKorean": null,
+        "job": "그림 작가 / 일러스트레이터",
+        "region": "경남 진주 출신",
+        "traits": [],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "컬처캐스트 방송맨S : 네이버 블로그",
+          "url": "https://blog.naver.com/ttbb90/223794485465",
+          "confidence": "medium"
+        },
+        {
+          "title": "오늘의 드라마 : 네이버 블로그",
+          "url": "https://blog.naver.com/micahyesung/223794044376",
+          "confidence": "medium"
+        },
+        {
+          "title": "나는 SOLO 25기 남녀 출연진 직업 총정리! 반전 매력 속 숨겨진 프로필 공개",
+          "url": "https://deefbeef.tistory.com/428",
+          "confidence": "medium"
+        },
+        {
+          "title": "NAKTA : 네이버 블로그",
+          "url": "https://blog.naver.com/yzzzii/223798133735",
+          "confidence": "medium"
+        },
+        {
+          "title": "생생정보통통이의 일상 : 네이버 블로그",
+          "url": "https://blog.naver.com/jaeyeong_1000/223844990194",
+          "confidence": "medium"
+        },
+        {
+          "title": "나는솔로 25기 귀여운허세남 특집 출연자 프로필 정보 총정리 : 직업, 나이, 학력, 이상형, 취미, 출신학교, 전공, 연애경험 등 자기소개 내용 :: Being here",
+          "url": "https://angryinch.tistory.com/833",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "seasonNo": 25,
+      "gender": "F",
+      "handle": "현숙",
+      "photo": { "src": null, "alt": "나는 SOLO 25기 현숙" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1993,
+        "ageKorean": null,
+        "job": "서울시청 공무원",
+        "region": null,
+        "traits": [],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "컬처캐스트 방송맨S : 네이버 블로그",
+          "url": "https://blog.naver.com/ttbb90/223794485465",
+          "confidence": "medium"
+        },
+        {
+          "title": "오늘의 드라마 : 네이버 블로그",
+          "url": "https://blog.naver.com/micahyesung/223794044376",
+          "confidence": "medium"
+        },
+        {
+          "title": "나는 SOLO 25기 남녀 출연진 직업 총정리! 반전 매력 속 숨겨진 프로필 공개",
+          "url": "https://deefbeef.tistory.com/428",
+          "confidence": "medium"
+        },
+        {
+          "title": "NAKTA : 네이버 블로그",
+          "url": "https://blog.naver.com/yzzzii/223798133735",
+          "confidence": "medium"
+        },
+        {
+          "title": "생생정보통통이의 일상 : 네이버 블로그",
+          "url": "https://blog.naver.com/jaeyeong_1000/223844990194",
+          "confidence": "medium"
+        },
+        {
+          "title": "나는솔로 25기 귀여운허세남 특집 출연자 프로필 정보 총정리 : 직업, 나이, 학력, 이상형, 취미, 출신학교, 전공, 연애경험 등 자기소개 내용 :: Being here",
+          "url": "https://angryinch.tistory.com/833",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "seasonNo": 25,
+      "gender": "F",
+      "handle": "미경",
+      "photo": { "src": null, "alt": "나는 SOLO 25기 미경" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1988,
+        "ageKorean": null,
+        "job": "해외 전시 디자이너 겸 프로젝트 매니저 (홍익대 시각디자인과 졸업, 뮤직비디오·광고 미술팀 경력)",
+        "region": null,
+        "traits": [],
+        "notableQuotes": [],
+        "issues": []
+      },
+      "sources": [
+        {
+          "title": "머니투데이: '나는솔로' 25기 여자 자기소개(미경 소개)",
+          "url": "https://news.mt.co.kr/mtview.php?no=2025031301083615773",
+          "confidence": "high"
+        },
+        {
+          "title": "[나는솔로] 25기 여자 출연자 직업 총정리(미경 일러스트레이터·플루티스트 등)",
+          "url": "https://www.dailycc.net/news/articleView.html?idxno=830082",
+          "confidence": "high"
+        }
+      ]
+    }
+  ]
+}
