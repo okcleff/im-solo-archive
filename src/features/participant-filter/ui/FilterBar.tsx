@@ -44,7 +44,7 @@ export default function FilterBar({ gender, query, onGenderChange, onQueryChange
         {/* 검색 */}
         <div className="relative flex-1 min-w-[180px]">
           <span className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 pointer-events-none">
-            <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
               <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z" />
             </svg>
           </span>

@@ -40,14 +40,14 @@ export default function SeasonTabs({ seasons, selectedSeasonNo, onChange }: Prop
                   ${
                     active
                       ? 'border-[#111] text-[#111]'
-                      : 'border-transparent text-[#999] hover:text-[#444] hover:border-[#ccc]'
+                      : 'border-transparent text-slate-500 hover:text-[#444] hover:border-[#ccc]'
                   }
                 `}
               >
                 {s.seasonNo}기
                 <span
                   className={`ml-1.5 text-[10px] px-1.5 py-0.5 rounded-full ${
-                    active ? 'bg-[#111] text-white' : 'bg-[#EEEDE9] text-[#999]'
+                    active ? 'bg-[#111] text-white' : 'bg-[#EEEDE9] text-slate-600'
                   }`}
                 >
                   {s.participants.length}

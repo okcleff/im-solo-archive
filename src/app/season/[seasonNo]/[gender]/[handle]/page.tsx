@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { SEASONS_DATA, getParticipantUrl, getParticipantSummary } from '@/entities/participant';
+import { SEASONS_DATA, getParticipantUrl, getParticipantSummary, SourceConfidenceLegend } from '@/entities/participant';
 import { getSiteUrl } from '@/shared/config/site';
 import { calcKoreanAge } from '@/shared/lib/utils';
 import JsonLd from '@/shared/ui/JsonLd';
@@ -105,7 +105,7 @@ export default async function ParticipantPage({ params }: Props) {
       <section className={`bg-gradient-to-br ${accentGrad} text-white py-12 px-4`}>
         <div className="max-w-2xl mx-auto">
           <Link href={`/season/${p.seasonNo}`}
-            className="text-white/40 hover:text-white/80 text-xs tracking-wide mb-4 inline-flex items-center gap-1 transition-colors">
+            className="text-white/70 hover:text-white/80 text-xs tracking-wide mb-4 inline-flex items-center gap-1 transition-colors">
             ← {p.seasonNo}기 출연자 목록
           </Link>
           <div className="flex items-end gap-5 mt-3">
@@ -147,13 +147,14 @@ export default async function ParticipantPage({ params }: Props) {
             <InfoItem label="성별" value={p.gender === 'M' ? '남' : '여'} />
             {p.instagram && (
               <div>
-                <dt className="text-xs font-semibold text-slate-400 uppercase tracking-wide">인스타그램</dt>
+                <dt className="text-xs font-semibold text-slate-500 uppercase tracking-wide">인스타그램</dt>
                 <dd className="mt-0.5">
                   <a
                     href={`https://instagram.com/${p.instagram}`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-sm text-rose-500 hover:underline font-medium flex items-center gap-1"
+                    aria-label={`${p.instagram} 인스타그램 (새 탭에서 열림)`}
+                    className="text-sm text-rose-600 underline hover:no-underline font-medium flex items-center gap-1"
                   >
                     <InstagramIcon className="w-3.5 h-3.5" />
                     @{p.instagram}
@@ -191,7 +192,7 @@ export default async function ParticipantPage({ params }: Props) {
             <h2 className="text-base font-bold mb-3 text-amber-700">이슈 / 미확인 정보</h2>
             <ul className="space-y-2">
               {p.profile.issues.map((issue, i) => (
-                <li key={i} className="text-sm text-amber-800 flex gap-2"><span>⚠</span><span>{issue}</span></li>
+                <li key={i} className="text-sm text-amber-800 flex gap-2"><span aria-hidden="true">⚠</span><span>{issue}</span></li>
               ))}
             </ul>
           </section>
@@ -203,17 +204,22 @@ export default async function ParticipantPage({ params }: Props) {
             <ul className="space-y-3">
               {p.sources.map((s, i) => (
                 <li key={i} className="flex items-start gap-2">
-                  <span className={`mt-1 w-2.5 h-2.5 rounded-full shrink-0 ${
-                    s.confidence === 'high' ? 'bg-green-500' : s.confidence === 'medium' ? 'bg-yellow-500' : 'bg-red-400'
-                  }`} />
+                  <span
+                    role="img"
+                    aria-label={s.confidence === 'high' ? '고신뢰' : s.confidence === 'medium' ? '중간 신뢰' : '낮은 신뢰'}
+                    className={`mt-1 w-2.5 h-2.5 rounded-full shrink-0 ${
+                      s.confidence === 'high' ? 'bg-green-500' : s.confidence === 'medium' ? 'bg-yellow-500' : 'bg-red-400'
+                    }`}
+                  />
                   <a href={s.url} target="_blank" rel="noopener noreferrer"
-                    className="text-sm text-blue-600 hover:underline leading-snug">
+                    aria-label={`${s.title} (새 탭에서 열림)`}
+                    className="text-sm text-blue-600 underline hover:no-underline leading-snug">
                     {s.title}
                   </a>
                 </li>
               ))}
             </ul>
-            <p className="text-xs text-slate-400 mt-4">● 초록: 고신뢰 · ● 노랑: 중간 신뢰 · ● 빨강: 낮은 신뢰</p>
+            <SourceConfidenceLegend className="mt-4" />
           </section>
         )}
       </div>
@@ -224,7 +230,7 @@ export default async function ParticipantPage({ params }: Props) {
 function InfoItem({ label, value }: { label: string; value: string | null | undefined }) {
   return (
     <div>
-      <dt className="text-xs font-semibold text-slate-400 uppercase tracking-wide">{label}</dt>
+      <dt className="text-xs font-semibold text-slate-500 uppercase tracking-wide">{label}</dt>
       <dd className="text-sm text-slate-800 mt-0.5 font-medium">{value ?? '미공개'}</dd>
     </div>
   );

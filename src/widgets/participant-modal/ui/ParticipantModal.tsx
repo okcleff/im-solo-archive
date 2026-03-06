@@ -3,7 +3,7 @@
 import { useEffect, useRef, useCallback } from 'react';
 import Link from 'next/link';
 import type { Participant } from '@/entities/participant';
-import { getParticipantUrl } from '@/entities/participant';
+import { getParticipantUrl, SourceConfidenceLegend } from '@/entities/participant';
 import { calcKoreanAge } from '@/shared/lib/utils';
 
 interface Props {
@@ -147,13 +147,14 @@ export default function ParticipantModal({ participant: p, onClose }: Props) {
             <InfoItem label="지역" value={p.profile.region} />
             {p.instagram && (
               <div>
-                <dt className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">인스타그램</dt>
+                <dt className="text-[10px] font-bold text-slate-500 uppercase tracking-wider">인스타그램</dt>
                 <dd className="mt-0.5">
                   <a
                     href={`https://instagram.com/${p.instagram}`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-sm text-rose-500 hover:underline font-medium"
+                    aria-label={`${p.instagram} 인스타그램 (새 탭에서 열림)`}
+                    className="text-sm text-rose-600 underline hover:no-underline font-medium"
                   >
                     @{p.instagram}
                   </a>
@@ -192,7 +193,7 @@ export default function ParticipantModal({ participant: p, onClose }: Props) {
               <h3 className="text-xs font-bold uppercase tracking-wider mb-2 text-amber-700">이슈 / 미확인 정보</h3>
               <ul className="space-y-1.5">
                 {p.profile.issues.map((issue, i) => (
-                  <li key={i} className="text-xs text-amber-800 flex gap-2"><span>⚠</span><span>{issue}</span></li>
+                  <li key={i} className="text-xs text-amber-800 flex gap-2"><span aria-hidden="true">⚠</span><span>{issue}</span></li>
                 ))}
               </ul>
             </div>
@@ -205,11 +206,16 @@ export default function ParticipantModal({ participant: p, onClose }: Props) {
               <ul className="space-y-2.5">
                 {p.sources.map((s, i) => (
                   <li key={i} className="flex items-start gap-2">
-                    <span className={`mt-1 w-2 h-2 rounded-full shrink-0 ${
-                      s.confidence === 'high' ? 'bg-green-500' : s.confidence === 'medium' ? 'bg-yellow-500' : 'bg-red-400'
-                    }`} />
+                    <span
+                      role="img"
+                      aria-label={s.confidence === 'high' ? '고신뢰' : s.confidence === 'medium' ? '중간 신뢰' : '낮은 신뢰'}
+                      className={`mt-1 w-2 h-2 rounded-full shrink-0 ${
+                        s.confidence === 'high' ? 'bg-green-500' : s.confidence === 'medium' ? 'bg-yellow-500' : 'bg-red-400'
+                      }`}
+                    />
                     <a href={s.url} target="_blank" rel="noopener noreferrer"
-                      className="text-xs text-blue-600 hover:underline leading-relaxed">
+                      aria-label={`${s.title} (새 탭에서 열림)`}
+                      className="text-xs text-blue-600 underline hover:no-underline leading-relaxed">
                       {s.title}
                     </a>
                   </li>
@@ -221,7 +227,7 @@ export default function ParticipantModal({ participant: p, onClose }: Props) {
 
         {/* 푸터 */}
         <div className="px-6 pb-6 pt-2 flex justify-between items-center border-t border-slate-100">
-          <span className="text-xs text-slate-400">● 초록 고신뢰 · ● 노랑 중간 · ● 빨강 낮음</span>
+          <SourceConfidenceLegend />
           <Link href={getParticipantUrl(p)}
             className="text-xs font-medium text-slate-600 hover:text-rose-600 flex items-center gap-1 transition-colors">
             개별 페이지 →
@@ -235,7 +241,7 @@ export default function ParticipantModal({ participant: p, onClose }: Props) {
 function InfoItem({ label, value }: { label: string; value: string | null | undefined }) {
   return (
     <div>
-      <dt className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">{label}</dt>
+      <dt className="text-[10px] font-bold text-slate-500 uppercase tracking-wider">{label}</dt>
       <dd className="text-sm text-slate-800 mt-0.5 font-medium">{value ?? '미공개'}</dd>
     </div>
   );

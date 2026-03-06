@@ -47,14 +47,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
         <main>{children}</main>
 
-        <footer className="mt-16 border-t border-[#E8E7E3] bg-white py-8 text-center text-sm text-[#aaa]">
+        <footer className="mt-16 border-t border-[#E8E7E3] bg-white py-8 text-center text-sm text-slate-500">
           <p>
             본 사이트는 공개된 뉴스 기사 기반의 비공식 아카이브입니다.{' '}
             <a
               href={SHOW_INFO.officialVod}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-rose-400 hover:underline"
+              aria-label="나는 SOLO 공식 VOD (새 탭에서 열림)"
+              className="text-rose-600 underline hover:no-underline"
             >
               나는 SOLO 공식 VOD
             </a>

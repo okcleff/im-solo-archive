@@ -155,14 +155,14 @@ export default function ParticipantCard({ participant: p, onClick, asLink = fals
               rel="noopener noreferrer"
               aria-label={`${p.handle} 인스타그램`}
               onClick={(e) => e.stopPropagation()}
-              className="text-[#ccc] hover:text-rose-400 transition-colors shrink-0"
+              className="text-slate-500 hover:text-rose-600 transition-colors shrink-0"
             >
               <InstagramIcon className="w-3 h-3" />
             </a>
           )}
         </div>
         {p.profile.job && (
-          <p className="text-xs text-[#999] mt-0.5 truncate">{p.profile.job}</p>
+          <p className="text-xs text-slate-500 mt-0.5 truncate">{p.profile.job}</p>
         )}
       </div>
     </>
