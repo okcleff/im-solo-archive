@@ -83,7 +83,7 @@ export default function HomePage() {
 
       {/* 기수별 바로가기 (SEO 정적 콘텐츠) */}
       <section className="max-w-6xl mx-auto px-4 pb-14">
-        <h2 className="text-xs font-bold tracking-[0.18em] uppercase text-[#999] mb-5 pt-10">
+        <h2 className="text-xs font-bold tracking-[0.18em] uppercase text-slate-500 dark:text-slate-400 mb-5 pt-10">
           기수별 바로가기
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
@@ -91,14 +91,15 @@ export default function HomePage() {
             <a
               key={s.seasonNo}
               href={`/season/${s.seasonNo}`}
-              className="block bg-white rounded-xl p-4
-                shadow-[0_1px_6px_rgba(0,0,0,0.06)]
-                hover:shadow-[0_8px_24px_rgba(0,0,0,0.1)]
+              className="block bg-white dark:bg-slate-900 rounded-xl p-4
+                shadow-[0_1px_6px_rgba(0,0,0,0.06)] dark:shadow-none
+                border border-transparent dark:border-slate-800
+                hover:shadow-[0_8px_24px_rgba(0,0,0,0.1)] dark:hover:border-slate-700
                 hover:-translate-y-0.5
                 transition-all duration-300 group"
             >
               <div className="flex items-start justify-between mb-1">
-                <span className="text-[#111] font-bold text-lg group-hover:text-rose-600 transition-colors">
+                <span className="text-[#111] dark:text-slate-100 font-bold text-lg group-hover:text-rose-600 dark:group-hover:text-rose-400 transition-colors">
                   {s.seasonNo}기
                 </span>
                 {i === 0 && (
@@ -107,8 +108,8 @@ export default function HomePage() {
                   </span>
                 )}
               </div>
-              <p className="text-[#888] text-xs line-clamp-2 leading-relaxed">{s.label}</p>
-              <p className="text-[#bbb] text-[11px] mt-2">
+              <p className="text-slate-500 dark:text-slate-400 text-xs line-clamp-2 leading-relaxed">{s.label}</p>
+              <p className="text-slate-400 dark:text-slate-500 text-[11px] mt-2">
                 {s.participants.length}명 · EP{s.episodes[0].ep}
                 {s.episodes.length > 1 ? `–${s.episodes.at(-1)!.ep}` : ''}
               </p>

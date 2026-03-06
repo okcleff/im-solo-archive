@@ -18,7 +18,7 @@ export default function SeasonTabs({ seasons, selectedSeasonNo, onChange }: Prop
   }, [selectedSeasonNo]);
 
   return (
-    <div className="border-b border-[#E8E7E3] bg-white sticky top-14 z-30">
+    <div className="border-b border-[#E8E7E3] dark:border-slate-700 bg-white dark:bg-slate-900 sticky top-14 z-30">
       <div className="max-w-6xl mx-auto px-4">
         <div
           role="tablist"
@@ -39,15 +39,17 @@ export default function SeasonTabs({ seasons, selectedSeasonNo, onChange }: Prop
                   focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rose-400 focus-visible:ring-inset
                   ${
                     active
-                      ? 'border-[#111] text-[#111]'
-                      : 'border-transparent text-slate-500 hover:text-[#444] hover:border-[#ccc]'
+                      ? 'border-[#111] dark:border-slate-100 text-[#111] dark:text-slate-100'
+                      : 'border-transparent text-slate-500 dark:text-slate-400 hover:text-[#444] dark:hover:text-slate-200 hover:border-[#ccc] dark:hover:border-slate-500'
                   }
                 `}
               >
                 {s.seasonNo}기
                 <span
                   className={`ml-1.5 text-[10px] px-1.5 py-0.5 rounded-full ${
-                    active ? 'bg-[#111] text-white' : 'bg-[#EEEDE9] text-slate-600'
+                    active
+                      ? 'bg-[#111] dark:bg-slate-100 text-white dark:text-slate-900'
+                      : 'bg-[#EEEDE9] dark:bg-slate-700 text-slate-600 dark:text-slate-300'
                   }`}
                 >
                   {s.participants.length}

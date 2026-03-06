@@ -147,7 +147,7 @@ export default function ParticipantCard({ participant: p, onClick, asLink = fals
       {/* ─── 텍스트 영역 ─── */}
       <div className="pt-3">
         <div className="flex items-center gap-1.5">
-          <h3 className="font-semibold text-[#111] text-sm tracking-tight truncate">{p.handle}</h3>
+          <h3 className="font-semibold text-[#111] dark:text-slate-100 text-sm tracking-tight truncate">{p.handle}</h3>
           {p.instagram && (
             <a
               href={`https://instagram.com/${p.instagram}`}
@@ -155,14 +155,14 @@ export default function ParticipantCard({ participant: p, onClick, asLink = fals
               rel="noopener noreferrer"
               aria-label={`${p.handle} 인스타그램`}
               onClick={(e) => e.stopPropagation()}
-              className="text-slate-500 hover:text-rose-600 transition-colors shrink-0"
+              className="text-slate-500 dark:text-slate-400 hover:text-rose-600 dark:hover:text-rose-400 transition-colors shrink-0"
             >
               <InstagramIcon className="w-3 h-3" />
             </a>
           )}
         </div>
         {p.profile.job && (
-          <p className="text-xs text-slate-500 mt-0.5 truncate">{p.profile.job}</p>
+          <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5 truncate">{p.profile.job}</p>
         )}
       </div>
     </>

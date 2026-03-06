@@ -61,7 +61,7 @@ export default async function SeasonPage({ params }: Props) {
 
       <section className="bg-[#0F0F0F] text-white py-12 px-4">
         <div className="max-w-6xl mx-auto">
-          <Link href="/" className="text-white/40 hover:text-white/80 text-xs tracking-wide mb-4 inline-flex items-center gap-1 transition-colors">
+          <Link href="/" className="text-white/70 hover:text-white/90 text-xs tracking-wide mb-4 inline-flex items-center gap-1 transition-colors">
             ← 전체 기수
           </Link>
           <h1 className="text-3xl sm:text-4xl font-bold mt-2 tracking-tight">나는 SOLO {season.seasonNo}기</h1>
@@ -79,7 +79,7 @@ export default async function SeasonPage({ params }: Props) {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10 sm:py-12 space-y-12">
         {males.length > 0 && (
           <section>
-            <h2 className="text-xs font-bold tracking-[0.18em] uppercase text-[#999] mb-5 flex items-center gap-2">
+            <h2 className="text-xs font-bold tracking-[0.18em] uppercase text-slate-500 dark:text-slate-400 mb-5 flex items-center gap-2">
               <span className="w-1 h-3 bg-blue-500 rounded-full" />
               남자 출연자 ({males.length}명)
             </h2>
@@ -92,7 +92,7 @@ export default async function SeasonPage({ params }: Props) {
         )}
         {females.length > 0 && (
           <section>
-            <h2 className="text-xs font-bold tracking-[0.18em] uppercase text-[#999] mb-5 flex items-center gap-2">
+            <h2 className="text-xs font-bold tracking-[0.18em] uppercase text-slate-500 dark:text-slate-400 mb-5 flex items-center gap-2">
               <span className="w-1 h-3 bg-rose-500 rounded-full" />
               여자 출연자 ({females.length}명)
             </h2>

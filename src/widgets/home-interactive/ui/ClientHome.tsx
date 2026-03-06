@@ -60,7 +60,7 @@ export default function ClientHome({ seasons }: Props) {
       />
 
       <div className="px-4 sm:px-6 pt-6 pb-3 max-w-6xl mx-auto">
-        <p className="text-xs text-[#999]">
+        <p className="text-xs text-slate-500 dark:text-slate-400">
           {currentSeason.label} · {filtered.length}명
           {searchQuery && (
             <span className="ml-2 text-rose-500">&ldquo;{searchQuery}&rdquo; 검색 결과</span>
@@ -69,14 +69,14 @@ export default function ClientHome({ seasons }: Props) {
       </div>
 
       {filtered.length === 0 ? (
-        <div className="py-16 text-center text-[#bbb] text-sm">검색 결과가 없습니다.</div>
+        <div className="py-16 text-center text-slate-400 dark:text-slate-500 text-sm">검색 결과가 없습니다.</div>
       ) : (
         <div className="max-w-6xl mx-auto px-4 sm:px-6 pb-14 space-y-10">
           {selectedGender === 'all' ? (
             <>
               {males.length > 0 && (
                 <section>
-                  <h2 className="text-xs font-bold tracking-[0.18em] uppercase text-[#999] mb-4 flex items-center gap-2">
+                  <h2 className="text-xs font-bold tracking-[0.18em] uppercase text-slate-500 dark:text-slate-400 mb-4 flex items-center gap-2">
                     <span className="w-1 h-3 bg-blue-500 rounded-full" />남 ({males.length})
                   </h2>
                   <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-5 sm:gap-6">
@@ -92,7 +92,7 @@ export default function ClientHome({ seasons }: Props) {
               )}
               {females.length > 0 && (
                 <section>
-                  <h2 className="text-xs font-bold tracking-[0.18em] uppercase text-[#999] mb-4 flex items-center gap-2">
+                  <h2 className="text-xs font-bold tracking-[0.18em] uppercase text-slate-500 dark:text-slate-400 mb-4 flex items-center gap-2">
                     <span className="w-1 h-3 bg-rose-500 rounded-full" />여 ({females.length})
                   </h2>
                   <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-5 sm:gap-6">

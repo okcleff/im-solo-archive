@@ -58,10 +58,13 @@ export default function SeasonNav({ seasons, currentSeasonNo }: Props) {
 
       {open && (
         <div
-          className="absolute right-0 top-full mt-2 bg-white rounded-2xl shadow-2xl border border-slate-100
+          className="absolute right-0 top-full mt-2
+            bg-white dark:bg-slate-800
+            rounded-2xl shadow-2xl
+            border border-slate-100 dark:border-slate-700
             p-4 z-50 min-w-[220px]"
         >
-          <p className="text-[10px] font-bold uppercase tracking-wider text-slate-400 mb-3 px-1">
+          <p className="text-[10px] font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500 mb-3 px-1">
             전체 기수 ({seasons.length}개)
           </p>
 
@@ -81,7 +84,7 @@ export default function SeasonNav({ seasons, currentSeasonNo }: Props) {
                     ${
                       isCurrent
                         ? 'bg-rose-500 text-white'
-                        : 'bg-slate-50 text-slate-700 hover:bg-rose-50 hover:text-rose-600'
+                        : 'bg-slate-50 dark:bg-slate-700 text-slate-700 dark:text-slate-200 hover:bg-rose-50 dark:hover:bg-rose-900/30 hover:text-rose-600 dark:hover:text-rose-300'
                     }
                   `}
                 >

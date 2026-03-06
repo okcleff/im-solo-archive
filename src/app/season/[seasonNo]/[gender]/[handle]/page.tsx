@@ -95,8 +95,10 @@ export default async function ParticipantPage({ params }: Props) {
   };
 
   const accentGrad = p.gender === 'M' ? 'from-[#1C2B4A] to-[#070E1D]' : 'from-[#C01442] to-[#7F0E2C]';
-  const accentText = p.gender === 'M' ? 'text-blue-700' : 'text-rose-600';
-  const accentBadge = p.gender === 'M' ? 'bg-blue-100 text-blue-700' : 'bg-rose-100 text-rose-600';
+  const accentText = p.gender === 'M' ? 'text-blue-700 dark:text-blue-400' : 'text-rose-600 dark:text-rose-400';
+  const accentBadge = p.gender === 'M'
+    ? 'bg-blue-100 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300'
+    : 'bg-rose-100 text-rose-600 dark:bg-rose-900/40 dark:text-rose-300';
 
   return (
     <>
@@ -138,7 +140,7 @@ export default async function ParticipantPage({ params }: Props) {
 
       <div className="max-w-2xl mx-auto px-4 py-8 space-y-6">
         {/* 기본 정보 */}
-        <section className="bg-white rounded-2xl shadow-sm border border-slate-100 p-6">
+        <section className="bg-white dark:bg-slate-900 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-800 p-6">
           <h2 className={`text-base font-bold mb-4 ${accentText}`}>기본 정보</h2>
           <dl className="grid grid-cols-2 gap-4">
             <InfoItem label="나이" value={age} />
@@ -154,7 +156,7 @@ export default async function ParticipantPage({ params }: Props) {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label={`${p.instagram} 인스타그램 (새 탭에서 열림)`}
-                    className="text-sm text-rose-600 underline hover:no-underline font-medium flex items-center gap-1"
+                    className="text-sm text-rose-600 dark:text-rose-400 underline hover:no-underline font-medium flex items-center gap-1"
                   >
                     <InstagramIcon className="w-3.5 h-3.5" />
                     @{p.instagram}
@@ -166,7 +168,7 @@ export default async function ParticipantPage({ params }: Props) {
         </section>
 
         {p.profile.traits.length > 0 && (
-          <section className="bg-white rounded-2xl shadow-sm border border-slate-100 p-6">
+          <section className="bg-white dark:bg-slate-900 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-800 p-6">
             <h2 className={`text-base font-bold mb-3 ${accentText}`}>특징</h2>
             <div className="flex flex-wrap gap-2">
               {p.profile.traits.map((t, i) => (
@@ -177,29 +179,29 @@ export default async function ParticipantPage({ params }: Props) {
         )}
 
         {p.profile.notableQuotes.length > 0 && (
-          <section className="bg-white rounded-2xl shadow-sm border border-slate-100 p-6">
+          <section className="bg-white dark:bg-slate-900 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-800 p-6">
             <h2 className={`text-base font-bold mb-3 ${accentText}`}>화제 멘트</h2>
             <ul className="space-y-3">
               {p.profile.notableQuotes.map((q, i) => (
-                <li key={i} className="text-slate-700 text-sm italic border-l-4 border-rose-300 pl-4 py-1">{q}</li>
+                <li key={i} className="text-slate-700 dark:text-slate-300 text-sm italic border-l-4 border-rose-300 dark:border-rose-700 pl-4 py-1">{q}</li>
               ))}
             </ul>
           </section>
         )}
 
         {p.profile.issues.length > 0 && (
-          <section className="bg-amber-50 rounded-2xl border border-amber-200 p-6">
-            <h2 className="text-base font-bold mb-3 text-amber-700">이슈 / 미확인 정보</h2>
+          <section className="bg-amber-50 dark:bg-amber-950/50 rounded-2xl border border-amber-200 dark:border-amber-900 p-6">
+            <h2 className="text-base font-bold mb-3 text-amber-700 dark:text-amber-400">이슈 / 미확인 정보</h2>
             <ul className="space-y-2">
               {p.profile.issues.map((issue, i) => (
-                <li key={i} className="text-sm text-amber-800 flex gap-2"><span aria-hidden="true">⚠</span><span>{issue}</span></li>
+                <li key={i} className="text-sm text-amber-800 dark:text-amber-300 flex gap-2"><span aria-hidden="true">⚠</span><span>{issue}</span></li>
               ))}
             </ul>
           </section>
         )}
 
         {p.sources.length > 0 && (
-          <section className="bg-white rounded-2xl shadow-sm border border-slate-100 p-6">
+          <section className="bg-white dark:bg-slate-900 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-800 p-6">
             <h2 className={`text-base font-bold mb-3 ${accentText}`}>출처</h2>
             <ul className="space-y-3">
               {p.sources.map((s, i) => (
@@ -213,7 +215,7 @@ export default async function ParticipantPage({ params }: Props) {
                   />
                   <a href={s.url} target="_blank" rel="noopener noreferrer"
                     aria-label={`${s.title} (새 탭에서 열림)`}
-                    className="text-sm text-blue-600 underline hover:no-underline leading-snug">
+                    className="text-sm text-blue-600 dark:text-blue-400 underline hover:no-underline leading-snug">
                     {s.title}
                   </a>
                 </li>
@@ -230,8 +232,8 @@ export default async function ParticipantPage({ params }: Props) {
 function InfoItem({ label, value }: { label: string; value: string | null | undefined }) {
   return (
     <div>
-      <dt className="text-xs font-semibold text-slate-500 uppercase tracking-wide">{label}</dt>
-      <dd className="text-sm text-slate-800 mt-0.5 font-medium">{value ?? '미공개'}</dd>
+      <dt className="text-xs font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wide">{label}</dt>
+      <dd className="text-sm text-slate-800 dark:text-slate-100 mt-0.5 font-medium">{value ?? '미공개'}</dd>
     </div>
   );
 }

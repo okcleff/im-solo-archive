@@ -19,7 +19,7 @@ export default function FilterBar({ gender, query, onGenderChange, onQueryChange
   const inputRef = useRef<HTMLInputElement>(null);
 
   return (
-    <div className="bg-white border-b border-[#E8E7E3] px-4 py-3">
+    <div className="bg-white dark:bg-slate-900 border-b border-[#E8E7E3] dark:border-slate-700 px-4 py-3">
       <div className="max-w-6xl mx-auto flex flex-wrap items-center gap-3">
         {/* 성별 필터 */}
         <div role="group" aria-label="성별 필터" className="flex gap-1.5 shrink-0">
@@ -32,8 +32,8 @@ export default function FilterBar({ gender, query, onGenderChange, onQueryChange
                 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rose-400
                 ${
                   gender === g.value
-                    ? 'bg-[#111] text-white'
-                    : 'bg-[#EEEDE9] text-[#555] hover:bg-[#E2E1DC]'
+                    ? 'bg-[#111] dark:bg-slate-100 text-white dark:text-slate-900'
+                    : 'bg-[#EEEDE9] dark:bg-slate-700 text-[#555] dark:text-slate-300 hover:bg-[#E2E1DC] dark:hover:bg-slate-600'
                 }`}
             >
               {g.label}
@@ -55,14 +55,18 @@ export default function FilterBar({ gender, query, onGenderChange, onQueryChange
             onChange={(e) => onQueryChange(e.target.value)}
             placeholder="이름, 직업, 지역 검색…"
             aria-label="출연자 검색"
-            className="w-full pl-9 pr-8 py-1.5 text-sm rounded-full border border-[#E0DFD9] bg-[#F5F4F0]
-              focus:outline-none focus:ring-2 focus:ring-[#111] focus:border-transparent transition-all"
+            className="w-full pl-9 pr-8 py-1.5 text-sm rounded-full
+              border border-[#E0DFD9] dark:border-slate-600
+              bg-[#F5F4F0] dark:bg-slate-800
+              text-[#111] dark:text-slate-100
+              placeholder:text-slate-400 dark:placeholder:text-slate-500
+              focus:outline-none focus:ring-2 focus:ring-[#111] dark:focus:ring-slate-400 focus:border-transparent transition-all"
           />
           {query && (
             <button
               onClick={() => { onQueryChange(''); inputRef.current?.focus(); }}
               aria-label="검색어 지우기"
-              className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 text-lg leading-none"
+              className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 text-lg leading-none"
             >
               ×
             </button>
