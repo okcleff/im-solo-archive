@@ -1,6 +1,6 @@
 'use client';
 
-import { useRef } from 'react';
+import { useRef, useState, useEffect } from 'react';
 
 interface Props {
   gender: string;
@@ -17,6 +17,18 @@ const GENDERS = [
 
 export default function FilterBar({ gender, query, onGenderChange, onQueryChange }: Props) {
   const inputRef = useRef<HTMLInputElement>(null);
+  const [localQuery, setLocalQuery] = useState(query);
+  const isComposingRef = useRef(false);
+
+  const submitQuery = () => {
+    onQueryChange(localQuery.trim());
+  };
+
+  useEffect(() => {
+    if (!isComposingRef.current) {
+      setLocalQuery(query);
+    }
+  }, [query]);
 
   return (
     <div className="px-4 pt-3">
@@ -38,7 +50,13 @@ export default function FilterBar({ gender, query, onGenderChange, onQueryChange
           ))}
         </div>
 
-        <div className="relative flex-1 min-w-[180px]">
+        <form
+          className="relative flex-1 min-w-[180px]"
+          onSubmit={(e) => {
+            e.preventDefault();
+            if (!isComposingRef.current) submitQuery();
+          }}
+        >
           <span className="absolute left-3 top-1/2 -translate-y-1/2 text-muted pointer-events-none">
             <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
               <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z" />
@@ -46,28 +64,50 @@ export default function FilterBar({ gender, query, onGenderChange, onQueryChange
           </span>
           <input
             ref={inputRef}
-            type="search"
-            value={query}
-            onChange={(e) => onQueryChange(e.target.value)}
-            placeholder="이름, 직업, 지역 검색"
+            type="text"
+            value={localQuery}
+            onCompositionStart={() => {
+              isComposingRef.current = true;
+            }}
+            onCompositionEnd={(e) => {
+              isComposingRef.current = false;
+              const v = e.currentTarget.value;
+              setLocalQuery(v);
+            }}
+            onChange={(e) => {
+              const v = e.target.value;
+              setLocalQuery(v);
+            }}
+            placeholder="전체 기수 검색 (예: 30기 영수, 25기 서울)"
             aria-label="출연자 검색"
-            className="w-full pl-9 pr-9 h-10 rounded-xl border border-[color:var(--line)]
+            className="w-full pl-9 pr-20 h-10 rounded-xl border border-[color:var(--line)]
               bg-[color:var(--surface-strong)] text-sm
               placeholder:text-muted focus:outline-none focus:ring-2 focus:ring-[color:var(--accent)]"
           />
-          {query ? (
+          <button
+            type="submit"
+            aria-label="검색 실행"
+            className="absolute right-3 top-1/2 -translate-y-1/2 text-muted hover:text-[color:var(--fg)] transition-colors"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z" />
+            </svg>
+          </button>
+          {localQuery ? (
             <button
+              type="button"
               onClick={() => {
+                setLocalQuery('');
                 onQueryChange('');
                 inputRef.current?.focus();
               }}
               aria-label="검색어 지우기"
-              className="absolute right-3 top-1/2 -translate-y-1/2 text-muted hover:text-[color:var(--fg)] text-lg leading-none"
+              className="absolute right-9 top-1/2 -translate-y-1/2 text-muted hover:text-[color:var(--fg)] text-lg leading-none"
             >
               x
             </button>
           ) : null}
-        </div>
+        </form>
       </div>
     </div>
   );

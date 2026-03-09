@@ -21,11 +21,16 @@ export default function ClientHome({ seasons }: Props) {
   const selectedSeasonNo = Number(searchParams.get('season') ?? seasons[0].seasonNo);
   const selectedGender = searchParams.get('gender') ?? 'all';
   const searchQuery = searchParams.get('q') ?? '';
+  const hasQuery = searchQuery.trim().length > 0;
 
   const [modalParticipant, setModalParticipant] = useState<Participant | null>(null);
 
   const currentSeason = seasons.find((s) => s.seasonNo === selectedSeasonNo) ?? seasons[0];
-  const filtered = filterParticipants(currentSeason.participants, selectedGender, searchQuery);
+  const searchScopeParticipants = hasQuery
+    ? seasons.flatMap((s) => s.participants)
+    : currentSeason.participants;
+
+  const filtered = filterParticipants(searchScopeParticipants, selectedGender, searchQuery);
   const males = filtered.filter((p) => p.gender === 'M');
   const females = filtered.filter((p) => p.gender === 'F');
 
@@ -61,7 +66,7 @@ export default function ClientHome({ seasons }: Props) {
 
       <div className="px-4 sm:px-6 pt-6 pb-2 max-w-6xl mx-auto">
         <p className="text-xs text-muted">
-          {currentSeason.label} · {filtered.length}명
+          {hasQuery ? `전체 기수 검색 · ${filtered.length}명` : `${currentSeason.label} · ${filtered.length}명`}
           {searchQuery ? <span className="ml-2 text-[color:var(--accent)]">"{searchQuery}" 검색 결과</span> : null}
         </p>
       </div>
