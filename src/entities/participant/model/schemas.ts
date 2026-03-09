@@ -51,3 +51,13 @@ export const ShowInfoSchema = z.object({
   titleEn: z.string(),
   officialVod: z.string().url(),
 });
+
+export type Gender = z.infer<typeof GenderSchema>;
+export type Confidence = z.infer<typeof ConfidenceSchema>;
+export type Photo = z.infer<typeof PhotoSchema>;
+export type Source = z.infer<typeof SourceSchema>;
+export type Profile = z.infer<typeof ProfileSchema>;
+export type Participant = z.infer<typeof ParticipantSchema>;
+export type Episode = z.infer<typeof EpisodeSchema>;
+export type Season = z.infer<typeof SeasonSchema>;
+export type ShowInfo = z.infer<typeof ShowInfoSchema>;

@@ -1,7 +1,7 @@
 import 'server-only';
 import fs from 'fs';
 import path from 'path';
-import type { Season, ShowInfo } from '../model/types';
+import type { Season, ShowInfo } from '../model/schemas';
 import { SeasonSchema, ShowInfoSchema } from '../model/schemas';
 
 export const SHOW_INFO: ShowInfo = ShowInfoSchema.parse({

@@ -1,4 +1,4 @@
-import type { Participant, Season } from '../model/types';
+import type { Participant, Season } from '../model/schemas';
 
 export function getParticipantUrl(p: Participant): string {
   return `/season/${p.seasonNo}/${p.gender.toLowerCase()}/${encodeURIComponent(p.handle)}`;

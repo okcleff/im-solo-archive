@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import type { Participant } from '../model/types';
+import type { Participant } from '../model/schemas';
 import { getParticipantUrl } from '../lib/helpers';
 import { calcKoreanAge } from '@/shared/lib/utils';
 
