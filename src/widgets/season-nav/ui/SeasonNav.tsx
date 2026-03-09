@@ -6,7 +6,6 @@ import type { Season } from '@/entities/participant';
 
 interface Props {
   seasons: Season[];
-  /** 현재 경로의 시즌 번호 (해당 시즌 하이라이트용) */
   currentSeasonNo?: number;
 }
 
@@ -17,7 +16,6 @@ export default function SeasonNav({ seasons, currentSeasonNo }: Props) {
 
   const close = useCallback(() => setOpen(false), []);
 
-  // 외부 클릭 / ESC 닫기
   useEffect(() => {
     if (!open) return;
     const onKey = (e: KeyboardEvent) => e.key === 'Escape' && close();
@@ -39,17 +37,19 @@ export default function SeasonNav({ seasons, currentSeasonNo }: Props) {
         aria-expanded={open}
         aria-haspopup="true"
         aria-label="기수별 페이지 열기"
-        className="flex items-center gap-1 text-sm text-slate-300 hover:text-white transition-colors
-          focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rose-400 rounded px-1"
+        className="h-9 px-3 rounded-xl text-sm border border-[color:var(--line)]
+          bg-[color:var(--surface-strong)] text-muted hover:text-[color:var(--fg)]
+          inline-flex items-center gap-1.5 transition-colors
+          focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[color:var(--accent)]"
       >
-        기수별
+        기수
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className={`w-3.5 h-3.5 transition-transform duration-150 ${open ? 'rotate-180' : ''}`}
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
-          strokeWidth={2.5}
+          strokeWidth={2.25}
           aria-hidden="true"
         >
           <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
@@ -57,19 +57,12 @@ export default function SeasonNav({ seasons, currentSeasonNo }: Props) {
       </button>
 
       {open && (
-        <div
-          className="absolute right-0 top-full mt-2
-            bg-white dark:bg-slate-800
-            rounded-2xl shadow-2xl
-            border border-slate-100 dark:border-slate-700
-            p-4 z-50 min-w-[220px]"
-        >
-          <p className="text-[10px] font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500 mb-3 px-1">
-            전체 기수 ({seasons.length}개)
+        <div className="absolute right-0 top-full mt-2 p-3 w-[250px] rounded-2xl surface shadow-2xl z-50 animate-float-in">
+          <p className="text-[10px] uppercase tracking-[0.18em] text-muted mb-2 px-1">
+            전체 기수 ({seasons.length})
           </p>
 
-          {/* 기수 그리드: 4열, 많은 기수도 스크롤 대응 */}
-          <div className="grid grid-cols-4 gap-1.5 max-h-[60vh] overflow-y-auto pt-2 pr-0.5">
+          <div className="grid grid-cols-5 gap-1.5 max-h-[58vh] overflow-y-auto pr-0.5">
             {seasons.map((s) => {
               const isLatest = s.seasonNo === latestSeasonNo;
               const isCurrent = s.seasonNo === currentSeasonNo;
@@ -78,22 +71,18 @@ export default function SeasonNav({ seasons, currentSeasonNo }: Props) {
                   key={s.seasonNo}
                   href={`/season/${s.seasonNo}`}
                   onClick={close}
-                  className={`
-                    relative flex items-center justify-center rounded-xl py-2.5 px-1 text-xs font-semibold
-                    transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rose-400
-                    ${
-                      isCurrent
-                        ? 'bg-rose-500 text-white'
-                        : 'bg-slate-50 dark:bg-slate-700 text-slate-700 dark:text-slate-200 hover:bg-rose-50 dark:hover:bg-rose-900/30 hover:text-rose-600 dark:hover:text-rose-300'
-                    }
-                  `}
+                  className={
+                    isCurrent
+                      ? 'relative h-9 rounded-xl text-xs font-semibold grid place-items-center bg-[color:var(--accent)] text-white'
+                      : 'relative h-9 rounded-xl text-xs font-semibold grid place-items-center chip hover:bg-[color:var(--surface-strong)] hover:text-[color:var(--fg)] transition-colors'
+                  }
                 >
-                  {isLatest && !isCurrent && (
-                    <span className="absolute -top-1.5 -right-1.5 text-[8px] bg-rose-500 text-white px-1.5 rounded-full leading-[14px]">
-                      최신
+                  {isLatest && !isCurrent ? (
+                    <span className="absolute -top-1.5 -right-1.5 text-[8px] leading-[1] px-1.5 py-1 rounded-full bg-[color:var(--accent-2)] text-white">
+                      N
                     </span>
-                  )}
-                  {s.seasonNo}기
+                  ) : null}
+                  {s.seasonNo}
                 </Link>
               );
             })}

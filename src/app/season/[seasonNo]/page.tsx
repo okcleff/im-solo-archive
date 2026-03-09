@@ -60,16 +60,16 @@ export default async function SeasonPage({ params }: Props) {
     <>
       <JsonLd data={jsonLd} />
 
-      <section className="bg-[#0F0F0F] text-white py-12 px-4">
-        <div className="max-w-6xl mx-auto">
-          <Link href="/" className="text-white/70 hover:text-white/90 text-xs tracking-wide mb-4 inline-flex items-center gap-1 transition-colors">
+      <section className="px-4 pt-8 sm:pt-12">
+        <div className="max-w-6xl mx-auto rounded-[28px] surface p-6 sm:p-9">
+          <Link href="/" className="text-xs text-muted hover:text-[color:var(--fg)] inline-flex items-center gap-1">
             ← 전체 기수
           </Link>
-          <h1 className="text-3xl sm:text-4xl font-bold mt-2 tracking-tight">나는 SOLO {season.seasonNo}기</h1>
-          <p className="text-white/50 mt-1.5">{season.label}</p>
-          <div className="flex flex-wrap gap-2 mt-3">
+          <h1 className="mt-3 text-4xl sm:text-5xl font-[var(--font-title)] tracking-tight">나는 SOLO {season.seasonNo}기</h1>
+          <p className="text-muted mt-2">{season.label}</p>
+          <div className="flex flex-wrap gap-2 mt-5">
             {season.episodes.map((e) => (
-              <span key={e.ep} className="bg-white/[0.07] border border-white/[0.08] text-white/40 text-xs px-2.5 py-1 rounded-full">
+              <span key={e.ep} className="chip text-xs px-2.5 py-1 rounded-full">
                 EP{e.ep} · {e.airDate}
               </span>
             ))}
@@ -77,33 +77,32 @@ export default async function SeasonPage({ params }: Props) {
         </div>
       </section>
 
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10 sm:py-12 space-y-12">
-        {males.length > 0 && (
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10 sm:py-12 space-y-10">
+        {males.length > 0 ? (
           <section>
-            <h2 className="text-xs font-bold tracking-[0.18em] uppercase text-slate-500 dark:text-slate-400 mb-5 flex items-center gap-2">
-              <span className="w-1 h-3 bg-blue-500 rounded-full" />
-              남자 출연자 ({males.length}명)
+            <h2 className="text-[11px] font-bold tracking-[0.18em] uppercase text-muted mb-4 flex items-center gap-2">
+              <span className="w-1 h-3 bg-blue-500 rounded-full" />남자 출연자 ({males.length}명)
             </h2>
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-5 sm:gap-6">
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-5">
               {males.map((p) => (
                 <ParticipantCard key={p.handle} participant={p} asLink />
               ))}
             </div>
           </section>
-        )}
-        {females.length > 0 && (
+        ) : null}
+
+        {females.length > 0 ? (
           <section>
-            <h2 className="text-xs font-bold tracking-[0.18em] uppercase text-slate-500 dark:text-slate-400 mb-5 flex items-center gap-2">
-              <span className="w-1 h-3 bg-rose-500 rounded-full" />
-              여자 출연자 ({females.length}명)
+            <h2 className="text-[11px] font-bold tracking-[0.18em] uppercase text-muted mb-4 flex items-center gap-2">
+              <span className="w-1 h-3 bg-rose-500 rounded-full" />여자 출연자 ({females.length}명)
             </h2>
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-5 sm:gap-6">
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-5">
               {females.map((p) => (
                 <ParticipantCard key={p.handle} participant={p} asLink />
               ))}
             </div>
           </section>
-        )}
+        ) : null}
       </div>
     </>
   );
