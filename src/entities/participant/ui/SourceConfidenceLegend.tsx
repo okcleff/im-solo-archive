@@ -12,7 +12,13 @@ export default function SourceConfidenceLegend({ className }: { className?: stri
   return (
     <div className={`flex items-center gap-1.5 text-xs text-muted ${className ?? ''}`}>
       <Tooltip content={tooltipContent}>
-        <span className="cursor-help text-muted hover:text-[color:var(--fg)] transition-colors">?</span>
+        <button
+          type="button"
+          aria-label="출처 신뢰도 설명 보기"
+          className="cursor-help text-muted hover:text-[color:var(--fg)] transition-colors"
+        >
+          ?
+        </button>
       </Tooltip>
       <span className="text-emerald-500">●</span> 고신뢰 · <span className="text-amber-500">●</span> 중간 신뢰 ·{' '}
       <span className="text-rose-400">●</span> 낮은 신뢰
