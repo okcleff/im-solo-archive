@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { cookies } from "next/headers";
 import "./globals.css";
 import { SEASONS_DATA, SHOW_INFO } from "@/entities/participant/lib/data";
 import { SeasonNav } from "@/widgets/season-nav";
@@ -36,50 +35,16 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true },
 };
 
-export default async function RootLayout({
+export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  const cookieStore = await cookies();
-  const storedTheme = cookieStore.get("theme")?.value;
-  const initialDataTheme =
-    storedTheme === "dark"
-      ? "forest"
-      : storedTheme === "light"
-        ? "bumblebee"
-        : undefined;
-  const initialColorScheme =
-    storedTheme === "dark"
-      ? "dark"
-      : storedTheme === "light"
-        ? "light"
-        : undefined;
-
   return (
-    <html
-      lang="ko"
-      data-theme={initialDataTheme}
-      style={
-        initialColorScheme ? { colorScheme: initialColorScheme } : undefined
-      }
-      suppressHydrationWarning
-    >
-      <head>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `(function(){var s=localStorage.getItem('theme');var e=document.documentElement;if(s==='dark'){e.setAttribute('data-theme','forest');e.style.colorScheme='dark';document.cookie='theme=dark; path=/; max-age=31536000; samesite=lax';}else if(s==='light'){e.setAttribute('data-theme','bumblebee');e.style.colorScheme='light';document.cookie='theme=light; path=/; max-age=31536000; samesite=lax';}else{e.removeAttribute('data-theme');e.style.colorScheme=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.cookie='theme=; path=/; max-age=0; samesite=lax';}})();`,
-          }}
-        />
-      </head>
+    <html lang="ko" suppressHydrationWarning>
+      <head />
       <body className="app-shell font-[var(--font-sans)]">
-        <ThemeProvider
-          initialTheme={
-            storedTheme === "light" || storedTheme === "dark"
-              ? storedTheme
-              : "system"
-          }
-        >
+        <ThemeProvider>
           <header className="sticky top-0 z-40 border-b border-base-300/70 bg-base-100/85 backdrop-blur-xl">
             <div className="navbar max-w-6xl mx-auto min-h-16 px-4">
               <div className="navbar-start">
