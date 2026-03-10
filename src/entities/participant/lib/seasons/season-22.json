@@ -75,7 +75,8 @@
           "url": "https://www.chosun.com/entertainments/broadcast/2024/08/22/V6XZV3Z7F5E7L6Z7Z7Z7Z7Z7Z7/",
           "confidence": "high"
         }
-      ]
+      ],
+      "finalChoice": null
     },
     {
       "seasonNo": 22,
@@ -103,7 +104,8 @@
           "url": "https://www.sedaily.com/NewsView/2DDUV6Z7Z7",
           "confidence": "high"
         }
-      ]
+      ],
+      "finalChoice": null
     },
     {
       "seasonNo": 22,
@@ -131,7 +133,8 @@
           "url": "https://www.dailycc.net/news/articleView.html?idxno=805412",
           "confidence": "high"
         }
-      ]
+      ],
+      "finalChoice": null
     },
     {
       "seasonNo": 22,
@@ -159,7 +162,8 @@
           "url": "https://www.nbntv.co.kr/news/articleView.html?idxno=3023451",
           "confidence": "high"
         }
-      ]
+      ],
+      "finalChoice": null
     },
     {
       "seasonNo": 22,
@@ -190,7 +194,8 @@
           "url": "https://www.news1.kr/articles/5567891",
           "confidence": "high"
         }
-      ]
+      ],
+      "finalChoice": null
     },
     {
       "seasonNo": 22,
@@ -219,7 +224,8 @@
           "url": "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202408290012",
           "confidence": "high"
         }
-      ]
+      ],
+      "finalChoice": null
     },
     {
       "seasonNo": 22,
@@ -247,7 +253,8 @@
           "url": "https://www.xportsnews.com/article/1894512",
           "confidence": "high"
         }
-      ]
+      ],
+      "finalChoice": null
     },
     {
       "seasonNo": 22,
@@ -278,7 +285,8 @@
           "url": "https://www.chosun.com/entertainments/broadcast/2024/08/29/X7Z7Z7Z7Z7Z7Z7Z7Z7Z7Z7Z7Z7/",
           "confidence": "high"
         }
-      ]
+      ],
+      "finalChoice": null
     },
     {
       "seasonNo": 22,
@@ -307,7 +315,8 @@
           "url": "https://www.dailycc.net/news/articleView.html?idxno=805412",
           "confidence": "high"
         }
-      ]
+      ],
+      "finalChoice": null
     },
     {
       "seasonNo": 22,
@@ -336,7 +345,8 @@
           "url": "https://www.news1.kr/articles/5525412",
           "confidence": "high"
         }
-      ]
+      ],
+      "finalChoice": null
     },
     {
       "seasonNo": 22,
@@ -365,7 +375,8 @@
           "url": "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202410240015",
           "confidence": "high"
         }
-      ]
+      ],
+      "finalChoice": null
     },
     {
       "seasonNo": 22,
@@ -396,7 +407,8 @@
           "url": "https://www.nbntv.co.kr/news/articleView.html?idxno=3023881",
           "confidence": "high"
         }
-      ]
+      ],
+      "finalChoice": null
     },
     {
       "seasonNo": 22,
@@ -427,7 +439,8 @@
           "url": "https://www.sedaily.com/NewsView/2DDUY7Z7Z7",
           "confidence": "high"
         }
-      ]
+      ],
+      "finalChoice": null
     },
     {
       "seasonNo": 22,
@@ -456,7 +469,8 @@
           "url": "https://www.news1.kr/articles/5532145",
           "confidence": "high"
         }
-      ]
+      ],
+      "finalChoice": null
     }
   ]
 }

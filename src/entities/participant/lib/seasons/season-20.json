@@ -1,7 +1,17 @@
 {
   "seasonNo": 20,
   "label": "20기",
-  "episodes": [],
+  "episodes": [
+    { "ep": 146, "airDate": "2024-04-24" },
+    { "ep": 147, "airDate": "2024-05-01" },
+    { "ep": 148, "airDate": "2024-05-08" },
+    { "ep": 149, "airDate": "2024-05-15" },
+    { "ep": 150, "airDate": "2024-05-22" },
+    { "ep": 151, "airDate": "2024-05-29" },
+    { "ep": 152, "airDate": "2024-06-05" },
+    { "ep": 153, "airDate": "2024-06-12" },
+    { "ep": 154, "airDate": "2024-06-19" }
+  ],
   "participants": [
     {
       "seasonNo": 20,
@@ -71,7 +81,8 @@
           "url": "https://blog.naver.com/okjoa012/223427969851",
           "confidence": "medium"
         }
-      ]
+      ],
+      "finalChoice": null
     },
     {
       "seasonNo": 20,
@@ -136,7 +147,8 @@
           "url": "https://blog.naver.com/okjoa012/223427969851",
           "confidence": "medium"
         }
-      ]
+      ],
+      "finalChoice": null
     },
     {
       "seasonNo": 20,
@@ -201,7 +213,8 @@
           "url": "https://blog.naver.com/okjoa012/223427969851",
           "confidence": "medium"
         }
-      ]
+      ],
+      "finalChoice": null
     },
     {
       "seasonNo": 20,
@@ -266,7 +279,8 @@
           "url": "https://blog.naver.com/okjoa012/223427969851",
           "confidence": "medium"
         }
-      ]
+      ],
+      "finalChoice": null
     },
     {
       "seasonNo": 20,
@@ -331,7 +345,8 @@
           "url": "https://blog.naver.com/okjoa012/223427969851",
           "confidence": "medium"
         }
-      ]
+      ],
+      "finalChoice": null
     },
     {
       "seasonNo": 20,
@@ -396,7 +411,8 @@
           "url": "https://blog.naver.com/okjoa012/223427969851",
           "confidence": "medium"
         }
-      ]
+      ],
+      "finalChoice": null
     },
     {
       "seasonNo": 20,
@@ -463,7 +479,8 @@
           "url": "https://blog.naver.com/okjoa012/223427969851",
           "confidence": "medium"
         }
-      ]
+      ],
+      "finalChoice": null
     },
     {
       "seasonNo": 20,
@@ -528,7 +545,8 @@
           "url": "https://blog.naver.com/okjoa012/223427969851",
           "confidence": "medium"
         }
-      ]
+      ],
+      "finalChoice": null
     },
     {
       "seasonNo": 20,
@@ -588,7 +606,8 @@
           "url": "https://blog.naver.com/okjoa012/223427969851",
           "confidence": "medium"
         }
-      ]
+      ],
+      "finalChoice": null
     },
     {
       "seasonNo": 20,
@@ -648,7 +667,8 @@
           "url": "https://blog.naver.com/okjoa012/223427969851",
           "confidence": "medium"
         }
-      ]
+      ],
+      "finalChoice": null
     },
     {
       "seasonNo": 20,
@@ -713,7 +733,8 @@
           "url": "https://blog.naver.com/okjoa012/223427969851",
           "confidence": "medium"
         }
-      ]
+      ],
+      "finalChoice": null
     },
     {
       "seasonNo": 20,
@@ -778,7 +799,8 @@
           "url": "https://blog.naver.com/okjoa012/223427969851",
           "confidence": "medium"
         }
-      ]
+      ],
+      "finalChoice": null
     },
     {
       "seasonNo": 20,
@@ -806,7 +828,8 @@
           "url": "https://blog.naver.com/schwabingstory/223437354588",
           "confidence": "medium"
         }
-      ]
+      ],
+      "finalChoice": null
     }
   ]
 }

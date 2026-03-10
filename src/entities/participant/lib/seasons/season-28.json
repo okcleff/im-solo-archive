@@ -2,24 +2,60 @@
   "seasonNo": 28,
   "label": "28기 (돌싱 특집)",
   "episodes": [
-    { "ep": 217, "airDate": "2025-09-03" },
-    { "ep": 218, "airDate": "2025-09-10" },
-    { "ep": 219, "airDate": "2025-09-17" },
-    { "ep": 220, "airDate": "2025-09-24" },
-    { "ep": 221, "airDate": "2025-10-01" },
-    { "ep": 222, "airDate": "2025-10-08" },
-    { "ep": 223, "airDate": "2025-10-15" },
-    { "ep": 224, "airDate": "2025-10-22" },
-    { "ep": 225, "airDate": "2025-10-29" },
-    { "ep": 226, "airDate": "2025-11-05" },
-    { "ep": 227, "airDate": "2025-11-12" }
+    {
+      "ep": 217,
+      "airDate": "2025-09-03"
+    },
+    {
+      "ep": 218,
+      "airDate": "2025-09-10"
+    },
+    {
+      "ep": 219,
+      "airDate": "2025-09-17"
+    },
+    {
+      "ep": 220,
+      "airDate": "2025-09-24"
+    },
+    {
+      "ep": 221,
+      "airDate": "2025-10-01"
+    },
+    {
+      "ep": 222,
+      "airDate": "2025-10-08"
+    },
+    {
+      "ep": 223,
+      "airDate": "2025-10-15"
+    },
+    {
+      "ep": 224,
+      "airDate": "2025-10-22"
+    },
+    {
+      "ep": 225,
+      "airDate": "2025-10-29"
+    },
+    {
+      "ep": 226,
+      "airDate": "2025-11-05"
+    },
+    {
+      "ep": 227,
+      "airDate": "2025-11-12"
+    }
   ],
   "participants": [
     {
       "seasonNo": 28,
       "gender": "M",
       "handle": "영수",
-      "photo": { "src": null, "alt": "나는 SOLO 28기 영수" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 28기 영수"
+      },
       "instagram": "realmikekim",
       "finalChoice": null,
       "profile": {
@@ -46,14 +82,20 @@
       "seasonNo": 28,
       "gender": "M",
       "handle": "영호",
-      "photo": { "src": null, "alt": "나는 SOLO 28기 영호" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 28기 영호"
+      },
       "instagram": "seokjinh",
       "finalChoice": "옥순",
       "profile": {
         "birthYear": 1989,
         "job": "잠수·인명구조 장비 납품 사업",
         "region": null,
-        "traits": ["3년 사실혼 후 이혼", "자녀 있는 상대도 가능 언급"],
+        "traits": [
+          "3년 사실혼 후 이혼",
+          "자녀 있는 상대도 가능 언급"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -69,14 +111,20 @@
       "seasonNo": 28,
       "gender": "M",
       "handle": "영식",
-      "photo": { "src": null, "alt": "나는 SOLO 28기 영식" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 28기 영식"
+      },
       "instagram": "djmbog",
       "finalChoice": null,
       "profile": {
         "birthYear": 1980,
         "job": "도시계획 엔지니어",
         "region": "광주",
-        "traits": ["18세 딸 양육", "딸 권유로 출연"],
+        "traits": [
+          "18세 딸 양육",
+          "딸 권유로 출연"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -92,14 +140,21 @@
       "seasonNo": 28,
       "gender": "M",
       "handle": "영철",
-      "photo": { "src": null, "alt": "나는 SOLO 28기 영철" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 28기 영철"
+      },
       "instagram": null,
       "finalChoice": "영자",
       "profile": {
         "birthYear": 1983,
         "job": "연구원",
         "region": "대전",
-        "traits": ["충남 서산 출신", "한양대 공학박사", "자가 4채 보유 언급"],
+        "traits": [
+          "충남 서산 출신",
+          "한양대 공학박사",
+          "자가 4채 보유 언급"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -115,14 +170,20 @@
       "seasonNo": 28,
       "gender": "M",
       "handle": "광수",
-      "photo": { "src": null, "alt": "나는 SOLO 28기 광수" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 28기 광수"
+      },
       "instagram": "likewisesyx",
       "finalChoice": "정희",
       "profile": {
         "birthYear": 1981,
         "job": "음반 제작 총괄 이사",
         "region": null,
-        "traits": ["딸을 생후 6개월부터 양육", "현재 고3 딸"],
+        "traits": [
+          "딸을 생후 6개월부터 양육",
+          "현재 고3 딸"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -138,14 +199,20 @@
       "seasonNo": 28,
       "gender": "M",
       "handle": "상철",
-      "photo": { "src": null, "alt": "나는 SOLO 28기 상철" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 28기 상철"
+      },
       "instagram": "ys_2ternal",
       "finalChoice": "정숙",
       "profile": {
         "birthYear": 1983,
         "job": "대학병원 교직원",
         "region": "충북 청주",
-        "traits": ["정년보장 직장", "사학연금"],
+        "traits": [
+          "정년보장 직장",
+          "사학연금"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -161,14 +228,19 @@
       "seasonNo": 28,
       "gender": "M",
       "handle": "경수",
-      "photo": { "src": null, "alt": "나는 SOLO 28기 경수" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 28기 경수"
+      },
       "instagram": "g.jeonghyeok",
       "finalChoice": null,
       "profile": {
         "birthYear": 1978,
         "job": "스포츠 영상 스타트업·축구 교실 운영",
         "region": null,
-        "traits": ["한국 1호 유럽 진출 골키퍼 출신"],
+        "traits": [
+          "한국 1호 유럽 진출 골키퍼 출신"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -180,19 +252,23 @@
         }
       ]
     },
-
     {
       "seasonNo": 28,
       "gender": "F",
       "handle": "영숙",
-      "photo": { "src": null, "alt": "나는 SOLO 28기 영숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 28기 영숙"
+      },
       "instagram": "once_only_life",
       "finalChoice": null,
       "profile": {
         "birthYear": 1986,
         "job": "간호사",
         "region": null,
-        "traits": ["두 자녀 양육"],
+        "traits": [
+          "두 자녀 양육"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -208,14 +284,19 @@
       "seasonNo": 28,
       "gender": "F",
       "handle": "정숙",
-      "photo": { "src": null, "alt": "나는 SOLO 28기 정숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 28기 정숙"
+      },
       "instagram": "kimjiea7",
       "finalChoice": "상철",
       "profile": {
         "birthYear": 1988,
         "job": "회계사",
         "region": null,
-        "traits": ["책임감 강한 남자 선호"],
+        "traits": [
+          "책임감 강한 남자 선호"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -231,14 +312,20 @@
       "seasonNo": 28,
       "gender": "F",
       "handle": "순자",
-      "photo": { "src": null, "alt": "나는 SOLO 28기 순자" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 28기 순자"
+      },
       "instagram": "yuriverre_",
       "finalChoice": null,
       "profile": {
         "birthYear": 1987,
         "job": "수학학원 강사",
         "region": null,
-        "traits": ["6세 아들 양육", "소송 이혼"],
+        "traits": [
+          "6세 아들 양육",
+          "소송 이혼"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -254,14 +341,20 @@
       "seasonNo": 28,
       "gender": "F",
       "handle": "영자",
-      "photo": { "src": null, "alt": "나는 SOLO 28기 영자" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 28기 영자"
+      },
       "instagram": "cutemina0414",
       "finalChoice": "영철",
       "profile": {
         "birthYear": 1983,
         "job": "피아노 학원 원장",
         "region": null,
-        "traits": ["온라인 쇼핑몰 운영", "베이킹숍 운영"],
+        "traits": [
+          "온라인 쇼핑몰 운영",
+          "베이킹숍 운영"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -277,14 +370,19 @@
       "seasonNo": 28,
       "gender": "F",
       "handle": "옥순",
-      "photo": { "src": null, "alt": "나는 SOLO 28기 옥순" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 28기 옥순"
+      },
       "instagram": "yelimy",
       "finalChoice": "영호",
       "profile": {
         "birthYear": 1991,
         "job": "학원 팀장급 강사",
         "region": null,
-        "traits": ["7세 딸 양육"],
+        "traits": [
+          "7세 딸 양육"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -300,14 +398,20 @@
       "seasonNo": 28,
       "gender": "F",
       "handle": "현숙",
-      "photo": { "src": null, "alt": "나는 SOLO 28기 현숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 28기 현숙"
+      },
       "instagram": "emmma06_wow",
       "finalChoice": null,
       "profile": {
         "birthYear": 1988,
         "job": "플로리스트",
         "region": null,
-        "traits": ["세 자녀 양육", "부동산 경매 투자"],
+        "traits": [
+          "세 자녀 양육",
+          "부동산 경매 투자"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -323,14 +427,20 @@
       "seasonNo": 28,
       "gender": "F",
       "handle": "정희",
-      "photo": { "src": null, "alt": "나는 SOLO 28기 정희" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 28기 정희"
+      },
       "instagram": "ella_miso",
       "finalChoice": "광수",
       "profile": {
         "birthYear": 1985,
         "job": "치과의사",
         "region": "서울",
-        "traits": ["서울 개원", "딸 양육"],
+        "traits": [
+          "서울 개원",
+          "딸 양육"
+        ],
         "notableQuotes": [],
         "issues": []
       },

@@ -2,23 +2,56 @@
   "seasonNo": 29,
   "label": "29기 (연상연하 특집)",
   "episodes": [
-    { "ep": 228, "airDate": "2025-11-19" },
-    { "ep": 229, "airDate": "2025-11-26" },
-    { "ep": 230, "airDate": "2025-12-03" },
-    { "ep": 231, "airDate": "2025-12-10" },
-    { "ep": 232, "airDate": "2025-12-17" },
-    { "ep": 233, "airDate": "2025-12-24" },
-    { "ep": 234, "airDate": "2025-12-31" },
-    { "ep": 235, "airDate": "2026-01-07" },
-    { "ep": 236, "airDate": "2026-01-14" },
-    { "ep": 237, "airDate": "2026-01-21" }
+    {
+      "ep": 228,
+      "airDate": "2025-11-19"
+    },
+    {
+      "ep": 229,
+      "airDate": "2025-11-26"
+    },
+    {
+      "ep": 230,
+      "airDate": "2025-12-03"
+    },
+    {
+      "ep": 231,
+      "airDate": "2025-12-10"
+    },
+    {
+      "ep": 232,
+      "airDate": "2025-12-17"
+    },
+    {
+      "ep": 233,
+      "airDate": "2025-12-24"
+    },
+    {
+      "ep": 234,
+      "airDate": "2025-12-31"
+    },
+    {
+      "ep": 235,
+      "airDate": "2026-01-07"
+    },
+    {
+      "ep": 236,
+      "airDate": "2026-01-14"
+    },
+    {
+      "ep": 237,
+      "airDate": "2026-01-21"
+    }
   ],
   "participants": [
     {
       "seasonNo": 29,
       "gender": "F",
       "handle": "영숙",
-      "photo": { "src": null, "alt": "나는 SOLO 29기 영숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 29기 영숙"
+      },
       "instagram": null,
       "finalChoice": null,
       "profile": {
@@ -50,16 +83,26 @@
       "seasonNo": 29,
       "gender": "F",
       "handle": "정숙",
-      "photo": { "src": null, "alt": "나는 SOLO 29기 정숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 29기 정숙"
+      },
       "instagram": null,
       "finalChoice": "영철",
       "profile": {
         "birthYear": 1988,
         "job": "대구 영어 학원 운영",
         "region": "대구",
-        "traits": ["연상녀 캐릭터", "차분한 리더형 성격"],
-        "notableQuotes": ["정말 사랑한다면 길을 만들고 싶다"],
-        "issues": ["영철과 결혼 커플"]
+        "traits": [
+          "연상녀 캐릭터",
+          "차분한 리더형 성격"
+        ],
+        "notableQuotes": [
+          "정말 사랑한다면 길을 만들고 싶다"
+        ],
+        "issues": [
+          "영철과 결혼 커플"
+        ]
       },
       "sources": [
         {
@@ -73,14 +116,20 @@
       "seasonNo": 29,
       "gender": "F",
       "handle": "순자",
-      "photo": { "src": null, "alt": "나는 SOLO 29기 순자" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 29기 순자"
+      },
       "instagram": null,
       "finalChoice": null,
       "profile": {
         "birthYear": 1990,
         "job": "건설회사 분양관리팀",
         "region": "서울·광주",
-        "traits": ["건설회사 근무", "차분한 성격"],
+        "traits": [
+          "건설회사 근무",
+          "차분한 성격"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -96,15 +145,23 @@
       "seasonNo": 29,
       "gender": "F",
       "handle": "영자",
-      "photo": { "src": null, "alt": "나는 SOLO 29기 영자" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 29기 영자"
+      },
       "instagram": null,
       "finalChoice": null,
       "profile": {
         "birthYear": 1988,
         "job": "대치동 수학 학원 운영",
         "region": "서울",
-        "traits": ["자수성가형 학원 원장", "직설적인 화법"],
-        "notableQuotes": ["모은 건 없지만 잘 번다"],
+        "traits": [
+          "자수성가형 학원 원장",
+          "직설적인 화법"
+        ],
+        "notableQuotes": [
+          "모은 건 없지만 잘 번다"
+        ],
         "issues": []
       },
       "sources": [
@@ -119,16 +176,24 @@
       "seasonNo": 29,
       "gender": "F",
       "handle": "옥순",
-      "photo": { "src": null, "alt": "나는 SOLO 29기 옥순" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 29기 옥순"
+      },
       "instagram": null,
       "finalChoice": "영수",
       "profile": {
         "birthYear": 1989,
         "job": "병원 간호사",
         "region": "서울",
-        "traits": ["간호사 국가고시 전국 수석", "지적 이미지"],
+        "traits": [
+          "간호사 국가고시 전국 수석",
+          "지적 이미지"
+        ],
         "notableQuotes": [],
-        "issues": ["영수와 최종 커플"]
+        "issues": [
+          "영수와 최종 커플"
+        ]
       },
       "sources": [
         {
@@ -142,14 +207,20 @@
       "seasonNo": 29,
       "gender": "F",
       "handle": "현숙",
-      "photo": { "src": null, "alt": "나는 SOLO 29기 현숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 29기 현숙"
+      },
       "instagram": null,
       "finalChoice": null,
       "profile": {
         "birthYear": 1990,
         "job": "약사",
         "region": null,
-        "traits": ["직설적인 성격", "확실한 의사 표현"],
+        "traits": [
+          "직설적인 성격",
+          "확실한 의사 표현"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -165,15 +236,24 @@
       "seasonNo": 29,
       "gender": "M",
       "handle": "영수",
-      "photo": { "src": null, "alt": "나는 SOLO 29기 영수" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 29기 영수"
+      },
       "instagram": null,
       "finalChoice": "옥순",
       "profile": {
         "birthYear": 1995,
         "job": "정유사 해외 영업",
         "region": "중국 칭다오",
-        "traits": ["중국 생활 12년", "3개국어 가능", "직진형 연애 스타일"],
-        "notableQuotes": ["미치도록 예쁘다"],
+        "traits": [
+          "중국 생활 12년",
+          "3개국어 가능",
+          "직진형 연애 스타일"
+        ],
+        "notableQuotes": [
+          "미치도록 예쁘다"
+        ],
         "issues": []
       },
       "sources": [
@@ -188,14 +268,20 @@
       "seasonNo": 29,
       "gender": "M",
       "handle": "영호",
-      "photo": { "src": null, "alt": "나는 SOLO 29기 영호" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 29기 영호"
+      },
       "instagram": null,
       "finalChoice": null,
       "profile": {
         "birthYear": null,
         "job": "경찰",
         "region": "부산",
-        "traits": ["연상 선호", "차분한 성격"],
+        "traits": [
+          "연상 선호",
+          "차분한 성격"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -211,16 +297,24 @@
       "seasonNo": 29,
       "gender": "M",
       "handle": "영식",
-      "photo": { "src": null, "alt": "나는 SOLO 29기 영식" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 29기 영식"
+      },
       "instagram": null,
       "finalChoice": null,
       "profile": {
         "birthYear": 1997,
         "job": "무역회사 해외 영업",
         "region": null,
-        "traits": ["연하남 캐릭터", "직설적인 성격"],
+        "traits": [
+          "연하남 캐릭터",
+          "직설적인 성격"
+        ],
         "notableQuotes": [],
-        "issues": ["방송 중 기행 논란"]
+        "issues": [
+          "방송 중 기행 논란"
+        ]
       },
       "sources": [
         {
@@ -234,16 +328,24 @@
       "seasonNo": 29,
       "gender": "M",
       "handle": "영철",
-      "photo": { "src": null, "alt": "나는 SOLO 29기 영철" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 29기 영철"
+      },
       "instagram": null,
       "finalChoice": "정숙",
       "profile": {
         "birthYear": null,
         "job": "외국계 자동차 부품 회사 경영지원",
         "region": null,
-        "traits": ["유교보이 캐릭터", "보수적 연애관"],
+        "traits": [
+          "유교보이 캐릭터",
+          "보수적 연애관"
+        ],
         "notableQuotes": [],
-        "issues": ["정숙과 결혼 커플"]
+        "issues": [
+          "정숙과 결혼 커플"
+        ]
       },
       "sources": [
         {
@@ -257,14 +359,20 @@
       "seasonNo": 29,
       "gender": "M",
       "handle": "광수",
-      "photo": { "src": null, "alt": "나는 SOLO 29기 광수" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 29기 광수"
+      },
       "instagram": null,
       "finalChoice": null,
       "profile": {
         "birthYear": 1994,
         "job": "한의사",
         "region": "평창",
-        "traits": ["연상 연애 경험", "차분한 성격"],
+        "traits": [
+          "연상 연애 경험",
+          "차분한 성격"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -280,14 +388,20 @@
       "seasonNo": 29,
       "gender": "M",
       "handle": "상철",
-      "photo": { "src": null, "alt": "나는 SOLO 29기 상철" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 29기 상철"
+      },
       "instagram": null,
       "finalChoice": null,
       "profile": {
         "birthYear": 1997,
         "job": "태권도장 관장",
         "region": null,
-        "traits": ["연상 선호", "체육계 출신"],
+        "traits": [
+          "연상 선호",
+          "체육계 출신"
+        ],
         "notableQuotes": [],
         "issues": []
       },

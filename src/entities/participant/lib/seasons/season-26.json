@@ -2,31 +2,65 @@
   "seasonNo": 26,
   "label": "26기 골드 특집",
   "episodes": [
-    { "ep": 199, "airDate": "2025-04-30" },
-    { "ep": 200, "airDate": "2025-05-07" },
-    { "ep": 201, "airDate": "2025-05-14" },
-    { "ep": 202, "airDate": "2025-05-21" },
-    { "ep": 203, "airDate": "2025-05-28" },
-    { "ep": 204, "airDate": "2025-06-04" },
-    { "ep": 205, "airDate": "2025-06-11" },
-    { "ep": 206, "airDate": "2025-06-18" },
-    { "ep": 207, "airDate": "2025-06-25" }
+    {
+      "ep": 199,
+      "airDate": "2025-04-30"
+    },
+    {
+      "ep": 200,
+      "airDate": "2025-05-07"
+    },
+    {
+      "ep": 201,
+      "airDate": "2025-05-14"
+    },
+    {
+      "ep": 202,
+      "airDate": "2025-05-21"
+    },
+    {
+      "ep": 203,
+      "airDate": "2025-05-28"
+    },
+    {
+      "ep": 204,
+      "airDate": "2025-06-04"
+    },
+    {
+      "ep": 205,
+      "airDate": "2025-06-11"
+    },
+    {
+      "ep": 206,
+      "airDate": "2025-06-18"
+    },
+    {
+      "ep": 207,
+      "airDate": "2025-06-25"
+    }
   ],
   "participants": [
     {
       "seasonNo": 26,
       "gender": "M",
       "handle": "영수",
-      "photo": { "src": null, "alt": "나는 SOLO 26기 영수" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 26기 영수"
+      },
       "instagram": "jaehyuk_pnu",
       "finalChoice": null,
       "profile": {
         "birthYear": 1980,
         "job": "부산대학교 환경공학과 교수",
         "region": null,
-        "traits": ["부모님의 반대로 과거 연애 결혼 무산 경험"],
+        "traits": [
+          "부모님의 반대로 과거 연애 결혼 무산 경험"
+        ],
         "notableQuotes": [],
-        "issues": ["영숙과 최종 선택 불발"]
+        "issues": [
+          "영숙과 최종 선택 불발"
+        ]
       },
       "sources": [
         {
@@ -45,7 +79,10 @@
       "seasonNo": 26,
       "gender": "M",
       "handle": "영호",
-      "photo": { "src": null, "alt": "나는 SOLO 26기 영호" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 26기 영호"
+      },
       "instagram": null,
       "finalChoice": null,
       "profile": {
@@ -68,7 +105,10 @@
       "seasonNo": 26,
       "gender": "M",
       "handle": "영식",
-      "photo": { "src": null, "alt": "나는 SOLO 26기 영식" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 26기 영식"
+      },
       "instagram": null,
       "finalChoice": null,
       "profile": {
@@ -91,7 +131,10 @@
       "seasonNo": 26,
       "gender": "M",
       "handle": "영철",
-      "photo": { "src": null, "alt": "나는 SOLO 26기 영철" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 26기 영철"
+      },
       "instagram": "iiilllsssuuubbb",
       "finalChoice": null,
       "profile": {
@@ -119,7 +162,10 @@
       "seasonNo": 26,
       "gender": "M",
       "handle": "광수",
-      "photo": { "src": null, "alt": "나는 SOLO 26기 광수" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 26기 광수"
+      },
       "instagram": "jullae_kim",
       "finalChoice": "현숙",
       "profile": {
@@ -133,7 +179,9 @@
           "어머니와 아직도 뽀뽀한다고 언급"
         ],
         "notableQuotes": [],
-        "issues": ["현숙과 최종 커플"]
+        "issues": [
+          "현숙과 최종 커플"
+        ]
       },
       "sources": [
         {
@@ -152,16 +200,24 @@
       "seasonNo": 26,
       "gender": "M",
       "handle": "상철",
-      "photo": { "src": null, "alt": "나는 SOLO 26기 상철" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 26기 상철"
+      },
       "instagram": null,
       "finalChoice": "정숙",
       "profile": {
         "birthYear": 1985,
         "job": "LG디스플레이 SCM 담당",
         "region": null,
-        "traits": ["봉사활동이 취미", "결이 맞는 사람이 좋다고 언급"],
+        "traits": [
+          "봉사활동이 취미",
+          "결이 맞는 사람이 좋다고 언급"
+        ],
         "notableQuotes": [],
-        "issues": ["정숙과 최종 커플"]
+        "issues": [
+          "정숙과 최종 커플"
+        ]
       },
       "sources": [
         {
@@ -180,14 +236,20 @@
       "seasonNo": 26,
       "gender": "M",
       "handle": "경수",
-      "photo": { "src": null, "alt": "나는 SOLO 26기 경수" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 26기 경수"
+      },
       "instagram": "vorluxar",
       "finalChoice": null,
       "profile": {
         "birthYear": 1979,
         "job": "현대자동차 연구원",
         "region": null,
-        "traits": ["성균관대 기계공학과 졸업", "20년차 연구원"],
+        "traits": [
+          "성균관대 기계공학과 졸업",
+          "20년차 연구원"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -203,7 +265,10 @@
       "seasonNo": 26,
       "gender": "F",
       "handle": "영숙",
-      "photo": { "src": null, "alt": "나는 SOLO 26기 영숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 26기 영숙"
+      },
       "instagram": "jmaryjanee",
       "finalChoice": "영수",
       "profile": {
@@ -212,7 +277,9 @@
         "region": "부산 출신",
         "traits": [],
         "notableQuotes": [],
-        "issues": ["영수를 최종 선택했지만 커플 성사 실패"]
+        "issues": [
+          "영수를 최종 선택했지만 커플 성사 실패"
+        ]
       },
       "sources": [
         {
@@ -231,16 +298,24 @@
       "seasonNo": 26,
       "gender": "F",
       "handle": "정숙",
-      "photo": { "src": null, "alt": "나는 SOLO 26기 정숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 26기 정숙"
+      },
       "instagram": "lawyerbang22",
       "finalChoice": "상철",
       "profile": {
         "birthYear": 1986,
         "job": "법률사무소 다반 대표변호사",
         "region": null,
-        "traits": ["피지컬 중시", "결혼은 행복의 전제조건이라 생각"],
+        "traits": [
+          "피지컬 중시",
+          "결혼은 행복의 전제조건이라 생각"
+        ],
         "notableQuotes": [],
-        "issues": ["상철과 최종 커플"]
+        "issues": [
+          "상철과 최종 커플"
+        ]
       },
       "sources": [
         {
@@ -259,7 +334,10 @@
       "seasonNo": 26,
       "gender": "F",
       "handle": "순자",
-      "photo": { "src": null, "alt": "나는 SOLO 26기 순자" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 26기 순자"
+      },
       "instagram": "anna_noh_",
       "finalChoice": null,
       "profile": {
@@ -286,7 +364,10 @@
       "seasonNo": 26,
       "gender": "F",
       "handle": "옥순",
-      "photo": { "src": null, "alt": "나는 SOLO 26기 옥순" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 26기 옥순"
+      },
       "instagram": "hollyjeon",
       "finalChoice": null,
       "profile": {
@@ -295,7 +376,9 @@
         "region": "부산 광안리",
         "traits": [],
         "notableQuotes": [],
-        "issues": ["초반 행동으로 비판을 받았다는 블로그 정리 존재"]
+        "issues": [
+          "초반 행동으로 비판을 받았다는 블로그 정리 존재"
+        ]
       },
       "sources": [
         {
@@ -309,7 +392,10 @@
       "seasonNo": 26,
       "gender": "F",
       "handle": "영자",
-      "photo": { "src": null, "alt": "나는 SOLO 26기 영자" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 26기 영자"
+      },
       "instagram": "sunleegram",
       "finalChoice": null,
       "profile": {
@@ -332,16 +418,24 @@
       "seasonNo": 26,
       "gender": "F",
       "handle": "현숙",
-      "photo": { "src": null, "alt": "나는 SOLO 26기 현숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 26기 현숙"
+      },
       "instagram": "honeyday_n_n",
       "finalChoice": "광수",
       "profile": {
         "birthYear": 1987,
         "job": "블록체인회사 사내변호사",
         "region": "서울",
-        "traits": ["미국 변호사", "한동대 국제법률대학원"],
+        "traits": [
+          "미국 변호사",
+          "한동대 국제법률대학원"
+        ],
         "notableQuotes": [],
-        "issues": ["광수와 최종 커플"]
+        "issues": [
+          "광수와 최종 커플"
+        ]
       },
       "sources": [
         {

@@ -1,12 +1,14 @@
 'use client';
 
-import { useState, useCallback, useTransition } from 'react';
+import { useState, useCallback, useTransition, useEffect } from 'react';
 import { useSearchParams, useRouter, usePathname } from 'next/navigation';
 import type { Season, Participant } from '@/entities/participant';
 import { ParticipantCard } from '@/entities/participant';
 import { SeasonTabs } from '@/features/season-select';
 import { FilterBar, filterParticipants } from '@/features/participant-filter';
 import { ParticipantModal } from '@/widgets/participant-modal';
+
+const NOTICE_STORAGE_KEY = 'notice-dismissed-v1';
 
 interface Props {
   seasons: Season[];
@@ -24,6 +26,18 @@ export default function ClientHome({ seasons }: Props) {
   const hasQuery = searchQuery.trim().length > 0;
 
   const [modalParticipant, setModalParticipant] = useState<Participant | null>(null);
+  const [showNotice, setShowNotice] = useState(false);
+
+  useEffect(() => {
+    if (localStorage.getItem(NOTICE_STORAGE_KEY) !== 'true') {
+      setShowNotice(true);
+    }
+  }, []);
+
+  const handleDismissForever = () => {
+    localStorage.setItem(NOTICE_STORAGE_KEY, 'true');
+    setShowNotice(false);
+  };
 
   const currentSeason = seasons.find((s) => s.seasonNo === selectedSeasonNo) ?? seasons[0];
   const searchScopeParticipants = hasQuery
@@ -126,6 +140,49 @@ export default function ClientHome({ seasons }: Props) {
 
       {modalParticipant ? (
         <ParticipantModal participant={modalParticipant} onClose={() => setModalParticipant(null)} />
+      ) : null}
+
+      {showNotice ? (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 px-4"
+          onClick={() => setShowNotice(false)}
+        >
+          <div
+            className="bg-[var(--surface-strong)] border border-[var(--line)] rounded-2xl shadow-xl w-full max-w-sm p-6 flex flex-col gap-4"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="flex flex-col gap-2">
+              <h2 className="text-base font-bold text-[var(--foreground)]">안내</h2>
+              <p className="text-sm text-[var(--muted)] leading-relaxed">
+                이 사이트는 <span className="font-semibold text-[var(--foreground)]">vibe coding</span>으로 제작된 비공식 팬 아카이브입니다.
+                출연진 정보에 누락이나 오류가 있을 수 있습니다.
+              </p>
+              <p className="text-sm text-[var(--muted)] leading-relaxed">
+                보완·정정·제보 및 사이트 제안사항은 아래 메일로 보내주세요.
+              </p>
+              <a
+                href="mailto:imsoloarchive@gmail.com"
+                className="text-sm font-medium text-[var(--accent)] hover:underline break-all"
+              >
+                imsoloarchive@gmail.com
+              </a>
+            </div>
+            <div className="flex gap-2 pt-1">
+              <button
+                onClick={handleDismissForever}
+                className="flex-1 py-2 text-sm rounded-xl border border-[var(--border)] text-[var(--muted)] hover:bg-[var(--border)] transition-colors"
+              >
+                다시 보지 않기
+              </button>
+              <button
+                onClick={() => setShowNotice(false)}
+                className="flex-1 py-2 text-sm rounded-xl bg-[var(--accent)] text-white font-medium hover:opacity-90 transition-opacity"
+              >
+                닫기
+              </button>
+            </div>
+          </div>
+        </div>
       ) : null}
     </>
   );
