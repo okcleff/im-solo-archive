@@ -31,11 +31,14 @@ export const ParticipantSchema = z.object({
   instagram: z.string().nullable(),
   profile: ProfileSchema,
   sources: z.array(SourceSchema),
+  finalChoice: z.string().nullable(),
 });
 
 export const EpisodeSchema = z.object({
   ep: z.number().int().positive(),
-  airDate: z.string().regex(/^\d{4}-\d{2}-\d{2}$/, "YYYY-MM-DD 형식이어야 합니다"),
+  airDate: z
+    .string()
+    .regex(/^\d{4}-\d{2}-\d{2}$/, "YYYY-MM-DD 형식이어야 합니다"),
 });
 
 export const SeasonSchema = z.object({

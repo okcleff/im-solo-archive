@@ -2,73 +2,42 @@
   "seasonNo": 26,
   "label": "26기 골드 특집",
   "episodes": [
-    {
-      "ep": 199,
-      "airDate": "2025-04-30"
-    },
-    {
-      "ep": 200,
-      "airDate": "2025-05-07"
-    },
-    {
-      "ep": 201,
-      "airDate": "2025-05-14"
-    },
-    {
-      "ep": 202,
-      "airDate": "2025-05-21"
-    },
-    {
-      "ep": 203,
-      "airDate": "2025-05-28"
-    },
-    {
-      "ep": 204,
-      "airDate": "2025-06-04"
-    },
-    {
-      "ep": 205,
-      "airDate": "2025-06-11"
-    },
-    {
-      "ep": 206,
-      "airDate": "2025-06-18"
-    },
-    {
-      "ep": 207,
-      "airDate": "2025-06-25"
-    }
+    { "ep": 199, "airDate": "2025-04-30" },
+    { "ep": 200, "airDate": "2025-05-07" },
+    { "ep": 201, "airDate": "2025-05-14" },
+    { "ep": 202, "airDate": "2025-05-21" },
+    { "ep": 203, "airDate": "2025-05-28" },
+    { "ep": 204, "airDate": "2025-06-04" },
+    { "ep": 205, "airDate": "2025-06-11" },
+    { "ep": 206, "airDate": "2025-06-18" },
+    { "ep": 207, "airDate": "2025-06-25" }
   ],
   "participants": [
     {
       "seasonNo": 26,
       "gender": "M",
       "handle": "영수",
-      "photo": {
-        "src": null,
-        "alt": "나는 SOLO 26기 영수"
-      },
-      "instagram": null,
+      "photo": { "src": null, "alt": "나는 SOLO 26기 영수" },
+      "instagram": "jaehyuk_pnu",
+      "finalChoice": null,
       "profile": {
-        "birthYear": 1981,
-        "job": "부산대 공학과 대학교수",
+        "birthYear": 1980,
+        "job": "부산대학교 환경공학과 교수",
         "region": null,
-        "traits": [
-          "부모님의 반대로 과거 연애 결혼 무산 경험"
-        ],
+        "traits": ["부모님의 반대로 과거 연애 결혼 무산 경험"],
         "notableQuotes": [],
-        "issues": []
+        "issues": ["영숙과 최종 선택 불발"]
       },
       "sources": [
         {
-          "title": "네이버 블로그: 나는 SOLO 26기 출연자 프로필 정리",
-          "url": "https://blog.naver.com/tastyghost/223859146168",
+          "title": "나는 솔로 26기 남자 출연자 직업 나이 학교 인스타그램 주소",
+          "url": "https://realmeeting.tistory.com/entry/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C26%EA%B8%B0-%EB%82%A8%EC%9E%90%EC%B6%9C%EC%97%B0%EC%9E%90",
           "confidence": "medium"
         },
         {
-          "title": "네이버 블로그: 나는 SOLO 26기 출연자 직업 나이",
-          "url": "https://blog.naver.com/movie6miri/223866338251",
-          "confidence": "medium"
+          "title": "OSEN/조선: 26기 영수·영숙 최종 불발",
+          "url": "https://www.chosun.com/entertainments/broadcast/2025/06/26/I3ZVZU3U3NS2M3OKSKGUWF2SAM/",
+          "confidence": "high"
         }
       ]
     },
@@ -76,14 +45,12 @@
       "seasonNo": 26,
       "gender": "M",
       "handle": "영호",
-      "photo": {
-        "src": null,
-        "alt": "나는 SOLO 26기 영호"
-      },
+      "photo": { "src": null, "alt": "나는 SOLO 26기 영호" },
       "instagram": null,
+      "finalChoice": null,
       "profile": {
-        "birthYear": 1986,
-        "job": "인천시청 소속 공무원",
+        "birthYear": 1985,
+        "job": "인천시청 공무원",
         "region": null,
         "traits": [],
         "notableQuotes": [],
@@ -91,8 +58,8 @@
       },
       "sources": [
         {
-          "title": "네이버 블로그: 나는 SOLO 26기 출연자 프로필 정리",
-          "url": "https://blog.naver.com/tastyghost/223859146168",
+          "title": "나는 솔로 26기 남자 출연자 직업 나이 학교 인스타그램 주소",
+          "url": "https://realmeeting.tistory.com/entry/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C26%EA%B8%B0-%EB%82%A8%EC%9E%90%EC%B6%9C%EC%97%B0%EC%9E%90",
           "confidence": "medium"
         }
       ]
@@ -101,14 +68,12 @@
       "seasonNo": 26,
       "gender": "M",
       "handle": "영식",
-      "photo": {
-        "src": null,
-        "alt": "나는 SOLO 26기 영식"
-      },
+      "photo": { "src": null, "alt": "나는 SOLO 26기 영식" },
       "instagram": null,
+      "finalChoice": null,
       "profile": {
-        "birthYear": 1985,
-        "job": "게임 기획자",
+        "birthYear": 1984,
+        "job": "NC소프트 게임기획자",
         "region": null,
         "traits": [],
         "notableQuotes": [],
@@ -116,8 +81,8 @@
       },
       "sources": [
         {
-          "title": "네이버 블로그: 나는 SOLO 26기 출연자 프로필 정리",
-          "url": "https://blog.naver.com/tastyghost/223859146168",
+          "title": "나는 솔로 26기 남자 출연자 직업 나이 학교 인스타그램 주소",
+          "url": "https://realmeeting.tistory.com/entry/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C26%EA%B8%B0-%EB%82%A8%EC%9E%90%EC%B6%9C%EC%97%B0%EC%9E%90",
           "confidence": "medium"
         }
       ]
@@ -126,27 +91,26 @@
       "seasonNo": 26,
       "gender": "M",
       "handle": "영철",
-      "photo": {
-        "src": null,
-        "alt": "나는 SOLO 26기 영철"
-      },
-      "instagram": null,
+      "photo": { "src": null, "alt": "나는 SOLO 26기 영철" },
+      "instagram": "iiilllsssuuubbb",
+      "finalChoice": null,
       "profile": {
         "birthYear": 1984,
-        "job": "캘리그라퍼 / 서예가 (서예 전공, 홍대 작업실 운영)",
+        "job": "서예가·캘리그라퍼",
         "region": "서울 홍대",
         "traits": [
           "193cm 장신",
           "소맥 애호가",
-          "프리랜서, '하루 3시간 일하고 남들만큼 번다' 언급"
+          "프리랜서",
+          "하루 3시간 일하고 남들만큼 번다고 언급"
         ],
         "notableQuotes": [],
         "issues": []
       },
       "sources": [
         {
-          "title": "네이버 블로그: 나는 SOLO 26기 출연자 프로필 정리",
-          "url": "https://blog.naver.com/tastyghost/223859146168",
+          "title": "나는 솔로 26기 남자 출연자 직업 나이 학교 인스타그램 주소",
+          "url": "https://realmeeting.tistory.com/entry/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C26%EA%B8%B0-%EB%82%A8%EC%9E%90%EC%B6%9C%EC%97%B0%EC%9E%90",
           "confidence": "medium"
         }
       ]
@@ -155,28 +119,32 @@
       "seasonNo": 26,
       "gender": "M",
       "handle": "광수",
-      "photo": {
-        "src": null,
-        "alt": "나는 SOLO 26기 광수"
-      },
-      "instagram": null,
+      "photo": { "src": null, "alt": "나는 SOLO 26기 광수" },
+      "instagram": "jullae_kim",
+      "finalChoice": "현숙",
       "profile": {
-        "birthYear": 1983,
-        "job": "대기업 건설사 이라크 지사 근무 (서강대 경영학과 출신)",
+        "birthYear": 1982,
+        "job": "한화건설 해외영업팀 근무",
         "region": "서울 압구정 거주",
         "traits": [
-          "등장부터 빨간 코트+족자 퍼포먼스",
+          "중앙대 경영학과 출신",
+          "빨간 코트+족자 퍼포먼스",
           "모창·개그 가능",
-          "어머니와 아직도 뽀뽀한다고 함"
+          "어머니와 아직도 뽀뽀한다고 언급"
         ],
         "notableQuotes": [],
-        "issues": []
+        "issues": ["현숙과 최종 커플"]
       },
       "sources": [
         {
-          "title": "네이버 블로그: 나는 SOLO 26기 출연자 프로필 정리",
-          "url": "https://blog.naver.com/tastyghost/223859146168",
+          "title": "나는 솔로 26기 남자 출연자 직업 나이 학교 인스타그램 주소",
+          "url": "https://realmeeting.tistory.com/entry/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C26%EA%B8%B0-%EB%82%A8%EC%9E%90%EC%B6%9C%EC%97%B0%EC%9E%90",
           "confidence": "medium"
+        },
+        {
+          "title": "나는 SOLO 26기 최종선택 기사",
+          "url": "https://www.solonaranews.com/news/article.html?no=23138",
+          "confidence": "high"
         }
       ]
     },
@@ -184,27 +152,27 @@
       "seasonNo": 26,
       "gender": "M",
       "handle": "상철",
-      "photo": {
-        "src": null,
-        "alt": "나는 SOLO 26기 상철"
-      },
+      "photo": { "src": null, "alt": "나는 SOLO 26기 상철" },
       "instagram": null,
+      "finalChoice": "정숙",
       "profile": {
-        "birthYear": 1986,
-        "job": "대기업 SCM 공급망관리팀 14년차",
+        "birthYear": 1985,
+        "job": "LG디스플레이 SCM 담당",
         "region": null,
-        "traits": [
-          "봉사활동이 취미",
-          "결이 맞는 사람이 좋다고 언급"
-        ],
+        "traits": ["봉사활동이 취미", "결이 맞는 사람이 좋다고 언급"],
         "notableQuotes": [],
-        "issues": []
+        "issues": ["정숙과 최종 커플"]
       },
       "sources": [
         {
-          "title": "네이버 블로그: 나는 SOLO 26기 출연자 프로필 정리",
-          "url": "https://blog.naver.com/tastyghost/223859146168",
+          "title": "나는 솔로 26기 남자 출연자 직업 나이 학교 인스타그램 주소",
+          "url": "https://realmeeting.tistory.com/entry/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C26%EA%B8%B0-%EB%82%A8%EC%9E%90%EC%B6%9C%EC%97%B0%EC%9E%90",
           "confidence": "medium"
+        },
+        {
+          "title": "나는 SOLO 26기 최종선택 기사",
+          "url": "https://www.solonaranews.com/news/article.html?no=23138",
+          "confidence": "high"
         }
       ]
     },
@@ -212,25 +180,21 @@
       "seasonNo": 26,
       "gender": "M",
       "handle": "경수",
-      "photo": {
-        "src": null,
-        "alt": "나는 SOLO 26기 경수"
-      },
-      "instagram": null,
+      "photo": { "src": null, "alt": "나는 SOLO 26기 경수" },
+      "instagram": "vorluxar",
+      "finalChoice": null,
       "profile": {
-        "birthYear": 1980,
-        "job": "대기업 자동차 엔진 연구원 (성균관대 기계공학과 졸업, 20년차)",
+        "birthYear": 1979,
+        "job": "현대자동차 연구원",
         "region": null,
-        "traits": [
-          "성균관대 기계공학과 전공"
-        ],
+        "traits": ["성균관대 기계공학과 졸업", "20년차 연구원"],
         "notableQuotes": [],
         "issues": []
       },
       "sources": [
         {
-          "title": "네이버 블로그: 나는 SOLO 26기 출연자 직업 나이",
-          "url": "https://blog.naver.com/movie6miri/223866338251",
+          "title": "나는 솔로 26기 남자 출연자 직업 나이 학교 인스타그램 주소",
+          "url": "https://realmeeting.tistory.com/entry/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C26%EA%B8%B0-%EB%82%A8%EC%9E%90%EC%B6%9C%EC%97%B0%EC%9E%90",
           "confidence": "medium"
         }
       ]
@@ -239,24 +203,27 @@
       "seasonNo": 26,
       "gender": "F",
       "handle": "영숙",
-      "photo": {
-        "src": null,
-        "alt": "나는 SOLO 26기 영숙"
-      },
-      "instagram": null,
+      "photo": { "src": null, "alt": "나는 SOLO 26기 영숙" },
+      "instagram": "jmaryjanee",
+      "finalChoice": "영수",
       "profile": {
         "birthYear": 1986,
-        "job": "서울 소재 대학교 국제대학 초빙교수",
+        "job": "동아대학교 초빙교수",
         "region": "부산 출신",
         "traits": [],
         "notableQuotes": [],
-        "issues": []
+        "issues": ["영수를 최종 선택했지만 커플 성사 실패"]
       },
       "sources": [
         {
-          "title": "네이버 블로그: 나는 SOLO 26기 출연자 직업 나이",
-          "url": "https://blog.naver.com/movie6miri/223866338251",
+          "title": "나는 솔로 26기 여자 출연자 직업 나이 학교 인스타그램 주소",
+          "url": "https://realmeeting.tistory.com/entry/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C26%EA%B8%B0-%EC%97%AC%EC%9E%90%EC%B6%9C%EC%97%B0%EC%9E%90",
           "confidence": "medium"
+        },
+        {
+          "title": "OSEN/조선: 26기 영수·영숙 최종 불발",
+          "url": "https://www.chosun.com/entertainments/broadcast/2025/06/26/I3ZVZU3U3NS2M3OKSKGUWF2SAM/",
+          "confidence": "high"
         }
       ]
     },
@@ -264,27 +231,27 @@
       "seasonNo": 26,
       "gender": "F",
       "handle": "정숙",
-      "photo": {
-        "src": null,
-        "alt": "나는 SOLO 26기 정숙"
-      },
-      "instagram": null,
+      "photo": { "src": null, "alt": "나는 SOLO 26기 정숙" },
+      "instagram": "lawyerbang22",
+      "finalChoice": "상철",
       "profile": {
         "birthYear": 1986,
-        "job": "변호사",
+        "job": "법률사무소 다반 대표변호사",
         "region": null,
-        "traits": [
-          "피지컬 중시",
-          "결혼은 행복의 전제조건이라 생각"
-        ],
+        "traits": ["피지컬 중시", "결혼은 행복의 전제조건이라 생각"],
         "notableQuotes": [],
-        "issues": []
+        "issues": ["상철과 최종 커플"]
       },
       "sources": [
         {
-          "title": "네이버 블로그: 나는 SOLO 26기 출연자 직업 나이",
-          "url": "https://blog.naver.com/movie6miri/223866338251",
+          "title": "나는 솔로 26기 여자 출연자 직업 나이 학교 인스타그램 주소",
+          "url": "https://realmeeting.tistory.com/entry/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C26%EA%B8%B0-%EC%97%AC%EC%9E%90%EC%B6%9C%EC%97%B0%EC%9E%90",
           "confidence": "medium"
+        },
+        {
+          "title": "나는 SOLO 26기 최종선택 기사",
+          "url": "https://www.solonaranews.com/news/article.html?no=23138",
+          "confidence": "high"
         }
       ]
     },
@@ -292,17 +259,16 @@
       "seasonNo": 26,
       "gender": "F",
       "handle": "순자",
-      "photo": {
-        "src": null,
-        "alt": "나는 SOLO 26기 순자"
-      },
-      "instagram": null,
+      "photo": { "src": null, "alt": "나는 SOLO 26기 순자" },
+      "instagram": "anna_noh_",
+      "finalChoice": null,
       "profile": {
         "birthYear": 1986,
-        "job": "공연 기획자",
+        "job": "첼리스트·공연기획자",
         "region": null,
         "traits": [
-          "소개팅에서 눈 마주치기 어려워 0표 예상했다고 밝힘",
+          "독일 유학",
+          "예술의전당 독주회 경력",
           "어머니 반대로 회사원 남성과 결별"
         ],
         "notableQuotes": [],
@@ -310,8 +276,8 @@
       },
       "sources": [
         {
-          "title": "네이버 블로그: 나는 SOLO 26기 출연자 직업 나이",
-          "url": "https://blog.naver.com/movie6miri/223866338251",
+          "title": "나는 솔로 26기 여자 출연자 직업 나이 학교 인스타그램 주소",
+          "url": "https://realmeeting.tistory.com/entry/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C26%EA%B8%B0-%EC%97%AC%EC%9E%90%EC%B6%9C%EC%97%B0%EC%9E%90",
           "confidence": "medium"
         }
       ]
@@ -320,23 +286,21 @@
       "seasonNo": 26,
       "gender": "F",
       "handle": "옥순",
-      "photo": {
-        "src": null,
-        "alt": "나는 SOLO 26기 옥순"
-      },
-      "instagram": null,
+      "photo": { "src": null, "alt": "나는 SOLO 26기 옥순" },
+      "instagram": "hollyjeon",
+      "finalChoice": null,
       "profile": {
         "birthYear": 1988,
-        "job": "프리랜서 미술 강사",
+        "job": "프리랜서 미술가·미술강사",
         "region": "부산 광안리",
         "traits": [],
         "notableQuotes": [],
-        "issues": []
+        "issues": ["초반 행동으로 비판을 받았다는 블로그 정리 존재"]
       },
       "sources": [
         {
-          "title": "네이버 블로그: 나는 SOLO 26기 출연자 직업 나이",
-          "url": "https://blog.naver.com/movie6miri/223866338251",
+          "title": "나는 솔로 26기 여자 출연자 직업 나이 학교 인스타그램 주소",
+          "url": "https://realmeeting.tistory.com/entry/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C26%EA%B8%B0-%EC%97%AC%EC%9E%90%EC%B6%9C%EC%97%B0%EC%9E%90",
           "confidence": "medium"
         }
       ]
@@ -345,11 +309,9 @@
       "seasonNo": 26,
       "gender": "F",
       "handle": "영자",
-      "photo": {
-        "src": null,
-        "alt": "나는 SOLO 26기 영자"
-      },
-      "instagram": null,
+      "photo": { "src": null, "alt": "나는 SOLO 26기 영자" },
+      "instagram": "sunleegram",
+      "finalChoice": null,
       "profile": {
         "birthYear": 1986,
         "job": "외국계 자문사 컨설턴트",
@@ -360,8 +322,8 @@
       },
       "sources": [
         {
-          "title": "네이버 블로그: 나는 SOLO 26기 출연자 직업 나이",
-          "url": "https://blog.naver.com/movie6miri/223866338251",
+          "title": "나는 솔로 26기 여자 출연자 직업 나이 학교 인스타그램 주소",
+          "url": "https://realmeeting.tistory.com/entry/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C26%EA%B8%B0-%EC%97%AC%EC%9E%90%EC%B6%9C%EC%97%B0%EC%9E%90",
           "confidence": "medium"
         }
       ]
@@ -370,24 +332,27 @@
       "seasonNo": 26,
       "gender": "F",
       "handle": "현숙",
-      "photo": {
-        "src": null,
-        "alt": "나는 SOLO 26기 현숙"
-      },
-      "instagram": null,
+      "photo": { "src": null, "alt": "나는 SOLO 26기 현숙" },
+      "instagram": "honeyday_n_n",
+      "finalChoice": "광수",
       "profile": {
         "birthYear": 1987,
-        "job": "미국 변호사",
+        "job": "블록체인회사 사내변호사",
         "region": "서울",
-        "traits": [],
+        "traits": ["미국 변호사", "한동대 국제법률대학원"],
         "notableQuotes": [],
-        "issues": []
+        "issues": ["광수와 최종 커플"]
       },
       "sources": [
         {
-          "title": "네이버 블로그: 나는 SOLO 26기 출연자 직업 나이",
-          "url": "https://blog.naver.com/movie6miri/223866338251",
+          "title": "나는 솔로 26기 여자 출연자 직업 나이 학교 인스타그램 주소",
+          "url": "https://realmeeting.tistory.com/entry/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C26%EA%B8%B0-%EC%97%AC%EC%9E%90%EC%B6%9C%EC%97%B0%EC%9E%90",
           "confidence": "medium"
+        },
+        {
+          "title": "나는 SOLO 26기 최종선택 기사",
+          "url": "https://www.solonaranews.com/news/article.html?no=23138",
+          "confidence": "high"
         }
       ]
     }
