@@ -2,22 +2,33 @@
   "seasonNo": 29,
   "label": "29기 (연상연하 특집)",
   "episodes": [
-    { "ep": 228, "airDate": "2025-11-19" },
-    { "ep": 229, "airDate": "2025-11-26" }
+    {
+      "ep": 228,
+      "airDate": "2025-11-19"
+    },
+    {
+      "ep": 229,
+      "airDate": "2025-11-26"
+    }
   ],
   "participants": [
     {
       "seasonNo": 29,
       "gender": "F",
       "handle": "영숙",
-      "photo": { "src": null, "alt": "나는 SOLO 29기 영숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 29기 영숙"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1988,
-        "ageKorean": null,
         "job": "서울 소재 대학교 연구 전담 교수",
         "region": "제주 출신(언급)",
-        "traits": ["수영 선수 경험 언급", "장거리/나이 열려 있다고 언급"],
+        "traits": [
+          "수영 선수 경험 언급",
+          "장거리/나이 열려 있다고 언급"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -33,14 +44,18 @@
       "seasonNo": 29,
       "gender": "F",
       "handle": "정숙",
-      "photo": { "src": null, "alt": "나는 SOLO 29기 정숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 29기 정숙"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1988,
-        "ageKorean": null,
         "job": "대구 영어 학원 운영",
         "region": "대구",
-        "traits": ["\"정말 사랑한다면 길을 만들고 싶다\" 취지 언급"],
+        "traits": [
+          "\"정말 사랑한다면 길을 만들고 싶다\" 취지 언급"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -56,11 +71,13 @@
       "seasonNo": 29,
       "gender": "F",
       "handle": "순자",
-      "photo": { "src": null, "alt": "나는 SOLO 29기 순자" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 29기 순자"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1990,
-        "ageKorean": null,
         "job": "부친 건설회사 분양관리팀 근무(서울·광주 오가며)",
         "region": "서울·광주",
         "traits": [],
@@ -79,14 +96,18 @@
       "seasonNo": 29,
       "gender": "F",
       "handle": "영자",
-      "photo": { "src": null, "alt": "나는 SOLO 29기 영자" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 29기 영자"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1988,
-        "ageKorean": null,
         "job": "대치동 수학 학원 운영",
         "region": "서울 대치동",
-        "traits": ["\"모은 건 없지만 잘 번다\" 취지 언급"],
+        "traits": [
+          "\"모은 건 없지만 잘 번다\" 취지 언급"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -102,11 +123,13 @@
       "seasonNo": 29,
       "gender": "F",
       "handle": "옥순",
-      "photo": { "src": null, "alt": "나는 SOLO 29기 옥순" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 29기 옥순"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1989,
-        "ageKorean": null,
         "job": "병원 간호사(13년차, 간호사 국가고시 전국 수석 언급)",
         "region": "서울(기사 기준)",
         "traits": [],
@@ -125,11 +148,13 @@
       "seasonNo": 29,
       "gender": "F",
       "handle": "현숙",
-      "photo": { "src": null, "alt": "나는 SOLO 29기 현숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 29기 현숙"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1990,
-        "ageKorean": null,
         "job": "약사(3년차)",
         "region": null,
         "traits": [],
@@ -148,15 +173,22 @@
       "seasonNo": 29,
       "gender": "M",
       "handle": "영수",
-      "photo": { "src": null, "alt": "나는 SOLO 29기 영수" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 29기 영수"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1995,
-        "ageKorean": null,
         "job": "정유사 해외 영업 직원 (칭다오 거주 12년 이력)",
         "region": "중국 칭다오",
-        "traits": ["3개국어 구사", "소개팅 100번 이상(언급)"],
-        "notableQuotes": ["\"미치도록 예쁘다\"(첫인상 선택 멘트로 언급)"],
+        "traits": [
+          "3개국어 구사",
+          "소개팅 100번 이상(언급)"
+        ],
+        "notableQuotes": [
+          "\"미치도록 예쁘다\"(첫인상 선택 멘트로 언급)"
+        ],
         "issues": []
       },
       "sources": [
@@ -171,14 +203,19 @@
       "seasonNo": 29,
       "gender": "M",
       "handle": "영호",
-      "photo": { "src": null, "alt": "나는 SOLO 29기 영호" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 29기 영호"
+      },
       "instagram": null,
       "profile": {
         "birthYear": null,
-        "ageKorean": null,
         "job": "경찰 (부산 근무)",
         "region": "부산",
-        "traits": ["200평 오리 식당 막내아들(언급)", "연상 선호(언급)"],
+        "traits": [
+          "200평 오리 식당 막내아들(언급)",
+          "연상 선호(언급)"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -194,14 +231,19 @@
       "seasonNo": 29,
       "gender": "M",
       "handle": "영식",
-      "photo": { "src": null, "alt": "나는 SOLO 29기 영식" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 29기 영식"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1997,
-        "ageKorean": null,
         "job": "무역회사 해외 영업 담당",
         "region": null,
-        "traits": ["K대 출신(언급)", "나이 제한 없음(언급)"],
+        "traits": [
+          "K대 출신(언급)",
+          "나이 제한 없음(언급)"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -217,14 +259,19 @@
       "seasonNo": 29,
       "gender": "M",
       "handle": "영철",
-      "photo": { "src": null, "alt": "나는 SOLO 29기 영철" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 29기 영철"
+      },
       "instagram": null,
       "profile": {
         "birthYear": null,
-        "ageKorean": null,
         "job": "외국계 자동차 부품 회사 경영지원팀",
         "region": null,
-        "traits": ["유도 선수 출신(언급)", "아이 5명 원함(언급)"],
+        "traits": [
+          "유도 선수 출신(언급)",
+          "아이 5명 원함(언급)"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -240,14 +287,18 @@
       "seasonNo": 29,
       "gender": "M",
       "handle": "광수",
-      "photo": { "src": null, "alt": "나는 SOLO 29기 광수" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 29기 광수"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1994,
-        "ageKorean": null,
         "job": "한의사 7년차 (평창 근무)",
         "region": "평창",
-        "traits": ["8세 연상과 연애 경험(언급)"],
+        "traits": [
+          "8세 연상과 연애 경험(언급)"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -263,14 +314,19 @@
       "seasonNo": 29,
       "gender": "M",
       "handle": "상철",
-      "photo": { "src": null, "alt": "나는 SOLO 29기 상철" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 29기 상철"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1997,
-        "ageKorean": null,
         "job": "태권도장 관장",
         "region": null,
-        "traits": ["8세 연상까지 가능(언급)", "황금색 래핑카(언급)"],
+        "traits": [
+          "8세 연상까지 가능(언급)",
+          "황금색 래핑카(언급)"
+        ],
         "notableQuotes": [],
         "issues": []
       },

@@ -89,11 +89,10 @@ npm start
 ### 주요 스크립트
 
 ```bash
-npm run dev           # 개발 서버 (Turbopack)
-npm run build         # 프로덕션 빌드
-npm run start         # 프로덕션 서버 실행
-npm run lint          # 린트
-npm run crawl-season  # 시즌 데이터 크롤링 스크립트 실행
+npm run dev     # 개발 서버 (Turbopack)
+npm run build   # 프로덕션 빌드
+npm run start   # 프로덕션 서버 실행
+npm run lint    # 린트
 ```
 
 ---
@@ -129,10 +128,48 @@ cp .env.example .env.local
 
 별도의 import 코드 추가는 필요 없습니다.
 
-### 필드 참고
+### JSON 필드 설명
 
-- `instagram`: `@` 제외 사용자명 (`null` 허용)
-- `sources[].confidence`: `high | medium | low`
+#### 최상위
+
+| 필드 | 타입 | 설명 |
+| --- | --- | --- |
+| `seasonNo` | `number` | 기수 번호 (예: `30`) |
+| `label` | `string` | 기수 표시 레이블 (예: `"30기 (에겐남 & 테토녀)"`) |
+| `episodes` | `array` | 방영 회차 목록 |
+| `episodes[].ep` | `number` | 방영 회차 번호 |
+| `episodes[].airDate` | `string` | 방영일 (`YYYY-MM-DD`) |
+| `participants` | `array` | 출연자 목록 |
+
+#### participants[]
+
+| 필드 | 타입 | 설명 |
+| --- | --- | --- |
+| `seasonNo` | `number` | 소속 기수 번호 |
+| `gender` | `"M" \| "F"` | 성별 (`M`: 남성, `F`: 여성) |
+| `handle` | `string` | 출연자 호칭 (예: `"영수"`, `"옥순"`) |
+| `photo.src` | `string \| null` | 프로필 사진 경로 또는 URL (`null` 허용) |
+| `photo.alt` | `string` | 이미지 alt 텍스트 |
+| `instagram` | `string \| null` | 인스타그램 사용자명, `@` 제외 (예: `"username"`, 없으면 `null`) |
+
+#### participants[].profile
+
+| 필드 | 타입 | 설명 |
+| --- | --- | --- |
+| `birthYear` | `number \| null` | 출생 연도 (예: `1992`) |
+| `job` | `string \| null` | 직업/직책 |
+| `region` | `string \| null` | 거주 지역 |
+| `traits` | `string[]` | 특징/키워드 목록 |
+| `notableQuotes` | `string[]` | 화제 멘트 목록 |
+| `issues` | `string[]` | 방영 중 이슈/논란 목록 |
+
+#### participants[].sources[]
+
+| 필드 | 타입 | 설명 |
+| --- | --- | --- |
+| `title` | `string` | 출처 기사/콘텐츠 제목 |
+| `url` | `string` | 출처 URL |
+| `confidence` | `"high" \| "medium" \| "low"` | 정보 신뢰도 (`high`: 공식/신뢰 매체, `medium`: 추정 가능, `low`: 불확실) |
 
 ---
 

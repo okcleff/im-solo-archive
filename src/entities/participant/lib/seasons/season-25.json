@@ -2,25 +2,51 @@
   "seasonNo": 25,
   "label": "25기",
   "episodes": [
-    { "ep": 191, "airDate": "2025-03-05" },
-    { "ep": 192, "airDate": "2025-03-12" },
-    { "ep": 193, "airDate": "2025-03-19" },
-    { "ep": 194, "airDate": "2025-03-26" },
-    { "ep": 195, "airDate": "2025-04-02" },
-    { "ep": 196, "airDate": "2025-04-09" },
-    { "ep": 197, "airDate": "2025-04-16" },
-    { "ep": 198, "airDate": "2025-04-23" }
+    {
+      "ep": 191,
+      "airDate": "2025-03-05"
+    },
+    {
+      "ep": 192,
+      "airDate": "2025-03-12"
+    },
+    {
+      "ep": 193,
+      "airDate": "2025-03-19"
+    },
+    {
+      "ep": 194,
+      "airDate": "2025-03-26"
+    },
+    {
+      "ep": 195,
+      "airDate": "2025-04-02"
+    },
+    {
+      "ep": 196,
+      "airDate": "2025-04-09"
+    },
+    {
+      "ep": 197,
+      "airDate": "2025-04-16"
+    },
+    {
+      "ep": 198,
+      "airDate": "2025-04-23"
+    }
   ],
   "participants": [
     {
       "seasonNo": 25,
       "gender": "M",
       "handle": "광수",
-      "photo": { "src": null, "alt": "나는 SOLO 25기 광수" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 25기 광수"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1986,
-        "ageKorean": null,
         "job": "의사",
         "region": null,
         "traits": [],
@@ -64,14 +90,19 @@
       "seasonNo": 25,
       "gender": "M",
       "handle": "영수",
-      "photo": { "src": null, "alt": "나는 SOLO 25기 영수" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 25기 영수"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1991,
-        "ageKorean": null,
         "job": "보험회사 본부장",
         "region": null,
-        "traits": ["성악가 이력", "오토바이·디제잉 취미 (반전 매력)"],
+        "traits": [
+          "성악가 이력",
+          "오토바이·디제잉 취미 (반전 매력)"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -107,14 +138,18 @@
       "seasonNo": 25,
       "gender": "M",
       "handle": "영호",
-      "photo": { "src": null, "alt": "나는 SOLO 25기 영호" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 25기 영호"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1988,
-        "ageKorean": null,
         "job": "개인 약국 운영 (약사)",
         "region": null,
-        "traits": ["디제잉 취미 (반전 매력)"],
+        "traits": [
+          "디제잉 취미 (반전 매력)"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -150,14 +185,18 @@
       "seasonNo": 25,
       "gender": "M",
       "handle": "영식",
-      "photo": { "src": null, "alt": "나는 SOLO 25기 영식" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 25기 영식"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1990,
-        "ageKorean": null,
         "job": "대출 담당 은행원",
         "region": null,
-        "traits": ["홈트, 자기계발, 영화감상"],
+        "traits": [
+          "홈트, 자기계발, 영화감상"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -193,15 +232,21 @@
       "seasonNo": 25,
       "gender": "M",
       "handle": "영철",
-      "photo": { "src": null, "alt": "나는 SOLO 25기 영철" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 25기 영철"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1993,
-        "ageKorean": null,
         "job": "중학교 엘리트 운동부 지도자",
         "region": null,
-        "traits": ["피아노 연주(배운지 석달째)"],
-        "notableQuotes": ["K리그 선수에서 뛰었던 이력이 있다"],
+        "traits": [
+          "피아노 연주(배운지 석달째)"
+        ],
+        "notableQuotes": [
+          "K리그 선수에서 뛰었던 이력이 있다"
+        ],
         "issues": []
       },
       "sources": [
@@ -236,11 +281,13 @@
       "seasonNo": 25,
       "gender": "M",
       "handle": "상철",
-      "photo": { "src": null, "alt": "나는 SOLO 25기 상철" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 25기 상철"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1990,
-        "ageKorean": null,
         "job": "삼성전자 반도체 판매 전략팀 직원",
         "region": null,
         "traits": [],
@@ -279,11 +326,13 @@
       "seasonNo": 25,
       "gender": "F",
       "handle": "영숙",
-      "photo": { "src": null, "alt": "나는 SOLO 25기 영숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 25기 영숙"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1993,
-        "ageKorean": null,
         "job": "L그룹 마케팅 담당",
         "region": null,
         "traits": [
@@ -329,11 +378,13 @@
       "seasonNo": 25,
       "gender": "F",
       "handle": "순자",
-      "photo": { "src": null, "alt": "나는 SOLO 25기 순자" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 25기 순자"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1991,
-        "ageKorean": null,
         "job": "CJ라이프케어 회사 직원",
         "region": null,
         "traits": [],
@@ -377,11 +428,13 @@
       "seasonNo": 25,
       "gender": "F",
       "handle": "옥순",
-      "photo": { "src": null, "alt": "나는 SOLO 25기 옥순" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 25기 옥순"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1989,
-        "ageKorean": null,
         "job": "플루티스트 (미국 명문 음대·S대 대학원 졸업, 오케스트라·개인 레슨)",
         "region": null,
         "traits": [],
@@ -425,11 +478,13 @@
       "seasonNo": 25,
       "gender": "F",
       "handle": "영자",
-      "photo": { "src": null, "alt": "나는 SOLO 25기 영자" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 25기 영자"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1994,
-        "ageKorean": null,
         "job": "그림 작가 / 일러스트레이터",
         "region": "경남 진주 출신",
         "traits": [],
@@ -473,11 +528,13 @@
       "seasonNo": 25,
       "gender": "F",
       "handle": "현숙",
-      "photo": { "src": null, "alt": "나는 SOLO 25기 현숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 25기 현숙"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1993,
-        "ageKorean": null,
         "job": "서울시청 공무원",
         "region": null,
         "traits": [],
@@ -521,11 +578,13 @@
       "seasonNo": 25,
       "gender": "F",
       "handle": "미경",
-      "photo": { "src": null, "alt": "나는 SOLO 25기 미경" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 25기 미경"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1988,
-        "ageKorean": null,
         "job": "해외 전시 디자이너 겸 프로젝트 매니저 (홍익대 시각디자인과 졸업, 뮤직비디오·광고 미술팀 경력)",
         "region": null,
         "traits": [],

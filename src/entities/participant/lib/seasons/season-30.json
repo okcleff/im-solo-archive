@@ -2,22 +2,33 @@
   "seasonNo": 30,
   "label": "30기 (에겐남 & 테토녀)",
   "episodes": [
-    { "ep": 238, "airDate": "2026-02-04" },
-    { "ep": 239, "airDate": "2026-02-11" }
+    {
+      "ep": 238,
+      "airDate": "2026-02-04"
+    },
+    {
+      "ep": 239,
+      "airDate": "2026-02-11"
+    }
   ],
   "participants": [
     {
       "seasonNo": 30,
       "gender": "M",
       "handle": "영수",
-      "photo": { "src": null, "alt": "나는 SOLO 30기 영수" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 30기 영수"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1992,
-        "ageKorean": null,
         "job": "패션 브랜드 회사 신규 브랜드 기획",
         "region": "서울 중구 거주",
-        "traits": ["에겐남", "커리어 이동 경험 언급"],
+        "traits": [
+          "에겐남",
+          "커리어 이동 경험 언급"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -33,14 +44,18 @@
       "seasonNo": 30,
       "gender": "M",
       "handle": "영호",
-      "photo": { "src": null, "alt": "나는 SOLO 30기 영호" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 30기 영호"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1992,
-        "ageKorean": null,
         "job": "에너지 전력 공기업 배관 설계(전역 후 엔지니어)",
         "region": null,
-        "traits": ["해군사관학교/장교 경력 언급"],
+        "traits": [
+          "해군사관학교/장교 경력 언급"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -56,14 +71,19 @@
       "seasonNo": 30,
       "gender": "M",
       "handle": "영식",
-      "photo": { "src": null, "alt": "나는 SOLO 30기 영식" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 30기 영식"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1992,
-        "ageKorean": null,
         "job": "부동산 전문 변호사 / 로펌 대표",
         "region": null,
-        "traits": ["전문직", "감정기복 적다고 어필"],
+        "traits": [
+          "전문직",
+          "감정기복 적다고 어필"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -84,11 +104,13 @@
       "seasonNo": 30,
       "gender": "M",
       "handle": "영철",
-      "photo": { "src": null, "alt": "나는 SOLO 30기 영철" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 30기 영철"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1991,
-        "ageKorean": null,
         "job": "태양광 발전 사업(대구·경북, 가업 이어받는 중)",
         "region": "대구·경북",
         "traits": [],
@@ -107,14 +129,18 @@
       "seasonNo": 30,
       "gender": "M",
       "handle": "광수",
-      "photo": { "src": null, "alt": "나는 SOLO 30기 광수" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 30기 광수"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1992,
-        "ageKorean": null,
         "job": "삼성 반도체 엔지니어(전자전기 학·석)",
         "region": null,
-        "traits": ["과학고 졸업 언급"],
+        "traits": [
+          "과학고 졸업 언급"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -130,11 +156,13 @@
       "seasonNo": 30,
       "gender": "M",
       "handle": "상철",
-      "photo": { "src": null, "alt": "나는 SOLO 30기 상철" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 30기 상철"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1989,
-        "ageKorean": null,
         "job": "세무사 (서울 강서구 개업 4년차)",
         "region": "서울 강서구",
         "traits": [
@@ -162,14 +190,18 @@
       "seasonNo": 30,
       "gender": "F",
       "handle": "영숙",
-      "photo": { "src": null, "alt": "나는 SOLO 30기 영숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 30기 영숙"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1991,
-        "ageKorean": null,
         "job": "외국계 제약회사 마케팅(약학대학 졸업, 약사)",
         "region": "서울 동작구",
-        "traits": ["자기관리(영단어 암기 루틴 언급)"],
+        "traits": [
+          "자기관리(영단어 암기 루틴 언급)"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -185,14 +217,19 @@
       "seasonNo": 30,
       "gender": "F",
       "handle": "정숙",
-      "photo": { "src": null, "alt": "나는 SOLO 30기 정숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 30기 정숙"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1993,
-        "ageKorean": null,
         "job": "경기도 소재 경찰청 소속 경찰 공무원",
         "region": "의정부 거주(업무로 거주 언급)",
-        "traits": ["솔로나라 최초 직업이라고 소개", "체력 걱정 언급"],
+        "traits": [
+          "솔로나라 최초 직업이라고 소개",
+          "체력 걱정 언급"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -213,14 +250,18 @@
       "seasonNo": 30,
       "gender": "F",
       "handle": "순자",
-      "photo": { "src": null, "alt": "나는 SOLO 30기 순자" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 30기 순자"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1995,
-        "ageKorean": null,
         "job": "계열사 헬스 브랜드 상품 기획/개발(PM)",
         "region": "서울 관악구(울산 출생 언급)",
-        "traits": ["복싱 생활체육 대회 출전 언급"],
+        "traits": [
+          "복싱 생활체육 대회 출전 언급"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -241,14 +282,18 @@
       "seasonNo": 30,
       "gender": "F",
       "handle": "옥순",
-      "photo": { "src": null, "alt": "나는 SOLO 30기 옥순" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 30기 옥순"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1992,
-        "ageKorean": null,
         "job": "필라테스 센터 2곳 운영(무용 전공)",
         "region": null,
-        "traits": ["선화예중·예고, 이화여대 무용과 졸업 언급"],
+        "traits": [
+          "선화예중·예고, 이화여대 무용과 졸업 언급"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -264,11 +309,13 @@
       "seasonNo": 30,
       "gender": "F",
       "handle": "영자",
-      "photo": { "src": null, "alt": "나는 SOLO 30기 영자" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 30기 영자"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1993,
-        "ageKorean": null,
         "job": "건설 현장 근무(H건설 현장 근무직 언급)",
         "region": null,
         "traits": [
@@ -276,7 +323,9 @@
           "한식기능사·요리/재봉/낚시/캠핑 언급",
           "서울 자가 언급"
         ],
-        "notableQuotes": ["\"주말 부부 어떠냐\" 질문 언급"],
+        "notableQuotes": [
+          "\"주말 부부 어떠냐\" 질문 언급"
+        ],
         "issues": []
       },
       "sources": [
@@ -296,14 +345,18 @@
       "seasonNo": 30,
       "gender": "F",
       "handle": "현숙",
-      "photo": { "src": null, "alt": "나는 SOLO 30기 현숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 30기 현숙"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1992,
-        "ageKorean": null,
         "job": "국제 회계법인 텍스 매니저(미국·캐나다 회계사 자격)",
         "region": "캐나다 밴쿠버 고향(자가 언급)",
-        "traits": ["미국·캐나다 회계사 자격증 언급"],
+        "traits": [
+          "미국·캐나다 회계사 자격증 언급"
+        ],
         "notableQuotes": [],
         "issues": []
       },

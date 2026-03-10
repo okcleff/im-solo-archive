@@ -2,28 +2,58 @@
   "seasonNo": 23,
   "label": "23기 (결혼 막차 특집)",
   "episodes": [
-    { "ep": 173, "airDate": "2024-10-30" },
-    { "ep": 174, "airDate": "2024-11-06" },
-    { "ep": 175, "airDate": "2024-11-13" },
-    { "ep": 176, "airDate": "2024-11-20" },
-    { "ep": 177, "airDate": "2024-11-27" },
-    { "ep": 178, "airDate": "2024-12-04" },
-    { "ep": 179, "airDate": "2024-12-11" },
-    { "ep": 180, "airDate": "2024-12-18" }
+    {
+      "ep": 173,
+      "airDate": "2024-10-30"
+    },
+    {
+      "ep": 174,
+      "airDate": "2024-11-06"
+    },
+    {
+      "ep": 175,
+      "airDate": "2024-11-13"
+    },
+    {
+      "ep": 176,
+      "airDate": "2024-11-20"
+    },
+    {
+      "ep": 177,
+      "airDate": "2024-11-27"
+    },
+    {
+      "ep": 178,
+      "airDate": "2024-12-04"
+    },
+    {
+      "ep": 179,
+      "airDate": "2024-12-11"
+    },
+    {
+      "ep": 180,
+      "airDate": "2024-12-18"
+    }
   ],
   "participants": [
     {
       "seasonNo": 23,
       "gender": "M",
       "handle": "영수",
-      "photo": { "src": null, "alt": "나는 SOLO 23기 영수" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 23기 영수"
+      },
       "instagram": "_sh_922",
       "profile": {
         "birthYear": 1986,
-        "ageKorean": 38,
         "job": "LS증권 기업 금융(IB) 업무 담당",
         "region": "서울 여의도",
-        "traits": ["연세대 졸업", "목동 거주", "운동 마니아"],
+        "traits": [
+          "연세대 졸업",
+          "목동 거주",
+          "운동 마니아"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -39,14 +69,20 @@
       "seasonNo": 23,
       "gender": "M",
       "handle": "영호",
-      "photo": { "src": null, "alt": "나는 SOLO 23기 영호" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 23기 영호"
+      },
       "instagram": "one_cut_hero",
       "profile": {
         "birthYear": 1988,
-        "ageKorean": 36,
         "job": "변호사",
         "region": "울산",
-        "traits": ["서울대 졸업", "첫인상 4표", "다정다감한 성격"],
+        "traits": [
+          "서울대 졸업",
+          "첫인상 4표",
+          "다정다감한 성격"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -62,14 +98,19 @@
       "seasonNo": 23,
       "gender": "M",
       "handle": "영식",
-      "photo": { "src": null, "alt": "나는 SOLO 23기 영식" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 23기 영식"
+      },
       "instagram": "_zero_s_k",
       "profile": {
         "birthYear": 1988,
-        "ageKorean": 36,
         "job": "자동차 부품 그룹사 임원",
         "region": "경기 과천",
-        "traits": ["영국 유학파", "전략 기획 담당"],
+        "traits": [
+          "영국 유학파",
+          "전략 기획 담당"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -85,14 +126,19 @@
       "seasonNo": 23,
       "gender": "M",
       "handle": "영철",
-      "photo": { "src": null, "alt": "나는 SOLO 23기 영철" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 23기 영철"
+      },
       "instagram": "_with_beom",
       "profile": {
         "birthYear": 1983,
-        "ageKorean": 41,
         "job": "기아자동차 구매팀 과장",
         "region": null,
-        "traits": ["밴드부 보컬 출신", "차분하고 진중한 성격"],
+        "traits": [
+          "밴드부 보컬 출신",
+          "차분하고 진중한 성격"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -108,14 +154,19 @@
       "seasonNo": 23,
       "gender": "M",
       "handle": "광수",
-      "photo": { "src": null, "alt": "나는 SOLO 23기 광수" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 23기 광수"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1988,
-        "ageKorean": 36,
         "job": "외국계 화학 기업 영업 팀장",
         "region": null,
-        "traits": ["포항공대 졸업", "트럼펫 연주"],
+        "traits": [
+          "포항공대 졸업",
+          "트럼펫 연주"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -131,14 +182,19 @@
       "seasonNo": 23,
       "gender": "M",
       "handle": "상철",
-      "photo": { "src": null, "alt": "나는 SOLO 23기 상철" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 23기 상철"
+      },
       "instagram": "_sh_922",
       "profile": {
         "birthYear": 1986,
-        "ageKorean": 38,
         "job": "삼성전자 개발자",
         "region": null,
-        "traits": ["운동 마니아", "다니엘 헤니 닮은꼴 언급"],
+        "traits": [
+          "운동 마니아",
+          "다니엘 헤니 닮은꼴 언급"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -154,14 +210,19 @@
       "seasonNo": 23,
       "gender": "F",
       "handle": "영숙",
-      "photo": { "src": null, "alt": "나는 SOLO 23기 영숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 23기 영숙"
+      },
       "instagram": "_eeun_s",
       "profile": {
         "birthYear": 1988,
-        "ageKorean": 36,
         "job": "SK에너지 사내 변호사",
         "region": null,
-        "traits": ["단아한 이미지", "지적인 매력"],
+        "traits": [
+          "단아한 이미지",
+          "지적인 매력"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -177,14 +238,18 @@
       "seasonNo": 23,
       "gender": "F",
       "handle": "정숙",
-      "photo": { "src": null, "alt": "나는 SOLO 23기 정숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 23기 정숙"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1994,
-        "ageKorean": 30,
         "job": "간호사 출신 (방송 미공개)",
         "region": null,
-        "traits": ["미스코리아 예선 출신"],
+        "traits": [
+          "미스코리아 예선 출신"
+        ],
         "notableQuotes": [],
         "issues": [
           "과거 조건만남을 빙자한 절도 행각 연루 의혹 제기",
@@ -204,14 +269,19 @@
       "seasonNo": 23,
       "gender": "F",
       "handle": "순자",
-      "photo": { "src": null, "alt": "나는 SOLO 23기 순자" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 23기 순자"
+      },
       "instagram": "_soon_ja_22",
       "profile": {
         "birthYear": 1988,
-        "ageKorean": 36,
         "job": "첼리스트",
         "region": null,
-        "traits": ["뉴에이지 연주팀 대표", "독실한 기독교인"],
+        "traits": [
+          "뉴에이지 연주팀 대표",
+          "독실한 기독교인"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -227,14 +297,19 @@
       "seasonNo": 23,
       "gender": "F",
       "handle": "영자",
-      "photo": { "src": null, "alt": "나는 SOLO 23기 영자" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 23기 영자"
+      },
       "instagram": "_youngja_22",
       "profile": {
         "birthYear": 1986,
-        "ageKorean": 38,
         "job": "외국계 제약회사 과장",
         "region": null,
-        "traits": ["활기찬 성격", "솔직한 입담"],
+        "traits": [
+          "활기찬 성격",
+          "솔직한 입담"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -250,14 +325,19 @@
       "seasonNo": 23,
       "gender": "F",
       "handle": "옥순",
-      "photo": { "src": null, "alt": "나는 SOLO 23기 옥순" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 23기 옥순"
+      },
       "instagram": "_oksoon_22",
       "profile": {
         "birthYear": 1987,
-        "ageKorean": 37,
         "job": "IT 프로젝트 매니저(PM)",
         "region": null,
-        "traits": ["요가 강사 자격 보유", "자기관리 철저"],
+        "traits": [
+          "요가 강사 자격 보유",
+          "자기관리 철저"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -273,14 +353,19 @@
       "seasonNo": 23,
       "gender": "F",
       "handle": "현숙",
-      "photo": { "src": null, "alt": "나는 SOLO 23기 현숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 23기 현숙"
+      },
       "instagram": "_hyunsook_22",
       "profile": {
         "birthYear": 1990,
-        "ageKorean": 34,
         "job": "외국계 보험사 영업 관리직",
         "region": null,
-        "traits": ["한국무용 전공", "밝은 웃음"],
+        "traits": [
+          "한국무용 전공",
+          "밝은 웃음"
+        ],
         "notableQuotes": [],
         "issues": []
       },

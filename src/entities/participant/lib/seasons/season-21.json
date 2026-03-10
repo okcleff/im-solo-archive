@@ -2,27 +2,53 @@
   "seasonNo": 21,
   "label": "21기",
   "episodes": [
-    { "ep": 156, "airDate": "2024-06-26" },
-    { "ep": 157, "airDate": "2024-07-03" },
-    { "ep": 158, "airDate": "2024-07-10" },
-    { "ep": 159, "airDate": "2024-07-17" },
-    { "ep": 160, "airDate": "2024-07-24" },
-    { "ep": 161, "airDate": "2024-07-31" },
-    { "ep": 162, "airDate": "2024-08-07" }
+    {
+      "ep": 156,
+      "airDate": "2024-06-26"
+    },
+    {
+      "ep": 157,
+      "airDate": "2024-07-03"
+    },
+    {
+      "ep": 158,
+      "airDate": "2024-07-10"
+    },
+    {
+      "ep": 159,
+      "airDate": "2024-07-17"
+    },
+    {
+      "ep": 160,
+      "airDate": "2024-07-24"
+    },
+    {
+      "ep": 161,
+      "airDate": "2024-07-31"
+    },
+    {
+      "ep": 162,
+      "airDate": "2024-08-07"
+    }
   ],
   "participants": [
     {
       "seasonNo": 21,
       "gender": "M",
       "handle": "영수",
-      "photo": { "src": null, "alt": "나는 SOLO 21기 영수" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 21기 영수"
+      },
       "instagram": "jsh606",
       "profile": {
         "birthYear": 1989,
-        "ageKorean": 37,
         "job": "LG전자 인사팀(HR) 근무",
         "region": "서울",
-        "traits": ["성실하고 진중한 성격", "장거리 연애 수용 가능"],
+        "traits": [
+          "성실하고 진중한 성격",
+          "장거리 연애 수용 가능"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -38,14 +64,20 @@
       "seasonNo": 21,
       "gender": "M",
       "handle": "영호",
-      "photo": { "src": null, "alt": "나는 SOLO 21기 영호" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 21기 영호"
+      },
       "instagram": "_petit_mignon",
       "profile": {
         "birthYear": 1993,
-        "ageKorean": 33,
         "job": "한의사 (한의원 원장)",
         "region": "경기 안산",
-        "traits": ["대출 없는 개업의", "연하 선호", "깔끔한 외모"],
+        "traits": [
+          "대출 없는 개업의",
+          "연하 선호",
+          "깔끔한 외모"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -61,14 +93,19 @@
       "seasonNo": 21,
       "gender": "M",
       "handle": "영식",
-      "photo": { "src": null, "alt": "나는 SOLO 21기 영식" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 21기 영식"
+      },
       "instagram": "_minsu_is_me",
       "profile": {
         "birthYear": 1988,
-        "ageKorean": 38,
         "job": "L패션 MD (신사복 브랜드)",
         "region": "서울",
-        "traits": ["패션 감각", "자기관리 철저"],
+        "traits": [
+          "패션 감각",
+          "자기관리 철저"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -84,14 +121,19 @@
       "seasonNo": 21,
       "gender": "M",
       "handle": "영철",
-      "photo": { "src": null, "alt": "나는 SOLO 21기 영철" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 21기 영철"
+      },
       "instagram": "minkyu_v",
       "profile": {
         "birthYear": 1984,
-        "ageKorean": 42,
         "job": "현대제철 근무",
         "region": "서울",
-        "traits": ["취미 부자 (사이클, 요리)", "강한 직진남 스타일"],
+        "traits": [
+          "취미 부자 (사이클, 요리)",
+          "강한 직진남 스타일"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -107,14 +149,19 @@
       "seasonNo": 21,
       "gender": "M",
       "handle": "광수",
-      "photo": { "src": null, "alt": "나는 SOLO 21기 광수" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 21기 광수"
+      },
       "instagram": "_the_light_one_",
       "profile": {
         "birthYear": 1992,
-        "ageKorean": 34,
         "job": "AI 교육 콘텐츠 기업 운영 (에듀테크 대표)",
         "region": "서울",
-        "traits": ["서울대 졸업", "지적이고 차분한 성격"],
+        "traits": [
+          "서울대 졸업",
+          "지적이고 차분한 성격"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -130,14 +177,19 @@
       "seasonNo": 21,
       "gender": "M",
       "handle": "상철",
-      "photo": { "src": null, "alt": "나는 SOLO 21기 상철" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 21기 상철"
+      },
       "instagram": "_sh_922",
       "profile": {
         "birthYear": 1991,
-        "ageKorean": 35,
         "job": "현대자동차 생산 기획",
         "region": "경기 평택",
-        "traits": ["운동 마니아", "인기남"],
+        "traits": [
+          "운동 마니아",
+          "인기남"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -153,14 +205,19 @@
       "seasonNo": 21,
       "gender": "F",
       "handle": "영숙",
-      "photo": { "src": null, "alt": "나는 SOLO 21기 영숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 21기 영숙"
+      },
       "instagram": "_eeun_s",
       "profile": {
         "birthYear": 1992,
-        "ageKorean": 34,
         "job": "제주대학교 부동산전략 전임교수",
         "region": "제주",
-        "traits": ["이화여대 졸업", "세련된 이미지"],
+        "traits": [
+          "이화여대 졸업",
+          "세련된 이미지"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -176,14 +233,19 @@
       "seasonNo": 21,
       "gender": "F",
       "handle": "정숙",
-      "photo": { "src": null, "alt": "나는 SOLO 21기 정숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 21기 정숙"
+      },
       "instagram": "_is_young",
       "profile": {
         "birthYear": 1991,
-        "ageKorean": 35,
         "job": "외국계 기업 PM (모스크바 근무 경력)",
         "region": "서울",
-        "traits": ["러시아 거주 경험", "러시아어 능통"],
+        "traits": [
+          "러시아 거주 경험",
+          "러시아어 능통"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -199,14 +261,19 @@
       "seasonNo": 21,
       "gender": "F",
       "handle": "순자",
-      "photo": { "src": null, "alt": "나는 SOLO 21기 순자" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 21기 순자"
+      },
       "instagram": "_soon_ja_",
       "profile": {
         "birthYear": 1995,
-        "ageKorean": 31,
         "job": "소방공무원 (구급대원)",
         "region": "경기 용인",
-        "traits": ["21기 막내", "털털하고 밝은 성격"],
+        "traits": [
+          "21기 막내",
+          "털털하고 밝은 성격"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -222,14 +289,19 @@
       "seasonNo": 21,
       "gender": "F",
       "handle": "영자",
-      "photo": { "src": null, "alt": "나는 SOLO 21기 영자" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 21기 영자"
+      },
       "instagram": "_crazy_red_",
       "profile": {
         "birthYear": 1994,
-        "ageKorean": 32,
         "job": "디지털 공학 전공 (회사원)",
         "region": "서울",
-        "traits": ["장신의 소유자", "강한 개성과 솔직함"],
+        "traits": [
+          "장신의 소유자",
+          "강한 개성과 솔직함"
+        ],
         "notableQuotes": [],
         "issues": []
       },
@@ -245,16 +317,23 @@
       "seasonNo": 21,
       "gender": "F",
       "handle": "옥순",
-      "photo": { "src": null, "alt": "나는 SOLO 21기 옥순" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 21기 옥순"
+      },
       "instagram": "_0_queen",
       "profile": {
         "birthYear": 1995,
-        "ageKorean": 31,
         "job": "필라테스 센터 원장",
         "region": "대구",
-        "traits": ["미대 졸업", "철저한 자기관리"],
+        "traits": [
+          "미대 졸업",
+          "철저한 자기관리"
+        ],
         "notableQuotes": [],
-        "issues": ["방송 중 영호와의 데이트 당시 태도 논란"]
+        "issues": [
+          "방송 중 영호와의 데이트 당시 태도 논란"
+        ]
       },
       "sources": [
         {
@@ -268,14 +347,19 @@
       "seasonNo": 21,
       "gender": "F",
       "handle": "현숙",
-      "photo": { "src": null, "alt": "나는 SOLO 21기 현숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 21기 현숙"
+      },
       "instagram": "_hyun_sook_",
       "profile": {
         "birthYear": 1996,
-        "ageKorean": 30,
         "job": "K사 브랜드 매니저",
         "region": "서울",
-        "traits": ["한영외고 및 비엔나국립대 졸업", "고학력 엘리트"],
+        "traits": [
+          "한영외고 및 비엔나국립대 졸업",
+          "고학력 엘리트"
+        ],
         "notableQuotes": [],
         "issues": []
       },

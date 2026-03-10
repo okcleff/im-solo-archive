@@ -2,19 +2,27 @@
   "seasonNo": 27,
   "label": "27기 (F6+6옥순)",
   "episodes": [
-    { "ep": 215, "airDate": "2025-07-02" },
-    { "ep": 216, "airDate": "2025-07-09" }
+    {
+      "ep": 215,
+      "airDate": "2025-07-02"
+    },
+    {
+      "ep": 216,
+      "airDate": "2025-07-09"
+    }
   ],
   "participants": [
     {
       "seasonNo": 27,
       "gender": "M",
       "handle": "영수",
-      "photo": { "src": null, "alt": "나는 SOLO 27기 영수" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 27기 영수"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1986,
-        "ageKorean": null,
         "job": "식품 인허가 전문 행정사(배우 출신, 영상 제작업 이후 전업)",
         "region": null,
         "traits": [
@@ -41,11 +49,13 @@
       "seasonNo": 27,
       "gender": "M",
       "handle": "영호",
-      "photo": { "src": null, "alt": "나는 SOLO 27기 영호" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 27기 영호"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1987,
-        "ageKorean": null,
         "job": "학원 강사(연세대 기계공학과 출신)",
         "region": null,
         "traits": [
@@ -72,11 +82,13 @@
       "seasonNo": 27,
       "gender": "M",
       "handle": "영식",
-      "photo": { "src": null, "alt": "나는 SOLO 27기 영식" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 27기 영식"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1990,
-        "ageKorean": null,
         "job": "해양수산부 소속 토목직 7급 공무원",
         "region": null,
         "traits": [
@@ -98,11 +110,13 @@
       "seasonNo": 27,
       "gender": "M",
       "handle": "영철",
-      "photo": { "src": null, "alt": "나는 SOLO 27기 영철" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 27기 영철"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1990,
-        "ageKorean": null,
         "job": "IT 컨설턴트·프로젝트 매니저(부산 클라우드IT 회사, MS 파트너사)",
         "region": "부산 거주(해운대 언급)",
         "traits": [
@@ -124,11 +138,13 @@
       "seasonNo": 27,
       "gender": "M",
       "handle": "광수",
-      "photo": { "src": null, "alt": "나는 SOLO 27기 광수" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 27기 광수"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1988,
-        "ageKorean": null,
         "job": "피부미용병원 일반의(의사)",
         "region": null,
         "traits": [
@@ -151,11 +167,13 @@
       "seasonNo": 27,
       "gender": "M",
       "handle": "상철",
-      "photo": { "src": null, "alt": "나는 SOLO 27기 상철" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 27기 상철"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1988,
-        "ageKorean": null,
         "job": "한국전력공사 직원",
         "region": null,
         "traits": [
@@ -182,11 +200,13 @@
       "seasonNo": 27,
       "gender": "F",
       "handle": "영숙",
-      "photo": { "src": null, "alt": "나는 SOLO 27기 영숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 27기 영숙"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1989,
-        "ageKorean": null,
         "job": "외국계 의료기기회사 마케팅 담당자",
         "region": null,
         "traits": [
@@ -208,11 +228,13 @@
       "seasonNo": 27,
       "gender": "F",
       "handle": "정숙",
-      "photo": { "src": null, "alt": "나는 SOLO 27기 정숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 27기 정숙"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1992,
-        "ageKorean": null,
         "job": "포항 소재 이차전지 관련 회사 직원",
         "region": "포항",
         "traits": [
@@ -234,11 +256,13 @@
       "seasonNo": 27,
       "gender": "F",
       "handle": "순자",
-      "photo": { "src": null, "alt": "나는 SOLO 27기 순자" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 27기 순자"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1992,
-        "ageKorean": null,
         "job": "장애인 B2G 담당자(장애인 대상 기업 연계)",
         "region": "대구 출신, 서울 거주",
         "traits": [
@@ -260,11 +284,13 @@
       "seasonNo": 27,
       "gender": "F",
       "handle": "영자",
-      "photo": { "src": null, "alt": "나는 SOLO 27기 영자" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 27기 영자"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1992,
-        "ageKorean": null,
         "job": "한국국제협력단(KOICA) 근무",
         "region": "경기도 성남 거주",
         "traits": [
@@ -287,11 +313,13 @@
       "seasonNo": 27,
       "gender": "F",
       "handle": "옥순",
-      "photo": { "src": null, "alt": "나는 SOLO 27기 옥순" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 27기 옥순"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1991,
-        "ageKorean": null,
         "job": "10년차 패션 디자이너(미국 회사 리모트 근무 형태)",
         "region": "서울 용산구 거주 언급",
         "traits": [
@@ -313,11 +341,13 @@
       "seasonNo": 27,
       "gender": "F",
       "handle": "현숙",
-      "photo": { "src": null, "alt": "나는 SOLO 27기 현숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 27기 현숙"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1988,
-        "ageKorean": null,
         "job": "외국계 제약회사 세일즈",
         "region": null,
         "traits": [

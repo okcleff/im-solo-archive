@@ -16,7 +16,6 @@ export const SourceSchema = z.object({
 
 export const ProfileSchema = z.object({
   birthYear: z.number().int().nullable(),
-  ageKorean: z.number().int().nullable(),
   job: z.string().nullable(),
   region: z.string().nullable(),
   traits: z.array(z.string()),
