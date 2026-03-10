@@ -31,16 +31,13 @@ export default function SeasonNav({ seasons, currentSeasonNo }: Props) {
   }, [open, close]);
 
   return (
-    <div ref={containerRef} className="relative">
+    <div ref={containerRef} className={`dropdown dropdown-end ${open ? 'dropdown-open' : ''}`}>
       <button
         onClick={() => setOpen((v) => !v)}
         aria-expanded={open}
         aria-haspopup="true"
         aria-label="기수별 페이지 열기"
-        className="h-9 px-3 rounded-xl text-sm border border-[color:var(--line)]
-          bg-[color:var(--surface-strong)] text-muted hover:text-[color:var(--fg)]
-          inline-flex items-center gap-1.5 transition-colors
-          focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[color:var(--accent)]"
+        className="btn btn-ghost btn-sm border border-base-300"
       >
         기수
         <svg
@@ -57,12 +54,12 @@ export default function SeasonNav({ seasons, currentSeasonNo }: Props) {
       </button>
 
       {open && (
-        <div className="absolute right-0 top-full mt-2 p-3 w-[250px] rounded-2xl surface shadow-2xl z-50 animate-float-in">
-          <p className="text-[10px] uppercase tracking-[0.18em] text-muted mb-2 px-1">
+        <div className="menu dropdown-content mt-2 w-[280px] rounded-2xl glass-panel p-3 shadow-2xl z-50 animate-float-in">
+          <p className="px-2 pb-2 text-[10px] uppercase tracking-[0.18em] text-base-content/55">
             전체 기수 ({seasons.length})
           </p>
 
-          <div className="grid grid-cols-5 gap-1.5 max-h-[58vh] overflow-y-auto pr-0.5">
+          <div className="grid grid-cols-5 gap-2 max-h-[58vh] overflow-y-auto pr-1 pt-1">
             {seasons.map((s) => {
               const isLatest = s.seasonNo === latestSeasonNo;
               const isCurrent = s.seasonNo === currentSeasonNo;
@@ -73,12 +70,12 @@ export default function SeasonNav({ seasons, currentSeasonNo }: Props) {
                   onClick={close}
                   className={
                     isCurrent
-                      ? 'relative h-9 rounded-xl text-xs font-semibold grid place-items-center bg-[color:var(--accent)] text-white'
-                      : 'relative h-9 rounded-xl text-xs font-semibold grid place-items-center chip hover:bg-[color:var(--surface-strong)] hover:text-[color:var(--fg)] transition-colors'
+                      ? 'btn btn-primary btn-sm h-10 min-h-10 rounded-xl px-0'
+                      : 'btn btn-ghost btn-sm h-10 min-h-10 rounded-xl border border-base-300 px-0'
                   }
                 >
                   {isLatest && !isCurrent ? (
-                    <span className="absolute -top-1.5 -right-1.5 text-[8px] leading-[1] px-1.5 py-1 rounded-full bg-[color:var(--accent-2)] text-white">
+                    <span className="absolute -top-1.5 -right-1.5 badge badge-secondary badge-xs">
                       N
                     </span>
                   ) : null}

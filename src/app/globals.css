@@ -1,35 +1,13 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@plugin "daisyui" {
+  themes: bumblebee --default, forest --prefersdark;
+  logs: false;
+}
 
 :root {
   --font-sans: 'SUIT Variable', 'Pretendard Variable', 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
   --font-title: 'S-Core Dream', 'SUIT Variable', 'Pretendard Variable', 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
-  --bg: #f4f7fb;
-  --bg-soft: #e8eef7;
-  --fg: #0f172a;
-  --muted: #5b6780;
-  --line: #d8e2f0;
-  --surface: rgba(255, 255, 255, 0.82);
-  --surface-strong: #ffffff;
-  --chip: #ecf2ff;
-  --accent: #2563eb;
-  --accent-2: #ef4444;
-  --ring: rgba(37, 99, 235, 0.35);
-}
-
-.dark {
-  --bg: #060b16;
-  --bg-soft: #0c1425;
-  --fg: #e6edf8;
-  --muted: #9aa8c2;
-  --line: #1f2b43;
-  --surface: rgba(12, 20, 37, 0.78);
-  --surface-strong: #0f1a2f;
-  --chip: #16233b;
-  --accent: #60a5fa;
-  --accent-2: #fb7185;
-  --ring: rgba(96, 165, 250, 0.38);
 }
 
 @layer base {
@@ -39,51 +17,50 @@
   }
 
   body {
-    color: var(--fg);
-    background:
-      radial-gradient(1200px 600px at -10% -20%, rgba(59, 130, 246, 0.18), transparent 55%),
-      radial-gradient(900px 560px at 110% -25%, rgba(239, 68, 68, 0.16), transparent 58%),
-      linear-gradient(180deg, var(--bg) 0%, var(--bg-soft) 100%);
     min-height: 100vh;
+    background:
+      radial-gradient(circle at top left, color-mix(in oklab, var(--color-primary) 18%, transparent), transparent 30%),
+      radial-gradient(circle at top right, color-mix(in oklab, var(--color-secondary) 16%, transparent), transparent 28%),
+      linear-gradient(180deg, var(--color-base-200) 0%, var(--color-base-100) 100%);
+    color: var(--color-base-content);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
 
   ::selection {
-    background: rgba(37, 99, 235, 0.2);
+    background: color-mix(in oklab, var(--color-primary) 24%, transparent);
+  }
+}
+
+@layer components {
+  .app-shell {
+    @apply min-h-screen bg-transparent text-base-content;
+  }
+
+  .glass-panel {
+    border: 1px solid color-mix(in oklab, var(--color-base-300) 70%, transparent);
+    background-color: color-mix(in oklab, var(--color-base-100) 88%, transparent);
+    box-shadow: 0 20px 45px -28px rgb(0 0 0 / 0.35);
+    backdrop-filter: blur(18px);
+  }
+
+  .section-title {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: color-mix(in oklab, var(--color-base-content) 60%, transparent);
+  }
+
+  .soft-stat {
+    border: 1px solid var(--color-base-300);
+    background-color: color-mix(in oklab, var(--color-base-100) 80%, transparent);
+    border-radius: 1rem;
+    box-shadow: 0 8px 20px -18px rgb(0 0 0 / 0.35);
   }
 }
 
 @layer utilities {
-  .ease-spring {
-    transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
-  }
-
-  .surface {
-    background: var(--surface);
-    border: 1px solid var(--line);
-    backdrop-filter: blur(14px);
-  }
-
-  .surface-strong {
-    background: var(--surface-strong);
-    border: 1px solid var(--line);
-  }
-
-  .chip {
-    background: var(--chip);
-    border: 1px solid var(--line);
-    color: var(--muted);
-  }
-
-  .text-muted {
-    color: var(--muted);
-  }
-
-  .ring-accent {
-    box-shadow: 0 0 0 4px var(--ring);
-  }
-
   .scrollbar-hide {
     -ms-overflow-style: none;
     scrollbar-width: none;

@@ -1,57 +1,107 @@
-import type { Metadata } from 'next';
-import Link from 'next/link';
-import './globals.css';
-import { SEASONS_DATA, SHOW_INFO } from '@/entities/participant/lib/data';
-import { SeasonNav } from '@/widgets/season-nav';
-import { getSiteUrl, SITE_NAME } from '@/shared/config/site';
-import ThemeProvider from '@/shared/ui/ThemeProvider';
-import ThemeToggle from '@/shared/ui/ThemeToggle';
+import type { Metadata } from "next";
+import Link from "next/link";
+import { cookies } from "next/headers";
+import "./globals.css";
+import { SEASONS_DATA, SHOW_INFO } from "@/entities/participant/lib/data";
+import { SeasonNav } from "@/widgets/season-nav";
+import { getSiteUrl, SITE_NAME } from "@/shared/config/site";
+import ThemeProvider from "@/shared/ui/ThemeProvider";
+import ThemeToggle from "@/shared/ui/ThemeToggle";
 
 const BASE = getSiteUrl();
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE),
+  icons: {
+    icon: [
+      { url: "/favicon/favicon.ico", sizes: "any" },
+      { url: "/favicon/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: "/favicon/apple-touch-icon.png",
+  },
   title: {
     default: `${SITE_NAME} | 나는 SOLO 전 기수 출연자 프로필`,
     template: `%s | ${SITE_NAME}`,
   },
   description:
-    '나는 SOLO(나는솔로) 전 기수 출연자 직업, 나이, 지역, 특징, 이슈를 한눈에 검색하세요.',
-  keywords: ['나는솔로', '나는SOLO', '솔로나라', '출연자', '프로필'],
+    "나는 SOLO(나는솔로) 전 기수 출연자 직업, 나이, 지역, 특징, 이슈를 한눈에 검색하세요.",
+  keywords: ["나는솔로", "나는SOLO", "솔로나라", "출연자", "프로필"],
   openGraph: {
-    type: 'website',
+    type: "website",
     siteName: SITE_NAME,
-    locale: 'ko_KR',
+    locale: "ko_KR",
   },
-  twitter: { card: 'summary_large_image' },
+  twitter: { card: "summary_large_image" },
   robots: { index: true, follow: true },
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default async function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  const cookieStore = await cookies();
+  const storedTheme = cookieStore.get("theme")?.value;
+  const initialDataTheme =
+    storedTheme === "dark"
+      ? "forest"
+      : storedTheme === "light"
+        ? "bumblebee"
+        : undefined;
+  const initialColorScheme =
+    storedTheme === "dark"
+      ? "dark"
+      : storedTheme === "light"
+        ? "light"
+        : undefined;
+
   return (
-    <html lang="ko" suppressHydrationWarning>
+    <html
+      lang="ko"
+      data-theme={initialDataTheme}
+      style={
+        initialColorScheme ? { colorScheme: initialColorScheme } : undefined
+      }
+      suppressHydrationWarning
+    >
       <head>
         <script
           dangerouslySetInnerHTML={{
-            __html: `(function(){var s=localStorage.getItem('theme');var d=window.matchMedia('(prefers-color-scheme: dark)').matches;if(s==='dark'||(s!=='light'&&d)){document.documentElement.classList.add('dark');}})();`,
+            __html: `(function(){var s=localStorage.getItem('theme');var e=document.documentElement;if(s==='dark'){e.setAttribute('data-theme','forest');e.style.colorScheme='dark';document.cookie='theme=dark; path=/; max-age=31536000; samesite=lax';}else if(s==='light'){e.setAttribute('data-theme','bumblebee');e.style.colorScheme='light';document.cookie='theme=light; path=/; max-age=31536000; samesite=lax';}else{e.removeAttribute('data-theme');e.style.colorScheme=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.cookie='theme=; path=/; max-age=0; samesite=lax';}})();`,
           }}
         />
       </head>
-      <body className="font-[var(--font-sans)] text-[color:var(--fg)] transition-colors duration-200">
-        <ThemeProvider>
-          <header className="sticky top-0 z-40 border-b border-[color:var(--line)] bg-[color:var(--surface)] backdrop-blur-xl">
-            <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
-              <Link href="/" className="flex items-center gap-3 group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[color:var(--accent)] rounded-xl px-1 py-1">
-                <span className="w-8 h-8 rounded-xl bg-gradient-to-br from-blue-500 to-rose-500 text-white text-xs font-bold grid place-items-center shadow-lg shadow-blue-500/30">
-                  SOLO
-                </span>
-                <span>
-                  <strong className="block text-sm sm:text-base tracking-tight font-[var(--font-title)]">{SITE_NAME}</strong>
-                  <span className="text-[11px] text-muted">Fan-curated participant archive</span>
-                </span>
-              </Link>
+      <body className="app-shell font-[var(--font-sans)]">
+        <ThemeProvider
+          initialTheme={
+            storedTheme === "light" || storedTheme === "dark"
+              ? storedTheme
+              : "system"
+          }
+        >
+          <header className="sticky top-0 z-40 border-b border-base-300/70 bg-base-100/85 backdrop-blur-xl">
+            <div className="navbar max-w-6xl mx-auto min-h-16 px-4">
+              <div className="navbar-start">
+                <Link
+                  href="/"
+                  className="btn btn-ghost h-auto min-h-0 px-2 normal-case hover:bg-base-200"
+                >
+                  <span className="grid h-9 w-9 place-items-center rounded-2xl bg-primary text-primary-content text-xs font-black shadow-lg">
+                    SOLO
+                  </span>
+                  <span className="text-left">
+                    <strong className="block text-sm sm:text-base tracking-tight font-[var(--font-title)]">
+                      {SITE_NAME}
+                    </strong>
+                    <span className="text-[11px] text-base-content/60">
+                      Fan-curated participant archive
+                    </span>
+                  </span>
+                </Link>
+              </div>
 
-              <div className="flex items-center gap-2">
+              <div className="navbar-end gap-2">
                 <ThemeToggle />
                 <SeasonNav seasons={SEASONS_DATA} />
               </div>
@@ -60,18 +110,27 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
           <main>{children}</main>
 
-          <footer className="mt-16 border-t border-[color:var(--line)] bg-[color:var(--surface)] backdrop-blur-xl">
-            <div className="max-w-6xl mx-auto px-4 py-8 text-sm text-muted">
+          <footer className="mt-16 border-t border-base-300/70 bg-base-100/85">
+            <div className="max-w-6xl mx-auto px-4 py-8 text-sm text-base-content/70">
               <p>
-                본 사이트는 공개된 뉴스 기사 기반의 비공식 아카이브입니다.{' '}
+                본 사이트는 공개된 뉴스 기사 기반의 비공식 아카이브입니다.{" "}
                 <a
                   href={SHOW_INFO.officialVod}
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="나는 SOLO 공식 VOD (새 탭에서 열림)"
-                  className="text-[color:var(--accent)] underline underline-offset-2 hover:no-underline"
+                  className="link link-primary font-medium"
                 >
                   나는 SOLO 공식 VOD
+                </a>
+              </p>
+              <p className="mt-1.5">
+                문의:{" "}
+                <a
+                  href="mailto:imsoloarchive@gmail.com"
+                  className="link link-primary font-medium"
+                >
+                  imsoloarchive@gmail.com
                 </a>
               </p>
               <p className="mt-1.5 text-xs">데이터 최종 업데이트: 2026-03-04</p>

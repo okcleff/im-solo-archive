@@ -32,8 +32,8 @@ export default function FilterBar({ gender, query, onGenderChange, onQueryChange
 
   return (
     <div className="px-4 pt-3">
-      <div className="max-w-6xl mx-auto surface rounded-2xl p-3 sm:p-4 flex flex-wrap items-center gap-3">
-        <div role="group" aria-label="성별 필터" className="flex gap-1.5">
+      <div className="max-w-6xl mx-auto glass-panel rounded-2xl p-3 sm:p-4 flex flex-wrap items-center gap-3">
+        <div role="group" aria-label="성별 필터" className="join">
           {GENDERS.map((g) => (
             <button
               key={g.value}
@@ -41,8 +41,8 @@ export default function FilterBar({ gender, query, onGenderChange, onQueryChange
               aria-pressed={gender === g.value}
               className={
                 gender === g.value
-                  ? 'px-3.5 py-1.5 rounded-xl text-sm font-semibold bg-[color:var(--fg)] text-white dark:bg-[color:var(--accent)]'
-                  : 'px-3.5 py-1.5 rounded-xl text-sm font-semibold chip hover:text-[color:var(--fg)] transition-colors'
+                  ? 'btn btn-primary join-item btn-sm'
+                  : 'btn btn-ghost join-item btn-sm border border-base-300'
               }
             >
               {g.label}
@@ -57,7 +57,7 @@ export default function FilterBar({ gender, query, onGenderChange, onQueryChange
             if (!isComposingRef.current) submitQuery();
           }}
         >
-          <span className="absolute left-3 top-1/2 -translate-y-1/2 text-muted pointer-events-none">
+          <span className="absolute left-3 top-1/2 -translate-y-1/2 text-base-content/45 pointer-events-none">
             <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
               <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z" />
             </svg>
@@ -80,14 +80,12 @@ export default function FilterBar({ gender, query, onGenderChange, onQueryChange
             }}
             placeholder="전체 기수 검색 (예: 30기 영수, 25기 서울)"
             aria-label="출연자 검색"
-            className="w-full pl-9 pr-20 h-10 rounded-xl border border-[color:var(--line)]
-              bg-[color:var(--surface-strong)] text-sm
-              placeholder:text-muted focus:outline-none focus:ring-2 focus:ring-[color:var(--accent)]"
+            className="input input-bordered w-full pl-9 pr-20 text-sm"
           />
           <button
             type="submit"
             aria-label="검색 실행"
-            className="absolute right-3 top-1/2 -translate-y-1/2 text-muted hover:text-[color:var(--fg)] transition-colors"
+            className="btn btn-ghost btn-xs absolute right-2 top-1/2 -translate-y-1/2"
           >
             <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
               <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z" />
@@ -102,9 +100,9 @@ export default function FilterBar({ gender, query, onGenderChange, onQueryChange
                 inputRef.current?.focus();
               }}
               aria-label="검색어 지우기"
-              className="absolute right-9 top-1/2 -translate-y-1/2 text-muted hover:text-[color:var(--fg)] text-lg leading-none"
+              className="btn btn-ghost btn-xs absolute right-9 top-1/2 -translate-y-1/2 text-base-content/60"
             >
-              x
+              ×
             </button>
           ) : null}
         </form>

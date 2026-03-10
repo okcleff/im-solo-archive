@@ -10,9 +10,7 @@ export default function ThemeToggle() {
     <button
       onClick={() => setTheme(isDark ? 'light' : 'dark')}
       aria-label={isDark ? '라이트 모드로 전환' : '다크 모드로 전환'}
-      className="w-9 h-9 grid place-items-center rounded-xl border border-[color:var(--line)]
-        bg-[color:var(--surface-strong)] text-muted hover:text-[color:var(--fg)] hover:scale-[1.03]
-        transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[color:var(--accent)]"
+      className="btn btn-square btn-ghost btn-sm border border-base-300 hover:border-base-content/20"
     >
       {isDark ? (
         <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">

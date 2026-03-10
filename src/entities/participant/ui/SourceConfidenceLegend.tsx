@@ -10,12 +10,12 @@ const tooltipContent = (
 
 export default function SourceConfidenceLegend({ className }: { className?: string }) {
   return (
-    <div className={`flex items-center gap-1.5 text-xs text-muted ${className ?? ''}`}>
+    <div className={`flex items-center gap-1.5 text-xs text-base-content/55 ${className ?? ''}`}>
       <Tooltip content={tooltipContent}>
         <button
           type="button"
           aria-label="출처 신뢰도 설명 보기"
-          className="cursor-help text-muted hover:text-[color:var(--fg)] transition-colors"
+          className="btn btn-ghost btn-xs btn-circle"
         >
           ?
         </button>

@@ -90,15 +90,16 @@ export default async function ParticipantPage({ params }: Props) {
     sameAs: [...p.sources.map((s) => s.url), ...(p.instagram ? [`https://instagram.com/${p.instagram}`] : [])],
   };
 
-  const accent = p.gender === 'M' ? 'from-blue-600 to-indigo-700' : 'from-rose-500 to-red-600';
+  const accent = p.gender === 'M' ? 'from-accent to-primary' : 'from-secondary to-primary';
 
   return (
     <>
       <JsonLd data={jsonLd} />
 
       <section className="px-4 pt-8 sm:pt-12">
-        <div className={`max-w-3xl mx-auto rounded-[28px] bg-gradient-to-br ${accent} text-white p-6 sm:p-8 shadow-2xl`}>
-          <Link href={`/season/${p.seasonNo}`} className="text-xs text-white/75 hover:text-white inline-flex items-center gap-1">
+        <div className={`hero max-w-3xl mx-auto rounded-[2rem] bg-gradient-to-br ${accent} text-white shadow-2xl`}>
+          <div className="hero-content w-full items-start px-6 py-8 sm:px-8">
+          <Link href={`/season/${p.seasonNo}`} className="btn btn-ghost btn-sm border-none bg-white/10 text-white hover:bg-white/20">
             ← {p.seasonNo}기 출연자 목록
           </Link>
           <div className="mt-4">
@@ -110,64 +111,74 @@ export default async function ParticipantPage({ params }: Props) {
                 href={`https://instagram.com/${p.instagram}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex mt-4 items-center gap-1.5 text-sm bg-white/15 hover:bg-white/25 rounded-xl px-3 py-1.5"
+                className="btn btn-sm mt-4 border-none bg-white/15 text-white hover:bg-white/25"
                 aria-label={`${p.handle} 인스타그램 @${p.instagram}`}
               >
                 <InstagramIcon className="w-3.5 h-3.5" />@{p.instagram}
               </a>
             ) : null}
           </div>
+          </div>
         </div>
       </section>
 
       <div className="max-w-3xl mx-auto px-4 py-8 space-y-5">
-        <section className="surface rounded-2xl p-5 sm:p-6">
+        <section className="card border border-base-300 bg-base-100 shadow-sm">
+          <div className="card-body p-5 sm:p-6">
           <h2 className="text-base font-semibold mb-4">기본 정보</h2>
-          <dl className="grid grid-cols-2 gap-4">
+          <dl className="stats stats-vertical sm:stats-horizontal border border-base-300 bg-base-200/70 shadow-sm">
             <InfoItem label="나이" value={age} />
             <InfoItem label="직업" value={p.profile.job} />
             <InfoItem label="지역" value={p.profile.region} />
             <InfoItem label="성별" value={p.gender === 'M' ? '남' : '여'} />
           </dl>
+          </div>
         </section>
 
         {p.profile.traits.length > 0 ? (
-          <section className="surface rounded-2xl p-5 sm:p-6">
+          <section className="card border border-base-300 bg-base-100 shadow-sm">
+            <div className="card-body p-5 sm:p-6">
             <h2 className="text-base font-semibold mb-3">특징</h2>
             <div className="flex flex-wrap gap-2">
               {p.profile.traits.map((t, i) => (
-                <span key={i} className="px-3 py-1.5 rounded-full text-sm font-semibold chip">{t}</span>
+                <span key={i} className="badge badge-outline h-8 px-3">{t}</span>
               ))}
+            </div>
             </div>
           </section>
         ) : null}
 
         {p.profile.notableQuotes.length > 0 ? (
-          <section className="surface rounded-2xl p-5 sm:p-6">
+          <section className="card border border-base-300 bg-base-100 shadow-sm">
+            <div className="card-body p-5 sm:p-6">
             <h2 className="text-base font-semibold mb-3">화제 멘트</h2>
             <ul className="space-y-2.5">
               {p.profile.notableQuotes.map((q, i) => (
-                <li key={i} className="rounded-xl border border-[color:var(--line)] bg-[color:var(--surface-strong)] px-4 py-3 text-sm italic">
+                <li key={i} className="rounded-2xl border border-base-300 bg-base-200/60 px-4 py-3 text-sm italic shadow-sm">
                   {q}
                 </li>
               ))}
             </ul>
+            </div>
           </section>
         ) : null}
 
         {p.profile.issues.length > 0 ? (
-          <section className="rounded-2xl p-5 sm:p-6 border border-amber-300/70 bg-amber-100/60 dark:bg-amber-950/30 dark:border-amber-900">
-            <h2 className="text-base font-semibold mb-3 text-amber-700 dark:text-amber-400">이슈 / 미확인 정보</h2>
+          <section className="alert border border-warning/30 bg-warning/12 text-warning-content">
+            <div>
+            <h2 className="text-base font-semibold mb-3 text-warning">이슈 / 미확인 정보</h2>
             <ul className="space-y-2">
               {p.profile.issues.map((issue, i) => (
-                <li key={i} className="text-sm text-amber-800 dark:text-amber-200">- {issue}</li>
+                <li key={i} className="text-sm opacity-90">- {issue}</li>
               ))}
             </ul>
+            </div>
           </section>
         ) : null}
 
         {p.sources.length > 0 ? (
-          <section className="surface rounded-2xl p-5 sm:p-6">
+          <section className="card border border-base-300 bg-base-100 shadow-sm">
+            <div className="card-body p-5 sm:p-6">
             <h2 className="text-base font-semibold mb-3">출처</h2>
             <ul className="space-y-2.5">
               {p.sources.map((s, i) => (
@@ -178,13 +189,14 @@ export default async function ParticipantPage({ params }: Props) {
                       s.confidence === 'high' ? 'bg-emerald-500' : s.confidence === 'medium' ? 'bg-amber-500' : 'bg-rose-400'
                     }`}
                   />
-                  <a href={s.url} target="_blank" rel="noopener noreferrer" className="text-sm text-[color:var(--accent)] underline underline-offset-2 hover:no-underline">
+                  <a href={s.url} target="_blank" rel="noopener noreferrer" className="link link-primary text-sm">
                     {s.title}
                   </a>
                 </li>
               ))}
             </ul>
             <SourceConfidenceLegend className="mt-4" />
+            </div>
           </section>
         ) : null}
       </div>
@@ -194,9 +206,9 @@ export default async function ParticipantPage({ params }: Props) {
 
 function InfoItem({ label, value }: { label: string; value: string | null | undefined }) {
   return (
-    <div>
-      <dt className="text-xs font-semibold text-muted uppercase tracking-wide">{label}</dt>
-      <dd className="text-sm mt-0.5 font-medium">{value ?? '미공개'}</dd>
+    <div className="stat">
+      <dt className="stat-title text-xs font-semibold uppercase tracking-wide">{label}</dt>
+      <dd className="stat-value mt-0 text-sm font-medium">{value ?? '미공개'}</dd>
     </div>
   );
 }

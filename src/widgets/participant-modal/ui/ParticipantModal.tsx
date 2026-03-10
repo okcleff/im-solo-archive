@@ -84,12 +84,12 @@ export default function ParticipantModal({ participant: p, onClose }: Props) {
     return () => document.removeEventListener('keydown', handleKeyDown);
   }, [handleKeyDown]);
 
-  const accentGrad = p.gender === 'M' ? 'from-blue-600 to-indigo-700' : 'from-rose-500 to-red-600';
+  const accentGrad = p.gender === 'M' ? 'from-accent to-primary' : 'from-secondary to-primary';
 
   return (
     <div
       ref={overlayRef}
-      className="fixed inset-0 z-50 bg-black/45 backdrop-blur-sm flex items-center justify-center p-3 sm:p-5 animate-modal-overlay"
+      className="modal modal-open animate-modal-overlay"
       onClick={(e) => e.target === overlayRef.current && onClose()}
       aria-modal="true"
       role="dialog"
@@ -97,7 +97,7 @@ export default function ParticipantModal({ participant: p, onClose }: Props) {
     >
       <div
         ref={modalRef}
-        className="w-full max-w-xl max-h-[90vh] overflow-y-auto rounded-3xl surface-strong shadow-2xl animate-modal-content"
+        className="modal-box w-full max-w-xl max-h-[90vh] overflow-y-auto rounded-3xl border border-base-300 bg-base-100 p-0 shadow-2xl animate-modal-content"
       >
         <div className={`bg-gradient-to-r ${accentGrad} text-white p-6`}>
           <div className="flex justify-between items-start gap-3">
@@ -112,7 +112,7 @@ export default function ParticipantModal({ participant: p, onClose }: Props) {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={`${p.handle} 인스타그램 (@${p.instagram})`}
-                  className="w-8 h-8 rounded-xl bg-white/20 hover:bg-white/30 flex items-center justify-center text-white transition-colors"
+                  className="btn btn-square btn-sm border-none bg-white/20 text-white hover:bg-white/30"
                 >
                   <InstagramIcon className="w-4 h-4" />
                 </a>
@@ -121,7 +121,7 @@ export default function ParticipantModal({ participant: p, onClose }: Props) {
                 data-autofocus
                 onClick={onClose}
                 aria-label="모달 닫기"
-                className="w-8 h-8 rounded-xl bg-white/20 hover:bg-white/30 flex items-center justify-center text-white transition-colors"
+                className="btn btn-square btn-sm border-none bg-white/20 text-white hover:bg-white/30"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
@@ -132,19 +132,19 @@ export default function ParticipantModal({ participant: p, onClose }: Props) {
         </div>
 
         <div className="p-6 space-y-5">
-          <dl className="grid grid-cols-2 gap-3 rounded-2xl chip p-4">
+          <dl className="stats stats-vertical sm:stats-horizontal w-full border border-base-300 bg-base-200/70 shadow-sm">
             <InfoItem label="나이" value={age} />
             <InfoItem label="직업" value={p.profile.job} />
             <InfoItem label="지역" value={p.profile.region} />
             {p.instagram ? (
-              <div>
-                <dt className="text-[10px] font-bold text-muted uppercase tracking-wider">인스타그램</dt>
-                <dd className="mt-0.5 text-sm">
+              <div className="stat">
+                <dt className="stat-title text-[10px] font-bold uppercase tracking-wider">인스타그램</dt>
+                <dd className="stat-value mt-0 text-sm font-medium">
                   <a
                     href={`https://instagram.com/${p.instagram}`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-[color:var(--accent)] underline underline-offset-2 hover:no-underline"
+                    className="link link-primary"
                   >
                     @{p.instagram}
                   </a>
@@ -155,10 +155,10 @@ export default function ParticipantModal({ participant: p, onClose }: Props) {
 
           {p.profile.traits.length > 0 ? (
             <div>
-              <h3 className="text-xs font-bold uppercase tracking-wider mb-2.5 text-muted">특징</h3>
+              <h3 className="mb-2.5 text-xs font-bold uppercase tracking-wider text-base-content/55">특징</h3>
               <div className="flex flex-wrap gap-2">
                 {p.profile.traits.map((t, i) => (
-                  <span key={i} className="px-3 py-1 rounded-full text-xs font-semibold chip">{t}</span>
+                  <span key={i} className="badge badge-outline h-8 px-3">{t}</span>
                 ))}
               </div>
             </div>
@@ -166,10 +166,10 @@ export default function ParticipantModal({ participant: p, onClose }: Props) {
 
           {p.profile.notableQuotes.length > 0 ? (
             <div>
-              <h3 className="text-xs font-bold uppercase tracking-wider mb-2.5 text-muted">화제 멘트</h3>
+              <h3 className="mb-2.5 text-xs font-bold uppercase tracking-wider text-base-content/55">화제 멘트</h3>
               <ul className="space-y-2">
                 {p.profile.notableQuotes.map((q, i) => (
-                  <li key={i} className="text-sm italic rounded-xl border border-[color:var(--line)] bg-[color:var(--surface)] px-3 py-2">
+                  <li key={i} className="rounded-2xl border border-base-300 bg-base-200/60 px-4 py-3 text-sm italic shadow-sm">
                     {q}
                   </li>
                 ))}
@@ -178,19 +178,21 @@ export default function ParticipantModal({ participant: p, onClose }: Props) {
           ) : null}
 
           {p.profile.issues.length > 0 ? (
-            <div className="rounded-2xl p-4 border border-amber-300/60 bg-amber-100/60 dark:bg-amber-950/30 dark:border-amber-900">
-              <h3 className="text-xs font-bold uppercase tracking-wider mb-2 text-amber-700 dark:text-amber-400">이슈 / 미확인 정보</h3>
+            <div className="alert border border-warning/30 bg-warning/12 text-warning-content">
+              <div className="block">
+                <h3 className="mb-2 text-xs font-bold uppercase tracking-wider text-warning">이슈 / 미확인 정보</h3>
               <ul className="space-y-1.5">
                 {p.profile.issues.map((issue, i) => (
-                  <li key={i} className="text-xs text-amber-800 dark:text-amber-200">- {issue}</li>
+                  <li key={i} className="text-xs opacity-90">- {issue}</li>
                 ))}
               </ul>
+              </div>
             </div>
           ) : null}
 
           {p.sources.length > 0 ? (
             <div>
-              <h3 className="text-xs font-bold uppercase tracking-wider mb-2.5 text-muted">출처</h3>
+              <h3 className="mb-2.5 text-xs font-bold uppercase tracking-wider text-base-content/55">출처</h3>
               <ul className="space-y-2.5">
                 {p.sources.map((s, i) => (
                   <li key={i} className="flex items-start gap-2 text-sm">
@@ -200,7 +202,7 @@ export default function ParticipantModal({ participant: p, onClose }: Props) {
                         s.confidence === 'high' ? 'bg-emerald-500' : s.confidence === 'medium' ? 'bg-amber-500' : 'bg-rose-400'
                       }`}
                     />
-                    <a href={s.url} target="_blank" rel="noopener noreferrer" className="text-[color:var(--accent)] underline underline-offset-2 hover:no-underline">
+                    <a href={s.url} target="_blank" rel="noopener noreferrer" className="link link-primary">
                       {s.title}
                     </a>
                   </li>
@@ -210,9 +212,9 @@ export default function ParticipantModal({ participant: p, onClose }: Props) {
           ) : null}
         </div>
 
-        <div className="px-6 pb-6 pt-1 flex justify-between items-center border-t border-[color:var(--line)]">
+        <div className="flex items-center justify-between border-t border-base-300 px-6 pb-6 pt-1">
           <SourceConfidenceLegend />
-          <Link href={getParticipantUrl(p)} className="text-xs font-semibold text-[color:var(--accent)] hover:opacity-80">
+          <Link href={getParticipantUrl(p)} className="btn btn-ghost btn-sm text-primary">
             개별 페이지 보기
           </Link>
         </div>
@@ -223,9 +225,9 @@ export default function ParticipantModal({ participant: p, onClose }: Props) {
 
 function InfoItem({ label, value }: { label: string; value: string | null | undefined }) {
   return (
-    <div>
-      <dt className="text-[10px] font-bold text-muted uppercase tracking-wider">{label}</dt>
-      <dd className="text-sm mt-0.5 font-medium">{value ?? '미공개'}</dd>
+    <div className="stat">
+      <dt className="stat-title text-[10px] font-bold uppercase tracking-wider">{label}</dt>
+      <dd className="stat-value mt-0 text-sm font-medium">{value ?? '미공개'}</dd>
     </div>
   );
 }
