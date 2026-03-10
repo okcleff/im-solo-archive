@@ -42,7 +42,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ko" suppressHydrationWarning>
-      <head />
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `try{document.documentElement.setAttribute("data-theme",localStorage.getItem("theme"))}catch(e){}`,
+          }}
+        />
+      </head>
       <body className="app-shell font-[var(--font-sans)]">
         <ThemeProvider>
           <header className="sticky top-0 z-40 border-b border-base-300/70 bg-base-100/85 backdrop-blur-xl">

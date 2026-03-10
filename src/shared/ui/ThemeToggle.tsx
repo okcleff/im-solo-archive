@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { useTheme } from './ThemeProvider';
 
 export default function ThemeToggle() {
-  const { resolvedTheme, setTheme } = useTheme();
+  const { isDark, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
@@ -15,11 +15,9 @@ export default function ThemeToggle() {
     return <div aria-hidden="true" className="h-8 w-8" />;
   }
 
-  const isDark = resolvedTheme === 'dark';
-
   return (
     <button
-      onClick={() => setTheme(isDark ? 'light' : 'dark')}
+      onClick={() => setTheme(isDark ? 'bumblebee' : 'forest')}
       aria-label={isDark ? '라이트 모드로 전환' : '다크 모드로 전환'}
       className="btn btn-square btn-ghost btn-sm border border-base-300 hover:border-base-content/20"
     >
