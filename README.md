@@ -12,10 +12,11 @@
 
 ## 프로젝트 개요
 
-SBS Plus 예능 **나는 SOLO**의 기수별 출연자 데이터를 정리한 웹 앱입니다.
+SBS Plus 예능 **나는 SOLO**의 기수별 출연자 데이터를 정리하여 보여주기 위한 목적으로, 바이브 코딩으로 제작한 웹 앱입니다.
 직업, 나이, 지역, 특징, 화제 멘트, 출처, 인스타그램 정보를 한 곳에서 탐색할 수 있습니다.
 
 - 현재 수록 범위: **20기 ~ 30기**
+- 현재는 **20기 ~ 30기까지만 데이터 수집이 완료된 상태**이며, 이후 기수 데이터도 순차적으로 업데이트할 예정입니다.
 - 데이터 소스: `src/entities/participant/lib/seasons/season-*.json`
 - 신규 기수 반영: JSON 파일 추가 시 자동 로딩 + Zod 검증
 
@@ -132,6 +133,7 @@ cp .env.example .env.local
 
 - 경로: `src/entities/participant/lib/seasons/`
 - 파일명: `season-{숫자}.json`
+- 현재 저장소에는 **20기 ~ 30기 데이터만 포함**되어 있으며, 이후 시즌은 추후 수집 후 반영 예정입니다.
 
 `src/entities/participant/lib/data.ts`가 `season-*.json`을 자동으로 읽어 최신순으로 정렬합니다.
 각 파일은 `SeasonSchema`로 검증되며 실패 시 빌드에서 에러가 발생합니다.

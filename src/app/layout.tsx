@@ -104,6 +104,17 @@ export default function RootLayout({
                   imsoloarchive@gmail.com
                 </a>
               </p>
+              <p className="mt-1.5">
+                GitHub:{" "}
+                <a
+                  href="https://github.com/okcleff/im-solo-archive"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="link link-primary font-medium"
+                >
+                  github.com/okcleff/im-solo-archive
+                </a>
+              </p>
               <p className="mt-1.5 text-xs">데이터 최종 업데이트: 2026-03-04</p>
             </div>
           </footer>

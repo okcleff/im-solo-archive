@@ -103,6 +103,25 @@ export default function HomePage() {
         </div>
       </section>
 
+      <section className="px-4 pb-2">
+        <div className="max-w-6xl mx-auto">
+          <div className="glass-panel rounded-3xl px-5 py-4 sm:px-6">
+            <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+              <div>
+                <p className="section-title">archive status</p>
+                <p className="mt-2 text-sm leading-relaxed text-base-content/72 sm:text-[0.95rem]">
+                  현재 데이터 수집 범위는 <strong>20기부터 30기까지</strong>
+                  입니다. 이후 기수 데이터도 순차적으로 업데이트할 예정입니다.
+                </p>
+              </div>
+              <div className="badge badge-outline badge-primary h-8 shrink-0 px-4">
+                현재 수록: 20기 ~ 30기
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <div className="max-w-6xl mx-auto">
         <Suspense
           fallback={
