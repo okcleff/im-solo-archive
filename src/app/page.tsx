@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
-import { SEASONS_DATA, LATEST_SEASON } from "@/entities/participant/lib/data";
+import { SEASONS_DATA, LATEST_SEASON } from "@/entities/participant/server";
 import { getLatestAirDate } from "@/entities/participant";
 import { getSiteUrl, SITE_NAME } from "@/shared/config/site";
 import JsonLd from "@/shared/ui/JsonLd";
@@ -78,17 +78,17 @@ export default function HomePage() {
               </div>
             </div>
 
-            <div className="card border border-base-300 bg-base-100 shadow-sm">
+            <div className="surface-card card">
               <div className="card-body">
                 <div className="stats stats-vertical bg-transparent shadow-none">
                   <div className="stat px-0 pb-4 pt-0">
-                    <div className="stat-title">기수 수</div>
+                    <div className="stat-title pl-1">기수 수</div>
                     <div className="stat-value text-3xl">
                       {SEASONS_DATA.length}
                     </div>
                   </div>
                   <div className="stat border-t border-base-300 px-0 py-4">
-                    <div className="stat-title">등록 인원</div>
+                    <div className="stat-title pl-1">등록 인원</div>
                     <div className="stat-value text-3xl">
                       {totalParticipants}
                     </div>
@@ -129,7 +129,7 @@ export default function HomePage() {
             <a
               key={s.seasonNo}
               href={`/season/${s.seasonNo}`}
-              className={`card border border-base-300 bg-base-100 shadow-sm transition-all hover:-translate-y-1 hover:shadow-xl ${
+              className={`surface-card card transition-all hover:-translate-y-1 hover:shadow-xl ${
                 i === 0
                   ? "xl:col-span-5"
                   : i === 1 || i === 2

@@ -1,5 +1,8 @@
-/** 한국식 나이 (세는 나이) = 현재 연도 - 출생연도 + 1 */
-export function calcKoreanAge(birthYear: number | null): string {
-  if (birthYear === null) return '미공개';
-  return `${new Date().getFullYear() - birthYear + 1}세`;
+/**
+ * 현재 연도를 반환한다.
+ *
+ * 테스트나 서버/클라이언트 경계 제어를 위해 기준 날짜를 주입할 수 있다.
+ */
+export function getCurrentYear(date: Date = new Date()): number {
+  return date.getFullYear();
 }

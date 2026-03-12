@@ -25,6 +25,10 @@
     {
       "ep": 243,
       "airDate": "2026-03-04"
+    },
+    {
+      "ep": 244,
+      "airDate": "2026-03-11"
     }
   ],
   "participants": [
@@ -42,10 +46,7 @@
         "birthYear": 1992,
         "job": "패션 브랜드 회사 신규 브랜드 기획",
         "region": "서울 중구",
-        "traits": [
-          "에겐남",
-          "현대중공업 → 신라면세점 → 패션회사 커리어 이동"
-        ],
+        "traits": ["에겐남", "현대중공업 → 신라면세점 → 패션회사 커리어 이동"],
         "notableQuotes": [],
         "issues": []
       },
@@ -71,10 +72,7 @@
         "birthYear": 1992,
         "job": "전력 공기업 배관 설계 엔지니어",
         "region": null,
-        "traits": [
-          "해군사관학교 출신",
-          "장교 전역"
-        ],
+        "traits": ["해군사관학교 출신", "장교 전역"],
         "notableQuotes": [],
         "issues": []
       },
@@ -100,10 +98,7 @@
         "birthYear": 1992,
         "job": "부동산 전문 변호사 / 로펌 대표",
         "region": null,
-        "traits": [
-          "전문직 변호사",
-          "부동산 전문 로펌 운영"
-        ],
+        "traits": ["전문직 변호사", "부동산 전문 로펌 운영"],
         "notableQuotes": [],
         "issues": []
       },
@@ -129,9 +124,7 @@
         "birthYear": 1991,
         "job": "태양광 발전 사업 운영",
         "region": "대구·경북",
-        "traits": [
-          "가업 승계 예정"
-        ],
+        "traits": ["가업 승계 예정"],
         "notableQuotes": [],
         "issues": []
       },
@@ -157,10 +150,7 @@
         "birthYear": 1992,
         "job": "삼성 반도체 엔지니어",
         "region": null,
-        "traits": [
-          "과학고 출신",
-          "전자전기 학석사"
-        ],
+        "traits": ["과학고 출신", "전자전기 학석사"],
         "notableQuotes": [],
         "issues": []
       },
@@ -186,10 +176,7 @@
         "birthYear": 1989,
         "job": "세무사",
         "region": "서울 강서구",
-        "traits": [
-          "개업 세무사",
-          "집돌이 성향"
-        ],
+        "traits": ["개업 세무사", "집돌이 성향"],
         "notableQuotes": [],
         "issues": []
       },
@@ -215,10 +202,7 @@
         "birthYear": 1991,
         "job": "외국계 제약회사 마케팅 / 약사",
         "region": "서울 동작구",
-        "traits": [
-          "약대 졸업",
-          "자기관리 철저"
-        ],
+        "traits": ["약대 졸업", "자기관리 철저"],
         "notableQuotes": [],
         "issues": []
       },
@@ -244,9 +228,7 @@
         "birthYear": 1993,
         "job": "경기도 경찰청 소속 경찰 공무원",
         "region": "경기도",
-        "traits": [
-          "솔로나라 최초 경찰 직업"
-        ],
+        "traits": ["솔로나라 최초 경찰 직업"],
         "notableQuotes": [],
         "issues": []
       },
@@ -272,9 +254,7 @@
         "birthYear": 1995,
         "job": "헬스 브랜드 상품 기획 PM",
         "region": "서울 관악구",
-        "traits": [
-          "복싱 생활체육 대회 출전"
-        ],
+        "traits": ["복싱 생활체육 대회 출전"],
         "notableQuotes": [],
         "issues": []
       },
@@ -300,9 +280,7 @@
         "birthYear": 1992,
         "job": "필라테스 센터 2곳 운영",
         "region": null,
-        "traits": [
-          "이화여대 무용과"
-        ],
+        "traits": ["이화여대 무용과"],
         "notableQuotes": [],
         "issues": []
       },
@@ -328,13 +306,8 @@
         "birthYear": 1993,
         "job": "건설 현장 근무",
         "region": null,
-        "traits": [
-          "요리·재봉 취미",
-          "낚시 캠핑"
-        ],
-        "notableQuotes": [
-          "주말부부 어떠냐"
-        ],
+        "traits": ["요리·재봉 취미", "낚시 캠핑"],
+        "notableQuotes": ["주말부부 어떠냐"],
         "issues": []
       },
       "sources": [
@@ -359,10 +332,7 @@
         "birthYear": 1992,
         "job": "국제 회계법인 텍스 매니저",
         "region": null,
-        "traits": [
-          "미국 CPA",
-          "캐나다 CPA"
-        ],
+        "traits": ["미국 CPA", "캐나다 CPA"],
         "notableQuotes": [],
         "issues": []
       },

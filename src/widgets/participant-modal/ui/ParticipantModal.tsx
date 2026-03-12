@@ -2,12 +2,14 @@
 
 import { useEffect, useRef, useCallback } from "react";
 import Link from "next/link";
-import type { Participant } from "@/entities/participant";
 import {
+  formatKoreanAge,
   getParticipantUrl,
+  ParticipantDetailsSections,
   SourceConfidenceLegend,
+  type Participant,
 } from "@/entities/participant";
-import { calcKoreanAge } from "@/shared/lib/utils";
+import { getCurrentYear } from "@/shared/lib/utils";
 
 interface Props {
   participant: Participant;
@@ -39,7 +41,7 @@ export default function ParticipantModal({ participant: p, onClose }: Props) {
   const modalRef = useRef<HTMLDivElement>(null);
   const prevFocusRef = useRef<HTMLElement | null>(null);
 
-  const age = calcKoreanAge(p.profile.birthYear);
+  const age = formatKoreanAge(p.profile.birthYear, getCurrentYear());
 
   useEffect(() => {
     const prev = document.body.style.overflow;
@@ -156,111 +158,12 @@ export default function ParticipantModal({ participant: p, onClose }: Props) {
           </div>
         </div>
 
-        <div className="p-6 space-y-5">
-          <dl className="stats stats-vertical sm:stats-horizontal w-full border border-base-300 bg-base-200/70 shadow-sm">
-            <InfoItem label="나이" value={age} />
-            <InfoItem label="직업" value={p.profile.job} />
-            <InfoItem label="지역" value={p.profile.region} />
-            {p.instagram ? (
-              <div className="stat">
-                <dt className="stat-title text-[10px] font-bold uppercase tracking-wider">
-                  인스타그램
-                </dt>
-                <dd className="stat-value mt-0 text-sm font-medium">
-                  <a
-                    href={`https://instagram.com/${p.instagram}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="link link-primary"
-                  >
-                    @{p.instagram}
-                  </a>
-                </dd>
-              </div>
-            ) : null}
-          </dl>
-
-          {p.profile.traits.length > 0 ? (
-            <div>
-              <h3 className="mb-2.5 text-xs font-bold uppercase tracking-wider text-base-content/55">
-                특징
-              </h3>
-              <div className="flex flex-wrap gap-2">
-                {p.profile.traits.map((t, i) => (
-                  <span key={i} className="badge badge-outline h-8 px-3">
-                    {t}
-                  </span>
-                ))}
-              </div>
-            </div>
-          ) : null}
-
-          {p.profile.notableQuotes.length > 0 ? (
-            <div>
-              <h3 className="mb-2.5 text-xs font-bold uppercase tracking-wider text-base-content/55">
-                화제 멘트
-              </h3>
-              <ul className="space-y-2">
-                {p.profile.notableQuotes.map((q, i) => (
-                  <li
-                    key={i}
-                    className="rounded-2xl border border-base-300 bg-base-200/60 px-4 py-3 text-sm italic shadow-sm"
-                  >
-                    {q}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ) : null}
-
-          {p.profile.issues.length > 0 ? (
-            <div className="alert border border-warning/30 bg-warning/12 text-warning-content">
-              <div className="block">
-                <h3 className="mb-2 text-xs font-bold uppercase tracking-wider text-warning">
-                  이슈 / 미확인 정보
-                </h3>
-                <ul className="space-y-1.5">
-                  {p.profile.issues.map((issue, i) => (
-                    <li key={i} className="text-xs opacity-90">
-                      - {issue}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-          ) : null}
-
-          {p.sources.length > 0 ? (
-            <div>
-              <h3 className="mb-2.5 text-xs font-bold uppercase tracking-wider text-base-content/55">
-                출처
-              </h3>
-              <ul className="space-y-2.5">
-                {p.sources.map((s, i) => (
-                  <li key={i} className="flex items-start gap-2 text-sm">
-                    <span
-                      aria-hidden="true"
-                      className={`mt-1 w-2 h-2 rounded-full shrink-0 ${
-                        s.confidence === "high"
-                          ? "bg-emerald-500"
-                          : s.confidence === "medium"
-                            ? "bg-amber-500"
-                            : "bg-rose-400"
-                      }`}
-                    />
-                    <a
-                      href={s.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="link link-primary"
-                    >
-                      {s.title}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ) : null}
+        <div className="p-6">
+          <ParticipantDetailsSections
+            participant={p}
+            age={age}
+            showInstagramInFacts
+          />
         </div>
 
         <div className="flex items-center justify-between border-t border-base-300 px-6 pb-6 pt-1">
@@ -273,25 +176,6 @@ export default function ParticipantModal({ participant: p, onClose }: Props) {
           </Link>
         </div>
       </div>
-    </div>
-  );
-}
-
-function InfoItem({
-  label,
-  value,
-}: {
-  label: string;
-  value: string | null | undefined;
-}) {
-  return (
-    <div className="stat">
-      <dt className="stat-title text-[10px] font-bold uppercase tracking-wider">
-        {label}
-      </dt>
-      <dd className="stat-value mt-0 text-sm font-medium">
-        {value ?? "미공개"}
-      </dd>
     </div>
   );
 }

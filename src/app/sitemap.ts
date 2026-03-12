@@ -1,5 +1,5 @@
 import type { MetadataRoute } from 'next';
-import { SEASONS_DATA } from '@/entities/participant/lib/data';
+import { SEASONS_DATA } from '@/entities/participant/server';
 import { getSiteUrl } from '@/shared/config/site';
 
 export default function sitemap(): MetadataRoute.Sitemap {

@@ -1,10 +1,15 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { SEASONS_DATA } from '@/entities/participant/lib/data';
-import { getParticipantUrl, getParticipantSummary, SourceConfidenceLegend } from '@/entities/participant';
+import { SEASONS_DATA, getParticipantByRoute } from '@/entities/participant/server';
+import {
+  formatKoreanAge,
+  getParticipantUrl,
+  getParticipantSummary,
+  ParticipantDetailsSections,
+} from '@/entities/participant';
 import { getSiteUrl } from '@/shared/config/site';
-import { calcKoreanAge } from '@/shared/lib/utils';
+import { getCurrentYear } from '@/shared/lib/utils';
 import JsonLd from '@/shared/ui/JsonLd';
 
 interface Props {
@@ -21,23 +26,14 @@ export function generateStaticParams() {
   );
 }
 
-function findParticipant(seasonNo: string, gender: string, handle: string) {
-  const season = SEASONS_DATA.find((s) => s.seasonNo === Number(seasonNo));
-  return (
-    season?.participants.find(
-      (p) => p.gender.toLowerCase() === gender.toLowerCase() && p.handle === decodeURIComponent(handle),
-    ) ?? null
-  );
-}
-
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { seasonNo, gender, handle } = await params;
-  const p = findParticipant(seasonNo, gender, handle);
+  const p = getParticipantByRoute(SEASONS_DATA, Number(seasonNo), gender, handle);
   if (!p) return {};
 
   const base = getSiteUrl();
   const url = `${base}${getParticipantUrl(p)}`;
-  const age = calcKoreanAge(p.profile.birthYear);
+  const age = formatKoreanAge(p.profile.birthYear, getCurrentYear());
   const summary = getParticipantSummary(p);
   const title = `${p.handle} (나는 SOLO ${p.seasonNo}기) 프로필`;
   const description = `나는 SOLO ${p.seasonNo}기 ${p.gender === 'M' ? '남' : '여'} 출연자 ${p.handle}. ${age !== '미공개' ? `${age} · ` : ''}${summary}`;
@@ -72,11 +68,11 @@ function InstagramIcon({ className }: { className?: string }) {
 
 export default async function ParticipantPage({ params }: Props) {
   const { seasonNo, gender, handle } = await params;
-  const p = findParticipant(seasonNo, gender, handle);
+  const p = getParticipantByRoute(SEASONS_DATA, Number(seasonNo), gender, handle);
   if (!p) notFound();
 
   const base = getSiteUrl();
-  const age = calcKoreanAge(p.profile.birthYear);
+  const age = formatKoreanAge(p.profile.birthYear, getCurrentYear());
   const summary = getParticipantSummary(p);
 
   const jsonLd = {
@@ -125,90 +121,16 @@ export default async function ParticipantPage({ params }: Props) {
       <div className="max-w-3xl mx-auto px-4 py-8 space-y-5">
         <section className="card border border-base-300 bg-base-100 shadow-sm">
           <div className="card-body p-5 sm:p-6">
-          <h2 className="text-base font-semibold mb-4">기본 정보</h2>
-          <dl className="stats stats-vertical sm:stats-horizontal border border-base-300 bg-base-200/70 shadow-sm">
-            <InfoItem label="나이" value={age} />
-            <InfoItem label="직업" value={p.profile.job} />
-            <InfoItem label="지역" value={p.profile.region} />
-            <InfoItem label="성별" value={p.gender === 'M' ? '남' : '여'} />
-          </dl>
+            <h2 className="text-base font-semibold mb-4">기본 정보</h2>
+            <ParticipantDetailsSections
+              participant={p}
+              age={age}
+              showGender
+              showLegend
+            />
           </div>
         </section>
-
-        {p.profile.traits.length > 0 ? (
-          <section className="card border border-base-300 bg-base-100 shadow-sm">
-            <div className="card-body p-5 sm:p-6">
-            <h2 className="text-base font-semibold mb-3">특징</h2>
-            <div className="flex flex-wrap gap-2">
-              {p.profile.traits.map((t, i) => (
-                <span key={i} className="badge badge-outline h-8 px-3">{t}</span>
-              ))}
-            </div>
-            </div>
-          </section>
-        ) : null}
-
-        {p.profile.notableQuotes.length > 0 ? (
-          <section className="card border border-base-300 bg-base-100 shadow-sm">
-            <div className="card-body p-5 sm:p-6">
-            <h2 className="text-base font-semibold mb-3">화제 멘트</h2>
-            <ul className="space-y-2.5">
-              {p.profile.notableQuotes.map((q, i) => (
-                <li key={i} className="rounded-2xl border border-base-300 bg-base-200/60 px-4 py-3 text-sm italic shadow-sm">
-                  {q}
-                </li>
-              ))}
-            </ul>
-            </div>
-          </section>
-        ) : null}
-
-        {p.profile.issues.length > 0 ? (
-          <section className="alert border border-warning/30 bg-warning/12 text-warning-content">
-            <div>
-            <h2 className="text-base font-semibold mb-3 text-warning">이슈 / 미확인 정보</h2>
-            <ul className="space-y-2">
-              {p.profile.issues.map((issue, i) => (
-                <li key={i} className="text-sm opacity-90">- {issue}</li>
-              ))}
-            </ul>
-            </div>
-          </section>
-        ) : null}
-
-        {p.sources.length > 0 ? (
-          <section className="card border border-base-300 bg-base-100 shadow-sm">
-            <div className="card-body p-5 sm:p-6">
-            <h2 className="text-base font-semibold mb-3">출처</h2>
-            <ul className="space-y-2.5">
-              {p.sources.map((s, i) => (
-                <li key={i} className="flex items-start gap-2">
-                  <span
-                    aria-hidden="true"
-                    className={`mt-1 w-2.5 h-2.5 rounded-full shrink-0 ${
-                      s.confidence === 'high' ? 'bg-emerald-500' : s.confidence === 'medium' ? 'bg-amber-500' : 'bg-rose-400'
-                    }`}
-                  />
-                  <a href={s.url} target="_blank" rel="noopener noreferrer" className="link link-primary text-sm">
-                    {s.title}
-                  </a>
-                </li>
-              ))}
-            </ul>
-            <SourceConfidenceLegend className="mt-4" />
-            </div>
-          </section>
-        ) : null}
       </div>
     </>
-  );
-}
-
-function InfoItem({ label, value }: { label: string; value: string | null | undefined }) {
-  return (
-    <div className="stat">
-      <dt className="stat-title text-xs font-semibold uppercase tracking-wide">{label}</dt>
-      <dd className="stat-value mt-0 text-sm font-medium">{value ?? '미공개'}</dd>
-    </div>
   );
 }

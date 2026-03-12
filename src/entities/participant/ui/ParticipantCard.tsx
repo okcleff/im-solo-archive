@@ -1,18 +1,24 @@
-'use client';
+"use client";
 
-import Image from 'next/image';
-import Link from 'next/link';
-import type { Participant } from '../model/schemas';
-import { getParticipantUrl } from '../lib/helpers';
-import { calcKoreanAge } from '@/shared/lib/utils';
+import Image from "next/image";
+import Link from "next/link";
+import type { Participant } from "../model/schemas";
+import { formatKoreanAge } from "../lib/age";
+import { getParticipantUrl } from "../lib/helpers";
+import { getCurrentYear } from "@/shared/lib/utils";
 
 interface Props {
   participant: Participant;
   onClick?: () => void;
   asLink?: boolean;
-  variant?: 'editorial' | 'compact';
+  variant?: "editorial" | "compact";
   featured?: boolean;
   className?: string;
+}
+
+function formatTraitPreview(trait: string, maxLength = 22): string {
+  if (trait.length <= maxLength) return trait;
+  return `${trait.slice(0, maxLength).trimEnd()}...`;
 }
 
 function InstagramIcon({ className }: { className?: string }) {
@@ -39,24 +45,31 @@ export default function ParticipantCard({
   participant: p,
   onClick,
   asLink = false,
-  variant = 'compact',
+  variant = "compact",
   featured = false,
-  className = '',
+  className = "",
 }: Props) {
   const href = getParticipantUrl(p);
-  const isMale = p.gender === 'M';
-  const age = calcKoreanAge(p.profile.birthYear);
-  const meta = [p.profile.region, age !== '미공개' ? age : null].filter(Boolean).join(' · ');
-  const accentBadge = isMale ? 'badge-accent' : 'badge-secondary';
-  const accentLine = isMale ? 'bg-accent' : 'bg-secondary';
-  const accentText = isMale ? 'text-accent' : 'text-secondary';
-  const traitPreview = p.profile.traits.slice(0, variant === 'editorial' ? 3 : 2);
-  const cardClasses = variant === 'editorial'
-    ? 'card h-full overflow-hidden border border-base-300 bg-base-100 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-xl'
-    : 'card h-full overflow-hidden border border-base-300 bg-base-100 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg';
-  const figureClasses = variant === 'editorial'
-    ? 'relative aspect-[4/5] overflow-hidden bg-base-200'
-    : 'relative aspect-[4/5] overflow-hidden bg-base-200';
+  const isMale = p.gender === "M";
+  const age = formatKoreanAge(p.profile.birthYear, getCurrentYear());
+  const meta = [p.profile.region, age !== "미공개" ? age : null]
+    .filter(Boolean)
+    .join(" · ");
+  const accentBadge = isMale ? "badge-info" : "badge-error";
+  const accentLine = isMale ? "bg-accent" : "bg-secondary";
+  const accentText = isMale ? "text-accent" : "text-secondary";
+  const traitPreview = p.profile.traits.slice(
+    0,
+    variant === "editorial" ? 3 : 2,
+  );
+  const cardClasses =
+    variant === "editorial"
+      ? "surface-card card h-full overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
+      : "surface-card card h-full overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-lg";
+  const figureClasses =
+    variant === "editorial"
+      ? "relative aspect-[4/5] overflow-hidden bg-base-200"
+      : "relative aspect-[4/5] overflow-hidden bg-base-200";
 
   const content = (
     <div className={`${cardClasses} ${className}`.trim()}>
@@ -72,7 +85,9 @@ export default function ParticipantCard({
         ) : (
           <div className="absolute inset-0 grid place-items-center bg-base-200 text-base-content">
             <div className="text-center px-4">
-              <span className="block text-[10px] uppercase tracking-[0.34em] text-base-content/35">SOLO ARCHIVE</span>
+              <span className="block text-[10px] uppercase tracking-[0.34em] text-base-content/35">
+                SOLO ARCHIVE
+              </span>
               <strong className="mt-3 block text-6xl font-[var(--font-title)] leading-none tracking-tight text-base-content/15">
                 {p.seasonNo}
               </strong>
@@ -86,24 +101,32 @@ export default function ParticipantCard({
           <span className="badge badge-neutral border-none bg-base-100/85 text-[11px] text-base-content shadow-sm">
             {p.seasonNo}기
           </span>
-          <span className={`badge border-none text-[11px] shadow-sm ${accentBadge}`}>
-            {isMale ? '남' : '여'}
+          <span
+            className={`badge border-none text-[11px] shadow-sm ${accentBadge} text-white`}
+          >
+            {isMale ? "남" : "여"}
           </span>
         </div>
       </div>
       <div className={`h-1 w-full ${accentLine}`} aria-hidden="true" />
 
-      <div className={`card-body ${variant === 'editorial' ? 'gap-4 p-5' : 'gap-3 p-4'}`}>
+      <div
+        className={`card-body ${variant === "editorial" ? "gap-4 p-5" : "gap-3 p-4"}`}
+      >
         <div className="flex items-start justify-between gap-3">
           <div>
-            <h3 className={`font-[var(--font-title)] tracking-tight text-base-content ${variant === 'editorial' ? 'text-xl' : 'text-lg'}`}>
+            <h3
+              className={`font-[var(--font-title)] tracking-tight text-base-content ${variant === "editorial" ? "text-xl" : "text-lg"}`}
+            >
               {p.handle}
             </h3>
             <p className="mt-1 text-sm font-medium text-base-content/78">
-              {p.profile.job ?? '직업 미공개'}
+              {p.profile.job ?? "직업 미공개"}
             </p>
-            <p className={`mt-1 text-[11px] font-semibold uppercase tracking-[0.22em] ${accentText}`}>
-              {isMale ? 'male participant' : 'female participant'}
+            <p
+              className={`mt-1 text-[11px] font-semibold uppercase tracking-[0.22em] ${accentText}`}
+            >
+              {isMale ? "male participant" : "female participant"}
             </p>
           </div>
           {p.instagram ? (
@@ -113,7 +136,7 @@ export default function ParticipantCard({
               rel="noopener noreferrer"
               aria-label={`${p.handle} 인스타그램`}
               onClick={(e) => e.stopPropagation()}
-              className="btn btn-circle btn-ghost btn-sm border border-base-300"
+              className="btn btn-circle btn-ghost btn-sm border border-base-300/90 bg-base-100/70"
             >
               <InstagramIcon className="w-4 h-4" />
             </a>
@@ -122,8 +145,11 @@ export default function ParticipantCard({
 
         {meta ? (
           <div className="flex flex-wrap items-center gap-2 text-xs text-base-content/58">
-            {meta.split(' · ').map((item) => (
-              <span key={item} className="rounded-full bg-base-200 px-2.5 py-1 font-medium">
+            {meta.split(" · ").map((item) => (
+              <span
+                key={item}
+                className="rounded-full border border-base-300/70 bg-base-200 px-2.5 py-1 font-medium"
+              >
                 {item}
               </span>
             ))}
@@ -133,8 +159,14 @@ export default function ParticipantCard({
         {traitPreview.length > 0 ? (
           <div className="flex flex-wrap gap-2">
             {traitPreview.map((trait) => (
-              <span key={trait} className="badge badge-outline h-7 px-3">
-                {trait}
+              <span
+                key={trait}
+                title={trait}
+                className="badge badge-outline h-7 max-w-full border-base-300/80 bg-base-100/80 px-3"
+              >
+                <span className="block max-w-full truncate">
+                  {formatTraitPreview(trait)}
+                </span>
               </span>
             ))}
           </div>
@@ -142,7 +174,7 @@ export default function ParticipantCard({
           <p className="text-sm text-base-content/55">프로필 요약 준비 중</p>
         )}
 
-        <div className="mt-auto flex items-center justify-between gap-3 border-t border-base-300/80 pt-3">
+        <div className="mt-auto flex items-center justify-between gap-3 border-t border-base-300/85 pt-3">
           <span className="text-xs uppercase tracking-[0.2em] text-base-content/45">
             participant profile
           </span>
@@ -170,7 +202,7 @@ export default function ParticipantCard({
         role="button"
         tabIndex={0}
         onClick={onClick}
-        onKeyDown={(e) => e.key === 'Enter' && onClick?.()}
+        onKeyDown={(e) => e.key === "Enter" && onClick?.()}
         aria-label={`${p.handle} 상세 정보 보기`}
         className="group cursor-pointer rounded-2xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
       >

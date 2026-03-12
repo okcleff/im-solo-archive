@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { SEASONS_DATA } from '@/entities/participant/lib/data';
+import { SEASONS_DATA, getSeasonByNo } from '@/entities/participant/server';
 import { ParticipantCard, getParticipantUrl, getParticipantSummary } from '@/entities/participant';
 import { getSiteUrl } from '@/shared/config/site';
 import JsonLd from '@/shared/ui/JsonLd';
@@ -16,7 +16,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { seasonNo } = await params;
-  const season = SEASONS_DATA.find((s) => s.seasonNo === Number(seasonNo));
+  const season = getSeasonByNo(SEASONS_DATA, Number(seasonNo));
   if (!season) return {};
 
   const base = getSiteUrl();
@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function SeasonPage({ params }: Props) {
   const { seasonNo } = await params;
-  const season = SEASONS_DATA.find((s) => s.seasonNo === Number(seasonNo));
+  const season = getSeasonByNo(SEASONS_DATA, Number(seasonNo));
   if (!season) notFound();
 
   const base = getSiteUrl();
