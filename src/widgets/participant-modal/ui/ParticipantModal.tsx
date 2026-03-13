@@ -4,15 +4,18 @@ import { useEffect, useRef, useCallback } from "react";
 import Link from "next/link";
 import {
   formatKoreanAge,
+  getFinalChoiceParticipant,
   getParticipantUrl,
   ParticipantDetailsSections,
   SourceConfidenceLegend,
+  type Season,
   type Participant,
 } from "@/entities/participant";
 import { getCurrentYear } from "@/shared/lib/utils";
 
 interface Props {
   participant: Participant;
+  season: Season;
   onClose: () => void;
 }
 
@@ -36,12 +39,13 @@ function InstagramIcon({ className }: { className?: string }) {
   );
 }
 
-export default function ParticipantModal({ participant: p, onClose }: Props) {
+export default function ParticipantModal({ participant: p, season, onClose }: Props) {
   const overlayRef = useRef<HTMLDivElement>(null);
   const modalRef = useRef<HTMLDivElement>(null);
   const prevFocusRef = useRef<HTMLElement | null>(null);
 
   const age = formatKoreanAge(p.profile.birthYear, getCurrentYear());
+  const finalChoiceParticipant = getFinalChoiceParticipant(season, p);
 
   useEffect(() => {
     const prev = document.body.style.overflow;
@@ -162,6 +166,7 @@ export default function ParticipantModal({ participant: p, onClose }: Props) {
           <ParticipantDetailsSections
             participant={p}
             age={age}
+            finalChoiceParticipant={finalChoiceParticipant}
             showInstagramInFacts
           />
         </div>

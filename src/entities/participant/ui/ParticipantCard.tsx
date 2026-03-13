@@ -20,27 +20,6 @@ function formatTraitPreview(trait: string, maxLength = 22): string {
   if (trait.length <= maxLength) return trait;
   return `${trait.slice(0, maxLength).trimEnd()}...`;
 }
-
-function InstagramIcon({ className }: { className?: string }) {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth={1.75}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      className={className}
-      aria-hidden="true"
-    >
-      <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
-      <circle cx="12" cy="12" r="4.5" />
-      <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" />
-    </svg>
-  );
-}
-
 export default function ParticipantCard({
   participant: p,
   onClick,
@@ -56,16 +35,17 @@ export default function ParticipantCard({
     .filter(Boolean)
     .join(" · ");
   const accentBadge = isMale ? "badge-info" : "badge-error";
-  const accentLine = isMale ? "bg-accent" : "bg-secondary";
-  const accentText = isMale ? "text-accent" : "text-secondary";
+  const accentLine = isMale ? "bg-info" : "bg-error";
+  const accentText = isMale ? "text-info" : "text-error";
+  const hoverBorder = isMale ? "hover:border-info/70" : "hover:border-error/70";
   const traitPreview = p.profile.traits.slice(
     0,
     variant === "editorial" ? 3 : 2,
   );
   const cardClasses =
     variant === "editorial"
-      ? "surface-card card h-full overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
-      : "surface-card card h-full overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-lg";
+      ? `surface-card card h-full overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-xl ${hoverBorder}`
+      : `surface-card card h-full overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-lg ${hoverBorder}`;
   const figureClasses =
     variant === "editorial"
       ? "relative aspect-[4/5] overflow-hidden bg-base-200"
@@ -129,18 +109,6 @@ export default function ParticipantCard({
               {isMale ? "male participant" : "female participant"}
             </p>
           </div>
-          {p.instagram ? (
-            <a
-              href={`https://instagram.com/${p.instagram}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label={`${p.handle} 인스타그램`}
-              onClick={(e) => e.stopPropagation()}
-              className="btn btn-circle btn-ghost btn-sm border border-base-300/90 bg-base-100/70"
-            >
-              <InstagramIcon className="w-4 h-4" />
-            </a>
-          ) : null}
         </div>
 
         {meta ? (
@@ -178,7 +146,7 @@ export default function ParticipantCard({
           <span className="text-xs uppercase tracking-[0.2em] text-base-content/45">
             participant profile
           </span>
-          <span className="btn btn-ghost btn-xs px-0 text-primary">
+          <span className={`btn btn-ghost btn-xs px-0 ${accentText}`}>
             상세 보기
           </span>
         </div>

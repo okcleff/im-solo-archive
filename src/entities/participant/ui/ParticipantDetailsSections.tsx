@@ -1,9 +1,12 @@
+import Link from 'next/link';
 import type { Participant } from '../model/schemas';
+import { getParticipantUrl } from '../lib/helpers';
 import SourceConfidenceLegend from './SourceConfidenceLegend';
 
 interface Props {
   participant: Participant;
   age: string;
+  finalChoiceParticipant?: Participant | null;
   showGender?: boolean;
   showInstagramInFacts?: boolean;
   showLegend?: boolean;
@@ -32,6 +35,7 @@ function InfoItem({
 export default function ParticipantDetailsSections({
   participant: p,
   age,
+  finalChoiceParticipant = null,
   showGender = false,
   showInstagramInFacts = false,
   showLegend = false,
@@ -43,6 +47,27 @@ export default function ParticipantDetailsSections({
         <InfoItem label="나이" value={age} />
         <InfoItem label="직업" value={p.profile.job} />
         <InfoItem label="지역" value={p.profile.region} />
+        <div className="stat">
+          <dt className="stat-title text-[10px] font-bold uppercase tracking-wider">
+            최종 선택
+          </dt>
+          <dd className="stat-value mt-0 text-sm font-medium">
+            {p.finalChoice ? (
+              finalChoiceParticipant ? (
+                <Link
+                  href={getParticipantUrl(finalChoiceParticipant)}
+                  className="link link-primary"
+                >
+                  {p.finalChoice}
+                </Link>
+              ) : (
+                p.finalChoice
+              )
+            ) : (
+              '선택 안 함'
+            )}
+          </dd>
+        </div>
         {showGender ? (
           <InfoItem label="성별" value={p.gender === 'M' ? '남' : '여'} />
         ) : null}

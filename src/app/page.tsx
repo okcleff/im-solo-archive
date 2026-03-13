@@ -39,6 +39,9 @@ export default function HomePage() {
     (acc, s) => acc + s.participants.length,
     0,
   );
+  const seasonNumbers = SEASONS_DATA.map((season) => season.seasonNo);
+  const minSeasonNo = Math.min(...seasonNumbers);
+  const maxSeasonNo = Math.max(...seasonNumbers);
 
   return (
     <>
@@ -110,12 +113,12 @@ export default function HomePage() {
               <div>
                 <p className="section-title">archive status</p>
                 <p className="mt-2 text-sm leading-relaxed text-base-content/72 sm:text-[0.95rem]">
-                  현재 데이터 수집 범위는 <strong>20기부터 30기까지</strong>
+                  현재 데이터 수집 범위는 <strong>{minSeasonNo}기부터 {maxSeasonNo}기까지</strong>
                   입니다. 이후 기수 데이터도 순차적으로 업데이트할 예정입니다.
                 </p>
               </div>
               <div className="badge badge-outline badge-primary h-8 shrink-0 px-4">
-                현재 수록: 20기 ~ 30기
+                현재 수록: {minSeasonNo}기 ~ {maxSeasonNo}기
               </div>
             </div>
           </div>

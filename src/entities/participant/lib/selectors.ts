@@ -42,3 +42,23 @@ export function getParticipantByRoute(
     ) ?? null
   );
 }
+
+/**
+ * 출연자의 최종 선택 상대를 같은 기수 내 참가자 목록에서 찾는다.
+ *
+ * `finalChoice`는 이름만 저장하므로, 동일 기수의 반대 성별 참가자 중 handle이 일치하는 대상을 반환한다.
+ */
+export function getFinalChoiceParticipant(
+  season: Season,
+  participant: Participant,
+): Participant | null {
+  if (!participant.finalChoice) return null;
+
+  return (
+    season.participants.find(
+      (candidate) =>
+        candidate.gender !== participant.gender &&
+        candidate.handle === participant.finalChoice,
+    ) ?? null
+  );
+}

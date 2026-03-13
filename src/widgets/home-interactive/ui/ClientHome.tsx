@@ -90,6 +90,9 @@ export default function ClientHome({ seasons }: Props) {
 
   const currentSeason =
     seasons.find((s) => s.seasonNo === selectedSeasonNo) ?? seasons[0];
+  const modalSeason = modalParticipant
+    ? seasons.find((s) => s.seasonNo === modalParticipant.seasonNo) ?? null
+    : null;
   const searchScopeParticipants = hasQuery
     ? seasons.flatMap((s) => s.participants)
     : currentSeason.participants;
@@ -238,9 +241,10 @@ export default function ClientHome({ seasons }: Props) {
         </div>
       </div>
 
-      {modalParticipant ? (
+      {modalParticipant && modalSeason ? (
         <ParticipantModal
           participant={modalParticipant}
+          season={modalSeason}
           onClose={() => setModalParticipant(null)}
         />
       ) : null}
