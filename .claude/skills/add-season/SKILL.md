@@ -1,66 +1,67 @@
 ---
 name: add-season
-description: Use when adding a new season's participant data to the archive, updating existing season data, or modifying the season JSON schema.
+description: Use when adding a new season's participant data to the archive or updating existing season data. Covers the /fill-season command and JSON schema.
 ---
 
 # Add Season
 
-새 기수 데이터를 아카이브에 추가하는 워크플로.
+새 기수 데이터를 추가할 때는 `/fill-season {기수번호}` 커스텀 커맨드를 사용한다.
 
-## 핵심 규칙
+## 커맨드 실행
 
-`src/entities/participant/lib/seasons/` 에 `season-{기수}.json` 파일 하나만 추가하면 자동 반영된다. 별도 import 코드 수정 불필요.
+/fill-season 31
+
+Claude가 웹 검색으로 데이터를 수집해 `src/entities/participant/lib/seasons/season-31.json`을 자동 생성한다.
 
 ## 파일 위치 및 네이밍
 
-```
 src/entities/participant/lib/seasons/season-{숫자}.json
-```
 
-예: `season-31.json`
+## JSON 구조
 
-## JSON 최상위 구조
-
-```json
 {
   "seasonNo": 31,
   "label": "31기 (부제)",
   "episodes": [
     { "ep": 250, "airDate": "2026-06-04" }
   ],
-  "participants": []
+  "participants": [
+    {
+      "seasonNo": 31,
+      "gender": "M",
+      "handle": "영수",
+      "photo": { "src": null, "alt": "나는 SOLO 31기 영수" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1992,
+        "job": "직업",
+        "region": "서울"
+      },
+      "sources": ["https://example.com/article"],
+      "finalChoice": null
+    }
+  ]
 }
-```
 
-## participants[] 필수 필드
+## profile 필드
 
 | 필드 | 타입 | 비고 |
 |------|------|------|
-| `seasonNo` | `number` | 상위 seasonNo와 동일 |
-| `gender` | `"M"` \| `"F"` | |
-| `handle` | `string` | 출연자 호칭 (예: "영수") |
-| `photo.src` | `string \| null` | 사진 없으면 `null` |
-| `photo.alt` | `string` | `"나는 SOLO {기수}기 {handle}"` |
-| `instagram` | `string \| null` | `@` 제외 username |
-| `finalChoice` | `string \| null` | 상대방 handle 또는 `null` |
-| `profile.birthYear` | `number \| null` | |
-| `profile.job` | `string \| null` | |
-| `profile.region` | `string \| null` | |
-| `profile.traits` | `string[]` | |
-| `profile.notableQuotes` | `string[]` | |
-| `profile.issues` | `string[]` | |
-| `sources` | `array` | `{ title, url, confidence: "high"\|"medium"\|"low" }` |
+| birthYear | number or null | 출생연도 |
+| job | string or null | 직업/직책 |
+| region | string or null | 거주 지역 |
 
-## 검증 및 확인
+traits, notableQuotes, issues는 스키마에 없다.
 
-```bash
-npm run build   # Zod 스키마 검증 포함 — 실패 시 에러 출력
-```
+## 검증
 
-빌드 성공 = 스키마 유효. 새 도메인 사진 사용 시 `next.config.ts`의 `images.remotePatterns` 추가 필요.
+npm run build
+
+Zod 스키마 검증 포함 — 실패 시 에러 출력.
 
 ## 흔한 실수
 
-- `seasonNo` 필드를 participants 배열 각 항목에 빠뜨리는 경우 → Zod 에러
-- `airDate` 형식이 `YYYY-MM-DD`가 아닌 경우 → Zod 에러
-- `instagram`에 `@` 포함하는 경우 → username만 입력
+- 각 participant에 seasonNo 빠뜨리기 → Zod 에러
+- sources를 객체 배열로 작성 → string[]이어야 함
+- instagram에 @ 포함 → username만 입력
+- airDate 형식이 YYYY-MM-DD가 아닌 경우 → Zod 에러

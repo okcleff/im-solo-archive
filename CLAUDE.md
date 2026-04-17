@@ -38,11 +38,16 @@ app → widgets → features → entities → shared
 
 ## 데이터 레이어
 
-`src/entities/participant/lib/seasons/season-{기수}.json` 파일을 자동 수집해 `SeasonSchema`로 Zod 검증 후 최신순 정렬. **새 기수 추가 시 JSON 파일 하나만 추가**하면 된다 — 별도 import 코드 불필요.
+`src/entities/participant/lib/seasons/season-{기수}.json` 파일을 자동 수집해 `SeasonSchema`로 Zod 검증 후 최신순 정렬.
 
-Zod 스키마 (`model/schemas.ts`)가 단일 진실 공급원. `z.infer<>` 기반으로 타입을 추론한다. `Participant.instagram`은 `@` 제외 username 또는 `null`.
+**새 기수 추가:** `/fill-season {기수번호}` 커스텀 커맨드 실행 → JSON 자동 생성. 별도 import 코드 불필요.
 
-사진은 외부 호스팅. 새 도메인 사용 시 `next.config.ts`의 `images.remotePatterns`에 추가 필요.
+Zod 스키마 (`model/schemas.ts`)가 단일 진실 공급원. `z.infer<>` 기반 타입 추론.
+- `Participant.profile`: `birthYear · job · region` 세 필드만 존재
+- `Participant.sources`: `string[]` — 참조 URL 배열
+- `Participant.instagram`: `@` 제외 username 또는 `null`
+
+사진은 외부 호스팅. 새 도메인 사용 시 `next.config.ts`의 `images.remotePatterns` 추가 필요.
 
 ## 라우트 구조
 
