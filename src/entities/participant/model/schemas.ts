@@ -34,7 +34,7 @@ export const EpisodeSchema = z.object({
 export const SeasonSchema = z.object({
   seasonNo: z.number().int().positive(),
   label: z.string().min(1),
-  episodes: z.array(EpisodeSchema),
+  episodes: z.array(EpisodeSchema).min(1),
   participants: z.array(ParticipantSchema),
 });
 
