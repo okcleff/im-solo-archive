@@ -93,8 +93,8 @@ export default function ParticipantDetailsSections({
             출처
           </h2>
           <ul className="space-y-2">
-            {p.sources.map((url, index) => (
-              <li key={`${url}-${index}`} className="text-sm">
+            {p.sources.map((url) => (
+              <li key={url} className="text-sm">
                 <a
                   href={url}
                   target="_blank"

@@ -12,7 +12,6 @@ interface Props {
   onClick?: () => void;
   asLink?: boolean;
   variant?: "editorial" | "compact";
-  featured?: boolean;
   className?: string;
 }
 
@@ -21,7 +20,6 @@ export default function ParticipantCard({
   onClick,
   asLink = false,
   variant = "compact",
-  featured = false,
   className = "",
 }: Props) {
   const href = getParticipantUrl(p);
@@ -38,10 +36,7 @@ export default function ParticipantCard({
     variant === "editorial"
       ? `surface-card card h-full overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-xl ${hoverBorder}`
       : `surface-card card h-full overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-lg ${hoverBorder}`;
-  const figureClasses =
-    variant === "editorial"
-      ? "relative aspect-[4/5] overflow-hidden bg-base-200"
-      : "relative aspect-[4/5] overflow-hidden bg-base-200";
+  const figureClasses = "relative aspect-[4/5] overflow-hidden bg-base-200";
 
   const content = (
     <div className={`${cardClasses} ${className}`.trim()}>
