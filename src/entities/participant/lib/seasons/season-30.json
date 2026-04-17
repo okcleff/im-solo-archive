@@ -1,0 +1,220 @@
+{
+  "seasonNo": 30,
+  "label": "30기 (에겐남 & 테토녀)",
+  "episodes": [
+    { "ep": 238, "airDate": "2026-01-28" },
+    { "ep": 239, "airDate": "2026-02-04" },
+    { "ep": 240, "airDate": "2026-02-11" },
+    { "ep": 241, "airDate": "2026-02-18" },
+    { "ep": 242, "airDate": "2026-02-25" },
+    { "ep": 243, "airDate": "2026-03-04" },
+    { "ep": 244, "airDate": "2026-03-11" },
+    { "ep": 245, "airDate": "2026-03-18" },
+    { "ep": 246, "airDate": "2026-03-25" }
+  ],
+  "participants": [
+    {
+      "seasonNo": 30,
+      "gender": "M",
+      "handle": "영수",
+      "photo": { "src": null, "alt": "나는 SOLO 30기 영수" },
+      "instagram": "_dryhands",
+      "profile": {
+        "birthYear": 1992,
+        "job": "패션브랜드 기획",
+        "region": "서울 중구"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-30%EA%B8%B0-%EC%98%81%EC%88%98-%ED%94%84%EB%A1%9C%ED%95%84-%EB%82%98%EC%9D%B4-%EC%A7%81%EC%97%85/",
+        "https://www.topstarnews.net/news/articleView.html?idxno=15955234"
+      ],
+      "finalChoice": "옥순"
+    },
+    {
+      "seasonNo": 30,
+      "gender": "M",
+      "handle": "영식",
+      "photo": { "src": null, "alt": "나는 SOLO 30기 영식" },
+      "instagram": "shimpodo",
+      "profile": {
+        "birthYear": 1992,
+        "job": "부동산 전문 변호사",
+        "region": null
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-30%EA%B8%B0-%EC%98%81%EC%8B%9D-%ED%94%84%EB%A1%9C%ED%95%84-%EB%82%98%EC%9D%B4-%EC%A7%81%EC%97%85/",
+        "https://www.topstarnews.net/news/articleView.html?idxno=15955234"
+      ],
+      "finalChoice": "영자"
+    },
+    {
+      "seasonNo": 30,
+      "gender": "M",
+      "handle": "영호",
+      "photo": { "src": null, "alt": "나는 SOLO 30기 영호" },
+      "instagram": "jhw1773",
+      "profile": {
+        "birthYear": 1992,
+        "job": "에너지 공기업 엔지니어",
+        "region": "대구"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-30%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/",
+        "https://www.topstarnews.net/news/articleView.html?idxno=15955234"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 30,
+      "gender": "M",
+      "handle": "영철",
+      "photo": { "src": null, "alt": "나는 SOLO 30기 영철" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1991,
+        "job": "태양광 발전 사업",
+        "region": "대구"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-30%EA%B8%B0-%EC%98%81%EC%B2%A0-%ED%94%84%EB%A1%9C%ED%95%84-%EB%82%98%EC%9D%B4-%EC%A7%81%EC%97%85/",
+        "https://kekewo.net/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-30%EA%B8%B0-%EC%98%81%EC%B2%A0"
+      ],
+      "finalChoice": "정숙"
+    },
+    {
+      "seasonNo": 30,
+      "gender": "M",
+      "handle": "광수",
+      "photo": { "src": null, "alt": "나는 SOLO 30기 광수" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1992,
+        "job": "삼성전자 반도체 엔지니어",
+        "region": "경기 화성"
+      },
+      "sources": [
+        "https://kekewo.net/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-30%EA%B8%B0-%EA%B4%91%EC%88%98",
+        "https://www.topstarnews.net/news/articleView.html?idxno=15955234"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 30,
+      "gender": "M",
+      "handle": "상철",
+      "photo": { "src": null, "alt": "나는 SOLO 30기 상철" },
+      "instagram": "rtmx_11",
+      "profile": {
+        "birthYear": 1989,
+        "job": "세무사",
+        "region": "서울 강서구"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-30%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/",
+        "https://www.topstarnews.net/news/articleView.html?idxno=15955234"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 30,
+      "gender": "F",
+      "handle": "영숙",
+      "photo": { "src": null, "alt": "나는 SOLO 30기 영숙" },
+      "instagram": "bwhessy",
+      "profile": {
+        "birthYear": 1991,
+        "job": "외국계 제약회사 마케터",
+        "region": "서울 동작구"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-30%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/",
+        "https://ccarinto.com/%EB%82%98%EB%8A%94-%EC%86%94%EB%A1%9C-30%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%A7%84-%EC%9D%B8%EC%8A%A4%ED%83%80%EA%B7%B8%EB%9E%A8-%EC%A0%95%EB%B3%B4%F0%9F%93%B7/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 30,
+      "gender": "F",
+      "handle": "정숙",
+      "photo": { "src": null, "alt": "나는 SOLO 30기 정숙" },
+      "instagram": "wlrkdwn",
+      "profile": {
+        "birthYear": 1993,
+        "job": "경찰 공무원",
+        "region": "경기 의정부"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-30%EA%B8%B0-%EC%A0%95%EC%88%99-%ED%94%84%EB%A1%9C%ED%95%84-%EB%82%98%EC%9D%B4-%EC%A7%81%EC%97%85/",
+        "https://www.topstarnews.net/news/articleView.html?idxno=15955234"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 30,
+      "gender": "F",
+      "handle": "순자",
+      "photo": { "src": null, "alt": "나는 SOLO 30기 순자" },
+      "instagram": "boxing_podo",
+      "profile": {
+        "birthYear": 1995,
+        "job": "헬스케어 PM",
+        "region": "서울 관악구"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-30%EA%B8%B0-%EC%88%9C%EC%9E%90-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 30,
+      "gender": "F",
+      "handle": "영자",
+      "photo": { "src": null, "alt": "나는 SOLO 30기 영자" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1992,
+        "job": "포스코건설 건축설비 엔지니어",
+        "region": "서울"
+      },
+      "sources": [
+        "https://v.daum.net/v/3PMLrJ4qnc",
+        "https://www.topstarnews.net/news/articleView.html?idxno=15955234"
+      ],
+      "finalChoice": "영식"
+    },
+    {
+      "seasonNo": 30,
+      "gender": "F",
+      "handle": "옥순",
+      "photo": { "src": null, "alt": "나는 SOLO 30기 옥순" },
+      "instagram": "noajoa_",
+      "profile": {
+        "birthYear": 1992,
+        "job": "필라테스 센터 원장",
+        "region": "서울 동작구"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-30%EA%B8%B0-%EC%98%A5%EC%88%9C-%ED%94%84%EB%A1%9C%ED%95%84-%EB%82%98%EC%9D%B4-%EC%A7%81%EC%97%85/",
+        "https://www.thinkaloudblog.com/2026/03/blog-post_808.html"
+      ],
+      "finalChoice": "영수"
+    },
+    {
+      "seasonNo": 30,
+      "gender": "F",
+      "handle": "현숙",
+      "photo": { "src": null, "alt": "나는 SOLO 30기 현숙" },
+      "instagram": "itsgabventures",
+      "profile": {
+        "birthYear": 1992,
+        "job": "회계사",
+        "region": "서울 강남"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%54%EB%A1%9C-30%EA%B8%B0-%ED%98%84%EC%88%99-%ED%94%84%EB%A1%9C%ED%95%84-%EB%82%98%EC%9D%B4-%EC%A7%81%EC%97%85/",
+        "https://ccarinto.com/%EB%82%98%EB%8A%94-%EC%86%94%EB%A1%9C-30%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%A7%84-%EC%9D%B8%EC%8A%A4%ED%83%80%EA%B7%B8%EB%9E%A8-%EC%A0%95%EB%B3%B4%F0%9F%93%B7/"
+      ],
+      "finalChoice": null
+    }
+  ]
+}

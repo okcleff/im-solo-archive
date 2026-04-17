@@ -1,0 +1,210 @@
+{
+  "seasonNo": 25,
+  "label": "25기",
+  "episodes": [
+    { "ep": 191, "airDate": "2025-03-05" },
+    { "ep": 192, "airDate": "2025-03-12" },
+    { "ep": 193, "airDate": "2025-03-19" },
+    { "ep": 194, "airDate": "2025-03-26" },
+    { "ep": 195, "airDate": "2025-04-02" },
+    { "ep": 196, "airDate": "2025-04-09" },
+    { "ep": 197, "airDate": "2025-04-16" },
+    { "ep": 198, "airDate": "2025-04-23" }
+  ],
+  "participants": [
+    {
+      "seasonNo": 25,
+      "gender": "M",
+      "handle": "영수",
+      "photo": { "src": null, "alt": "나는 SOLO 25기 영수" },
+      "instagram": "minn91",
+      "profile": {
+        "birthYear": 1991,
+        "job": "보험회사 본부장",
+        "region": "충북 청주"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-25%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": "영자"
+    },
+    {
+      "seasonNo": 25,
+      "gender": "M",
+      "handle": "영호",
+      "photo": { "src": null, "alt": "나는 SOLO 25기 영호" },
+      "instagram": "cykomantis",
+      "profile": {
+        "birthYear": 1988,
+        "job": "약사",
+        "region": "서울 성북구"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-25%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": "옥순"
+    },
+    {
+      "seasonNo": 25,
+      "gender": "M",
+      "handle": "영식",
+      "photo": { "src": null, "alt": "나는 SOLO 25기 영식" },
+      "instagram": "youngsikyours",
+      "profile": {
+        "birthYear": 1990,
+        "job": "은행원",
+        "region": null
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-25%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": "미경"
+    },
+    {
+      "seasonNo": 25,
+      "gender": "M",
+      "handle": "영철",
+      "photo": { "src": null, "alt": "나는 SOLO 25기 영철" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1990,
+        "job": "중학교 축구 지도자",
+        "region": "서울"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-25%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 25,
+      "gender": "M",
+      "handle": "광수",
+      "photo": { "src": null, "alt": "나는 SOLO 25기 광수" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1986,
+        "job": "이비인후과 의사",
+        "region": "강원 인제"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-25%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/",
+        "https://news.nate.com/view/20250313n07061"
+      ],
+      "finalChoice": "옥순"
+    },
+    {
+      "seasonNo": 25,
+      "gender": "M",
+      "handle": "상철",
+      "photo": { "src": null, "alt": "나는 SOLO 25기 상철" },
+      "instagram": "sapsaree_kang",
+      "profile": {
+        "birthYear": 1990,
+        "job": "SK하이닉스 기획",
+        "region": "서울 중구"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-25%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": "순자"
+    },
+    {
+      "seasonNo": 25,
+      "gender": "F",
+      "handle": "영숙",
+      "photo": { "src": null, "alt": "나는 SOLO 25기 영숙" },
+      "instagram": "woodangwoodang",
+      "profile": {
+        "birthYear": 1993,
+        "job": "롯데멤버스 마케팅",
+        "region": null
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-25%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 25,
+      "gender": "F",
+      "handle": "순자",
+      "photo": { "src": null, "alt": "나는 SOLO 25기 순자" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1991,
+        "job": "세스코 라이프케어 교육팀",
+        "region": null
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-25%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": "상철"
+    },
+    {
+      "seasonNo": 25,
+      "gender": "F",
+      "handle": "영자",
+      "photo": { "src": null, "alt": "나는 SOLO 25기 영자" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1994,
+        "job": "프리랜서 일러스트레이터",
+        "region": "경남 진주"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-25%EA%B8%B0-%EC%98%81%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4/",
+        "https://www.thinkaloudblog.com/2026/04/25.html"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 25,
+      "gender": "F",
+      "handle": "옥순",
+      "photo": { "src": null, "alt": "나는 SOLO 25기 옥순" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1989,
+        "job": "플루티스트",
+        "region": null
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-25%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 25,
+      "gender": "F",
+      "handle": "현숙",
+      "photo": { "src": null, "alt": "나는 SOLO 25기 현숙" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1993,
+        "job": "서울시청 6급 공무원",
+        "region": "서울 동대문구"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-25%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 25,
+      "gender": "F",
+      "handle": "미경",
+      "photo": { "src": null, "alt": "나는 SOLO 25기 미경" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1988,
+        "job": "해외 전시 디자이너·PM",
+        "region": null
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-25%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": "영식"
+    }
+  ]
+}

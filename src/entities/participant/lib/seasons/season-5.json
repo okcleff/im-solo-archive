@@ -1,0 +1,218 @@
+{
+  "seasonNo": 5,
+  "label": "5기",
+  "episodes": [
+    { "ep": 25, "airDate": "2021-12-29" },
+    { "ep": 26, "airDate": "2022-01-05" },
+    { "ep": 27, "airDate": "2022-01-12" },
+    { "ep": 28, "airDate": "2022-01-19" },
+    { "ep": 29, "airDate": "2022-01-26" },
+    { "ep": 30, "airDate": "2022-02-02" }
+  ],
+  "participants": [
+    {
+      "seasonNo": 5,
+      "gender": "M",
+      "handle": "영수",
+      "photo": { "src": null, "alt": "나는 SOLO 5기 영수" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1978,
+        "job": "신경외과 의원 부원장",
+        "region": null
+      },
+      "sources": [
+        "https://www.gukjenews.com/news/articleView.html?idxno=2383983",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 5,
+      "gender": "M",
+      "handle": "영호",
+      "photo": { "src": null, "alt": "나는 SOLO 5기 영호" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1985,
+        "job": "안경사",
+        "region": null
+      },
+      "sources": [
+        "https://www.gukjenews.com/news/articleView.html?idxno=2383983",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": "정자"
+    },
+    {
+      "seasonNo": 5,
+      "gender": "M",
+      "handle": "영식",
+      "photo": { "src": null, "alt": "나는 SOLO 5기 영식" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1987,
+        "job": "치과의사",
+        "region": null
+      },
+      "sources": [
+        "https://www.gukjenews.com/news/articleView.html?idxno=2383983",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": "영숙"
+    },
+    {
+      "seasonNo": 5,
+      "gender": "M",
+      "handle": "영철",
+      "photo": { "src": null, "alt": "나는 SOLO 5기 영철" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1989,
+        "job": "프로그래머",
+        "region": null
+      },
+      "sources": [
+        "https://www.gukjenews.com/news/articleView.html?idxno=2383983",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 5,
+      "gender": "M",
+      "handle": "정수",
+      "photo": { "src": null, "alt": "나는 SOLO 5기 정수" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1990,
+        "job": "한국전기안전공사",
+        "region": null
+      },
+      "sources": [
+        "https://www.gukjenews.com/news/articleView.html?idxno=2383983",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": "정숙"
+    },
+    {
+      "seasonNo": 5,
+      "gender": "M",
+      "handle": "정식",
+      "photo": { "src": null, "alt": "나는 SOLO 5기 정식" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1988,
+        "job": "학교 공간 사업 · 소독회사 운영",
+        "region": "충북 청주"
+      },
+      "sources": [
+        "https://www.gukjenews.com/news/articleView.html?idxno=2383983",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": "정순"
+    },
+    {
+      "seasonNo": 5,
+      "gender": "F",
+      "handle": "순자",
+      "photo": { "src": null, "alt": "나는 SOLO 5기 순자" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1988,
+        "job": "스포츠과학센터 연구원",
+        "region": null
+      },
+      "sources": [
+        "https://www.gukjenews.com/news/articleView.html?idxno=2383983",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 5,
+      "gender": "F",
+      "handle": "영자",
+      "photo": { "src": null, "alt": "나는 SOLO 5기 영자" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1987,
+        "job": "실내 스크린 테니스장 운영",
+        "region": null
+      },
+      "sources": [
+        "https://www.gukjenews.com/news/articleView.html?idxno=2383983",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 5,
+      "gender": "F",
+      "handle": "정순",
+      "photo": { "src": null, "alt": "나는 SOLO 5기 정순" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1993,
+        "job": "공연기획사 매니저",
+        "region": null
+      },
+      "sources": [
+        "https://www.gukjenews.com/news/articleView.html?idxno=2383983",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": "정식"
+    },
+    {
+      "seasonNo": 5,
+      "gender": "F",
+      "handle": "정숙",
+      "photo": { "src": null, "alt": "나는 SOLO 5기 정숙" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1993,
+        "job": "해금 연주자",
+        "region": null
+      },
+      "sources": [
+        "https://www.gukjenews.com/news/articleView.html?idxno=2383983",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": "정수"
+    },
+    {
+      "seasonNo": 5,
+      "gender": "F",
+      "handle": "영숙",
+      "photo": { "src": null, "alt": "나는 SOLO 5기 영숙" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1993,
+        "job": "영어 학원 강사",
+        "region": null
+      },
+      "sources": [
+        "https://www.gukjenews.com/news/articleView.html?idxno=2383983",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 5,
+      "gender": "F",
+      "handle": "정자",
+      "photo": { "src": null, "alt": "나는 SOLO 5기 정자" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1990,
+        "job": "보건소 간호직 공무원",
+        "region": null
+      },
+      "sources": [
+        "https://www.gukjenews.com/news/articleView.html?idxno=2383983",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": null
+    }
+  ]
+}

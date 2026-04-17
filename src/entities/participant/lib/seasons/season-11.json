@@ -1,0 +1,208 @@
+{
+  "seasonNo": 11,
+  "label": "11기",
+  "episodes": [
+    { "ep": 69, "airDate": "2022-11-02" },
+    { "ep": 70, "airDate": "2022-11-09" },
+    { "ep": 71, "airDate": "2022-11-16" },
+    { "ep": 72, "airDate": "2022-11-23" },
+    { "ep": 73, "airDate": "2022-11-30" },
+    { "ep": 74, "airDate": "2022-12-07" },
+    { "ep": 75, "airDate": "2022-12-14" }
+  ],
+  "participants": [
+    {
+      "seasonNo": 11,
+      "gender": "M",
+      "handle": "영수",
+      "photo": { "src": null, "alt": "나는 SOLO 11기 영수" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1986,
+        "job": "대학병원 외과 전문의",
+        "region": "경기 의정부"
+      },
+      "sources": [
+        "https://as111.byslowly.com/entry/%EB%82%98%EB%8A%94-%EC%86%94%EB%A1%9C-11%EA%B8%B0-%EC%A7%81%EC%97%85-%EC%8A%A4%ED%8E%99-%EC%9D%B8%EC%8A%A4%ED%83%80-%EC%B4%AC%EC%98%81%EC%A7%80-%EC%8B%9C%EC%B2%AD%EB%A5%A0-%EC%9E%AC%EB%B0%A9%EC%86%A1-%ED%98%84%EC%88%99-%EC%98%A5%EC%88%9C-%EC%98%81%EC%B2%A0-%EC%98%81%EC%88%99-%EC%83%81%EC%B2%A0-%EA%B4%91%EC%88%98-%EC%88%9C%EC%9E%90-%EC%A0%95%EC%88%99-%EC%98%81%EC%88%98-%EC%98%81%EC%9E%90"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 11,
+      "gender": "M",
+      "handle": "영호",
+      "photo": { "src": null, "alt": "나는 SOLO 11기 영호" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1989,
+        "job": "치과의사",
+        "region": "수원 광교"
+      },
+      "sources": [
+        "https://as111.byslowly.com/entry/%EB%82%98%EB%8A%94-%EC%86%94%EB%A1%9C-11%EA%B8%B0-%EC%A7%81%EC%97%85-%EC%8A%A4%ED%8E%99-%EC%9D%B8%EC%8A%A4%ED%83%80-%EC%B4%AC%EC%98%81%EC%A7%80-%EC%8B%9C%EC%B2%AD%EB%A5%A0-%EC%9E%AC%EB%B0%A9%EC%86%A1-%ED%98%84%EC%88%99-%EC%98%A5%EC%88%9C-%EC%98%81%EC%B2%A0-%EC%98%81%EC%88%99-%EC%83%81%EC%B2%A0-%EA%B4%91%EC%88%98-%EC%88%9C%EC%9E%90-%EC%A0%95%EC%88%99-%EC%98%81%EC%88%98-%EC%98%81%EC%9E%90"
+      ],
+      "finalChoice": "현숙"
+    },
+    {
+      "seasonNo": 11,
+      "gender": "M",
+      "handle": "영식",
+      "photo": { "src": null, "alt": "나는 SOLO 11기 영식" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1985,
+        "job": "외국계 필름 기업 글로벌 세일즈 매니저",
+        "region": "서울 강남"
+      },
+      "sources": [
+        "https://as111.byslowly.com/entry/%EB%82%98%EB%8A%94-%EC%86%94%EB%A1%9C-11%EA%B8%B0-%EC%A7%81%EC%97%85-%EC%8A%A4%ED%8E%99-%EC%9D%B8%EC%8A%A4%ED%83%80-%EC%B4%AC%EC%98%81%EC%A7%80-%EC%8B%9C%EC%B2%AD%EB%A5%A0-%EC%9E%AC%EB%B0%A9%EC%86%A1-%ED%98%84%EC%88%99-%EC%98%A5%EC%88%9C-%EC%98%81%EC%B2%A0-%EC%98%81%EC%88%99-%EC%83%81%EC%B2%A0-%EA%B4%91%EC%88%98-%EC%88%9C%EC%9E%90-%EC%A0%95%EC%88%99-%EC%98%81%EC%88%98-%EC%98%81%EC%9E%90"
+      ],
+      "finalChoice": "영자"
+    },
+    {
+      "seasonNo": 11,
+      "gender": "M",
+      "handle": "영철",
+      "photo": { "src": null, "alt": "나는 SOLO 11기 영철" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1988,
+        "job": "BNK 경남은행 은행원",
+        "region": "부산"
+      },
+      "sources": [
+        "https://as111.byslowly.com/entry/%EB%82%98%EB%8A%94-%EC%86%94%EB%A1%9C-11%EA%B8%B0-%EC%A7%81%EC%97%85-%EC%8A%A4%ED%8E%99-%EC%9D%B8%EC%8A%A4%ED%83%80-%EC%B4%AC%EC%98%81%EC%A7%80-%EC%8B%9C%EC%B2%AD%EB%A5%A0-%EC%9E%AC%EB%B0%A9%EC%86%A1-%ED%98%84%EC%88%99-%EC%98%A5%EC%88%9C-%EC%98%81%EC%B2%A0-%EC%98%81%EC%88%99-%EC%83%81%EC%B2%A0-%EA%B4%91%EC%88%98-%EC%88%9C%EC%9E%90-%EC%A0%95%EC%88%99-%EC%98%81%EC%88%98-%EC%98%81%EC%9E%90"
+      ],
+      "finalChoice": "순자"
+    },
+    {
+      "seasonNo": 11,
+      "gender": "M",
+      "handle": "광수",
+      "photo": { "src": null, "alt": "나는 SOLO 11기 광수" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1985,
+        "job": "취업 컨설팅 사업가",
+        "region": "서울 서초구"
+      },
+      "sources": [
+        "https://as111.byslowly.com/entry/%EB%82%98%EB%8A%94-%EC%86%94%EB%A1%9C-11%EA%B8%B0-%EC%A7%81%EC%97%85-%EC%8A%A4%ED%8E%99-%EC%9D%B8%EC%8A%A4%ED%83%80-%EC%B4%AC%EC%98%81%EC%A7%80-%EC%8B%9C%EC%B2%AD%EB%A5%A0-%EC%9E%AC%EB%B0%A9%EC%86%A1-%ED%98%84%EC%88%99-%EC%98%A5%EC%88%9C-%EC%98%81%EC%B2%A0-%EC%98%81%EC%88%99-%EC%83%81%EC%B2%A0-%EA%B4%91%EC%88%98-%EC%88%9C%EC%9E%90-%EC%A0%95%EC%88%99-%EC%98%81%EC%88%98-%EC%98%81%EC%9E%90"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 11,
+      "gender": "M",
+      "handle": "상철",
+      "photo": { "src": null, "alt": "나는 SOLO 11기 상철" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1990,
+        "job": "메이저리그 스카우터",
+        "region": null
+      },
+      "sources": [
+        "https://as111.byslowly.com/entry/%EB%82%98%EB%8A%94-%EC%86%94%EB%A1%9C-11%EA%B8%B0-%EC%A7%81%EC%97%85-%EC%8A%A4%ED%8E%99-%EC%9D%B8%EC%8A%A4%ED%83%80-%EC%B4%AC%EC%98%81%EC%A7%80-%EC%8B%9C%EC%B2%AD%EB%A5%A0-%EC%9E%AC%EB%B0%A9%EC%86%A1-%ED%98%84%EC%88%99-%EC%98%A5%EC%88%9C-%EC%98%81%EC%B2%A0-%EC%98%81%EC%88%99-%EC%83%81%EC%B2%A0-%EA%B4%91%EC%88%98-%EC%88%9C%EC%9E%90-%EC%A0%95%EC%88%99-%EC%98%81%EC%88%98-%EC%98%81%EC%9E%90"
+      ],
+      "finalChoice": "영숙"
+    },
+    {
+      "seasonNo": 11,
+      "gender": "F",
+      "handle": "영숙",
+      "photo": { "src": null, "alt": "나는 SOLO 11기 영숙" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1989,
+        "job": "주방기기·식당철거 사업가",
+        "region": "부산"
+      },
+      "sources": [
+        "https://as111.byslowly.com/entry/%EB%82%98%EB%8A%94-%EC%86%94%EB%A1%9C-11%EA%B8%B0-%EC%A7%81%EC%97%85-%EC%8A%A4%ED%8E%99-%EC%9D%B8%EC%8A%A4%ED%83%80-%EC%B4%AC%EC%98%81%EC%A7%80-%EC%8B%9C%EC%B2%AD%EB%A5%A0-%EC%9E%AC%EB%B0%A9%EC%86%A1-%ED%98%84%EC%88%99-%EC%98%A5%EC%88%9C-%EC%98%81%EC%B2%A0-%EC%98%81%EC%88%99-%EC%83%81%EC%B2%A0-%EA%B4%91%EC%88%98-%EC%88%9C%EC%9E%90-%EC%A0%95%EC%88%99-%EC%98%81%EC%88%98-%EC%98%81%EC%9E%90"
+      ],
+      "finalChoice": "상철"
+    },
+    {
+      "seasonNo": 11,
+      "gender": "F",
+      "handle": "정숙",
+      "photo": { "src": null, "alt": "나는 SOLO 11기 정숙" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1986,
+        "job": "변리사",
+        "region": "부산"
+      },
+      "sources": [
+        "https://as111.byslowly.com/entry/%EB%82%98%EB%8A%94-%EC%86%94%EB%A1%9C-11%EA%B8%B0-%EC%A7%81%EC%97%85-%EC%8A%A4%ED%8E%99-%EC%9D%B8%EC%8A%A4%ED%83%80-%EC%B4%AC%EC%98%81%EC%A7%80-%EC%8B%9C%EC%B2%AD%EB%A5%A0-%EC%9E%AC%EB%B0%A9%EC%86%A1-%ED%98%84%EC%88%99-%EC%98%A5%EC%88%9C-%EC%98%81%EC%B2%A0-%EC%98%81%EC%88%99-%EC%83%81%EC%B2%A0-%EA%B4%91%EC%88%98-%EC%88%9C%EC%9E%90-%EC%A0%95%EC%88%99-%EC%98%81%EC%88%98-%EC%98%81%EC%9E%90"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 11,
+      "gender": "F",
+      "handle": "순자",
+      "photo": { "src": null, "alt": "나는 SOLO 11기 순자" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1995,
+        "job": "재활 피트니스 강사",
+        "region": "서울 서초구"
+      },
+      "sources": [
+        "https://as111.byslowly.com/entry/%EB%82%98%EB%8A%94-%EC%86%94%EB%A1%9C-11%EA%B8%B0-%EC%A7%81%EC%97%85-%EC%8A%A4%ED%8E%99-%EC%9D%B8%EC%8A%A4%ED%83%80-%EC%B4%AC%EC%98%81%EC%A7%80-%EC%8B%9C%EC%B2%AD%EB%A5%A0-%EC%9E%AC%EB%B0%A9%EC%86%A1-%ED%98%84%EC%88%99-%EC%98%A5%EC%88%9C-%EC%98%81%EC%B2%A0-%EC%98%81%EC%88%99-%EC%83%81%EC%B2%A0-%EA%B4%91%EC%88%98-%EC%88%9C%EC%9E%90-%EC%A0%95%EC%88%99-%EC%98%81%EC%88%98-%EC%98%81%EC%9E%90"
+      ],
+      "finalChoice": "영철"
+    },
+    {
+      "seasonNo": 11,
+      "gender": "F",
+      "handle": "영자",
+      "photo": { "src": null, "alt": "나는 SOLO 11기 영자" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1990,
+        "job": "금융사 IT 기획",
+        "region": "서울"
+      },
+      "sources": [
+        "https://as111.byslowly.com/entry/%EB%82%98%EB%8A%94-%EC%86%94%EB%A1%9C-11%EA%B8%B0-%EC%A7%81%EC%97%85-%EC%8A%A4%ED%8E%99-%EC%9D%B8%EC%8A%A4%ED%83%80-%EC%B4%AC%EC%98%81%EC%A7%80-%EC%8B%9C%EC%B2%AD%EB%A5%A0-%EC%9E%AC%EB%B0%A9%EC%86%A1-%ED%98%84%EC%88%99-%EC%98%A5%EC%88%9C-%EC%98%81%EC%B2%A0-%EC%98%81%EC%88%99-%EC%83%81%EC%B2%A0-%EA%B4%91%EC%88%98-%EC%88%9C%EC%9E%90-%EC%A0%95%EC%88%99-%EC%98%81%EC%88%98-%EC%98%81%EC%9E%90"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 11,
+      "gender": "F",
+      "handle": "옥순",
+      "photo": { "src": null, "alt": "나는 SOLO 11기 옥순" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1986,
+        "job": "수학 학원 강사",
+        "region": "충북 청주"
+      },
+      "sources": [
+        "https://as111.byslowly.com/entry/%EB%82%98%EB%8A%94-%EC%86%94%EB%A1%9C-11%EA%B8%B0-%EC%A7%81%EC%97%85-%EC%8A%A4%ED%8E%99-%EC%9D%B8%EC%8A%A4%ED%83%80-%EC%B4%AC%EC%98%81%EC%A7%80-%EC%8B%9C%EC%B2%AD%EB%A5%A0-%EC%9E%AC%EB%B0%A9%EC%86%A1-%ED%98%84%EC%88%99-%EC%98%A5%EC%88%9C-%EC%98%81%EC%B2%A0-%EC%98%81%EC%88%99-%EC%83%81%EC%B2%A0-%EA%B4%91%EC%88%98-%EC%88%9C%EC%9E%90-%EC%A0%95%EC%88%99-%EC%98%81%EC%88%98-%EC%98%81%EC%9E%90"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 11,
+      "gender": "F",
+      "handle": "현숙",
+      "photo": { "src": null, "alt": "나는 SOLO 11기 현숙" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1988,
+        "job": "필라 소싱팀 과장",
+        "region": "서울 동작구"
+      },
+      "sources": [
+        "https://as111.byslowly.com/entry/%EB%82%98%EB%8A%94-%EC%86%94%EB%A1%9C-11%EA%B8%B0-%EC%A7%81%EC%97%85-%EC%8A%A4%ED%8E%99-%EC%9D%B8%EC%8A%A4%ED%83%80-%C%B4%AC%EC%98%81%EC%A7%80-%EC%8B%9C%EC%B2%AD%EB%A5%A0-%EC%9E%AC%EB%B0%A9%EC%86%A1-%ED%98%84%EC%88%99-%EC%98%A5%EC%88%9C-%EC%98%81%EC%B2%A0-%EC%98%81%EC%88%99-%EC%83%81%EC%B2%A0-%EA%B4%91%EC%88%98-%EC%88%9C%EC%9E%90-%EC%A0%95%EC%88%99-%EC%98%81%EC%88%98-%EC%98%81%EC%9E%90",
+        "https://enews.imbc.com/News/RetrieveNewsInfo/368100"
+      ],
+      "finalChoice": "영호"
+    }
+  ]
+}

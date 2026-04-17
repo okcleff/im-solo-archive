@@ -1,0 +1,257 @@
+{
+  "seasonNo": 28,
+  "label": "28기 (돌싱 특집)",
+  "episodes": [
+    { "ep": 217, "airDate": "2025-09-03" },
+    { "ep": 218, "airDate": "2025-09-10" },
+    { "ep": 219, "airDate": "2025-09-17" },
+    { "ep": 220, "airDate": "2025-09-24" },
+    { "ep": 221, "airDate": "2025-10-01" },
+    { "ep": 222, "airDate": "2025-10-08" },
+    { "ep": 223, "airDate": "2025-10-15" },
+    { "ep": 224, "airDate": "2025-10-22" },
+    { "ep": 225, "airDate": "2025-10-29" },
+    { "ep": 226, "airDate": "2025-11-05" },
+    { "ep": 227, "airDate": "2025-11-12" }
+  ],
+  "participants": [
+    {
+      "seasonNo": 28,
+      "gender": "M",
+      "handle": "영수",
+      "photo": { "src": null, "alt": "나는 SOLO 28기 영수" },
+      "instagram": "realmikekim",
+      "profile": {
+        "birthYear": 1984,
+        "job": "식품 스타트업 CEO",
+        "region": "경기 화성"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-28%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EB%82%98%EC%9D%B4-%EC%A7%81%EC%97%85-%EC%B4%9D%EC%A0%95%EB%A6%AC/",
+        "https://the-next-investment.com/2025/09/18/imsolo-28/"
+      ],
+      "finalChoice": "정숙"
+    },
+    {
+      "seasonNo": 28,
+      "gender": "M",
+      "handle": "영호",
+      "photo": { "src": null, "alt": "나는 SOLO 28기 영호" },
+      "instagram": "seokjinh",
+      "profile": {
+        "birthYear": 1989,
+        "job": "잠수·인명구조 장비 납품 사업가",
+        "region": "서울"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-28%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EB%82%98%EC%9D%B4-%EC%A7%81%EC%97%85-%EC%B4%9D%EC%A0%95%EB%A6%AC/",
+        "https://the-next-investment.com/2025/09/18/imsolo-28/"
+      ],
+      "finalChoice": "옥순"
+    },
+    {
+      "seasonNo": 28,
+      "gender": "M",
+      "handle": "영식",
+      "photo": { "src": null, "alt": "나는 SOLO 28기 영식" },
+      "instagram": "djmbog",
+      "profile": {
+        "birthYear": 1980,
+        "job": "도시계획 엔지니어 (프리랜서)",
+        "region": "광주"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-28%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EB%82%98%EC%9D%B4-%EC%A7%81%EC%97%85-%EC%B4%9D%EC%A0%95%EB%A6%AC/",
+        "https://the-next-investment.com/2025/09/18/imsolo-28/"
+      ],
+      "finalChoice": "현숙"
+    },
+    {
+      "seasonNo": 28,
+      "gender": "M",
+      "handle": "영철",
+      "photo": { "src": null, "alt": "나는 SOLO 28기 영철" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1983,
+        "job": "한국원자력연구원 책임연구원",
+        "region": "대전"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-28%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EB%82%98%EC%9D%B4-%EC%A7%81%EC%97%85-%EC%B4%9D%EC%A0%95%EB%A6%AC/",
+        "https://the-next-investment.com/2025/09/18/imsolo-28/"
+      ],
+      "finalChoice": "영자"
+    },
+    {
+      "seasonNo": 28,
+      "gender": "M",
+      "handle": "광수",
+      "photo": { "src": null, "alt": "나는 SOLO 28기 광수" },
+      "instagram": "likewisesyx",
+      "profile": {
+        "birthYear": 1981,
+        "job": "음반 제작 총괄 이사 (A&R)",
+        "region": "서울 광진구"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-28%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EB%82%98%EC%9D%B4-%EC%A7%81%EC%97%85-%EC%B4%9D%EC%A0%95%EB%A6%AC/",
+        "https://the-next-investment.com/2025/09/18/imsolo-28/"
+      ],
+      "finalChoice": "정희"
+    },
+    {
+      "seasonNo": 28,
+      "gender": "M",
+      "handle": "상철",
+      "photo": { "src": null, "alt": "나는 SOLO 28기 상철" },
+      "instagram": "ys_2ternal",
+      "profile": {
+        "birthYear": 1983,
+        "job": "국립대 병원 행정 교직원",
+        "region": "충북 청주"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-28%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EB%82%98%EC%9D%B4-%EC%A7%81%EC%97%85-%EC%B4%9D%EC%A0%95%EB%A6%AC/",
+        "https://the-next-investment.com/2025/09/18/imsolo-28/"
+      ],
+      "finalChoice": "순자"
+    },
+    {
+      "seasonNo": 28,
+      "gender": "M",
+      "handle": "경수",
+      "photo": { "src": null, "alt": "나는 SOLO 28기 경수" },
+      "instagram": "g.jeonghyeok",
+      "profile": {
+        "birthYear": 1978,
+        "job": "스포츠 스타트업 대표 (前 프로축구선수)",
+        "region": "서울 양천구"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-28%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EB%82%98%EC%9D%B4-%EC%A7%81%EC%97%85-%EC%B4%9D%EC%A0%95%EB%A6%AC/",
+        "https://the-next-investment.com/2025/09/18/imsolo-28/"
+      ],
+      "finalChoice": "영숙"
+    },
+    {
+      "seasonNo": 28,
+      "gender": "F",
+      "handle": "영숙",
+      "photo": { "src": null, "alt": "나는 SOLO 28기 영숙" },
+      "instagram": "once_only_life",
+      "profile": {
+        "birthYear": 1986,
+        "job": "간호사",
+        "region": "부산"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-28%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EB%82%98%EC%9D%B4-%EC%A7%81%EC%97%85-%EC%B4%9D%EC%A0%95%EB%A6%AC/",
+        "https://the-next-investment.com/2025/09/18/imsolo-28/"
+      ],
+      "finalChoice": "경수"
+    },
+    {
+      "seasonNo": 28,
+      "gender": "F",
+      "handle": "정숙",
+      "photo": { "src": null, "alt": "나는 SOLO 28기 정숙" },
+      "instagram": "kimjiea7",
+      "profile": {
+        "birthYear": 1988,
+        "job": "공인회계사",
+        "region": "서울 구로구"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-28%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EB%82%98%EC%9D%B4-%EC%A7%81%EC%97%85-%EC%B4%9D%EC%A0%95%EB%A6%AC/",
+        "https://the-next-investment.com/2025/09/18/imsolo-28/"
+      ],
+      "finalChoice": "영수"
+    },
+    {
+      "seasonNo": 28,
+      "gender": "F",
+      "handle": "순자",
+      "photo": { "src": null, "alt": "나는 SOLO 28기 순자" },
+      "instagram": "yuriverre_",
+      "profile": {
+        "birthYear": 1987,
+        "job": "수학학원 강사",
+        "region": "서울"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-28%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EB%82%98%EC%9D%B4-%EC%A7%81%EC%97%85-%EC%B4%9D%EC%A0%95%EB%A6%AC/",
+        "https://the-next-investment.com/2025/09/18/imsolo-28/"
+      ],
+      "finalChoice": "상철"
+    },
+    {
+      "seasonNo": 28,
+      "gender": "F",
+      "handle": "영자",
+      "photo": { "src": null, "alt": "나는 SOLO 28기 영자" },
+      "instagram": "cutemina0414",
+      "profile": {
+        "birthYear": 1983,
+        "job": "피아노학원 원장",
+        "region": "경기 화성 동탄"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-28%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EB%82%98%EC%9D%B4-%EC%A7%81%EC%97%85-%EC%B4%9D%EC%A0%95%EB%A6%AC/",
+        "https://the-next-investment.com/2025/09/18/imsolo-28/"
+      ],
+      "finalChoice": "영철"
+    },
+    {
+      "seasonNo": 28,
+      "gender": "F",
+      "handle": "옥순",
+      "photo": { "src": null, "alt": "나는 SOLO 28기 옥순" },
+      "instagram": "yelimy",
+      "profile": {
+        "birthYear": 1991,
+        "job": "수학학원 강사",
+        "region": null
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-28%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EB%82%98%EC%9D%B4-%EC%A7%81%EC%97%85-%EC%B4%9D%EC%A0%95%EB%A6%AC/",
+        "https://the-next-investment.com/2025/09/18/imsolo-28/"
+      ],
+      "finalChoice": "영호"
+    },
+    {
+      "seasonNo": 28,
+      "gender": "F",
+      "handle": "현숙",
+      "photo": { "src": null, "alt": "나는 SOLO 28기 현숙" },
+      "instagram": "emmma06_wow",
+      "profile": {
+        "birthYear": 1988,
+        "job": "플로리스트 / 부동산 경매",
+        "region": "인천"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-28%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EB%82%98%EC%9D%B4-%EC%A7%81%EC%97%85-%EC%B4%9D%EC%A0%95%EB%A6%AC/",
+        "https://the-next-investment.com/2025/09/18/imsolo-28/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 28,
+      "gender": "F",
+      "handle": "정희",
+      "photo": { "src": null, "alt": "나는 SOLO 28기 정희" },
+      "instagram": "ella_miso",
+      "profile": {
+        "birthYear": 1985,
+        "job": "치과의사",
+        "region": "서울"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-28%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EB%82%98%EC%9D%B4-%EC%A7%81%EC%97%85-%EC%B4%9D%EC%A0%95%EB%A6%AC/",
+        "https://the-next-investment.com/2025/09/18/imsolo-28/"
+      ],
+      "finalChoice": "광수"
+    }
+  ]
+}

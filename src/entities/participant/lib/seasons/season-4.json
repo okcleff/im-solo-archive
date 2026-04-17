@@ -1,0 +1,214 @@
+{
+  "seasonNo": 4,
+  "label": "4기",
+  "episodes": [
+    { "ep": 19, "airDate": "2021-11-17" },
+    { "ep": 20, "airDate": "2021-11-24" },
+    { "ep": 21, "airDate": "2021-12-01" },
+    { "ep": 22, "airDate": "2021-12-08" },
+    { "ep": 23, "airDate": "2021-12-15" },
+    { "ep": 24, "airDate": "2021-12-22" }
+  ],
+  "participants": [
+    {
+      "seasonNo": 4,
+      "gender": "M",
+      "handle": "영수",
+      "photo": { "src": null, "alt": "나는 SOLO 4기 영수" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1982,
+        "job": "자동차 생산 매니저",
+        "region": null
+      },
+      "sources": [
+        "https://www.slist.kr/news/articleView.html?idxno=313631",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": "정숙"
+    },
+    {
+      "seasonNo": 4,
+      "gender": "M",
+      "handle": "영호",
+      "photo": { "src": null, "alt": "나는 SOLO 4기 영호" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1991,
+        "job": "외국계 제약회사 마케터",
+        "region": "서울 강남구"
+      },
+      "sources": [
+        "https://www.slist.kr/news/articleView.html?idxno=313631",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 4,
+      "gender": "M",
+      "handle": "영식",
+      "photo": { "src": null, "alt": "나는 SOLO 4기 영식" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1988,
+        "job": "초등학교 교사",
+        "region": null
+      },
+      "sources": [
+        "https://www.slist.kr/news/articleView.html?idxno=313631",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 4,
+      "gender": "M",
+      "handle": "영철",
+      "photo": { "src": null, "alt": "나는 SOLO 4기 영철" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1983,
+        "job": "임대업(건물주)",
+        "region": null
+      },
+      "sources": [
+        "https://www.slist.kr/news/articleView.html?idxno=313631",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 4,
+      "gender": "M",
+      "handle": "정수",
+      "photo": { "src": null, "alt": "나는 SOLO 4기 정수" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1988,
+        "job": "제약회사 영업사원",
+        "region": null
+      },
+      "sources": [
+        "https://www.slist.kr/news/articleView.html?idxno=313631",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": "정순"
+    },
+    {
+      "seasonNo": 4,
+      "gender": "M",
+      "handle": "정식",
+      "photo": { "src": null, "alt": "나는 SOLO 4기 정식" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1992,
+        "job": "에너지 공기업 사무직",
+        "region": "경기 시흥"
+      },
+      "sources": [
+        "https://www.slist.kr/news/articleView.html?idxno=313631",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": "영숙"
+    },
+    {
+      "seasonNo": 4,
+      "gender": "F",
+      "handle": "순자",
+      "photo": { "src": null, "alt": "나는 SOLO 4기 순자" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1994,
+        "job": "코레일 관광개발 승무원",
+        "region": "부산"
+      },
+      "sources": [
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 4,
+      "gender": "F",
+      "handle": "정순",
+      "photo": { "src": null, "alt": "나는 SOLO 4기 정순" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1990,
+        "job": "7급 사회복지 공무원",
+        "region": null
+      },
+      "sources": [
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 4,
+      "gender": "F",
+      "handle": "영자",
+      "photo": { "src": null, "alt": "나는 SOLO 4기 영자" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1985,
+        "job": "필라테스 스튜디오 운영 · 영어강사",
+        "region": null
+      },
+      "sources": [
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 4,
+      "gender": "F",
+      "handle": "정숙",
+      "photo": { "src": null, "alt": "나는 SOLO 4기 정숙" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1996,
+        "job": "무속인",
+        "region": null
+      },
+      "sources": [
+        "https://www.slist.kr/news/articleView.html?idxno=313631",
+        "https://www.gukjenews.com/news/articleView.html?idxno=2374216"
+      ],
+      "finalChoice": "영수"
+    },
+    {
+      "seasonNo": 4,
+      "gender": "F",
+      "handle": "영숙",
+      "photo": { "src": null, "alt": "나는 SOLO 4기 영숙" },
+      "instagram": "_rim.c",
+      "profile": {
+        "birthYear": 1988,
+        "job": "핸드메이드 인형 판매 사업자",
+        "region": null
+      },
+      "sources": [
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/",
+        "https://www.gukjenews.com/news/articleView.html?idxno=2374213"
+      ],
+      "finalChoice": "정식"
+    },
+    {
+      "seasonNo": 4,
+      "gender": "F",
+      "handle": "정자",
+      "photo": { "src": null, "alt": "나는 SOLO 4기 정자" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1994,
+        "job": "치위생사",
+        "region": null
+      },
+      "sources": [
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": null
+    }
+  ]
+}

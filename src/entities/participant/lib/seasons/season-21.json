@@ -1,0 +1,207 @@
+{
+  "seasonNo": 21,
+  "label": "21기 (비주얼 특집)",
+  "episodes": [
+    { "ep": 155, "airDate": "2024-06-26" },
+    { "ep": 156, "airDate": "2024-07-03" },
+    { "ep": 157, "airDate": "2024-07-10" },
+    { "ep": 158, "airDate": "2024-07-17" },
+    { "ep": 159, "airDate": "2024-07-24" },
+    { "ep": 160, "airDate": "2024-07-31" },
+    { "ep": 161, "airDate": "2024-08-07" }
+  ],
+  "participants": [
+    {
+      "seasonNo": 21,
+      "gender": "M",
+      "handle": "영수",
+      "photo": { "src": null, "alt": "나는 SOLO 21기 영수" },
+      "instagram": "chunghyojung",
+      "profile": {
+        "birthYear": 1989,
+        "job": "LG전자 인사관리",
+        "region": "경기 성남"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-21%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": "정숙"
+    },
+    {
+      "seasonNo": 21,
+      "gender": "M",
+      "handle": "영호",
+      "photo": { "src": null, "alt": "나는 SOLO 21기 영호" },
+      "instagram": "jnn_kuu",
+      "profile": {
+        "birthYear": 1993,
+        "job": "한의원 원장",
+        "region": "경기 화성"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-21%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": "옥순"
+    },
+    {
+      "seasonNo": 21,
+      "gender": "M",
+      "handle": "영식",
+      "photo": { "src": null, "alt": "나는 SOLO 21기 영식" },
+      "instagram": "comme_des_pink",
+      "profile": {
+        "birthYear": 1988,
+        "job": "LF패션 신사복 MD",
+        "region": "서울"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-21%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 21,
+      "gender": "M",
+      "handle": "영철",
+      "photo": { "src": null, "alt": "나는 SOLO 21기 영철" },
+      "instagram": "songsong_66",
+      "profile": {
+        "birthYear": 1984,
+        "job": "현대스틸파이프 책임 매니저",
+        "region": "서울 대치동"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-21%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": "순자"
+    },
+    {
+      "seasonNo": 21,
+      "gender": "M",
+      "handle": "광수",
+      "photo": { "src": null, "alt": "나는 SOLO 21기 광수" },
+      "instagram": "baenghey",
+      "profile": {
+        "birthYear": 1992,
+        "job": "AI 수학교육 개발연구원",
+        "region": "서울 용산구"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-21%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": "영자"
+    },
+    {
+      "seasonNo": 21,
+      "gender": "M",
+      "handle": "상철",
+      "photo": { "src": null, "alt": "나는 SOLO 21기 상철" },
+      "instagram": "3ang7in",
+      "profile": {
+        "birthYear": 1991,
+        "job": "현대모비스 의장생산기술팀 매니저",
+        "region": "경기 성남"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-21%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 21,
+      "gender": "F",
+      "handle": "영숙",
+      "photo": { "src": null, "alt": "나는 SOLO 21기 영숙" },
+      "instagram": "songsary_",
+      "profile": {
+        "birthYear": 1992,
+        "job": "KB부동산신탁 과장",
+        "region": "서울"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-21%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 21,
+      "gender": "F",
+      "handle": "정숙",
+      "photo": { "src": null, "alt": "나는 SOLO 21기 정숙" },
+      "instagram": "kimkrystal225",
+      "profile": {
+        "birthYear": 1991,
+        "job": "외국계 회계법인 부장",
+        "region": "러시아 모스크바"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-21%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 21,
+      "gender": "F",
+      "handle": "순자",
+      "photo": { "src": null, "alt": "나는 SOLO 21기 순자" },
+      "instagram": "meen__d",
+      "profile": {
+        "birthYear": 1995,
+        "job": "삼성전자 소방방재팀",
+        "region": "경기 평택"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-21%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 21,
+      "gender": "F",
+      "handle": "영자",
+      "photo": { "src": null, "alt": "나는 SOLO 21기 영자" },
+      "instagram": "rua___p",
+      "profile": {
+        "birthYear": 1994,
+        "job": "서울교통공사 전동차 엔지니어",
+        "region": "서울"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-21%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": "광수"
+    },
+    {
+      "seasonNo": 21,
+      "gender": "F",
+      "handle": "옥순",
+      "photo": { "src": null, "alt": "나는 SOLO 21기 옥순" },
+      "instagram": "seo_youl__",
+      "profile": {
+        "birthYear": 1995,
+        "job": "필라테스 센터 대표",
+        "region": "대구"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-21%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": "영호"
+    },
+    {
+      "seasonNo": 21,
+      "gender": "F",
+      "handle": "현숙",
+      "photo": { "src": null, "alt": "나는 SOLO 21기 현숙" },
+      "instagram": "minaloggg",
+      "profile": {
+        "birthYear": 1996,
+        "job": "스타트업 브랜드 마케터",
+        "region": "서울 한남동"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-21%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": null
+    }
+  ]
+}

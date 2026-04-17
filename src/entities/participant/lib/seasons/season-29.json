@@ -1,0 +1,224 @@
+{
+  "seasonNo": 29,
+  "label": "29기 (연상연하 특집)",
+  "episodes": [
+    { "ep": 228, "airDate": "2025-11-19" },
+    { "ep": 229, "airDate": "2025-11-26" },
+    { "ep": 230, "airDate": "2025-12-03" },
+    { "ep": 231, "airDate": "2025-12-10" },
+    { "ep": 232, "airDate": "2025-12-17" },
+    { "ep": 233, "airDate": "2025-12-24" },
+    { "ep": 234, "airDate": "2025-12-31" },
+    { "ep": 235, "airDate": "2026-01-07" },
+    { "ep": 236, "airDate": "2026-01-14" },
+    { "ep": 237, "airDate": "2026-01-21" }
+  ],
+  "participants": [
+    {
+      "seasonNo": 29,
+      "gender": "M",
+      "handle": "영수",
+      "photo": { "src": null, "alt": "나는 SOLO 29기 영수" },
+      "instagram": "tomkim_1220",
+      "profile": {
+        "birthYear": 1994,
+        "job": "SK이노베이션 정유 해외영업팀",
+        "region": "서울 양천구"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-29%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EB%82%98%EC%9D%B4-%EC%A7%81%EC%97%85/",
+        "https://the-next-investment.com/2025/12/04/imsolo-29/"
+      ],
+      "finalChoice": "옥순"
+    },
+    {
+      "seasonNo": 29,
+      "gender": "M",
+      "handle": "영호",
+      "photo": { "src": null, "alt": "나는 SOLO 29기 영호" },
+      "instagram": "taesu_u",
+      "profile": {
+        "birthYear": 1992,
+        "job": "경찰관 (6년차)",
+        "region": "부산"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-29%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EB%82%98%EC%9D%B4-%EC%A7%81%EC%97%85/",
+        "https://the-next-investment.com/2025/12/04/imsolo-29/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 29,
+      "gender": "M",
+      "handle": "영식",
+      "photo": { "src": null, "alt": "나는 SOLO 29기 영식" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1997,
+        "job": "효성티앤씨 무역회사 해외영업",
+        "region": "서울 노량진"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-29%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EB%82%98%EC%9D%B4-%EC%A7%81%EC%97%85/",
+        "https://the-next-investment.com/2025/12/04/imsolo-29/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 29,
+      "gender": "M",
+      "handle": "영철",
+      "photo": { "src": null, "alt": "나는 SOLO 29기 영철" },
+      "instagram": "wpboxer",
+      "profile": {
+        "birthYear": 1991,
+        "job": "외국계 자동차부품 회사 경영지원팀",
+        "region": "서울 관악구"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-29%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EB%82%98%EC%9D%B4-%EC%A7%81%EC%97%85/",
+        "https://the-next-investment.com/2025/12/04/imsolo-29/"
+      ],
+      "finalChoice": "정숙"
+    },
+    {
+      "seasonNo": 29,
+      "gender": "M",
+      "handle": "광수",
+      "photo": { "src": null, "alt": "나는 SOLO 29기 광수" },
+      "instagram": "gggggmistagram",
+      "profile": {
+        "birthYear": 1994,
+        "job": "한의사 (난치성 통증 전문)",
+        "region": "강원 평창"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-29%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EB%82%98%EC%9D%B4-%EC%A7%81%EC%97%85/",
+        "https://the-next-investment.com/2025/12/04/imsolo-29/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 29,
+      "gender": "M",
+      "handle": "상철",
+      "photo": { "src": null, "alt": "나는 SOLO 29기 상철" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1997,
+        "job": "태권도장 관장",
+        "region": "경기 수원"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-29%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EB%82%98%EC%9D%B4-%EC%A7%81%EC%97%85/",
+        "https://the-next-investment.com/2025/12/04/imsolo-29/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 29,
+      "gender": "F",
+      "handle": "영숙",
+      "photo": { "src": null, "alt": "나는 SOLO 29기 영숙" },
+      "instagram": "jung2s2",
+      "profile": {
+        "birthYear": 1988,
+        "job": "대학교 연구 전담 교수",
+        "region": "서울"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-29%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EB%82%98%EC%9D%B4-%EC%A7%81%EC%97%85/",
+        "https://the-next-investment.com/2025/12/04/imsolo-29/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 29,
+      "gender": "F",
+      "handle": "정숙",
+      "photo": { "src": null, "alt": "나는 SOLO 29기 정숙" },
+      "instagram": "sunny_onfleek",
+      "profile": {
+        "birthYear": 1988,
+        "job": "영어학원 원장",
+        "region": "대구"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-29%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EB%82%98%EC%9D%B4-%EC%A7%81%EC%97%85/",
+        "https://the-next-investment.com/2025/12/04/imsolo-29/"
+      ],
+      "finalChoice": "영철"
+    },
+    {
+      "seasonNo": 29,
+      "gender": "F",
+      "handle": "순자",
+      "photo": { "src": null, "alt": "나는 SOLO 29기 순자" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1990,
+        "job": "건설회사 분양관리팀",
+        "region": "서울 송파구"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-29%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EB%82%98%EC%9D%B4-%EC%A7%81%EC%97%85/",
+        "https://the-next-investment.com/2025/12/04/imsolo-29/",
+        "https://v.daum.net/v/20251203231139858"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 29,
+      "gender": "F",
+      "handle": "영자",
+      "photo": { "src": null, "alt": "나는 SOLO 29기 영자" },
+      "instagram": "riverisred",
+      "profile": {
+        "birthYear": 1988,
+        "job": "수학 교습소 원장",
+        "region": "서울 송파구"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-29%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EB%82%98%EC%9D%B4-%EC%A7%81%EC%97%85/",
+        "https://the-next-investment.com/2025/12/04/imsolo-29/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 29,
+      "gender": "F",
+      "handle": "옥순",
+      "photo": { "src": null, "alt": "나는 SOLO 29기 옥순" },
+      "instagram": "_dasoonii_",
+      "profile": {
+        "birthYear": 1989,
+        "job": "대학병원 간호사 (13년차)",
+        "region": "서울"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-29%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EB%82%98%EC%9D%B4-%EC%A7%81%EC%97%85/",
+        "https://the-next-investment.com/2025/12/04/imsolo-29/"
+      ],
+      "finalChoice": "영수"
+    },
+    {
+      "seasonNo": 29,
+      "gender": "F",
+      "handle": "현숙",
+      "photo": { "src": null, "alt": "나는 SOLO 29기 현숙" },
+      "instagram": "kang.yesl",
+      "profile": {
+        "birthYear": 1990,
+        "job": "약사",
+        "region": "서울"
+      },
+      "sources": [
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-29%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EB%82%98%EC%9D%B4-%EC%A7%81%EC%97%85/",
+        "https://the-next-investment.com/2025/12/04/imsolo-29/",
+        "https://v.daum.net/v/20251203231139858"
+      ],
+      "finalChoice": null
+    }
+  ]
+}

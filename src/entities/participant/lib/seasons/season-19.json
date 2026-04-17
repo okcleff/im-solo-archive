@@ -1,0 +1,222 @@
+{
+  "seasonNo": 19,
+  "label": "19기 (모태솔로 특집)",
+  "episodes": [
+    { "ep": 136, "airDate": "2024-02-14" },
+    { "ep": 137, "airDate": "2024-02-21" },
+    { "ep": 138, "airDate": "2024-02-28" },
+    { "ep": 139, "airDate": "2024-03-06" },
+    { "ep": 140, "airDate": "2024-03-13" },
+    { "ep": 141, "airDate": "2024-03-20" },
+    { "ep": 142, "airDate": "2024-03-27" },
+    { "ep": 143, "airDate": "2024-04-03" },
+    { "ep": 144, "airDate": "2024-04-10" },
+    { "ep": 145, "airDate": "2024-04-17" }
+  ],
+  "participants": [
+    {
+      "seasonNo": 19,
+      "gender": "M",
+      "handle": "영수",
+      "photo": { "src": null, "alt": "나는 SOLO 19기 영수" },
+      "instagram": "wjj6034",
+      "profile": {
+        "birthYear": 1986,
+        "job": "AI 연구원",
+        "region": null
+      },
+      "sources": [
+        "https://www.wikitree.co.kr/articles/928980",
+        "https://heideeffect.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C19%EA%B8%B0-%EC%9D%B8%EC%8A%A4%ED%83%80%EA%B7%B8%EB%9E%A8-%EC%A3%BC%EC%86%8C%EC%99%80-%EC%A7%81%EC%97%85%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0/"
+      ],
+      "finalChoice": "영자"
+    },
+    {
+      "seasonNo": 19,
+      "gender": "M",
+      "handle": "영호",
+      "photo": { "src": null, "alt": "나는 SOLO 19기 영호" },
+      "instagram": "wmomong",
+      "profile": {
+        "birthYear": 1993,
+        "job": "대학교 연구실 안전관리직",
+        "region": "전남 여수"
+      },
+      "sources": [
+        "https://heideeffect.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C19%EA%B8%B0-%EC%9D%B8%EC%8A%A4%ED%83%80%EA%B7%B8%EB%9E%A8-%EC%A3%BC%EC%86%8C%EC%99%80-%EC%A7%81%EC%97%85%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0/",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-19%EA%B8%B0-%EC%A7%81%EC%97%85-%EC%84%B1%EA%B2%A9-%EC%99%B8%EB%AA%A8-%EB%82%98%EC%9D%B4-%EC%B7%A8%EB%AF%B8-%EC%9D%B8%EC%8A%A4%ED%83%80-%EC%A0%95%EB%B3%B4/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 19,
+      "gender": "M",
+      "handle": "영식",
+      "photo": { "src": null, "alt": "나는 SOLO 19기 영식" },
+      "instagram": "ysk83_84",
+      "profile": {
+        "birthYear": 1984,
+        "job": "신발 브랜드 사업가",
+        "region": "부산"
+      },
+      "sources": [
+        "https://heideeffect.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C19%EA%B8%B0-%EC%9D%B8%EC%8A%A4%ED%83%80%EA%B7%B8%EB%9E%A8-%EC%A3%BC%EC%86%8C%EC%99%80-%EC%A7%81%EC%97%85%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0/",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-19%EA%B8%B0-%EC%A7%81%EC%97%85-%EC%84%B1%EA%B2%A9-%EC%99%B8%EB%AA%A8-%EB%82%98%EC%9D%B4-%EC%B7%A8%EB%AF%B8-%EC%9D%B8%EC%8A%A4%ED%83%80-%EC%A0%95%EB%B3%B4/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 19,
+      "gender": "M",
+      "handle": "영철",
+      "photo": { "src": null, "alt": "나는 SOLO 19기 영철" },
+      "instagram": "jae_gelsmann",
+      "profile": {
+        "birthYear": 1987,
+        "job": "식품회사 생산직",
+        "region": "천안"
+      },
+      "sources": [
+        "https://heideeffect.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C19%EA%B8%B0-%EC%9D%B8%EC%8A%A4%ED%83%80%EA%B7%B8%EB%9E%A8-%EC%A3%BC%EC%86%8C%EC%99%80-%EC%A7%81%EC%97%85%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0/",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-19%EA%B8%B0-%EC%A7%81%EC%97%85-%EC%84%B1%EA%B2%A9-%EC%99%B8%EB%AA%A8-%EB%82%98%EC%9D%B4-%EC%B7%A8%EB%AF%B8-%EC%9D%B8%EC%8A%A4%ED%83%80-%EC%A0%95%EB%B3%B4/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 19,
+      "gender": "M",
+      "handle": "광수",
+      "photo": { "src": null, "alt": "나는 SOLO 19기 광수" },
+      "instagram": "yuneuiyeol",
+      "profile": {
+        "birthYear": 1985,
+        "job": "중소벤처기업 연구원",
+        "region": "서울"
+      },
+      "sources": [
+        "https://heideeffect.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C19%EA%B8%B0-%EC%9D%B8%EC%8A%A4%ED%83%80%EA%B7%B8%EB%9E%A8-%EC%A3%BC%EC%86%8C%EC%99%80-%EC%A7%81%EC%97%85%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0/",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-19%EA%B8%B0-%EC%A7%81%EC%97%85-%EC%84%B1%EA%B2%A9-%EC%99%B8%EB%AA%A8-%EB%82%98%EC%9D%B4-%EC%B7%A8%EB%AF%B8-%EC%9D%B8%EC%8A%A4%ED%83%80-%EC%A0%95%EB%B3%B4/"
+      ],
+      "finalChoice": "영숙"
+    },
+    {
+      "seasonNo": 19,
+      "gender": "M",
+      "handle": "상철",
+      "photo": { "src": null, "alt": "나는 SOLO 19기 상철" },
+      "instagram": "caterpillar_j",
+      "profile": {
+        "birthYear": 1991,
+        "job": "건설회사 현장 관리 감독",
+        "region": null
+      },
+      "sources": [
+        "https://heideeffect.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C19%EA%B8%B0-%EC%9D%B8%EC%8A%A4%ED%83%80%EA%B7%B8%EB%9E%A8-%EC%A3%BC%EC%86%8C%EC%99%80-%EC%A7%81%EC%97%85%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0/",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-19%EA%B8%B0-%EC%A7%81%EC%97%85-%EC%84%B1%EA%B2%A9-%EC%99%B8%EB%AA%A8-%EB%82%98%EC%9D%B4-%EC%B7%A8%EB%AF%B8-%EC%9D%B8%EC%8A%A4%ED%83%80-%EC%A0%95%EB%B3%B4/"
+      ],
+      "finalChoice": "옥순"
+    },
+    {
+      "seasonNo": 19,
+      "gender": "F",
+      "handle": "영숙",
+      "photo": { "src": null, "alt": "나는 SOLO 19기 영숙" },
+      "instagram": "minhyungsam",
+      "profile": {
+        "birthYear": 1989,
+        "job": "대치동 학원 지구과학 강사",
+        "region": "서울 대치동"
+      },
+      "sources": [
+        "https://heideeffect.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C19%EA%B8%B0-%EC%9D%B8%EC%8A%A4%ED%83%80%EA%B7%B8%EB%9E%A8-%EC%A3%BC%EC%86%8C%EC%99%80-%EC%A7%81%EC%97%85%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0/",
+        "https://3jhappy100.com/entry/%EB%82%98%EB%8A%94-%EC%86%94%EB%A1%9C-19%EA%B8%B0-%EC%97%AC%EC%9E%90-%EB%82%98%EC%9D%B4-%EC%A7%81%EC%97%85-%EC%86%8C%EA%B0%9C"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 19,
+      "gender": "F",
+      "handle": "정숙",
+      "photo": { "src": null, "alt": "나는 SOLO 19기 정숙" },
+      "instagram": "yoon_daeng__",
+      "profile": {
+        "birthYear": 1994,
+        "job": "대학병원 간호사",
+        "region": "서울"
+      },
+      "sources": [
+        "https://heideeffect.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C19%EA%B8%B0-%EC%9D%B8%EC%8A%A4%ED%83%80%EA%B7%B8%EB%9E%A8-%EC%A3%BC%EC%86%8C%EC%99%80-%EC%A7%81%EC%97%85%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0/",
+        "https://3jhappy100.com/entry/%EB%82%98%EB%8A%94-%EC%86%94%EB%A1%9C-19%EA%B8%B0-%EC%97%AC%EC%9E%90-%EB%82%98%EC%9D%B4-%EC%A7%81%EC%97%85-%EC%86%8C%EA%B0%9C"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 19,
+      "gender": "F",
+      "handle": "순자",
+      "photo": { "src": null, "alt": "나는 SOLO 19기 순자" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1990,
+        "job": "노인복지센터 대표",
+        "region": "충남 공주"
+      },
+      "sources": [
+        "https://3jhappy100.com/entry/%EB%82%98%EB%8A%94-%EC%86%94%EB%A1%9C-19%EA%B8%B0-%EC%97%AC%EC%9E%90-%EB%82%98%EC%9D%B4-%EC%A7%81%EC%97%85-%EC%86%8C%EA%B0%9C",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-19%EA%B8%B0-%EC%A7%81%EC%97%85-%EC%84%B1%EA%B2%A9-%EC%99%B8%EB%AA%A8-%EB%82%98%EC%9D%B4-%EC%B7%A8%EB%AF%B8-%EC%9D%B8%EC%8A%A4%ED%83%80-%EC%A0%95%EB%B3%B4/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 19,
+      "gender": "F",
+      "handle": "영자",
+      "photo": { "src": null, "alt": "나는 SOLO 19기 영자" },
+      "instagram": "crazycaterpill",
+      "profile": {
+        "birthYear": 1996,
+        "job": "웹툰 작가",
+        "region": "서울 강남구"
+      },
+      "sources": [
+        "https://heideeffect.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C19%EA%B8%B0-%EC%9D%B8%EC%8A%A4%ED%83%80%EA%B7%B8%EB%9E%A8-%EC%A3%BC%EC%86%8C%EC%99%80-%EC%A7%81%EC%97%85%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0/",
+        "https://3jhappy100.com/entry/%EB%82%98%EB%8A%94-%EC%86%94%EB%A1%9C-19%EA%B8%B0-%EC%97%AC%EC%9E%90-%EB%82%98%EC%9D%B4-%EC%A7%81%EC%97%85-%EC%86%8C%EA%B0%9C"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 19,
+      "gender": "F",
+      "handle": "옥순",
+      "photo": { "src": null, "alt": "나는 SOLO 19기 옥순" },
+      "instagram": "p._.serendipity",
+      "profile": {
+        "birthYear": 1994,
+        "job": "중장비 파이프 제조 회사 설계·사무",
+        "region": "부산"
+      },
+      "sources": [
+        "https://heideeffect.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C19%EA%B8%B0-%EC%9D%B8%EC%8A%A4%ED%83%80%EA%B7%B8%EB%9E%A8-%EC%A3%BC%EC%86%8C%EC%99%80-%EC%A7%81%EC%97%85%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0/",
+        "https://3jhappy100.com/entry/%EB%82%98%EB%8A%94-%EC%86%94%EB%A1%9C-19%EA%B8%B0-%EC%97%AC%EC%9E%90-%EB%82%98%EC%9D%B4-%EC%A7%81%EC%97%85-%EC%86%8C%EA%B0%9C"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 19,
+      "gender": "F",
+      "handle": "현숙",
+      "photo": { "src": null, "alt": "나는 SOLO 19기 현숙" },
+      "instagram": "issue14670",
+      "profile": {
+        "birthYear": 1989,
+        "job": "미용 병원 의사",
+        "region": "인천"
+      },
+      "sources": [
+        "https://heideeffect.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C19%EA%B8%B0-%EC%9D%B8%EC%8A%A4%ED%83%80%EA%B7%B8%EB%9E%A8-%EC%A3%BC%EC%86%8C%EC%99%80-%EC%A7%81%EC%97%85%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0/",
+        "https://3jhappy100.com/entry/%EB%82%98%EB%8A%94-%EC%86%94%EB%A1%9C-19%EA%B8%B0-%EC%97%AC%EC%9E%90-%EB%82%98%EC%9D%B4-%EC%A7%81%EC%97%85-%EC%86%8C%EA%B0%9C"
+      ],
+      "finalChoice": null
+    }
+  ]
+}
