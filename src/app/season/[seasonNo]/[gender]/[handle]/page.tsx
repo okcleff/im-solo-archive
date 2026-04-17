@@ -106,7 +106,7 @@ export default async function ParticipantPage({ params }: Props) {
       : undefined,
     url: `${base}${getParticipantUrl(p)}`,
     sameAs: [
-      ...p.sources.map((s) => s.url),
+      ...p.sources,
       ...(p.instagram ? [`https://instagram.com/${p.instagram}`] : []),
     ],
   };
@@ -241,7 +241,6 @@ export default async function ParticipantPage({ params }: Props) {
               age={age}
               finalChoiceParticipant={finalChoiceParticipant}
               showGender
-              showLegend
             />
           </div>
         </section>

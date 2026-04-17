@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import type { Participant } from '../model/schemas';
 import { getParticipantUrl } from '../lib/helpers';
-import SourceConfidenceLegend from './SourceConfidenceLegend';
 
 interface Props {
   participant: Participant;
@@ -9,7 +8,6 @@ interface Props {
   finalChoiceParticipant?: Participant | null;
   showGender?: boolean;
   showInstagramInFacts?: boolean;
-  showLegend?: boolean;
   className?: string;
 }
 
@@ -38,7 +36,6 @@ export default function ParticipantDetailsSections({
   finalChoiceParticipant = null,
   showGender = false,
   showInstagramInFacts = false,
-  showLegend = false,
   className,
 }: Props) {
   return (
@@ -90,86 +87,25 @@ export default function ParticipantDetailsSections({
         ) : null}
       </dl>
 
-      {p.profile.traits.length > 0 ? (
-        <section className="mt-5">
-          <h2 className="mb-2.5 text-xs font-bold uppercase tracking-wider text-base-content/55">
-            특징
-          </h2>
-          <div className="flex flex-wrap gap-2">
-            {p.profile.traits.map((trait, index) => (
-              <span key={`${trait}-${index}`} className="badge badge-outline h-8 px-3">
-                {trait}
-              </span>
-            ))}
-          </div>
-        </section>
-      ) : null}
-
-      {p.profile.notableQuotes.length > 0 ? (
-        <section className="mt-5">
-          <h2 className="mb-2.5 text-xs font-bold uppercase tracking-wider text-base-content/55">
-            화제 멘트
-          </h2>
-          <ul className="space-y-2">
-            {p.profile.notableQuotes.map((quote, index) => (
-              <li
-                key={`${quote}-${index}`}
-                className="rounded-2xl border border-base-300 bg-base-200/60 px-4 py-3 text-sm italic shadow-sm"
-              >
-                {quote}
-              </li>
-            ))}
-          </ul>
-        </section>
-      ) : null}
-
-      {p.profile.issues.length > 0 ? (
-        <section className="mt-5 alert border border-warning/30 bg-warning/12 text-warning-content">
-          <div className="block">
-            <h2 className="mb-2 text-xs font-bold uppercase tracking-wider text-warning">
-              이슈 / 미확인 정보
-            </h2>
-            <ul className="space-y-1.5">
-              {p.profile.issues.map((issue, index) => (
-                <li key={`${issue}-${index}`} className="text-xs opacity-90">
-                  - {issue}
-                </li>
-              ))}
-            </ul>
-          </div>
-        </section>
-      ) : null}
-
       {p.sources.length > 0 ? (
         <section className="mt-5">
           <h2 className="mb-2.5 text-xs font-bold uppercase tracking-wider text-base-content/55">
             출처
           </h2>
-          <ul className="space-y-2.5">
-            {p.sources.map((source, index) => (
-              <li key={`${source.url}-${index}`} className="flex items-start gap-2 text-sm">
-                <span
-                  aria-hidden="true"
-                  className={`mt-1 h-2 w-2 shrink-0 rounded-full ${
-                    source.confidence === 'high'
-                      ? 'bg-emerald-500'
-                      : source.confidence === 'medium'
-                        ? 'bg-amber-500'
-                        : 'bg-rose-400'
-                  }`}
-                />
+          <ul className="space-y-2">
+            {p.sources.map((url, index) => (
+              <li key={`${url}-${index}`} className="text-sm">
                 <a
-                  href={source.url}
+                  href={url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="link link-primary"
+                  className="link link-primary break-all"
                 >
-                  {source.title}
+                  {url}
                 </a>
               </li>
             ))}
           </ul>
-          {showLegend ? <SourceConfidenceLegend className="mt-4" /> : null}
         </section>
       ) : null}
     </div>

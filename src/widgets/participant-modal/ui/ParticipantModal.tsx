@@ -7,7 +7,6 @@ import {
   getFinalChoiceParticipant,
   getParticipantUrl,
   ParticipantDetailsSections,
-  SourceConfidenceLegend,
   type Season,
   type Participant,
 } from "@/entities/participant";
@@ -171,8 +170,7 @@ export default function ParticipantModal({ participant: p, season, onClose }: Pr
           />
         </div>
 
-        <div className="flex items-center justify-between border-t border-base-300 px-6 pb-6 pt-1">
-          <SourceConfidenceLegend />
+        <div className="flex justify-end border-t border-base-300 px-6 pb-6 pt-4">
           <Link
             href={getParticipantUrl(p)}
             className="btn btn-ghost btn-sm text-primary"

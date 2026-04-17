@@ -50,13 +50,7 @@ export function filterParticipants(
     const matchSeason = seasonNo == null || p.seasonNo === seasonNo;
 
     const searchable = normalize(
-      [
-        p.handle,
-        p.profile.job ?? '',
-        p.profile.region ?? '',
-        ...p.profile.traits,
-        ...p.profile.notableQuotes,
-      ].join(' '),
+      [p.handle, p.profile.job ?? '', p.profile.region ?? ''].join(' '),
     );
 
     const matchKeyword =

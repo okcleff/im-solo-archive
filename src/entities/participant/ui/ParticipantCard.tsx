@@ -16,10 +16,6 @@ interface Props {
   className?: string;
 }
 
-function formatTraitPreview(trait: string, maxLength = 22): string {
-  if (trait.length <= maxLength) return trait;
-  return `${trait.slice(0, maxLength).trimEnd()}...`;
-}
 export default function ParticipantCard({
   participant: p,
   onClick,
@@ -38,10 +34,6 @@ export default function ParticipantCard({
   const accentLine = isMale ? "bg-info" : "bg-error";
   const accentText = isMale ? "text-info" : "text-error";
   const hoverBorder = isMale ? "hover:border-info/70" : "hover:border-error/70";
-  const traitPreview = p.profile.traits.slice(
-    0,
-    variant === "editorial" ? 3 : 2,
-  );
   const cardClasses =
     variant === "editorial"
       ? `surface-card card h-full overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-xl ${hoverBorder}`
@@ -123,24 +115,6 @@ export default function ParticipantCard({
             ))}
           </div>
         ) : null}
-
-        {traitPreview.length > 0 ? (
-          <div className="flex flex-wrap gap-2">
-            {traitPreview.map((trait) => (
-              <span
-                key={trait}
-                title={trait}
-                className="badge badge-outline h-7 max-w-full border-base-300/80 bg-base-100/80 px-3"
-              >
-                <span className="block max-w-full truncate">
-                  {formatTraitPreview(trait)}
-                </span>
-              </span>
-            ))}
-          </div>
-        ) : (
-          <p className="text-sm text-base-content/55">프로필 요약 준비 중</p>
-        )}
 
         <div className="mt-auto flex items-center justify-between gap-3 border-t border-base-300/85 pt-3">
           <span className="text-xs uppercase tracking-[0.2em] text-base-content/45">
