@@ -1,26 +1,16 @@
 import { z } from "zod";
 
 export const GenderSchema = z.enum(["M", "F"]);
-export const ConfidenceSchema = z.enum(["high", "medium", "low"]);
 
 export const PhotoSchema = z.object({
   src: z.string().nullable(),
   alt: z.string(),
 });
 
-export const SourceSchema = z.object({
-  title: z.string(),
-  url: z.string().url(),
-  confidence: ConfidenceSchema,
-});
-
 export const ProfileSchema = z.object({
   birthYear: z.number().int().nullable(),
   job: z.string().nullable(),
   region: z.string().nullable(),
-  traits: z.array(z.string()),
-  notableQuotes: z.array(z.string()),
-  issues: z.array(z.string()),
 });
 
 export const ParticipantSchema = z.object({
@@ -30,7 +20,7 @@ export const ParticipantSchema = z.object({
   photo: PhotoSchema,
   instagram: z.string().nullable(),
   profile: ProfileSchema,
-  sources: z.array(SourceSchema),
+  sources: z.array(z.string().url()),
   finalChoice: z.string().nullable(),
 });
 
@@ -55,9 +45,7 @@ export const ShowInfoSchema = z.object({
 });
 
 export type Gender = z.infer<typeof GenderSchema>;
-export type Confidence = z.infer<typeof ConfidenceSchema>;
 export type Photo = z.infer<typeof PhotoSchema>;
-export type Source = z.infer<typeof SourceSchema>;
 export type Profile = z.infer<typeof ProfileSchema>;
 export type Participant = z.infer<typeof ParticipantSchema>;
 export type Episode = z.infer<typeof EpisodeSchema>;

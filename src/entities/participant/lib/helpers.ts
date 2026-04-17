@@ -10,14 +10,10 @@ export function getParticipantUrl(p: Participant): string {
 /**
  * 카드/메타 설명에 사용할 짧은 출연자 요약 문자열을 반환한다.
  *
- * 우선순위: 직업 -> 지역 -> 첫 번째 특징 -> `정보 미공개`
+ * 우선순위: 직업 -> 지역 -> `정보 미공개`
  */
 export function getParticipantSummary(p: Participant): string {
-  return (
-    p.profile.job ||
-    p.profile.region ||
-    (p.profile.traits.length > 0 ? p.profile.traits[0] : '정보 미공개')
-  );
+  return p.profile.job || p.profile.region || '정보 미공개';
 }
 
 /**
