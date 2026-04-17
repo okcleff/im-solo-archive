@@ -10,10 +10,10 @@ const BASE = getSiteUrl();
 
 export const metadata: Metadata = {
   title: `나는 SOLO 출연자 아카이브 | 전 기수 프로필 총정리`,
-  description: `나는 SOLO 전 기수 출연자 직업, 나이, 지역, 특징을 한눈에 검색하세요. 현재 ${LATEST_SEASON.seasonNo}기(${LATEST_SEASON.label}) 방영 중.`,
+  description: `나는 SOLO 전 기수 출연자 직업, 나이, 지역, 특징을 한눈에 검색하세요.`,
   alternates: { canonical: BASE },
   openGraph: {
-    title: `나는 SOLO 출연자 아카이브 | ${LATEST_SEASON.seasonNo}기 포함 전 기수`,
+    title: `나는 SOLO 출연자 아카이브`,
     description: "나는 SOLO 전 기수 출연자 프로필을 검색하고 비교하세요.",
     url: BASE,
   },
@@ -40,8 +40,8 @@ export default function HomePage() {
     0,
   );
   const seasonNumbers = SEASONS_DATA.map((season) => season.seasonNo);
-  const minSeasonNo = Math.min(...seasonNumbers);
-  const maxSeasonNo = Math.max(...seasonNumbers);
+  const minSeasonNo = seasonNumbers.length > 0 ? Math.min(...seasonNumbers) : 0;
+  const maxSeasonNo = seasonNumbers.length > 0 ? Math.max(...seasonNumbers) : 0;
 
   return (
     <>
@@ -64,22 +64,24 @@ export default function HomePage() {
           </div>
 
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-1">
-            <div className="card border border-primary/20 bg-primary text-primary-content shadow-lg">
-              <div className="card-body gap-2">
-                <p className="text-xs uppercase tracking-[0.24em] text-primary-content/70">
-                  latest season
-                </p>
-                <h2 className="font-[var(--font-title)] text-4xl">
-                  {LATEST_SEASON.seasonNo}기
-                </h2>
-                <p className="text-sm text-primary-content/78">
-                  {LATEST_SEASON.label}
-                </p>
-                <div className="badge badge-neutral badge-outline mt-2 w-fit border-primary-content/25 text-primary-content">
-                  {latestAirDate}
+            {LATEST_SEASON && (
+              <div className="card border border-primary/20 bg-primary text-primary-content shadow-lg">
+                <div className="card-body gap-2">
+                  <p className="text-xs uppercase tracking-[0.24em] text-primary-content/70">
+                    latest season
+                  </p>
+                  <h2 className="font-[var(--font-title)] text-4xl">
+                    {LATEST_SEASON.seasonNo}기
+                  </h2>
+                  <p className="text-sm text-primary-content/78">
+                    {LATEST_SEASON.label}
+                  </p>
+                  <div className="badge badge-neutral badge-outline mt-2 w-fit border-primary-content/25 text-primary-content">
+                    {latestAirDate}
+                  </div>
                 </div>
               </div>
-            </div>
+            )}
 
             <div className="surface-card card">
               <div className="card-body">
@@ -113,7 +115,10 @@ export default function HomePage() {
               <div>
                 <p className="section-title">archive status</p>
                 <p className="mt-2 text-sm leading-relaxed text-base-content/72 sm:text-[0.95rem]">
-                  현재 데이터 수집 범위는 <strong>{minSeasonNo}기부터 {maxSeasonNo}기까지</strong>
+                  현재 데이터 수집 범위는{" "}
+                  <strong>
+                    {minSeasonNo}기부터 {maxSeasonNo}기까지
+                  </strong>
                   입니다. 이후 기수 데이터도 순차적으로 업데이트할 예정입니다.
                 </p>
               </div>
@@ -144,7 +149,9 @@ export default function HomePage() {
       <section className="max-w-6xl mx-auto px-4 pb-16 pt-3">
         <div className="flex items-center justify-between gap-4 mb-4">
           <h2 className="section-title">기수별 바로가기</h2>
-          <div className="badge badge-outline badge-secondary">11개 시즌</div>
+          <div className="badge badge-outline badge-secondary">
+            {SEASONS_DATA.length}개 시즌
+          </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-12 gap-4">
           {SEASONS_DATA.map((s, i) => (

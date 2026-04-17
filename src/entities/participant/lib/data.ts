@@ -36,4 +36,4 @@ export const SEASONS_DATA: Season[] = rawSeasons
   .sort((a, b) => b.seasonNo - a.seasonNo);
 
 /** 가장 최신 기수 (배열 첫 번째 = 최신순 정렬 기준) */
-export const LATEST_SEASON = SEASONS_DATA[0];
+export const LATEST_SEASON = SEASONS_DATA[0] || null;
