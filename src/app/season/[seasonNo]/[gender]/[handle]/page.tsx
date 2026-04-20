@@ -81,7 +81,12 @@ export default async function ParticipantPage({ params }: Props) {
   const season = getSeasonByNo(SEASONS_DATA, Number(seasonNo));
   if (!season) notFound();
 
-  const p = getParticipantByRoute(SEASONS_DATA, Number(seasonNo), gender, handle);
+  const p = getParticipantByRoute(
+    SEASONS_DATA,
+    Number(seasonNo),
+    gender,
+    handle,
+  );
   if (!p) notFound();
 
   const base = getSiteUrl();
@@ -142,17 +147,13 @@ export default async function ParticipantPage({ params }: Props) {
               <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-base-content/45">
                 season
               </p>
-              <p className="mt-2 text-lg font-semibold" style={{ fontFamily: "var(--font-display)" }}>
-                {p.seasonNo}기
-              </p>
+              <p className="mt-2 text-lg font-semibold">{p.seasonNo}기</p>
             </div>
             <div className="rounded-xl border border-base-300 bg-base-200 px-4 py-3">
               <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-base-content/45">
                 age
               </p>
-              <p className="mt-2 text-lg font-semibold" style={{ fontFamily: "var(--font-display)" }}>
-                {age}
-              </p>
+              <p className="mt-2 text-lg font-semibold">{age}</p>
             </div>
             <div className="rounded-xl border border-base-300 bg-base-200 px-4 py-3">
               <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-base-content/45">

@@ -35,7 +35,6 @@ export default function SeasonTabs({
                 role="tab"
                 aria-selected={active}
                 onClick={() => onChange(s.seasonNo)}
-                style={{ fontFamily: "var(--font-display)" }}
                 className={`rounded-lg border py-2.5 text-sm font-semibold transition-all duration-150 cursor-pointer ${
                   active
                     ? "border-(--color-base-content) bg-(--color-base-content) text-(--color-base-100)"
