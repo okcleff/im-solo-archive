@@ -50,7 +50,6 @@ function ParticipantBoard({
             key={`${participant.seasonNo}-${participant.gender}-${participant.handle}`}
             participant={participant}
             onClick={() => onSelect(participant)}
-            variant="editorial"
             className="h-full"
           />
         ))}

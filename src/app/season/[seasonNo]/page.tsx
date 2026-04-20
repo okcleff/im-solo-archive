@@ -87,7 +87,7 @@ export default async function SeasonPage({ params }: Props) {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
               {males.map((p) => (
-                <ParticipantCard key={p.handle} participant={p} asLink variant="compact" />
+                <ParticipantCard key={p.handle} participant={p} asLink />
               ))}
             </div>
           </section>
@@ -100,7 +100,7 @@ export default async function SeasonPage({ params }: Props) {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
               {females.map((p) => (
-                <ParticipantCard key={p.handle} participant={p} asLink variant="compact" />
+                <ParticipantCard key={p.handle} participant={p} asLink />
               ))}
             </div>
           </section>
