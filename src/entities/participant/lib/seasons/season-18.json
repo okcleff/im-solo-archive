@@ -1,0 +1,221 @@
+{
+  "seasonNo": 18,
+  "label": "18기",
+  "episodes": [
+    { "ep": 127, "airDate": "2023-12-13" },
+    { "ep": 128, "airDate": "2023-12-20" },
+    { "ep": 129, "airDate": "2023-12-27" },
+    { "ep": 130, "airDate": "2024-01-03" },
+    { "ep": 131, "airDate": "2024-01-10" },
+    { "ep": 132, "airDate": "2024-01-17" },
+    { "ep": 133, "airDate": "2024-01-24" },
+    { "ep": 134, "airDate": "2024-01-31" },
+    { "ep": 135, "airDate": "2024-02-07" }
+  ],
+  "participants": [
+    {
+      "seasonNo": 18,
+      "gender": "M",
+      "handle": "영수",
+      "photo": { "src": null, "alt": "나는 SOLO 18기 영수" },
+      "instagram": "eunkyulee86",
+      "profile": {
+        "birthYear": 1986,
+        "job": "NC소프트 서버프로그래머",
+        "region": "경기도 안양"
+      },
+      "sources": [
+        "https://carastella.com/7255",
+        "https://w.imabird.com/entry/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-18%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%A7%84-%EC%9D%B8%EC%8A%A4%ED%83%80-%EC%B4%9D%EC%A0%95%EB%A6%AC"
+      ],
+      "finalChoice": "영숙"
+    },
+    {
+      "seasonNo": 18,
+      "gender": "M",
+      "handle": "영호",
+      "photo": { "src": null, "alt": "나는 SOLO 18기 영호" },
+      "instagram": "viva_jeon",
+      "profile": {
+        "birthYear": 1986,
+        "job": "대기업건설사 건축엔지니어",
+        "region": "인천 송도"
+      },
+      "sources": [
+        "https://carastella.com/7255",
+        "https://w.imabird.com/entry/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-18%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%A7%84-%EC%9D%B8%EC%8A%A4%ED%83%80-%EC%B4%9D%EC%A0%95%EB%A6%AC"
+      ],
+      "finalChoice": "정숙"
+    },
+    {
+      "seasonNo": 18,
+      "gender": "M",
+      "handle": "영식",
+      "photo": { "src": null, "alt": "나는 SOLO 18기 영식" },
+      "instagram": "beooom_s",
+      "profile": {
+        "birthYear": 1990,
+        "job": "소방관",
+        "region": "인천"
+      },
+      "sources": [
+        "https://carastella.com/7255",
+        "https://w.imabird.com/entry/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-18%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%A7%84-%EC%9D%B8%EC%8A%A4%ED%83%80-%EC%B4%9D%EC%A0%95%EB%A6%AC"
+      ],
+      "finalChoice": "옥순"
+    },
+    {
+      "seasonNo": 18,
+      "gender": "M",
+      "handle": "영철",
+      "photo": { "src": null, "alt": "나는 SOLO 18기 영철" },
+      "instagram": "leesee.ilhaja",
+      "profile": {
+        "birthYear": 1986,
+        "job": "데이터센터 기술컨설팅 스타트업",
+        "region": null
+      },
+      "sources": [
+        "https://carastella.com/7255",
+        "https://w.imabird.com/entry/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-18%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%A7%84-%EC%9D%B8%EC%8A%A4%ED%83%80-%EC%B4%9D%EC%A0%95%EB%A6%AC"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 18,
+      "gender": "M",
+      "handle": "광수",
+      "photo": { "src": null, "alt": "나는 SOLO 18기 광수" },
+      "instagram": "a.dohyun",
+      "profile": {
+        "birthYear": 1987,
+        "job": "L그룹 금융계열사 과장",
+        "region": "서울"
+      },
+      "sources": [
+        "https://carastella.com/7255",
+        "https://w.imabird.com/entry/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-18%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%A7%84-%EC%9D%B8%EC%8A%A4%ED%83%80-%EC%B4%9D%EC%A0%95%EB%A6%AC"
+      ],
+      "finalChoice": "영자"
+    },
+    {
+      "seasonNo": 18,
+      "gender": "M",
+      "handle": "상철",
+      "photo": { "src": null, "alt": "나는 SOLO 18기 상철" },
+      "instagram": "k.huni_87",
+      "profile": {
+        "birthYear": 1987,
+        "job": "H조선사 전략기획팀 과장",
+        "region": "부산"
+      },
+      "sources": [
+        "https://carastella.com/7255",
+        "https://w.imabird.com/entry/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-18%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%A7%84-%EC%9D%B8%EC%8A%A4%ED%83%80-%EC%B4%9D%EC%A0%95%EB%A6%AC"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 18,
+      "gender": "F",
+      "handle": "영숙",
+      "photo": { "src": null, "alt": "나는 SOLO 18기 영숙" },
+      "instagram": "lucky_amy00",
+      "profile": {
+        "birthYear": 1993,
+        "job": "대구은행 경영기획본부",
+        "region": "대구"
+      },
+      "sources": [
+        "https://w.imabird.com/entry/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-18%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%A7%84-%EC%9D%B8%EC%8A%A4%ED%83%80-%EC%B4%9D%EC%A0%95%EB%A6%AC",
+        "https://www.dailycc.net/news/articleView.html?idxno=767129"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 18,
+      "gender": "F",
+      "handle": "정숙",
+      "photo": { "src": null, "alt": "나는 SOLO 18기 정숙" },
+      "instagram": "zooboki",
+      "profile": {
+        "birthYear": 1989,
+        "job": "에듀테크 강사 (전 아시아나항공 승무원)",
+        "region": null
+      },
+      "sources": [
+        "https://w.imabird.com/entry/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-18%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%A7%84-%EC%9D%B8%EC%8A%A4%ED%83%80-%EC%B4%9D%EC%A0%95%EB%A6%AC",
+        "https://www.dailycc.net/news/articleView.html?idxno=767129"
+      ],
+      "finalChoice": "영호"
+    },
+    {
+      "seasonNo": 18,
+      "gender": "F",
+      "handle": "순자",
+      "photo": { "src": null, "alt": "나는 SOLO 18기 순자" },
+      "instagram": "ddo_ony",
+      "profile": {
+        "birthYear": 1995,
+        "job": "금융회사 비서",
+        "region": null
+      },
+      "sources": [
+        "https://w.imabird.com/entry/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-18%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%A7%84-%EC%9D%B8%EC%8A%A4%ED%83%80-%EC%B4%9D%EC%A0%95%EB%A6%AC",
+        "https://www.dailycc.net/news/articleView.html?idxno=767129"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 18,
+      "gender": "F",
+      "handle": "영자",
+      "photo": { "src": null, "alt": "나는 SOLO 18기 영자" },
+      "instagram": "hihjhihj3",
+      "profile": {
+        "birthYear": 1988,
+        "job": "교육행정 7급 공무원",
+        "region": "김천"
+      },
+      "sources": [
+        "https://w.imabird.com/entry/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-18%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%A7%84-%EC%9D%B8%EC%8A%A4%ED%83%80-%EC%B4%9D%EC%A0%95%EB%A6%AC",
+        "https://www.dailycc.net/news/articleView.html?idxno=767129"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 18,
+      "gender": "F",
+      "handle": "옥순",
+      "photo": { "src": null, "alt": "나는 SOLO 18기 옥순" },
+      "instagram": "gahyuni1006",
+      "profile": {
+        "birthYear": 1990,
+        "job": "요식업 자영업자 (신사동 육회담)",
+        "region": "서울"
+      },
+      "sources": [
+        "https://w.imabird.com/entry/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-18%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%A7%84-%EC%9D%B8%EC%8A%A4%ED%83%80-%EC%B4%9D%EC%A0%95%EB%A6%AC",
+        "https://www.dailycc.net/news/articleView.html?idxno=767129"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 18,
+      "gender": "F",
+      "handle": "현숙",
+      "photo": { "src": null, "alt": "나는 SOLO 18기 현숙" },
+      "instagram": "where_not_1",
+      "profile": {
+        "birthYear": 1991,
+        "job": "IT회사 데이터분석가",
+        "region": "서울"
+      },
+      "sources": [
+        "https://w.imabird.com/entry/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-18%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%A7%84-%EC%9D%B8%EC%8A%A4%ED%83%80-%EC%B4%9D%EC%A0%95%EB%A6%AC",
+        "https://www.dailycc.net/news/articleView.html?idxno=767129"
+      ],
+      "finalChoice": null
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "seasonNo": 8,
+  "label": "8기",
+  "episodes": [
+    { "ep": 45, "airDate": "2022-05-18" },
+    { "ep": 46, "airDate": "2022-05-25" },
+    { "ep": 47, "airDate": "2022-06-01" },
+    { "ep": 48, "airDate": "2022-06-08" },
+    { "ep": 49, "airDate": "2022-06-15" },
+    { "ep": 50, "airDate": "2022-06-22" }
+  ],
+  "participants": [
+    {
+      "seasonNo": 8,
+      "gender": "M",
+      "handle": "영수",
+      "photo": { "src": null, "alt": "나는 SOLO 8기 영수" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1986,
+        "job": "외국계 무역상사 직원",
+        "region": null
+      },
+      "sources": [
+        "https://www.sisamagazine.co.kr/news/articleView.html?idxno=446935",
+        "https://www.gukjenews.com/news/articleView.html?idxno=2481936"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 8,
+      "gender": "M",
+      "handle": "영호",
+      "photo": { "src": null, "alt": "나는 SOLO 8기 영호" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1985,
+        "job": "농부 (당근 재배)",
+        "region": "제주"
+      },
+      "sources": [
+        "https://www.sisamagazine.co.kr/news/articleView.html?idxno=446935",
+        "https://www.gukjenews.com/news/articleView.html?idxno=2481936"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 8,
+      "gender": "M",
+      "handle": "영식",
+      "photo": { "src": null, "alt": "나는 SOLO 8기 영식" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1990,
+        "job": "게임 개발 프로그래머",
+        "region": null
+      },
+      "sources": [
+        "https://www.sisamagazine.co.kr/news/articleView.html?idxno=446935",
+        "https://www.gukjenews.com/news/articleView.html?idxno=2481936"
+      ],
+      "finalChoice": "옥순"
+    },
+    {
+      "seasonNo": 8,
+      "gender": "M",
+      "handle": "영철",
+      "photo": { "src": null, "alt": "나는 SOLO 8기 영철" },
+      "instagram": "your_minming",
+      "profile": {
+        "birthYear": 1989,
+        "job": "자동차 대기업 관리직",
+        "region": null
+      },
+      "sources": [
+        "https://www.sisamagazine.co.kr/news/articleView.html?idxno=446935",
+        "https://www.instagram.com/your_minming/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 8,
+      "gender": "M",
+      "handle": "광수",
+      "photo": { "src": null, "alt": "나는 SOLO 8기 광수" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1990,
+        "job": "미 육군 장교",
+        "region": null
+      },
+      "sources": [
+        "https://www.sisamagazine.co.kr/news/articleView.html?idxno=446935",
+        "https://news.nate.com/view/20220518n41897"
+      ],
+      "finalChoice": "순자"
+    },
+    {
+      "seasonNo": 8,
+      "gender": "M",
+      "handle": "상철",
+      "photo": { "src": null, "alt": "나는 SOLO 8기 상철" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1988,
+        "job": "대기업 연구원",
+        "region": null
+      },
+      "sources": [
+        "https://www.sisamagazine.co.kr/news/articleView.html?idxno=446935",
+        "https://www.gukjenews.com/news/articleView.html?idxno=2481936"
+      ],
+      "finalChoice": "영자"
+    },
+    {
+      "seasonNo": 8,
+      "gender": "F",
+      "handle": "영숙",
+      "photo": { "src": null, "alt": "나는 SOLO 8기 영숙" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1989,
+        "job": "패션 프로모션 회사 직원",
+        "region": null
+      },
+      "sources": [
+        "https://www.sisamagazine.co.kr/news/articleView.html?idxno=446935",
+        "https://www.gukjenews.com/news/articleView.html?idxno=2481936"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 8,
+      "gender": "F",
+      "handle": "정숙",
+      "photo": { "src": null, "alt": "나는 SOLO 8기 정숙" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1992,
+        "job": "가야금 스튜디오 운영",
+        "region": null
+      },
+      "sources": [
+        "https://www.sisamagazine.co.kr/news/articleView.html?idxno=446935",
+        "https://www.gukjenews.com/news/articleView.html?idxno=2481936"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 8,
+      "gender": "F",
+      "handle": "순자",
+      "photo": { "src": null, "alt": "나는 SOLO 8기 순자" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1990,
+        "job": "프리랜서 아나운서·영어 강사",
+        "region": "대치동"
+      },
+      "sources": [
+        "https://www.sisamagazine.co.kr/news/articleView.html?idxno=446935",
+        "https://www.gukjenews.com/news/articleView.html?idxno=2481936"
+      ],
+      "finalChoice": "광수"
+    },
+    {
+      "seasonNo": 8,
+      "gender": "F",
+      "handle": "영자",
+      "photo": { "src": null, "alt": "나는 SOLO 8기 영자" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1990,
+        "job": "대기업 경영관리 직원",
+        "region": null
+      },
+      "sources": [
+        "https://www.sisamagazine.co.kr/news/articleView.html?idxno=446935",
+        "https://www.gukjenews.com/news/articleView.html?idxno=2481936"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 8,
+      "gender": "F",
+      "handle": "옥순",
+      "photo": { "src": null, "alt": "나는 SOLO 8기 옥순" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1993,
+        "job": "암호화폐 플랫폼 마케터",
+        "region": null
+      },
+      "sources": [
+        "https://www.sisamagazine.co.kr/news/articleView.html?idxno=446935",
+        "https://www.gukjenews.com/news/articleView.html?idxno=2481936"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 8,
+      "gender": "F",
+      "handle": "현숙",
+      "photo": { "src": null, "alt": "나는 SOLO 8기 현숙" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1988,
+        "job": "한의사",
+        "region": "삼성역"
+      },
+      "sources": [
+        "https://www.sisamagazine.co.kr/news/articleView.html?idxno=446935",
+        "https://www.starnewskorea.com/amp/star/2022/08/09/2022080821590263467"
+      ],
+      "finalChoice": null
+    }
+  ]
+}

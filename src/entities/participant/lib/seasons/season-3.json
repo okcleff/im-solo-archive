@@ -1,0 +1,227 @@
+{
+  "seasonNo": 3,
+  "label": "3기",
+  "episodes": [
+    { "ep": 14, "airDate": "2021-10-13" },
+    { "ep": 15, "airDate": "2021-10-20" },
+    { "ep": 16, "airDate": "2021-10-27" },
+    { "ep": 17, "airDate": "2021-11-03" },
+    { "ep": 18, "airDate": "2021-11-10" }
+  ],
+  "participants": [
+    {
+      "seasonNo": 3,
+      "gender": "M",
+      "handle": "영수",
+      "photo": { "src": null, "alt": "나는 SOLO 3기 영수" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1981,
+        "job": "한의사",
+        "region": null
+      },
+      "sources": [
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 3,
+      "gender": "M",
+      "handle": "영호",
+      "photo": { "src": null, "alt": "나는 SOLO 3기 영호" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1987,
+        "job": "임플란트 국내 영업 총괄 회사원",
+        "region": null
+      },
+      "sources": [
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 3,
+      "gender": "M",
+      "handle": "영식",
+      "photo": { "src": null, "alt": "나는 SOLO 3기 영식" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1989,
+        "job": "태권도 관장",
+        "region": null
+      },
+      "sources": [
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 3,
+      "gender": "M",
+      "handle": "영철",
+      "photo": { "src": null, "alt": "나는 SOLO 3기 영철" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1990,
+        "job": "헬스 트레이너 · 축구 강사",
+        "region": null
+      },
+      "sources": [
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": "정숙"
+    },
+    {
+      "seasonNo": 3,
+      "gender": "M",
+      "handle": "정수",
+      "photo": { "src": null, "alt": "나는 SOLO 3기 정수" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1982,
+        "job": "관광농원 운영",
+        "region": "충북 음성"
+      },
+      "sources": [
+        "https://v.daum.net/v/kJWGWFkrS9",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 3,
+      "gender": "M",
+      "handle": "종수",
+      "photo": { "src": null, "alt": "나는 SOLO 3기 종수" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1989,
+        "job": "종합상사 재직",
+        "region": null
+      },
+      "sources": [
+        "https://v.daum.net/v/kJWGWFkrS9",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 3,
+      "gender": "M",
+      "handle": "정식",
+      "photo": { "src": null, "alt": "나는 SOLO 3기 정식" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1989,
+        "job": "목가구 디자이너 · 프리랜서 신인작가",
+        "region": null
+      },
+      "sources": [
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": "영자"
+    },
+    {
+      "seasonNo": 3,
+      "gender": "F",
+      "handle": "순자",
+      "photo": { "src": null, "alt": "나는 SOLO 3기 순자" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1988,
+        "job": "판소리 국악인",
+        "region": null
+      },
+      "sources": [
+        "https://v.daum.net/v/kJWGWFkrS9",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 3,
+      "gender": "F",
+      "handle": "영자",
+      "photo": { "src": null, "alt": "나는 SOLO 3기 영자" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1989,
+        "job": "필라테스 강사",
+        "region": null
+      },
+      "sources": [
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": "정식"
+    },
+    {
+      "seasonNo": 3,
+      "gender": "F",
+      "handle": "정순",
+      "photo": { "src": null, "alt": "나는 SOLO 3기 정순" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1988,
+        "job": "중국어 강사",
+        "region": null
+      },
+      "sources": [
+        "https://v.daum.net/v/kJWGWFkrS9",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 3,
+      "gender": "F",
+      "handle": "정숙",
+      "photo": { "src": null, "alt": "나는 SOLO 3기 정숙" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1994,
+        "job": "교통방송 캐스터",
+        "region": null
+      },
+      "sources": [
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": "영철"
+    },
+    {
+      "seasonNo": 3,
+      "gender": "F",
+      "handle": "영숙",
+      "photo": { "src": null, "alt": "나는 SOLO 3기 영숙" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1987,
+        "job": "네이버 근무",
+        "region": null
+      },
+      "sources": [
+        "https://v.daum.net/v/kJWGWFkrS9",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 3,
+      "gender": "F",
+      "handle": "정자",
+      "photo": { "src": null, "alt": "나는 SOLO 3기 정자" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1992,
+        "job": "청담동 헤어숍 관리직",
+        "region": null
+      },
+      "sources": [
+        "https://v.daum.net/v/kJWGWFkrS9",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": null
+    }
+  ]
+}

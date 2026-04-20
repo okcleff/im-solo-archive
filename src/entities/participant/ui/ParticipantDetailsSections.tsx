@@ -89,22 +89,34 @@ export default function ParticipantDetailsSections({
 
       {p.sources.length > 0 ? (
         <section className="mt-5">
+          <p className="mb-3 text-sm leading-relaxed text-base-content/60">
+            📷 출연자 사진은 초상권 보호를 위해 게재하지 않습니다.
+            아래 출처 링크에서 확인하실 수 있습니다.
+          </p>
           <h2 className="mb-2.5 text-xs font-bold uppercase tracking-wider text-base-content/55">
             출처
           </h2>
           <ul className="space-y-2">
-            {p.sources.map((url) => (
-              <li key={url} className="text-sm">
-                <a
-                  href={url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="link link-primary break-all"
-                >
-                  {url}
-                </a>
-              </li>
-            ))}
+            {p.sources.map((url) => {
+              let displayUrl = url;
+              try {
+                displayUrl = decodeURIComponent(url);
+              } catch {
+                // If decoding fails, use the original URL
+              }
+              return (
+                <li key={url} className="text-sm">
+                  <a
+                    href={url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="link link-primary break-all"
+                  >
+                    {displayUrl}
+                  </a>
+                </li>
+              );
+            })}
           </ul>
         </section>
       ) : null}

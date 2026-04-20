@@ -1,0 +1,209 @@
+{
+  "seasonNo": 9,
+  "label": "9기",
+  "episodes": [
+    { "ep": 51, "airDate": "2022-06-29" },
+    { "ep": 52, "airDate": "2022-07-06" },
+    { "ep": 53, "airDate": "2022-07-13" },
+    { "ep": 54, "airDate": "2022-07-20" },
+    { "ep": 55, "airDate": "2022-07-27" },
+    { "ep": 56, "airDate": "2022-08-03" },
+    { "ep": 57, "airDate": "2022-08-10" },
+    { "ep": 58, "airDate": "2022-08-17" }
+  ],
+  "participants": [
+    {
+      "seasonNo": 9,
+      "gender": "M",
+      "handle": "영수",
+      "photo": { "src": null, "alt": "나는 SOLO 9기 영수" },
+      "instagram": "lingeringaffection",
+      "profile": {
+        "birthYear": 1981,
+        "job": "영국계 은행 아시아 데스크 헤드",
+        "region": null
+      },
+      "sources": [
+        "https://www.salgoonews.com/news/articleView.html?idxno=21284"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 9,
+      "gender": "M",
+      "handle": "영호",
+      "photo": { "src": null, "alt": "나는 SOLO 9기 영호" },
+      "instagram": "this_mean_young",
+      "profile": {
+        "birthYear": 1994,
+        "job": "제약 지주사 IR 담당",
+        "region": null
+      },
+      "sources": [
+        "https://www.salgoonews.com/news/articleView.html?idxno=21284"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 9,
+      "gender": "M",
+      "handle": "영식",
+      "photo": { "src": null, "alt": "나는 SOLO 9기 영식" },
+      "instagram": "led_ttt",
+      "profile": {
+        "birthYear": 1989,
+        "job": "프로 경륜 선수",
+        "region": null
+      },
+      "sources": [
+        "https://www.salgoonews.com/news/articleView.html?idxno=21284"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 9,
+      "gender": "M",
+      "handle": "영철",
+      "photo": { "src": null, "alt": "나는 SOLO 9기 영철" },
+      "instagram": "kyle612_",
+      "profile": {
+        "birthYear": 1986,
+        "job": "한화 글로벌 재직 (과장)",
+        "region": null
+      },
+      "sources": [
+        "https://www.salgoonews.com/news/articleView.html?idxno=21284"
+      ],
+      "finalChoice": "영자"
+    },
+    {
+      "seasonNo": 9,
+      "gender": "M",
+      "handle": "광수",
+      "photo": { "src": null, "alt": "나는 SOLO 9기 광수" },
+      "instagram": "tlgus6006",
+      "profile": {
+        "birthYear": 1985,
+        "job": "정신건강의학과 전문의",
+        "region": null
+      },
+      "sources": [
+        "https://www.salgoonews.com/news/articleView.html?idxno=21284",
+        "https://www.ziksir.com/news/articleView.html?idxno=29263"
+      ],
+      "finalChoice": "영숙"
+    },
+    {
+      "seasonNo": 9,
+      "gender": "M",
+      "handle": "상철",
+      "photo": { "src": null, "alt": "나는 SOLO 9기 상철" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1987,
+        "job": "사업가",
+        "region": null
+      },
+      "sources": [
+        "https://www.salgoonews.com/news/articleView.html?idxno=21284"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 9,
+      "gender": "F",
+      "handle": "옥순",
+      "photo": { "src": null, "alt": "나는 SOLO 9기 옥순" },
+      "instagram": "joy15th",
+      "profile": {
+        "birthYear": 1986,
+        "job": "광고회사 캠페인 전략기획",
+        "region": null
+      },
+      "sources": [
+        "https://www.salgoonews.com/news/articleView.html?idxno=21284"
+      ],
+      "finalChoice": "광수"
+    },
+    {
+      "seasonNo": 9,
+      "gender": "F",
+      "handle": "영숙",
+      "photo": { "src": null, "alt": "나는 SOLO 9기 영숙" },
+      "instagram": "gahee_c",
+      "profile": {
+        "birthYear": 1994,
+        "job": "농협 은행원",
+        "region": "서울"
+      },
+      "sources": [
+        "https://www.salgoonews.com/news/articleView.html?idxno=21284"
+      ],
+      "finalChoice": "광수"
+    },
+    {
+      "seasonNo": 9,
+      "gender": "F",
+      "handle": "정숙",
+      "photo": { "src": null, "alt": "나는 SOLO 9기 정숙" },
+      "instagram": "cello.jihye",
+      "profile": {
+        "birthYear": 1987,
+        "job": "프리랜서 첼리스트",
+        "region": null
+      },
+      "sources": [
+        "https://www.salgoonews.com/news/articleView.html?idxno=21284"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 9,
+      "gender": "F",
+      "handle": "순자",
+      "photo": { "src": null, "alt": "나는 SOLO 9기 순자" },
+      "instagram": "youbemyself",
+      "profile": {
+        "birthYear": 1997,
+        "job": "현직 무용수",
+        "region": null
+      },
+      "sources": [
+        "https://www.salgoonews.com/news/articleView.html?idxno=21284"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 9,
+      "gender": "F",
+      "handle": "영자",
+      "photo": { "src": null, "alt": "나는 SOLO 9기 영자" },
+      "instagram": "jh_____youn",
+      "profile": {
+        "birthYear": 1993,
+        "job": "삼성전자 투자기획",
+        "region": null
+      },
+      "sources": [
+        "https://www.salgoonews.com/news/articleView.html?idxno=21284"
+      ],
+      "finalChoice": "영철"
+    },
+    {
+      "seasonNo": 9,
+      "gender": "F",
+      "handle": "현숙",
+      "photo": { "src": null, "alt": "나는 SOLO 9기 현숙" },
+      "instagram": "mdsmii",
+      "profile": {
+        "birthYear": 1992,
+        "job": "글로벌 IT 기업 인사이드 세일즈 매니저",
+        "region": null
+      },
+      "sources": [
+        "https://www.salgoonews.com/news/articleView.html?idxno=21284"
+      ],
+      "finalChoice": null
+    }
+  ]
+}
