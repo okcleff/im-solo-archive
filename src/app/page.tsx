@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
-import { SEASONS_DATA, LATEST_SEASON } from "@/entities/participant/server";
-import { getLatestAirDate } from "@/entities/participant";
+import { SEASONS_DATA } from "@/entities/participant/server";
 import { getSiteUrl, SITE_NAME } from "@/shared/config/site";
 import JsonLd from "@/shared/ui/JsonLd";
 import { ClientHome } from "@/widgets/home-interactive";
@@ -34,162 +33,33 @@ const jsonLd = {
 };
 
 export default function HomePage() {
-  const latestAirDate = getLatestAirDate(SEASONS_DATA);
-  const totalParticipants = SEASONS_DATA.reduce(
-    (acc, s) => acc + s.participants.length,
-    0,
-  );
-  const seasonNumbers = SEASONS_DATA.map((season) => season.seasonNo);
-  const minSeasonNo = seasonNumbers.length > 0 ? Math.min(...seasonNumbers) : 0;
-  const maxSeasonNo = seasonNumbers.length > 0 ? Math.max(...seasonNumbers) : 0;
-
   return (
     <>
       <JsonLd data={jsonLd} />
 
-      <section className="px-4 pt-8 pb-6 sm:pt-12">
-        <div className="max-w-6xl mx-auto grid gap-4 lg:grid-cols-[1.4fr_0.85fr]">
-          <div className="glass-panel rounded-[2rem] p-7 sm:p-10">
-            <div className="badge badge-primary badge-outline mb-5 h-8 px-4">
-              비공식 팬 아카이브
-            </div>
-            <h1 className="font-[var(--font-title)] text-4xl sm:text-6xl leading-[1.02] tracking-tight">
-              나는 SOLO 출연진
-              <br />
-              아카이브
-            </h1>
-            <p className="mt-5 max-w-3xl text-base sm:text-lg leading-relaxed text-base-content/72">
-              시즌별 출연자 정보를 모아 볼 수 있게 재구성한 팬 아카이브입니다.
-            </p>
-          </div>
-
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-1">
-            {LATEST_SEASON && (
-              <div className="card border border-primary/20 bg-primary text-primary-content shadow-lg">
-                <div className="card-body gap-2">
-                  <p className="text-xs uppercase tracking-[0.24em] text-primary-content/70">
-                    latest season
-                  </p>
-                  <h2 className="font-[var(--font-title)] text-4xl">
-                    {LATEST_SEASON.seasonNo}기
-                  </h2>
-                  <p className="text-sm text-primary-content/78">
-                    {LATEST_SEASON.label}
-                  </p>
-                  <div className="badge badge-neutral badge-outline mt-2 w-fit border-primary-content/25 text-primary-content">
-                    {latestAirDate}
-                  </div>
-                </div>
-              </div>
-            )}
-
-            <div className="surface-card card">
-              <div className="card-body">
-                <div className="stats stats-vertical bg-transparent shadow-none">
-                  <div className="stat px-0 pb-4 pt-0">
-                    <div className="stat-title pl-1">기수 수</div>
-                    <div className="stat-value text-3xl">
-                      {SEASONS_DATA.length}
-                    </div>
-                  </div>
-                  <div className="stat border-t border-base-300 px-0 py-4">
-                    <div className="stat-title pl-1">등록 인원</div>
-                    <div className="stat-value text-3xl">
-                      {totalParticipants}
-                    </div>
-                  </div>
-                  <div className="stat border-t border-base-300 px-0 pt-4">
-                    <div className="stat-desc">검색과 시즌 탐색 모두 지원</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="px-4 pb-2">
-        <div className="max-w-6xl mx-auto">
-          <div className="glass-panel rounded-3xl px-5 py-4 sm:px-6">
-            <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
-              <div>
-                <p className="section-title">archive status</p>
-                <p className="mt-2 text-sm leading-relaxed text-base-content/72 sm:text-[0.95rem]">
-                  현재 데이터 수집 범위는{" "}
-                  <strong>
-                    {minSeasonNo}기부터 {maxSeasonNo}기까지
-                  </strong>
-                  입니다. 이후 기수 데이터도 순차적으로 업데이트할 예정입니다.
-                </p>
-              </div>
-              <div className="badge badge-outline badge-primary h-8 shrink-0 px-4">
-                현재 수록: {minSeasonNo}기 ~ {maxSeasonNo}기
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <div className="max-w-6xl mx-auto px-4 pt-8 pb-2">
+        <h1 className="text-xs font-bold tracking-[0.28em] uppercase text-[var(--color-base-content)]/55">
+          나는 SOLO 출연진 아카이브
+        </h1>
+      </div>
 
       <div className="max-w-6xl mx-auto">
         <Suspense
           fallback={
             <div className="flex justify-center items-center py-20">
               <span
-                className="loading loading-spinner loading-md text-primary"
+                className="loading loading-spinner loading-md"
                 aria-hidden="true"
               />
-              <span className="ml-3 text-base-content/60">로딩 중...</span>
+              <span className="ml-3 text-sm text-[var(--color-base-content)]/60">
+                로딩 중...
+              </span>
             </div>
           }
         >
           <ClientHome seasons={SEASONS_DATA} />
         </Suspense>
       </div>
-
-      <section className="max-w-6xl mx-auto px-4 pb-16 pt-3">
-        <div className="flex items-center justify-between gap-4 mb-4">
-          <h2 className="section-title">기수별 바로가기</h2>
-          <div className="badge badge-outline badge-secondary">
-            {SEASONS_DATA.length}개 시즌
-          </div>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-12 gap-4">
-          {SEASONS_DATA.map((s, i) => (
-            <a
-              key={s.seasonNo}
-              href={`/season/${s.seasonNo}`}
-              className={`surface-card card transition-all hover:-translate-y-1 hover:shadow-xl ${
-                i === 0
-                  ? "xl:col-span-5"
-                  : i === 1 || i === 2
-                    ? "xl:col-span-3"
-                    : "xl:col-span-2"
-              }`}
-            >
-              <div className="card-body gap-3 p-5">
-                <div className="flex items-start justify-between gap-3">
-                  <strong className="text-3xl tracking-tight font-[var(--font-title)]">
-                    {s.seasonNo}기
-                  </strong>
-                  {i === 0 ? (
-                    <span className="badge badge-secondary">NEW</span>
-                  ) : null}
-                </div>
-                <p className="text-sm line-clamp-2 text-base-content/70">
-                  {s.label}
-                </p>
-                <div className="card-actions justify-between items-center pt-2 text-xs text-base-content/55">
-                  <span>{s.participants.length}명</span>
-                  <span>
-                    EP{s.episodes[0].ep}
-                    {s.episodes.length > 1 ? `-${s.episodes.at(-1)!.ep}` : ""}
-                  </span>
-                </div>
-              </div>
-            </a>
-          ))}
-        </div>
-      </section>
     </>
   );
 }
