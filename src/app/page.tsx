@@ -38,7 +38,7 @@ export default function HomePage() {
       <JsonLd data={jsonLd} />
 
       <div className="max-w-6xl mx-auto px-4 pt-8 pb-2">
-        <h1 className="text-xs font-bold tracking-[0.28em] uppercase text-[var(--color-base-content)]/55">
+        <h1 className="text-xs font-bold tracking-[0.28em] uppercase text-base-content/55">
           나는 SOLO 출연진 아카이브
         </h1>
       </div>
@@ -51,7 +51,7 @@ export default function HomePage() {
                 className="loading loading-spinner loading-md"
                 aria-hidden="true"
               />
-              <span className="ml-3 text-sm text-[var(--color-base-content)]/60">
+              <span className="ml-3 text-sm text-base-content/60">
                 로딩 중...
               </span>
             </div>

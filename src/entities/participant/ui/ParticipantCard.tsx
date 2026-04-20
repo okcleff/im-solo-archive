@@ -33,7 +33,7 @@ export default function ParticipantCard({
       className={`surface-card rounded-xl p-4 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md ${className}`.trim()}
     >
       <div className="flex items-center gap-2 mb-2.5">
-        <span className="text-[11px] font-semibold text-[var(--color-base-content)]/50">
+        <span className="text-[11px] font-semibold text-base-content/50">
           {p.seasonNo}기
         </span>
         <span
@@ -43,18 +43,18 @@ export default function ParticipantCard({
         </span>
       </div>
 
-      <h3 className="font-[var(--font-title)] text-xl tracking-tight leading-tight">
+      <h3 className="font-(--font-title) text-xl tracking-tight leading-tight">
         {p.handle}
       </h3>
 
       {p.profile.job ? (
-        <p className="mt-1 text-sm text-[var(--color-base-content)]/65">
+        <p className="mt-1 text-sm text-base-content/65">
           {p.profile.job}
         </p>
       ) : null}
 
       {metaParts.length > 0 ? (
-        <p className="mt-1.5 text-[11px] text-[var(--color-base-content)]/45">
+        <p className="mt-1.5 text-[11px] text-base-content/45">
           {metaParts.join(" · ")}
         </p>
       ) : null}
@@ -84,7 +84,7 @@ export default function ParticipantCard({
         onClick={onClick}
         onKeyDown={(e) => e.key === "Enter" && onClick?.()}
         aria-label={`${p.handle} 상세 정보 보기`}
-        className="cursor-pointer rounded-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-primary)]"
+        className="cursor-pointer rounded-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
       >
         {content}
       </div>

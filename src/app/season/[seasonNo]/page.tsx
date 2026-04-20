@@ -66,7 +66,7 @@ export default async function SeasonPage({ params }: Props) {
           <Link href="/" className="btn btn-ghost btn-sm -ml-3">
             ← 전체 기수
           </Link>
-          <h1 className="mt-3 text-4xl sm:text-5xl font-[var(--font-title)] tracking-tight">나는 SOLO {season.seasonNo}기</h1>
+          <h1 className="mt-3 text-4xl sm:text-5xl font-(--font-title) tracking-tight">나는 SOLO {season.seasonNo}기</h1>
           <p className="mt-2 text-base-content/68">{season.label}</p>
           <div className="flex flex-wrap gap-2 mt-5">
             {season.episodes.map((e) => (

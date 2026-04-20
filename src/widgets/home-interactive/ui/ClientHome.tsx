@@ -35,7 +35,7 @@ function ParticipantBoard({
           />
           <h2 className="section-title">{title}</h2>
         </div>
-        <span className="text-xs text-[var(--color-base-content)]/45">
+        <span className="text-xs text-base-content/45">
           {participants.length}명
         </span>
       </div>
@@ -121,7 +121,7 @@ export default function ClientHome({ seasons }: Props) {
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 pt-5 pb-14 space-y-8">
         {filtered.length === 0 ? (
-          <p className="text-sm text-[var(--color-base-content)]/55 py-12 text-center">
+          <p className="text-sm text-base-content/55 py-12 text-center">
             검색 결과가 없습니다.
           </p>
         ) : selectedGender === "all" ? (
@@ -159,20 +159,20 @@ export default function ClientHome({ seasons }: Props) {
           onClick={() => setShowNotice(false)}
         >
           <div
-            className="modal-box border border-[var(--color-base-300)] bg-[var(--color-base-100)]"
+            className="modal-box border border-base-300 bg-base-100"
             onClick={(e) => e.stopPropagation()}
           >
             <div className="flex flex-col gap-3">
               <h2 className="text-lg font-bold">안내</h2>
-              <p className="text-sm leading-relaxed text-[var(--color-base-content)]/70">
+              <p className="text-sm leading-relaxed text-base-content/70">
                 이 사이트는{" "}
-                <span className="font-semibold text-[var(--color-base-content)]">
+                <span className="font-semibold text-base-content">
                   vibe coding
                 </span>
                 으로 제작된 비공식 팬 아카이브입니다. 출연진 정보에 누락이나
                 오류가 있을 수 있습니다.
               </p>
-              <p className="text-sm leading-relaxed text-[var(--color-base-content)]/70">
+              <p className="text-sm leading-relaxed text-base-content/70">
                 보완·정정·제보 및 사이트 제안사항은 아래 메일로 보내주세요.
               </p>
               <a

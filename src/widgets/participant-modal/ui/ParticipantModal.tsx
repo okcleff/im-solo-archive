@@ -120,7 +120,7 @@ export default function ParticipantModal({ participant: p, season, onClose }: Pr
               <div className="text-white/80 text-xs mb-1">
                 나는 SOLO {p.seasonNo}기 · {p.gender === "M" ? "남" : "여"}
               </div>
-              <h2 className="text-3xl font-[var(--font-title)] tracking-tight">
+              <h2 className="text-3xl font-(--font-title) tracking-tight">
                 {p.handle}
               </h2>
             </div>

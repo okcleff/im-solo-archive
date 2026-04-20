@@ -68,7 +68,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="app-shell font-[var(--font-sans)]">
+      <body className="app-shell font-(--font-sans)">
         <ThemeProvider>
           <header className="sticky top-0 z-40 border-b border-base-300/70 bg-base-100/85 backdrop-blur-xl">
             <div className="navbar max-w-6xl mx-auto min-h-16 px-4">
@@ -81,7 +81,7 @@ export default function RootLayout({
                     SOLO
                   </span>
                   <span className="text-left">
-                    <strong className="block text-sm sm:text-base tracking-tight font-[var(--font-title)]">
+                    <strong className="block text-sm sm:text-base tracking-tight font-(--font-title)">
                       {SITE_NAME}
                     </strong>
                     <span className="text-[11px] text-base-content/60">

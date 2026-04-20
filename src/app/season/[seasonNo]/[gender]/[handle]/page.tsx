@@ -127,35 +127,35 @@ export default async function ParticipantPage({ params }: Props) {
             </span>
           </div>
 
-          <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-[var(--color-base-content)]/45">
+          <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-base-content/45">
             info
           </p>
-          <h1 className="mt-3 font-[var(--font-title)] text-5xl tracking-tight text-[var(--color-base-content)] sm:text-6xl">
+          <h1 className="mt-3 font-(--font-title) text-5xl tracking-tight text-base-content sm:text-6xl">
             {p.handle}
           </h1>
-          <p className="mt-4 text-base leading-7 text-[var(--color-base-content)]/65 sm:text-lg">
+          <p className="mt-4 text-base leading-7 text-base-content/65 sm:text-lg">
             {summary}
           </p>
 
           <div className="mt-8 grid gap-3 sm:grid-cols-3">
-            <div className="rounded-xl border border-[var(--color-base-300)] bg-[var(--color-base-200)] px-4 py-3">
-              <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-[var(--color-base-content)]/45">
+            <div className="rounded-xl border border-base-300 bg-base-200 px-4 py-3">
+              <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-base-content/45">
                 season
               </p>
-              <p className="mt-2 text-lg font-semibold font-[var(--font-display)]">
+              <p className="mt-2 text-lg font-semibold" style={{ fontFamily: "var(--font-display)" }}>
                 {p.seasonNo}기
               </p>
             </div>
-            <div className="rounded-xl border border-[var(--color-base-300)] bg-[var(--color-base-200)] px-4 py-3">
-              <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-[var(--color-base-content)]/45">
+            <div className="rounded-xl border border-base-300 bg-base-200 px-4 py-3">
+              <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-base-content/45">
                 age
               </p>
-              <p className="mt-2 text-lg font-semibold font-[var(--font-display)]">
+              <p className="mt-2 text-lg font-semibold" style={{ fontFamily: "var(--font-display)" }}>
                 {age}
               </p>
             </div>
-            <div className="rounded-xl border border-[var(--color-base-300)] bg-[var(--color-base-200)] px-4 py-3">
-              <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-[var(--color-base-content)]/45">
+            <div className="rounded-xl border border-base-300 bg-base-200 px-4 py-3">
+              <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-base-content/45">
                 region
               </p>
               <p className="mt-2 text-lg font-semibold">
@@ -170,7 +170,7 @@ export default async function ParticipantPage({ params }: Props) {
                 href={`https://instagram.com/${p.instagram}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn btn-sm rounded-full border-[var(--color-base-300)] bg-[var(--color-base-100)] px-4 shadow-none hover:bg-[var(--color-base-200)]"
+                className="btn btn-sm rounded-full border-base-300 bg-base-100 px-4 shadow-none hover:bg-base-200"
                 aria-label={`${p.handle} 인스타그램 @${p.instagram}`}
               >
                 <InstagramIcon className="w-3.5 h-3.5" />@{p.instagram}
@@ -181,7 +181,7 @@ export default async function ParticipantPage({ params }: Props) {
       </section>
 
       <div className="max-w-3xl mx-auto px-4 py-8 space-y-5">
-        <section className="card border border-[var(--color-base-300)] bg-[var(--color-base-100)] shadow-sm">
+        <section className="card border border-base-300 bg-base-100 shadow-sm">
           <div className="card-body p-5 sm:p-6">
             <h2 className="text-base font-semibold mb-4">기본 정보</h2>
             <ParticipantDetailsSections
