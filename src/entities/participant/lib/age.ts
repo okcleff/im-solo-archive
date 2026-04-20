@@ -12,3 +12,18 @@ export function formatKoreanAge(
   if (birthYear === null) return '미공개';
   return `${currentYear - birthYear + 1}세`;
 }
+
+/**
+ * 카드 표시용 나이+출생연도 복합 문자열을 반환한다.
+ * birthYear가 null이면 null 반환 — 카드에서 해당 줄을 숨긴다.
+ *
+ * @returns 예: `"35세 (1992년생)"` | `null`
+ */
+export function formatAgeWithBirthYear(
+  birthYear: number | null,
+  currentYear: number,
+): string | null {
+  if (birthYear === null) return null;
+  const age = currentYear - birthYear + 1;
+  return `${age}세 (${birthYear}년생)`;
+}
