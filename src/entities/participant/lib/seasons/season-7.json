@@ -1,0 +1,219 @@
+{
+  "seasonNo": 7,
+  "label": "7기",
+  "episodes": [
+    { "ep": 39, "airDate": "2022-04-06" },
+    { "ep": 40, "airDate": "2022-04-13" },
+    { "ep": 41, "airDate": "2022-04-20" },
+    { "ep": 42, "airDate": "2022-04-27" },
+    { "ep": 43, "airDate": "2022-05-04" },
+    { "ep": 44, "airDate": "2022-05-11" }
+  ],
+  "participants": [
+    {
+      "seasonNo": 7,
+      "gender": "M",
+      "handle": "영수",
+      "photo": { "src": null, "alt": "나는 SOLO 7기 영수" },
+      "instagram": "kimyongsu1150",
+      "profile": {
+        "birthYear": 1977,
+        "job": "입시학원 수학강사 겸 원장",
+        "region": "천안"
+      },
+      "sources": [
+        "https://www.salgoonews.com/news/articleView.html?idxno=19104",
+        "https://www.sisamagazine.co.kr/news/articleView.html?idxno=439737"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 7,
+      "gender": "M",
+      "handle": "영호",
+      "photo": { "src": null, "alt": "나는 SOLO 7기 영호" },
+      "instagram": "highlevel_academy",
+      "profile": {
+        "birthYear": 1980,
+        "job": "수학강사 겸 학원 원장",
+        "region": "부산"
+      },
+      "sources": [
+        "https://www.salgoonews.com/news/articleView.html?idxno=19104",
+        "https://www.sisamagazine.co.kr/news/articleView.html?idxno=439737"
+      ],
+      "finalChoice": "옥순"
+    },
+    {
+      "seasonNo": 7,
+      "gender": "M",
+      "handle": "영식",
+      "photo": { "src": null, "alt": "나는 SOLO 7기 영식" },
+      "instagram": "yongsu2436",
+      "profile": {
+        "birthYear": 1980,
+        "job": "디자인 스튜디오 운영·강사",
+        "region": "제천"
+      },
+      "sources": [
+        "https://www.salgoonews.com/news/articleView.html?idxno=19104",
+        "https://www.sisamagazine.co.kr/news/articleView.html?idxno=439737"
+      ],
+      "finalChoice": "옥순"
+    },
+    {
+      "seasonNo": 7,
+      "gender": "M",
+      "handle": "영철",
+      "photo": { "src": null, "alt": "나는 SOLO 7기 영철" },
+      "instagram": "kkh3102",
+      "profile": {
+        "birthYear": 1982,
+        "job": "환경공무관",
+        "region": null
+      },
+      "sources": [
+        "https://www.salgoonews.com/news/articleView.html?idxno=19104",
+        "https://www.sisamagazine.co.kr/news/articleView.html?idxno=439737"
+      ],
+      "finalChoice": "옥순"
+    },
+    {
+      "seasonNo": 7,
+      "gender": "M",
+      "handle": "광수",
+      "photo": { "src": null, "alt": "나는 SOLO 7기 광수" },
+      "instagram": "linushong",
+      "profile": {
+        "birthYear": 1980,
+        "job": "국제기구(GCF) 근무",
+        "region": null
+      },
+      "sources": [
+        "https://www.salgoonews.com/news/articleView.html?idxno=19104",
+        "https://www.sisamagazine.co.kr/news/articleView.html?idxno=439737"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 7,
+      "gender": "M",
+      "handle": "상철",
+      "photo": { "src": null, "alt": "나는 SOLO 7기 상철" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1976,
+        "job": "사회복지공무원",
+        "region": "마포"
+      },
+      "sources": [
+        "https://www.salgoonews.com/news/articleView.html?idxno=19104",
+        "https://www.sisamagazine.co.kr/news/articleView.html?idxno=439737"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 7,
+      "gender": "M",
+      "handle": "경수",
+      "photo": { "src": null, "alt": "나는 SOLO 7기 경수" },
+      "instagram": "8jahoon2",
+      "profile": {
+        "birthYear": 1982,
+        "job": "IT기업 영업 담당",
+        "region": null
+      },
+      "sources": [
+        "https://www.salgoonews.com/news/articleView.html?idxno=19104",
+        "https://www.sisamagazine.co.kr/news/articleView.html?idxno=439737"
+      ],
+      "finalChoice": "정숙"
+    },
+    {
+      "seasonNo": 7,
+      "gender": "F",
+      "handle": "영숙",
+      "photo": { "src": null, "alt": "나는 SOLO 7기 영숙" },
+      "instagram": "seosh51",
+      "profile": {
+        "birthYear": 1981,
+        "job": "변호사",
+        "region": null
+      },
+      "sources": [
+        "https://www.salgoonews.com/news/articleView.html?idxno=19104",
+        "https://www.sisamagazine.co.kr/news/articleView.html?idxno=439737"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 7,
+      "gender": "F",
+      "handle": "정숙",
+      "photo": { "src": null, "alt": "나는 SOLO 7기 정숙" },
+      "instagram": "nayul_voice",
+      "profile": {
+        "birthYear": 1983,
+        "job": "공채 성우",
+        "region": null
+      },
+      "sources": [
+        "https://www.salgoonews.com/news/articleView.html?idxno=19104",
+        "https://www.sisamagazine.co.kr/news/articleView.html?idxno=439737"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 7,
+      "gender": "F",
+      "handle": "순자",
+      "photo": { "src": null, "alt": "나는 SOLO 7기 순자" },
+      "instagram": "gujeongm0810",
+      "profile": {
+        "birthYear": 1982,
+        "job": "수능 국어 강사",
+        "region": "대치동"
+      },
+      "sources": [
+        "https://www.salgoonews.com/news/articleView.html?idxno=19104",
+        "https://www.sisamagazine.co.kr/news/articleView.html?idxno=439737"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 7,
+      "gender": "F",
+      "handle": "영자",
+      "photo": { "src": null, "alt": "나는 SOLO 7기 영자" },
+      "instagram": "violet_puple80",
+      "profile": {
+        "birthYear": 1980,
+        "job": "패션회사 매장 연출",
+        "region": null
+      },
+      "sources": [
+        "https://www.salgoonews.com/news/articleView.html?idxno=19104",
+        "https://www.sisamagazine.co.kr/news/articleView.html?idxno=439737"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 7,
+      "gender": "F",
+      "handle": "옥순",
+      "photo": { "src": null, "alt": "나는 SOLO 7기 옥순" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1984,
+        "job": "글로벌 기업 재무 기획",
+        "region": null
+      },
+      "sources": [
+        "https://www.salgoonews.com/news/articleView.html?idxno=19104",
+        "https://www.sisamagazine.co.kr/news/articleView.html?idxno=439737",
+        "https://star.ytn.co.kr/_sn/0117_202204140919439618"
+      ],
+      "finalChoice": null
+    }
+  ]
+}

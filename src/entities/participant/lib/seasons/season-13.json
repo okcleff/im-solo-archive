@@ -1,0 +1,211 @@
+{
+  "seasonNo": 13,
+  "label": "13기",
+  "episodes": [
+    { "ep": 84, "airDate": "2023-02-15" },
+    { "ep": 85, "airDate": "2023-02-22" },
+    { "ep": 86, "airDate": "2023-03-01" },
+    { "ep": 87, "airDate": "2023-03-08" },
+    { "ep": 88, "airDate": "2023-03-15" },
+    { "ep": 89, "airDate": "2023-03-22" },
+    { "ep": 90, "airDate": "2023-03-29" },
+    { "ep": 91, "airDate": "2023-04-05" }
+  ],
+  "participants": [
+    {
+      "seasonNo": 13,
+      "gender": "M",
+      "handle": "영수",
+      "photo": { "src": null, "alt": "나는 SOLO 13기 영수" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1982,
+        "job": "성형외과 의사",
+        "region": "서울"
+      },
+      "sources": [
+        "https://enews.imbc.com/News/RetrieveNewsInfo/374554",
+        "https://enter1.youstory222.com/404"
+      ],
+      "finalChoice": "현숙"
+    },
+    {
+      "seasonNo": 13,
+      "gender": "M",
+      "handle": "영호",
+      "photo": { "src": null, "alt": "나는 SOLO 13기 영호" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1986,
+        "job": "한국수출입은행 재직",
+        "region": "서울"
+      },
+      "sources": [
+        "https://enter1.youstory222.com/404"
+      ],
+      "finalChoice": "정숙"
+    },
+    {
+      "seasonNo": 13,
+      "gender": "M",
+      "handle": "영식",
+      "photo": { "src": null, "alt": "나는 SOLO 13기 영식" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1988,
+        "job": "체육고 역도부 코치",
+        "region": null
+      },
+      "sources": [
+        "https://enter1.youstory222.com/404"
+      ],
+      "finalChoice": "영숙"
+    },
+    {
+      "seasonNo": 13,
+      "gender": "M",
+      "handle": "영철",
+      "photo": { "src": null, "alt": "나는 SOLO 13기 영철" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1994,
+        "job": "동양란 농장 운영",
+        "region": "청주"
+      },
+      "sources": [
+        "https://enter1.youstory222.com/404"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 13,
+      "gender": "M",
+      "handle": "광수",
+      "photo": { "src": null, "alt": "나는 SOLO 13기 광수" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1989,
+        "job": "삼성전자 소프트웨어 개발자",
+        "region": null
+      },
+      "sources": [
+        "https://enter1.youstory222.com/404"
+      ],
+      "finalChoice": "순자"
+    },
+    {
+      "seasonNo": 13,
+      "gender": "M",
+      "handle": "상철",
+      "photo": { "src": null, "alt": "나는 SOLO 13기 상철" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1989,
+        "job": "한의사",
+        "region": null
+      },
+      "sources": [
+        "https://enter1.youstory222.com/404",
+        "https://www.etoday.co.kr/news/view/2224738"
+      ],
+      "finalChoice": "옥순"
+    },
+    {
+      "seasonNo": 13,
+      "gender": "F",
+      "handle": "영숙",
+      "photo": { "src": null, "alt": "나는 SOLO 13기 영숙" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1990,
+        "job": "약사",
+        "region": "부산"
+      },
+      "sources": [
+        "https://enter1.youstory222.com/403",
+        "https://www.nbntv.co.kr/news/articleView.html?idxno=1000702"
+      ],
+      "finalChoice": "영식"
+    },
+    {
+      "seasonNo": 13,
+      "gender": "F",
+      "handle": "정숙",
+      "photo": { "src": null, "alt": "나는 SOLO 13기 정숙" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1991,
+        "job": "오르가니스트 (대학 외래교수)",
+        "region": null
+      },
+      "sources": [
+        "https://enter1.youstory222.com/403"
+      ],
+      "finalChoice": "영호"
+    },
+    {
+      "seasonNo": 13,
+      "gender": "F",
+      "handle": "순자",
+      "photo": { "src": null, "alt": "나는 SOLO 13기 순자" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1988,
+        "job": "아마존 코리아 클라우드 엔지니어",
+        "region": null
+      },
+      "sources": [
+        "https://enter1.youstory222.com/403"
+      ],
+      "finalChoice": "광수"
+    },
+    {
+      "seasonNo": 13,
+      "gender": "F",
+      "handle": "영자",
+      "photo": { "src": null, "alt": "나는 SOLO 13기 영자" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1990,
+        "job": "대기업 파이낸스 택스팀 과장",
+        "region": null
+      },
+      "sources": [
+        "https://enter1.youstory222.com/403"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 13,
+      "gender": "F",
+      "handle": "옥순",
+      "photo": { "src": null, "alt": "나는 SOLO 13기 옥순" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1990,
+        "job": "소형항공사 사무장",
+        "region": null
+      },
+      "sources": [
+        "https://enter1.youstory222.com/403"
+      ],
+      "finalChoice": "상철"
+    },
+    {
+      "seasonNo": 13,
+      "gender": "F",
+      "handle": "현숙",
+      "photo": { "src": null, "alt": "나는 SOLO 13기 현숙" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1994,
+        "job": "롯데백화점 VIP 마케팅팀",
+        "region": "경북 경주"
+      },
+      "sources": [
+        "https://enter1.youstory222.com/403"
+      ],
+      "finalChoice": "영수"
+    }
+  ]
+}

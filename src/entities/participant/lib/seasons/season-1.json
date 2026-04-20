@@ -1,0 +1,239 @@
+{
+  "seasonNo": 1,
+  "label": "1기",
+  "episodes": [
+    { "ep": 1, "airDate": "2021-07-14" },
+    { "ep": 2, "airDate": "2021-07-21" },
+    { "ep": 3, "airDate": "2021-07-28" },
+    { "ep": 4, "airDate": "2021-08-04" },
+    { "ep": 5, "airDate": "2021-08-11" },
+    { "ep": 6, "airDate": "2021-08-18" },
+    { "ep": 7, "airDate": "2021-08-25" }
+  ],
+  "participants": [
+    {
+      "seasonNo": 1,
+      "gender": "M",
+      "handle": "영수",
+      "photo": { "src": null, "alt": "나는 SOLO 1기 영수" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1982,
+        "job": "미국 변호사 · 헬스 피트니스 사업",
+        "region": null
+      },
+      "sources": [
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": "영자"
+    },
+    {
+      "seasonNo": 1,
+      "gender": "M",
+      "handle": "영호",
+      "photo": { "src": null, "alt": "나는 SOLO 1기 영호" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1984,
+        "job": "성악가",
+        "region": null
+      },
+      "sources": [
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 1,
+      "gender": "M",
+      "handle": "영식",
+      "photo": { "src": null, "alt": "나는 SOLO 1기 영식" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1989,
+        "job": "금융회사 IT 인사 업무",
+        "region": null
+      },
+      "sources": [
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 1,
+      "gender": "M",
+      "handle": "영철",
+      "photo": { "src": null, "alt": "나는 SOLO 1기 영철" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1988,
+        "job": "소농장 사장",
+        "region": null
+      },
+      "sources": [
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": "정순"
+    },
+    {
+      "seasonNo": 1,
+      "gender": "M",
+      "handle": "정수",
+      "photo": { "src": null, "alt": "나는 SOLO 1기 정수" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1989,
+        "job": "무역업 · 온라인쇼핑몰 유통사업",
+        "region": null
+      },
+      "sources": [
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 1,
+      "gender": "M",
+      "handle": "종수",
+      "photo": { "src": null, "alt": "나는 SOLO 1기 종수" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1990,
+        "job": "롯데백화점 근무",
+        "region": null
+      },
+      "sources": [
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 1,
+      "gender": "M",
+      "handle": "정식",
+      "photo": { "src": null, "alt": "나는 SOLO 1기 정식" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1993,
+        "job": "삼성전자 반도체 사업부",
+        "region": null
+      },
+      "sources": [
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 1,
+      "gender": "F",
+      "handle": "순자",
+      "photo": { "src": null, "alt": "나는 SOLO 1기 순자" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1993,
+        "job": "필라테스 강사",
+        "region": null
+      },
+      "sources": [
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 1,
+      "gender": "F",
+      "handle": "영자",
+      "photo": { "src": null, "alt": "나는 SOLO 1기 영자" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1994,
+        "job": "반려동물 스튜디오 운영",
+        "region": null
+      },
+      "sources": [
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": "영수"
+    },
+    {
+      "seasonNo": 1,
+      "gender": "F",
+      "handle": "정순",
+      "photo": { "src": null, "alt": "나는 SOLO 1기 정순" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1994,
+        "job": "전직 중국 항공사 승무원 · 주얼리 판매",
+        "region": null
+      },
+      "sources": [
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": "영철"
+    },
+    {
+      "seasonNo": 1,
+      "gender": "F",
+      "handle": "정숙",
+      "photo": { "src": null, "alt": "나는 SOLO 1기 정숙" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1994,
+        "job": "무용가",
+        "region": null
+      },
+      "sources": [
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 1,
+      "gender": "F",
+      "handle": "영숙",
+      "photo": { "src": null, "alt": "나는 SOLO 1기 영숙" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1994,
+        "job": "영어강사",
+        "region": null
+      },
+      "sources": [
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 1,
+      "gender": "F",
+      "handle": "영순",
+      "photo": { "src": null, "alt": "나는 SOLO 1기 영순" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1993,
+        "job": "게스트하우스 운영",
+        "region": null
+      },
+      "sources": [
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 1,
+      "gender": "F",
+      "handle": "정자",
+      "photo": { "src": null, "alt": "나는 SOLO 1기 정자" },
+      "instagram": null,
+      "profile": {
+        "birthYear": 1996,
+        "job": "강원도청 소속 펜싱 선수",
+        "region": "강원"
+      },
+      "sources": [
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+      ],
+      "finalChoice": null
+    }
+  ]
+}

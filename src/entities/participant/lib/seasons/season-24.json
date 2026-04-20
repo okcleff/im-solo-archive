@@ -1,0 +1,186 @@
+{
+  "seasonNo": 24,
+  "label": "24기 (너드남 특집)",
+  "episodes": [
+    { "ep": 181, "airDate": "2024-12-25" },
+    { "ep": 182, "airDate": "2025-01-01" },
+    { "ep": 183, "airDate": "2025-01-08" },
+    { "ep": 184, "airDate": "2025-01-15" },
+    { "ep": 185, "airDate": "2025-01-22" },
+    { "ep": 186, "airDate": "2025-01-29" },
+    { "ep": 187, "airDate": "2025-02-05" },
+    { "ep": 188, "airDate": "2025-02-12" },
+    { "ep": 189, "airDate": "2025-02-19" },
+    { "ep": 190, "airDate": "2025-02-26" }
+  ],
+  "participants": [
+    {
+      "seasonNo": 24,
+      "gender": "M",
+      "handle": "영수",
+      "photo": { "src": null, "alt": "나는 SOLO 24기 영수" },
+      "instagram": "spirithorn",
+      "profile": {
+        "birthYear": 1986,
+        "job": "수의사 (동물병원 운영)",
+        "region": "경남 창원"
+      },
+      "sources": ["https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-24%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"],
+      "finalChoice": "옥순"
+    },
+    {
+      "seasonNo": 24,
+      "gender": "M",
+      "handle": "영호",
+      "photo": { "src": null, "alt": "나는 SOLO 24기 영호" },
+      "instagram": "ok_min87",
+      "profile": {
+        "birthYear": 1987,
+        "job": "스타트업 앱 개발자",
+        "region": "수원"
+      },
+      "sources": ["https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-24%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"],
+      "finalChoice": "영자"
+    },
+    {
+      "seasonNo": 24,
+      "gender": "M",
+      "handle": "영식",
+      "photo": { "src": null, "alt": "나는 SOLO 24기 영식" },
+      "instagram": "iamolderbrotherjin",
+      "profile": {
+        "birthYear": 1993,
+        "job": "지방직 8급 토목직 공무원",
+        "region": "경남 창원"
+      },
+      "sources": ["https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-24%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"],
+      "finalChoice": "옥순"
+    },
+    {
+      "seasonNo": 24,
+      "gender": "M",
+      "handle": "영철",
+      "photo": { "src": null, "alt": "나는 SOLO 24기 영철" },
+      "instagram": "koreanjudoplayer",
+      "profile": {
+        "birthYear": 1992,
+        "job": "국가대표 출신 유도선수",
+        "region": "경기 동탄"
+      },
+      "sources": ["https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-24%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"],
+      "finalChoice": "옥순"
+    },
+    {
+      "seasonNo": 24,
+      "gender": "M",
+      "handle": "광수",
+      "photo": { "src": null, "alt": "나는 SOLO 24기 광수" },
+      "instagram": "h_onhoo",
+      "profile": {
+        "birthYear": 1992,
+        "job": "음원 스타트업 COO",
+        "region": null
+      },
+      "sources": ["https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-24%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"],
+      "finalChoice": "순자"
+    },
+    {
+      "seasonNo": 24,
+      "gender": "M",
+      "handle": "상철",
+      "photo": { "src": null, "alt": "나는 SOLO 24기 상철" },
+      "instagram": "2_sungho90kg",
+      "profile": {
+        "birthYear": 1990,
+        "job": "대동물 수의사",
+        "region": "경기 용인"
+      },
+      "sources": ["https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-24%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"],
+      "finalChoice": "옥순"
+    },
+    {
+      "seasonNo": 24,
+      "gender": "F",
+      "handle": "영숙",
+      "photo": { "src": null, "alt": "나는 SOLO 24기 영숙" },
+      "instagram": "2.weekx",
+      "profile": {
+        "birthYear": 1994,
+        "job": "교육행정직 7급 공무원",
+        "region": "서울 광진구"
+      },
+      "sources": ["https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-24%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 24,
+      "gender": "F",
+      "handle": "정숙",
+      "photo": { "src": null, "alt": "나는 SOLO 24기 정숙" },
+      "instagram": "y3ehrim",
+      "profile": {
+        "birthYear": 1993,
+        "job": "개인 사업 준비",
+        "region": null
+      },
+      "sources": ["https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-24%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 24,
+      "gender": "F",
+      "handle": "순자",
+      "photo": { "src": null, "alt": "나는 SOLO 24기 순자" },
+      "instagram": "5guo9u",
+      "profile": {
+        "birthYear": 1992,
+        "job": "중앙행정기관 7급 행정직 공무원",
+        "region": "서울"
+      },
+      "sources": ["https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-24%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"],
+      "finalChoice": "광수"
+    },
+    {
+      "seasonNo": 24,
+      "gender": "F",
+      "handle": "영자",
+      "photo": { "src": null, "alt": "나는 SOLO 24기 영자" },
+      "instagram": "minji_i90",
+      "profile": {
+        "birthYear": 1990,
+        "job": "영유아 오감 놀이 업체 대표",
+        "region": "부산"
+      },
+      "sources": ["https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-24%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 24,
+      "gender": "F",
+      "handle": "옥순",
+      "photo": { "src": null, "alt": "나는 SOLO 24기 옥순" },
+      "instagram": "9mehee",
+      "profile": {
+        "birthYear": 1988,
+        "job": "KT 브랜드 전략실",
+        "region": null
+      },
+      "sources": ["https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-24%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"],
+      "finalChoice": null
+    },
+    {
+      "seasonNo": 24,
+      "gender": "F",
+      "handle": "현숙",
+      "photo": { "src": null, "alt": "나는 SOLO 24기 현숙" },
+      "instagram": "kiohoh",
+      "profile": {
+        "birthYear": null,
+        "job": "약사",
+        "region": null
+      },
+      "sources": ["https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-24%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"],
+      "finalChoice": null
+    }
+  ]
+}
