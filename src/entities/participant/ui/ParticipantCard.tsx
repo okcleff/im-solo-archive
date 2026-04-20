@@ -84,7 +84,7 @@ export default function ParticipantCard({
         onClick={onClick}
         onKeyDown={(e) => e.key === "Enter" && onClick?.()}
         aria-label={`${p.handle} 상세 정보 보기`}
-        className="rounded-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-primary)]"
+        className="cursor-pointer rounded-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-primary)]"
       >
         {content}
       </div>
