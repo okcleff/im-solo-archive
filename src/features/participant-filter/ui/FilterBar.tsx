@@ -1,6 +1,6 @@
-'use client';
+"use client";
 
-import { useRef, useState, useEffect } from 'react';
+import { useRef, useState, useEffect } from "react";
 
 interface Props {
   gender: string;
@@ -10,12 +10,17 @@ interface Props {
 }
 
 const GENDERS = [
-  { value: 'all', label: '전체' },
-  { value: 'M', label: '남' },
-  { value: 'F', label: '여' },
+  { value: "all", label: "전체" },
+  { value: "M", label: "남" },
+  { value: "F", label: "여" },
 ];
 
-export default function FilterBar({ gender, query, onGenderChange, onQueryChange }: Props) {
+export default function FilterBar({
+  gender,
+  query,
+  onGenderChange,
+  onQueryChange,
+}: Props) {
   const inputRef = useRef<HTMLInputElement>(null);
   const [localQuery, setLocalQuery] = useState(query);
   const isComposingRef = useRef(false);
@@ -41,8 +46,8 @@ export default function FilterBar({ gender, query, onGenderChange, onQueryChange
               aria-pressed={gender === g.value}
               className={
                 gender === g.value
-                  ? 'btn btn-primary join-item btn-sm'
-                  : 'btn btn-ghost join-item btn-sm border border-base-300'
+                  ? "btn btn-primary join-item btn-sm"
+                  : "btn btn-ghost join-item btn-sm border border-base-300"
               }
             >
               {g.label}
@@ -58,8 +63,20 @@ export default function FilterBar({ gender, query, onGenderChange, onQueryChange
           }}
         >
           <span className="absolute left-3 top-1/2 -translate-y-1/2 text-base-content/45 pointer-events-none">
-            <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z" />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="w-4 h-4"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              strokeWidth={2}
+              aria-hidden="true"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z"
+              />
             </svg>
           </span>
           <input
@@ -80,23 +97,35 @@ export default function FilterBar({ gender, query, onGenderChange, onQueryChange
             }}
             placeholder="이름·직업·지역 검색"
             aria-label="출연자 검색"
-            className="input input-bordered w-full pl-9 pr-20 text-sm"
+            className="input input-bordered w-full pl-3 pr-20 text-sm"
           />
           <button
             type="submit"
             aria-label="검색 실행"
             className="btn btn-ghost btn-xs absolute right-2 top-1/2 -translate-y-1/2"
           >
-            <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z" />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="w-4 h-4"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              strokeWidth={2}
+              aria-hidden="true"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z"
+              />
             </svg>
           </button>
           {localQuery ? (
             <button
               type="button"
               onClick={() => {
-                setLocalQuery('');
-                onQueryChange('');
+                setLocalQuery("");
+                onQueryChange("");
                 inputRef.current?.focus();
               }}
               aria-label="검색어 지우기"
