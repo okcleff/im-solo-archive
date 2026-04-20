@@ -35,10 +35,11 @@ export default function SeasonTabs({
                 role="tab"
                 aria-selected={active}
                 onClick={() => onChange(s.seasonNo)}
-                className={`rounded-lg border py-2.5 text-sm font-semibold transition-all duration-150 cursor-pointer font-[var(--font-display)] ${
+                style={{ fontFamily: "var(--font-display)" }}
+                className={`rounded-lg border py-2.5 text-sm font-semibold transition-all duration-150 cursor-pointer ${
                   active
-                    ? "border-[var(--color-base-content)] bg-[var(--color-base-content)] text-[var(--color-base-100)]"
-                    : "border-[var(--color-base-300)] bg-[var(--color-base-100)] text-[var(--color-base-content)] hover:border-[var(--color-base-content)]/40 hover:bg-[var(--color-base-200)]"
+                    ? "border-(--color-base-content) bg-(--color-base-content) text-(--color-base-100)"
+                    : "border-(--color-base-300) bg-(--color-base-100) text-base-content hover:border-(--color-base-content)/40 hover:bg-(--color-base-200)"
                 }`}
               >
                 {s.seasonNo}
@@ -49,7 +50,7 @@ export default function SeasonTabs({
 
         <button
           onClick={() => setExpanded((v) => !v)}
-          className="text-xs text-[var(--color-base-content)]/50 hover:text-[var(--color-base-content)] transition-colors"
+          className="text-xs text-(--color-base-content)/50 hover:text-base-content transition-colors cursor-pointer"
         >
           {expanded ? "접기 ▲" : "전체 보기 ▼"}
         </button>
