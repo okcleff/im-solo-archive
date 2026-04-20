@@ -48,6 +48,16 @@ export default function RootLayout({
             __html: `try{document.documentElement.setAttribute("data-theme",localStorage.getItem("theme"))}catch(e){}`,
           }}
         />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&family=Noto+Serif+KR:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+          rel="stylesheet"
+        />
       </head>
       <body className="app-shell font-[var(--font-sans)]">
         <ThemeProvider>
@@ -95,6 +105,7 @@ export default function RootLayout({
                   나는 SOLO 공식 VOD
                 </a>
               </p>
+              <p className="mt-1.5">출연자 사진은 초상권 보호를 위해 게재하지 않습니다.</p>
               <p className="mt-1.5">
                 문의:{" "}
                 <a
