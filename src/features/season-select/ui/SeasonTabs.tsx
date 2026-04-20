@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import type { Season } from "@/entities/participant";
 
 interface Props {
@@ -13,15 +14,18 @@ export default function SeasonTabs({
   selectedSeasonNo,
   onChange,
 }: Props) {
-  const sorted = [...seasons].sort((a, b) => a.seasonNo - b.seasonNo);
+  const [expanded, setExpanded] = useState(false);
+  const sorted = [...seasons].sort((a, b) => b.seasonNo - a.seasonNo);
 
   return (
     <div className="px-4 pt-5 pb-2">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-6xl mx-auto space-y-2">
         <div
           role="tablist"
           aria-label="기수 선택"
-          className="grid grid-cols-6 sm:grid-cols-8 md:grid-cols-10 gap-2"
+          className={`grid grid-cols-6 sm:grid-cols-8 md:grid-cols-10 gap-2 overflow-hidden transition-[max-height] duration-300 ease-in-out ${
+            expanded ? "max-h-[500px]" : "max-h-[42px]"
+          }`}
         >
           {sorted.map((s) => {
             const active = s.seasonNo === selectedSeasonNo;
@@ -42,6 +46,13 @@ export default function SeasonTabs({
             );
           })}
         </div>
+
+        <button
+          onClick={() => setExpanded((v) => !v)}
+          className="text-xs text-[var(--color-base-content)]/50 hover:text-[var(--color-base-content)] transition-colors"
+        >
+          {expanded ? "접기 ▲" : "전체 보기 ▼"}
+        </button>
       </div>
     </div>
   );

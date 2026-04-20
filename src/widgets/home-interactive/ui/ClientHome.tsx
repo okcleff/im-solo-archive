@@ -6,7 +6,6 @@ import type { Season, Participant } from "@/entities/participant";
 import { ParticipantCard } from "@/entities/participant";
 import { SeasonTabs } from "@/features/season-select";
 import { FilterBar, filterParticipants } from "@/features/participant-filter";
-import { ParticipantModal } from "@/widgets/participant-modal";
 
 const NOTICE_STORAGE_KEY = "notice-dismissed-v1";
 
@@ -67,7 +66,6 @@ export default function ClientHome({ seasons }: Props) {
   const searchQuery = searchParams.get("q") ?? "";
   const hasQuery = searchQuery.trim().length > 0;
 
-  const [modalParticipant, setModalParticipant] = useState<Participant | null>(null);
   const [showNotice, setShowNotice] = useState(false);
 
   useEffect(() => {
@@ -83,9 +81,6 @@ export default function ClientHome({ seasons }: Props) {
 
   const currentSeason =
     seasons.find((s) => s.seasonNo === selectedSeasonNo) ?? seasons[0];
-  const modalSeason = modalParticipant
-    ? seasons.find((s) => s.seasonNo === modalParticipant.seasonNo) ?? null
-    : null;
   const searchScopeParticipants = hasQuery
     ? seasons.flatMap((s) => s.participants)
     : currentSeason.participants;
@@ -136,7 +131,7 @@ export default function ClientHome({ seasons }: Props) {
                 title="남성 출연자"
                 tone="info"
                 participants={males}
-                onSelect={setModalParticipant}
+                onSelect={(p) => router.push(`/season/${p.seasonNo}/${p.gender.toLowerCase()}/${p.handle}`)}
               />
             )}
             {females.length > 0 && (
@@ -144,7 +139,7 @@ export default function ClientHome({ seasons }: Props) {
                 title="여성 출연자"
                 tone="secondary"
                 participants={females}
-                onSelect={setModalParticipant}
+                onSelect={(p) => router.push(`/season/${p.seasonNo}/${p.gender.toLowerCase()}/${p.handle}`)}
               />
             )}
           </>
@@ -153,18 +148,10 @@ export default function ClientHome({ seasons }: Props) {
             title={selectedGender === "M" ? "남성 출연자" : "여성 출연자"}
             tone={selectedGender === "M" ? "info" : "secondary"}
             participants={filtered}
-            onSelect={setModalParticipant}
+            onSelect={(p) => router.push(`/season/${p.seasonNo}/${p.gender.toLowerCase()}/${p.handle}`)}
           />
         )}
       </div>
-
-      {modalParticipant && modalSeason ? (
-        <ParticipantModal
-          participant={modalParticipant}
-          season={modalSeason}
-          onClose={() => setModalParticipant(null)}
-        />
-      ) : null}
 
       {showNotice ? (
         <div

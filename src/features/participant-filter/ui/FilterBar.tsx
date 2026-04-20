@@ -78,7 +78,7 @@ export default function FilterBar({ gender, query, onGenderChange, onQueryChange
               const v = e.target.value;
               setLocalQuery(v);
             }}
-            placeholder="전체 기수 검색 (예: 30기 영수, 25기 서울)"
+            placeholder="이름·직업·지역 검색"
             aria-label="출연자 검색"
             className="input input-bordered w-full pl-9 pr-20 text-sm"
           />
