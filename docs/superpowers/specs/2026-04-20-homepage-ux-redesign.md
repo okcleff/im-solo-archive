@@ -94,6 +94,34 @@ Footer
 
 ---
 
+### 5. 색상 · 타이포그래피 (`app/globals.css`, `app/layout.tsx`)
+
+**선택 팔레트: C — Cream & Charcoal (에디토리얼/잡지)**
+
+| 역할 | 값 |
+|------|----|
+| 배경 (body) | `#F5F0E8` — 크림 화이트 |
+| 카드 배경 | `#FDFBF7` — 오프 화이트 |
+| 기본 텍스트 | `#1A1A1A` — 차콜 블랙 |
+| 보조 텍스트 | `#6B6B6B` — 미디엄 그레이 |
+| 테두리 | `#D4CFC6` — 웜 그레이 |
+| 강조 (선택된 칩, 남 배지) | `#1A1A1A` — 차콜 (반전) |
+| 여성 배지 | `#C4916B` — 테라코타 |
+| 링크 / 인터랙티브 | `#8B6F5C` — 웜 브라운 |
+
+**타이포그래피:**
+- 사이트 제목: `Noto Serif KR` — 세리프 계열, 잡지 헤드라인 느낌
+- 본문 / UI: `Noto Sans KR` — 가독성 우선
+- 영문 숫자 accent: `Playfair Display` (기수 번호, stat 수치)
+- 기존 daisyUI `bumblebee`/`forest` 테마 제거 → CSS 변수 직접 정의
+
+**적용 방식:**
+- `globals.css`의 `:root`에 CSS 변수 정의 (`--color-bg`, `--color-surface`, `--color-text`, 등)
+- daisyUI 테마 의존 클래스(`glass-panel`, `surface-card`, `soft-stat`)를 새 변수 기반으로 교체
+- 다크 모드: `@media (prefers-color-scheme: dark)` 또는 `[data-theme="dark"]` 로 반전 팔레트 제공 (Deep Navy + Coral, Option D 기반)
+
+---
+
 ## 영향 범위
 
 | 파일 | 변경 유형 |
@@ -105,7 +133,8 @@ Footer
 | `src/app/season/[seasonNo]/[gender]/[handle]/page.tsx` | 수정 (레이아웃 단순화, 안내 문구) |
 | `src/widgets/participant-modal/ParticipantDetailsSections.tsx` | 수정 (출처 URL 디코딩) |
 | `src/app/layout.tsx` | 수정 (Footer 문구 추가) |
-| `src/app/globals.css` | 수정 (카드 비율, 새 칩 스타일, `detail-hero-*` 클래스 정리) |
+| `src/app/globals.css` | 대규모 수정 (CSS 변수 정의, 팔레트 교체, 카드 비율, 새 칩 스타일, `detail-hero-*` 정리) |
+| `src/app/layout.tsx` | 수정 (폰트 로드: Noto Serif KR, Noto Sans KR, Playfair Display) |
 
 ---
 
