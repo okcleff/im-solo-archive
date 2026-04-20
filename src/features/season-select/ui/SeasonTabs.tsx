@@ -49,7 +49,7 @@ export default function SeasonTabs({
 
         <button
           onClick={() => setExpanded((v) => !v)}
-          className="text-xs text-[var(--color-base-content)]/50 hover:text-[var(--color-base-content)] transition-colors"
+          className="text-xs text-[var(--color-base-content)]/50 hover:text-[var(--color-base-content)] transition-colors cursor-pointer"
         >
           {expanded ? "접기 ▲" : "전체 보기 ▼"}
         </button>
