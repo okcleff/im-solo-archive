@@ -21,6 +21,7 @@ export const ParticipantSchema = z.object({
   instagram: z.string().nullable(),
   profile: ProfileSchema,
   sources: z.array(z.string().url()),
+  bio: z.string().nullable().default(null),
   finalChoice: z.string().nullable(),
 });
 
