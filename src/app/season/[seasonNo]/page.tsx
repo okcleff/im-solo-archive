@@ -6,6 +6,11 @@ import { ParticipantCard, getParticipantUrl, getParticipantSummary } from '@/ent
 import { getSiteUrl } from '@/shared/config/site';
 import JsonLd from '@/shared/ui/JsonLd';
 
+function formatDate(dateStr: string): string {
+  const [y, m, d] = dateStr.split('-');
+  return `${y}년 ${Number(m)}월 ${Number(d)}일`;
+}
+
 interface Props {
   params: Promise<{ seasonNo: string }>;
 }
@@ -68,12 +73,15 @@ export default async function SeasonPage({ params }: Props) {
           </Link>
           <h1 className="mt-3 text-4xl sm:text-5xl font-(--font-title) tracking-tight">나는 SOLO {season.seasonNo}기</h1>
           <p className="mt-2 text-base-content/68">{season.label}</p>
-          <div className="flex flex-wrap gap-2 mt-5">
-            {season.episodes.map((e) => (
-              <span key={e.ep} className="badge badge-outline h-8 px-3 py-1">
-                EP{e.ep} · {e.airDate}
-              </span>
-            ))}
+          <div className="mt-5 flex flex-col gap-1.5 text-sm text-base-content/70">
+            <p>
+              <span className="font-semibold text-base-content">방영 회차</span>
+              {" "}EP {season.episodes[0].ep} ~ {season.episodes[season.episodes.length - 1].ep}
+            </p>
+            <p>
+              <span className="font-semibold text-base-content">방영 기간</span>
+              {" "}{formatDate(season.episodes[0].airDate)} ~ {formatDate(season.episodes[season.episodes.length - 1].airDate)}
+            </p>
           </div>
           </div>
         </div>
