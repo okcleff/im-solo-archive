@@ -46,7 +46,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const age = formatKoreanAge(p.profile.birthYear, getCurrentYear());
   const summary = getParticipantSummary(p);
   const title = `${p.handle} (나는 SOLO ${p.seasonNo}기) 프로필`;
-  const description = `나는 SOLO ${p.seasonNo}기 ${p.gender === "M" ? "남" : "여"} 출연자 ${p.handle}. ${age !== "미공개" ? `${age} · ` : ""}${summary}`;
+  const fallbackDescription = `나는 SOLO ${p.seasonNo}기 ${p.gender === "M" ? "남" : "여"} 출연자 ${p.handle}. ${age !== "미공개" ? `${age} · ` : ""}${summary}`;
+  const description = p.bio
+    ? p.bio.slice(0, 157) + (p.bio.length > 157 ? "..." : "")
+    : fallbackDescription;
 
   return {
     title,
@@ -193,6 +196,17 @@ export default async function ParticipantPage({ params }: Props) {
             />
           </div>
         </section>
+
+        {p.bio && (
+          <section className="card border border-base-300 bg-base-100 shadow-sm">
+            <div className="card-body p-5 sm:p-6">
+              <h2 className="text-base font-semibold mb-4">방송 하이라이트</h2>
+              <p className="text-base-content/80 leading-relaxed text-sm">
+                {p.bio}
+              </p>
+            </div>
+          </section>
+        )}
       </div>
     </>
   );
