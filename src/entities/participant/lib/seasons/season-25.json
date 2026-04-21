@@ -2,21 +2,48 @@
   "seasonNo": 25,
   "label": "25기",
   "episodes": [
-    { "ep": 191, "airDate": "2025-03-05" },
-    { "ep": 192, "airDate": "2025-03-12" },
-    { "ep": 193, "airDate": "2025-03-19" },
-    { "ep": 194, "airDate": "2025-03-26" },
-    { "ep": 195, "airDate": "2025-04-02" },
-    { "ep": 196, "airDate": "2025-04-09" },
-    { "ep": 197, "airDate": "2025-04-16" },
-    { "ep": 198, "airDate": "2025-04-23" }
+    {
+      "ep": 191,
+      "airDate": "2025-03-05"
+    },
+    {
+      "ep": 192,
+      "airDate": "2025-03-12"
+    },
+    {
+      "ep": 193,
+      "airDate": "2025-03-19"
+    },
+    {
+      "ep": 194,
+      "airDate": "2025-03-26"
+    },
+    {
+      "ep": 195,
+      "airDate": "2025-04-02"
+    },
+    {
+      "ep": 196,
+      "airDate": "2025-04-09"
+    },
+    {
+      "ep": 197,
+      "airDate": "2025-04-16"
+    },
+    {
+      "ep": 198,
+      "airDate": "2025-04-23"
+    }
   ],
   "participants": [
     {
       "seasonNo": 25,
       "gender": "M",
       "handle": "영수",
-      "photo": { "src": null, "alt": "나는 SOLO 25기 영수" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 25기 영수"
+      },
       "instagram": "minn91",
       "profile": {
         "birthYear": 1991,
@@ -26,14 +53,17 @@
       "sources": [
         "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-25%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
       ],
-      "bio": "성악을 전공한 보험 본부장으로, 초중반에는 줏대 있고 이지적인 이미지로 긍정적 평가를 받았다. 영숙과의 관계가 순탄하게 진전되는 듯했으나 최종 선택을 포기하며 \"최종 선택은 보여주기식\"이라는 발언을 남겨 호평이 급락했다.",
+      "bio": null,
       "finalChoice": "영자"
     },
     {
       "seasonNo": 25,
       "gender": "M",
       "handle": "영호",
-      "photo": { "src": null, "alt": "나는 SOLO 25기 영호" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 25기 영호"
+      },
       "instagram": "cykomantis",
       "profile": {
         "birthYear": 1988,
@@ -50,7 +80,10 @@
       "seasonNo": 25,
       "gender": "M",
       "handle": "영식",
-      "photo": { "src": null, "alt": "나는 SOLO 25기 영식" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 25기 영식"
+      },
       "instagram": "youngsikyours",
       "profile": {
         "birthYear": 1990,
@@ -67,7 +100,10 @@
       "seasonNo": 25,
       "gender": "M",
       "handle": "영철",
-      "photo": { "src": null, "alt": "나는 SOLO 25기 영철" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 25기 영철"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1990,
@@ -84,7 +120,10 @@
       "seasonNo": 25,
       "gender": "M",
       "handle": "광수",
-      "photo": { "src": null, "alt": "나는 SOLO 25기 광수" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 25기 광수"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1986,
@@ -101,7 +140,10 @@
       "seasonNo": 25,
       "gender": "M",
       "handle": "상철",
-      "photo": { "src": null, "alt": "나는 SOLO 25기 상철" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 25기 상철"
+      },
       "instagram": "sapsaree_kang",
       "profile": {
         "birthYear": 1990,
@@ -118,7 +160,10 @@
       "seasonNo": 25,
       "gender": "F",
       "handle": "영숙",
-      "photo": { "src": null, "alt": "나는 SOLO 25기 영숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 25기 영숙"
+      },
       "instagram": "woodangwoodang",
       "profile": {
         "birthYear": 1993,
@@ -135,7 +180,10 @@
       "seasonNo": 25,
       "gender": "F",
       "handle": "순자",
-      "photo": { "src": null, "alt": "나는 SOLO 25기 순자" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 25기 순자"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1991,
@@ -152,7 +200,10 @@
       "seasonNo": 25,
       "gender": "F",
       "handle": "영자",
-      "photo": { "src": null, "alt": "나는 SOLO 25기 영자" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 25기 영자"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1994,
@@ -170,7 +221,10 @@
       "seasonNo": 25,
       "gender": "F",
       "handle": "옥순",
-      "photo": { "src": null, "alt": "나는 SOLO 25기 옥순" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 25기 옥순"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1989,
@@ -187,7 +241,10 @@
       "seasonNo": 25,
       "gender": "F",
       "handle": "현숙",
-      "photo": { "src": null, "alt": "나는 SOLO 25기 현숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 25기 현숙"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1993,
@@ -204,7 +261,10 @@
       "seasonNo": 25,
       "gender": "F",
       "handle": "미경",
-      "photo": { "src": null, "alt": "나는 SOLO 25기 미경" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 25기 미경"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1988,
