@@ -95,9 +95,9 @@ export default function FilterBar({
               const v = e.target.value;
               setLocalQuery(v);
             }}
-            placeholder="이름·직업·지역 검색"
+            placeholder="이름·직업·지역"
             aria-label="출연자 검색"
-            className="input input-bordered w-full pl-3 pr-20 text-sm"
+            className="input input-bordered w-full pl-3 pr-18 text-sm"
           />
           <button
             type="submit"
