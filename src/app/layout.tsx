@@ -39,8 +39,12 @@ export const metadata: Metadata = {
     type: "website",
     siteName: SITE_NAME,
     locale: "ko_KR",
+    images: [{ url: "/images/im-solo-offical-banner.jpg" }],
   },
-  twitter: { card: "summary_large_image" },
+  twitter: {
+    card: "summary_large_image",
+    images: ["/images/im-solo-offical-banner.jpg"],
+  },
   robots: { index: true, follow: true },
 };
 
