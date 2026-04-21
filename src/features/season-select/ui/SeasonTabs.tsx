@@ -20,6 +20,15 @@ export default function SeasonTabs({
   return (
     <div className="px-4 pt-5 pb-2">
       <div className="max-w-6xl mx-auto space-y-2">
+        <div className="flex justify-end">
+          <button
+            onClick={() => setExpanded((v) => !v)}
+            className="text-xs text-(--color-base-content)/50 hover:text-base-content transition-colors cursor-pointer"
+          >
+            {expanded ? "접기 ▲" : "전체 보기 ▼"}
+          </button>
+        </div>
+
         <div
           role="tablist"
           aria-label="기수 선택"
@@ -46,13 +55,6 @@ export default function SeasonTabs({
             );
           })}
         </div>
-
-        <button
-          onClick={() => setExpanded((v) => !v)}
-          className="text-xs text-(--color-base-content)/50 hover:text-base-content transition-colors cursor-pointer"
-        >
-          {expanded ? "접기 ▲" : "전체 보기 ▼"}
-        </button>
       </div>
     </div>
   );
