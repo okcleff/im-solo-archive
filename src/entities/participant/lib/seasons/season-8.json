@@ -25,7 +25,10 @@
         "https://www.sisamagazine.co.kr/news/articleView.html?idxno=446935",
         "https://www.gukjenews.com/news/articleView.html?idxno=2481936"
       ],
-      "bio": null,
+      "bio": "외국계 무역상사 직원으로, 다수의 여성 출연자들의 주목을 받았으나 방송 내내 다소 과시적인 모습으로 시청자들의 엇갈린 반응을 얻었다. 최종 선택에서 짝을 이루지 못하고 돌아갔다.",
+      "bioSources": [
+        "https://www.sisamagazine.co.kr/news/articleView.html?idxno=446935"
+      ],
       "finalChoice": null
     },
     {
@@ -44,6 +47,9 @@
         "https://www.gukjenews.com/news/articleView.html?idxno=2481936"
       ],
       "bio": "패션회사를 그만두고 제주도에 내려가 당근 농사를 시작한 사연으로 화제가 됐다. 깔끔한 외모와 달리 파격적인 이력에 '평범하지 않은 사람'이라는 평을 받았다.",
+      "bioSources": [
+        "https://www.sisamagazine.co.kr/news/articleView.html?idxno=446935"
+      ],
       "finalChoice": null
     },
     {
@@ -62,6 +68,10 @@
         "https://www.gukjenews.com/news/articleView.html?idxno=2481936"
       ],
       "bio": "구수하고 유쾌한 말투로 분위기를 잘 풀어줘 호평을 받았다. 정숙에게 \"찍먹의 황제, 인간 탕수육\"이라는 별명을 붙여주는 장면이 화제가 됐고, 옥순과 최종 커플이 됐다.",
+      "bioSources": [
+        "https://www.sisamagazine.co.kr/news/articleView.html?idxno=446935",
+        "https://news.nate.com/view/20220623n26802"
+      ],
       "finalChoice": "옥순"
     },
     {
@@ -79,7 +89,10 @@
         "https://www.sisamagazine.co.kr/news/articleView.html?idxno=446935",
         "https://www.instagram.com/your_minming/"
       ],
-      "bio": null,
+      "bio": "자동차 대기업 관리직으로, 데미안 라이스의 'Old Chest'를 기타로 연주하며 열창하다 목이 잘 안 나온다며 눈물을 보여 '8기 순수남'으로 화제가 됐다. 최종 선택에서 짝을 이루지 못하고 돌아갔다.",
+      "bioSources": [
+        "https://www.sisamagazine.co.kr/news/articleView.html?idxno=446935"
+      ],
       "finalChoice": null
     },
     {
@@ -98,6 +111,9 @@
         "https://news.nate.com/view/20220518n41897"
       ],
       "bio": "미 육군 장교로, 영식이 착각하고 자신이 향하는 줄 모르고 다가오는 해프닝이 연출됐다. 최종적으로 순자와 커플이 되어 결혼에 골인했다.",
+      "bioSources": [
+        "https://news.nate.com/view/20220518n41897"
+      ],
       "finalChoice": "순자"
     },
     {
@@ -115,7 +131,10 @@
         "https://www.sisamagazine.co.kr/news/articleView.html?idxno=446935",
         "https://www.gukjenews.com/news/articleView.html?idxno=2481936"
       ],
-      "bio": null,
+      "bio": "대기업 연구원으로, 방송 중 영자에게 꽃다발을 들고 프러포즈하는 장면이 화제가 됐다. 최종 선택에서 영자를 선택해 유일한 커플 중 하나가 됐다.",
+      "bioSources": [
+        "https://www.sisamagazine.co.kr/news/articleView.html?idxno=446935"
+      ],
       "finalChoice": "영자"
     },
     {
@@ -134,6 +153,7 @@
         "https://www.gukjenews.com/news/articleView.html?idxno=2481936"
       ],
       "bio": null,
+      "bioSources": [],
       "finalChoice": null
     },
     {
@@ -151,7 +171,10 @@
         "https://www.sisamagazine.co.kr/news/articleView.html?idxno=446935",
         "https://www.gukjenews.com/news/articleView.html?idxno=2481936"
       ],
-      "bio": "영식으로부터 \"찍먹의 황제, 인간 탕수육\"이라는 별명을 받으며 방송의 웃음 포인트가 됐다. 여러 남성에게 고른 관심을 보이는 모습이 편집되어 나갔다.",
+      "bio": "영식으로부터 \"찍먹의 황제, 인간 탕수육\"이라는 별명을 받으며 방송의 웃음 포인트가 됐다. 가야금 연주자임에도 중국인 의혹이 제기되어 억울함을 호소하는 해프닝이 있었으나 직접 해명해 마무리됐다.",
+      "bioSources": [
+        "https://www.sisamagazine.co.kr/news/articleView.html?idxno=446935"
+      ],
       "finalChoice": null
     },
     {
@@ -169,7 +192,11 @@
         "https://www.sisamagazine.co.kr/news/articleView.html?idxno=446935",
         "https://www.gukjenews.com/news/articleView.html?idxno=2481936"
       ],
-      "bio": "방송 마지막 날 결혼 경력을 숨기고 참여했다는 제보가 퍼졌고, 본인이 이를 인정하며 논란이 됐다. 그럼에도 광수와 유일한 커플이 되어 이후 결혼에 골인했다.",
+      "bio": "방송 마지막 날 결혼 경력을 숨기고 참여했다는 제보가 퍼졌고, 본인이 이를 인정하며 논란이 됐다. 그럼에도 광수와 커플이 되어 이후 결혼에 골인했다.",
+      "bioSources": [
+        "https://www.sisamagazine.co.kr/news/articleView.html?idxno=446935",
+        "https://www.gukjenews.com/news/articleView.html?idxno=2481936"
+      ],
       "finalChoice": "광수"
     },
     {
@@ -187,7 +214,10 @@
         "https://www.sisamagazine.co.kr/news/articleView.html?idxno=446935",
         "https://www.gukjenews.com/news/articleView.html?idxno=2481936"
       ],
-      "bio": null,
+      "bio": "대기업 경영관리 직원으로, 첫 인상 선택에서 상철과 영식 두 명의 선택을 받았다. 추워하는 영자를 위해 영식이 패딩을 벗어준 장면이 화제가 됐으며, 최종 선택에서 짝을 이루지 못했다.",
+      "bioSources": [
+        "https://news.nate.com/view/20220525n42334"
+      ],
       "finalChoice": null
     },
     {
@@ -205,7 +235,11 @@
         "https://www.sisamagazine.co.kr/news/articleView.html?idxno=446935",
         "https://www.gukjenews.com/news/articleView.html?idxno=2481936"
       ],
-      "bio": "8기의 핵심 화제인물로, 영식과 함께 방송 내내 많은 주목을 받았다. 영식과 최종 커플이 됐으나 이후 결별했다.",
+      "bio": "8기의 핵심 화제인물로, 영식과 함께 방송 내내 많은 주목을 받으며 '8기 올킬녀'로 불렸다. 방송 중 상철의 꽃다발 프러포즈에 자리를 박차고 일어나 달려가는 장면이 화제가 됐다.",
+      "bioSources": [
+        "https://www.sisamagazine.co.kr/news/articleView.html?idxno=446935",
+        "https://news.nate.com/view/20220623n26802"
+      ],
       "finalChoice": null
     },
     {
@@ -224,6 +258,9 @@
         "https://www.starnewskorea.com/amp/star/2022/08/09/2022080821590263467"
       ],
       "bio": "방송 내내 소극적이고 미온적인 태도를 보여 아쉬운 평가를 받았다. 방송 종료 후 다른 기수 출연자들을 한의원에 초대하는 적극적 행보로 홍보 목적 출연 의혹이 제기되기도 했다.",
+      "bioSources": [
+        "https://www.starnewskorea.com/amp/star/2022/08/09/2022080821590263467"
+      ],
       "finalChoice": null
     }
   ]

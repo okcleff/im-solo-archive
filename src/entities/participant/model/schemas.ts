@@ -22,6 +22,7 @@ export const ParticipantSchema = z.object({
   profile: ProfileSchema,
   sources: z.array(z.string().url()),
   bio: z.string().nullable().default(null),
+  bioSources: z.array(z.string().url()).default([]),
   finalChoice: z.string().nullable(),
 });
 
