@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import type { Season } from "@/entities/participant";
+import { trackSeasonTabClick } from "@/shared/analytics/events";
 
 interface Props {
   seasons: Season[];
@@ -43,7 +44,10 @@ export default function SeasonTabs({
                 key={s.seasonNo}
                 role="tab"
                 aria-selected={active}
-                onClick={() => onChange(s.seasonNo)}
+                onClick={() => {
+                  onChange(s.seasonNo);
+                  trackSeasonTabClick(s.seasonNo);
+                }}
                 className={`rounded-lg border py-2.5 text-sm font-semibold transition-all duration-150 cursor-pointer ${
                   active
                     ? "border-(--color-base-content) bg-(--color-base-content) text-(--color-base-100)"
