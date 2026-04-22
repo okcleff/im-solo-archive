@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef, useState, useEffect } from "react";
+import { trackSearchQuery } from "@/shared/analytics/events";
 
 interface Props {
   gender: string;
@@ -26,7 +27,9 @@ export default function FilterBar({
   const isComposingRef = useRef(false);
 
   const submitQuery = () => {
-    onQueryChange(localQuery.trim());
+    const trimmed = localQuery.trim();
+    onQueryChange(trimmed);
+    trackSearchQuery(trimmed);
   };
 
   useEffect(() => {
