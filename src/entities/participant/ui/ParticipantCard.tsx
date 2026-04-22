@@ -5,6 +5,7 @@ import type { Participant } from "../model/schemas";
 import { formatAgeWithBirthYear } from "../lib/age";
 import { getParticipantUrl } from "../lib/helpers";
 import { getCurrentYear } from "@/shared/lib/utils";
+import { trackParticipantCardClick } from "@/shared/analytics/events";
 
 interface Props {
   participant: Participant;
@@ -69,7 +70,11 @@ export default function ParticipantCard({
   if (asLink) {
     return (
       <article>
-        <Link href={href} className="block">
+        <Link
+          href={href}
+          className="block"
+          onClick={() => trackParticipantCardClick(p.seasonNo, p.handle, p.gender)}
+        >
           {content}
         </Link>
       </article>
@@ -81,7 +86,10 @@ export default function ParticipantCard({
       <div
         role="button"
         tabIndex={0}
-        onClick={onClick}
+        onClick={() => {
+          trackParticipantCardClick(p.seasonNo, p.handle, p.gender);
+          onClick?.();
+        }}
         onKeyDown={(e) => e.key === "Enter" && onClick?.()}
         aria-label={`${p.handle} 상세 정보 보기`}
         className="cursor-pointer rounded-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
