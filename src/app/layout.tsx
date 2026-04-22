@@ -7,6 +7,10 @@ import { SeasonNav } from "@/widgets/season-nav";
 import { getSiteUrl, SITE_NAME } from "@/shared/config/site";
 import ThemeProvider from "@/shared/ui/ThemeProvider";
 import ThemeToggle from "@/shared/ui/ThemeToggle";
+import {
+  GoogleTagManagerScript,
+  GoogleTagManagerNoScript,
+} from "@/shared/analytics/GoogleTagManager";
 
 function getLastUpdated(): string {
   try {
@@ -71,8 +75,10 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&family=Noto+Serif+KR:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
           rel="stylesheet"
         />
+        <GoogleTagManagerScript />
       </head>
       <body className="app-shell font-(--font-sans)">
+        <GoogleTagManagerNoScript />
         <ThemeProvider>
           <header className="sticky top-0 z-40 border-b border-base-300/70 bg-base-100/85 backdrop-blur-xl">
             <div className="navbar max-w-6xl mx-auto min-h-16 px-4">
