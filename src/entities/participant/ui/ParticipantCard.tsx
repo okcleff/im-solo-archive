@@ -90,7 +90,12 @@ export default function ParticipantCard({
           trackParticipantCardClick(p.seasonNo, p.handle, p.gender);
           onClick?.();
         }}
-        onKeyDown={(e) => e.key === "Enter" && onClick?.()}
+        onKeyDown={(e) => {
+          if (e.key === "Enter") {
+            trackParticipantCardClick(p.seasonNo, p.handle, p.gender);
+            onClick?.();
+          }
+        }}
         aria-label={`${p.handle} 상세 정보 보기`}
         className="cursor-pointer rounded-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
       >
