@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Suspense } from "react";
 import { SEASONS_DATA } from "@/entities/participant/server";
 import { getSiteUrl, SITE_NAME } from "@/shared/config/site";
 import JsonLd from "@/shared/ui/JsonLd";
@@ -32,7 +31,17 @@ const jsonLd = {
   })),
 };
 
-export default function HomePage() {
+interface Props {
+  searchParams: Promise<{ season?: string; gender?: string; q?: string }>;
+}
+
+export default async function HomePage({ searchParams }: Props) {
+  const params = await searchParams;
+  const latestSeasonNo = SEASONS_DATA[0].seasonNo;
+  const initialSeasonNo = Number(params.season ?? latestSeasonNo);
+  const initialGender = params.gender ?? "all";
+  const initialQuery = params.q ?? "";
+
   return (
     <>
       <JsonLd data={jsonLd} />
@@ -44,21 +53,12 @@ export default function HomePage() {
       </div>
 
       <div className="max-w-6xl mx-auto">
-        <Suspense
-          fallback={
-            <div className="flex justify-center items-center py-20">
-              <span
-                className="loading loading-spinner loading-md"
-                aria-hidden="true"
-              />
-              <span className="ml-3 text-sm text-base-content/60">
-                로딩 중...
-              </span>
-            </div>
-          }
-        >
-          <ClientHome seasons={SEASONS_DATA} />
-        </Suspense>
+        <ClientHome
+          seasons={SEASONS_DATA}
+          initialSeasonNo={initialSeasonNo}
+          initialGender={initialGender}
+          initialQuery={initialQuery}
+        />
       </div>
     </>
   );
