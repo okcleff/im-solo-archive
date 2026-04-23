@@ -24,5 +24,5 @@ export function trackParticipantCardClick(
 
 export function trackSearchQuery(query: string) {
   if (!query.trim()) return;
-  trackEvent("search_query", { query });
+  trackEvent("search", { search_term: query });
 }
