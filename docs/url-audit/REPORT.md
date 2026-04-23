@@ -38,10 +38,24 @@
 
 Stage 0 결과는 **Stage C 우선순위에 큰 영향 없음** — dead link 2개는 🟢 기수 6에 있고, 🔴/🟡 기수들의 URL은 전부 살아있음. 따라서 기존 계획대로 Stage A → B(20기) 순으로 진행.
 
+## bioSources 추가 감사 (Stage A 보강)
+
+초기 감사는 `sources[]` 516개만 대상이었고 `bioSources[]` 499개(중복 제거 후 신규 321개)는 누락. Stage A에서 추가 감사 시행.
+
+| HTTP 코드 | 건수 | 비고 |
+|-----------|------|------|
+| 200       | 315  | OK |
+| 302       | 4    | 정상 리다이렉트 (OK) |
+| 429       | 2    | brunch.co.kr — WebFetch로 확인 시 공개 접근 가능 |
+
+**bioSources에서 실제 dead link: 0건**.
+
 ## 인프라 산출물
 
 재사용 가능한 URL 유효성 검증 스크립트:
-- `docs/url-audit/check.py` — 일괄 체크 (병렬 20)
+- `docs/url-audit/check.py` — sources 일괄 체크 (병렬 20)
 - `docs/url-audit/recheck.py` — 비200 재시도 (UA 교체 + 지연)
+- `docs/url-audit/check-biosources.py` — bioSources 일괄 체크 (도메인별 지연 내장)
+- `docs/url-audit/check-one.sh` — 단건 URL 게이트 (Stage B 이후 신규 수집용)
 
 Stage B 이후 신규 수집하는 URL도 이 스크립트로 게이트 통과시킨다.
