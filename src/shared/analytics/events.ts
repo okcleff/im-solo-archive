@@ -22,7 +22,7 @@ export function trackParticipantCardClick(
   trackEvent("participant_card_click", { season_no: seasonNo, name, gender });
 }
 
-export function trackSearchQuery(query: string) {
+export function trackSearch(query: string) {
   if (!query.trim()) return;
   trackEvent("search", { search_term: query });
 }
