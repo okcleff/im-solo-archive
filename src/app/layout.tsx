@@ -59,6 +59,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ko" suppressHydrationWarning>
+      <GoogleTagManagerScript />
       <head>
         <script
           dangerouslySetInnerHTML={{
@@ -75,7 +76,6 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&family=Noto+Serif+KR:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
           rel="stylesheet"
         />
-        <GoogleTagManagerScript />
       </head>
       <body className="app-shell font-(--font-sans)">
         <GoogleTagManagerNoScript />
