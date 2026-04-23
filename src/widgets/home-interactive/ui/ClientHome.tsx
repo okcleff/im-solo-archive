@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useCallback, useTransition, useEffect } from "react";
-import { useSearchParams, useRouter, usePathname } from "next/navigation";
+import { useRouter, usePathname } from "next/navigation";
 import type { Season, Participant } from "@/entities/participant";
 import { ParticipantCard } from "@/entities/participant";
 import { SeasonTabs } from "@/features/season-select";
@@ -11,6 +11,9 @@ const NOTICE_STORAGE_KEY = "notice-dismissed-v1";
 
 interface Props {
   seasons: Season[];
+  initialSeasonNo: number;
+  initialGender: string;
+  initialQuery: string;
 }
 
 function ParticipantBoard({
@@ -53,17 +56,20 @@ function ParticipantBoard({
   );
 }
 
-export default function ClientHome({ seasons }: Props) {
+export default function ClientHome({
+  seasons,
+  initialSeasonNo,
+  initialGender,
+  initialQuery,
+}: Props) {
   const router = useRouter();
   const pathname = usePathname();
-  const searchParams = useSearchParams();
   const [, startTransition] = useTransition();
 
-  const selectedSeasonNo = Number(
-    searchParams.get("season") ?? seasons[0].seasonNo,
-  );
-  const selectedGender = searchParams.get("gender") ?? "all";
-  const searchQuery = searchParams.get("q") ?? "";
+  const [selectedSeasonNo, setSelectedSeasonNo] = useState(initialSeasonNo);
+  const [selectedGender, setSelectedGender] = useState(initialGender);
+  const [searchQuery, setSearchQuery] = useState(initialQuery);
+
   const hasQuery = searchQuery.trim().length > 0;
 
   const [showNotice, setShowNotice] = useState(false);
@@ -91,17 +97,31 @@ export default function ClientHome({ seasons }: Props) {
 
   const updateParams = useCallback(
     (updates: Record<string, string | null>) => {
-      const params = new URLSearchParams(searchParams.toString());
-      for (const [k, v] of Object.entries(updates)) {
-        if (!v || v === "all") params.delete(k);
-        else params.set(k, v);
-      }
+      const nextSeasonNo =
+        "season" in updates
+          ? Number(updates.season ?? seasons[0].seasonNo)
+          : selectedSeasonNo;
+      const nextGender =
+        "gender" in updates ? (updates.gender ?? "all") : selectedGender;
+      const nextQuery =
+        "q" in updates ? (updates.q ?? "") : searchQuery;
+
+      setSelectedSeasonNo(nextSeasonNo);
+      setSelectedGender(nextGender);
+      setSearchQuery(nextQuery);
+
+      const params = new URLSearchParams();
+      if (nextSeasonNo !== seasons[0].seasonNo)
+        params.set("season", String(nextSeasonNo));
+      if (nextGender !== "all") params.set("gender", nextGender);
+      if (nextQuery.trim()) params.set("q", nextQuery);
+
       const qs = params.toString();
       startTransition(() => {
         router.replace(qs ? `${pathname}?${qs}` : pathname, { scroll: false });
       });
     },
-    [router, pathname, searchParams],
+    [router, pathname, selectedSeasonNo, selectedGender, searchQuery, seasons],
   );
 
   return (
