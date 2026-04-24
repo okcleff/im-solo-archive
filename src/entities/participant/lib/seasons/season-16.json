@@ -2,24 +2,60 @@
   "seasonNo": 16,
   "label": "16기 (돌싱특집)",
   "episodes": [
-    { "ep": 107, "airDate": "2023-07-26" },
-    { "ep": 108, "airDate": "2023-08-02" },
-    { "ep": 109, "airDate": "2023-08-09" },
-    { "ep": 110, "airDate": "2023-08-16" },
-    { "ep": 111, "airDate": "2023-08-23" },
-    { "ep": 112, "airDate": "2023-08-30" },
-    { "ep": 113, "airDate": "2023-09-06" },
-    { "ep": 114, "airDate": "2023-09-13" },
-    { "ep": 115, "airDate": "2023-09-20" },
-    { "ep": 116, "airDate": "2023-09-27" },
-    { "ep": 117, "airDate": "2023-10-04" }
+    {
+      "ep": 107,
+      "airDate": "2023-07-26"
+    },
+    {
+      "ep": 108,
+      "airDate": "2023-08-02"
+    },
+    {
+      "ep": 109,
+      "airDate": "2023-08-09"
+    },
+    {
+      "ep": 110,
+      "airDate": "2023-08-16"
+    },
+    {
+      "ep": 111,
+      "airDate": "2023-08-23"
+    },
+    {
+      "ep": 112,
+      "airDate": "2023-08-30"
+    },
+    {
+      "ep": 113,
+      "airDate": "2023-09-06"
+    },
+    {
+      "ep": 114,
+      "airDate": "2023-09-13"
+    },
+    {
+      "ep": 115,
+      "airDate": "2023-09-20"
+    },
+    {
+      "ep": 116,
+      "airDate": "2023-09-27"
+    },
+    {
+      "ep": 117,
+      "airDate": "2023-10-04"
+    }
   ],
   "participants": [
     {
       "seasonNo": 16,
       "gender": "M",
       "handle": "영수",
-      "photo": { "src": null, "alt": "나는 SOLO 16기 영수" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 16기 영수"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1983,
@@ -29,18 +65,18 @@
       "sources": [
         "https://www.salgoonews.com/news/articleView.html?idxno=33931"
       ],
-      "bio": "촬영 도중 신변의 문제가 발생해 제작진과 협의하에 방송 분량 대부분이 삭제되는 이례적인 통편집 사태가 일어났고, 이후 스토킹 피해를 당했음이 밝혀졌다. 가해 여성은 스토킹 범죄 처벌법 위반으로 150만원 벌금형을 선고받았다.",
-      "bioSources": [
-        "https://news.sbs.co.kr/news/endPage.do?news_id=N1007371684",
-        "https://ent.sbs.co.kr/news/article.do?article_id=E10010278284"
-      ],
+      "bio": null,
+      "bioSources": [],
       "finalChoice": null
     },
     {
       "seasonNo": 16,
       "gender": "M",
       "handle": "영호",
-      "photo": { "src": null, "alt": "나는 SOLO 16기 영호" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 16기 영호"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1987,
@@ -50,18 +86,18 @@
       "sources": [
         "https://www.salgoonews.com/news/articleView.html?idxno=33931"
       ],
-      "bio": "홀로 남겨진 영자가 고독 정식을 먹는 장면을 보고 눈물을 흘리며 \"미안하잖아\"라고 말해 시청자들의 공감을 얻었다. 법적 싱글 신분으로 출연해 아내와 사별한 아픔을 방송에서 처음으로 공개해 눈물바다를 만들었다.",
-      "bioSources": [
-        "https://brunch.co.kr/@67bd0e8669bc4d2/51",
-        "https://www.salgoonews.com/news/articleView.html?idxno=33931"
-      ],
+      "bio": null,
+      "bioSources": [],
       "finalChoice": null
     },
     {
       "seasonNo": 16,
       "gender": "M",
       "handle": "영식",
-      "photo": { "src": null, "alt": "나는 SOLO 16기 영식" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 16기 영식"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1983,
@@ -71,18 +107,18 @@
       "sources": [
         "https://www.salgoonews.com/news/articleView.html?idxno=33931"
       ],
-      "bio": "방송 내내 옥순의 어장관리에 휘말려 갈팡질팡하다가 결국 현숙에게 최종 선택을 했고, 현숙도 \"그분을 만나기 위해 돌고 돌아온 것 같다\"며 화답해 커플이 됐다. 잘생긴 외모와 온화한 성격으로 시청자들에게 호평을 받은 출연자 중 한 명이었다.",
-      "bioSources": [
-        "https://brunch.co.kr/@67bd0e8669bc4d2/51",
-        "https://www.salgoonews.com/news/articleView.html?idxno=33931"
-      ],
+      "bio": null,
+      "bioSources": [],
       "finalChoice": "현숙"
     },
     {
       "seasonNo": 16,
       "gender": "M",
       "handle": "광수",
-      "photo": { "src": null, "alt": "나는 SOLO 16기 광수" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 16기 광수"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1982,
@@ -92,18 +128,18 @@
       "sources": [
         "https://www.salgoonews.com/news/articleView.html?idxno=33931"
       ],
-      "bio": "영숙이 \"옥순은 영수와도 잘 되어가고 있다\"는 헛소문을 퍼뜨려 옥순과의 관계가 틀어지자, 영철에게 책임을 물으며 \"밖이면 엎어버렸어\"라는 강한 발언으로 갈등이 극에 달했다. 방송 종영 후 남자 출연자 모임에 홀로 불참해 불화설이 제기되기도 했다.",
-      "bioSources": [
-        "https://www.elle.co.kr/article/81116",
-        "https://brunch.co.kr/@67bd0e8669bc4d2/51"
-      ],
+      "bio": null,
+      "bioSources": [],
       "finalChoice": null
     },
     {
       "seasonNo": 16,
       "gender": "M",
       "handle": "영철",
-      "photo": { "src": null, "alt": "나는 SOLO 16기 영철" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 16기 영철"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1983,
@@ -113,18 +149,18 @@
       "sources": [
         "https://www.salgoonews.com/news/articleView.html?idxno=33931"
       ],
-      "bio": "\"이건 나니까 가능\"이라는 어록을 남기며 역대급 오지랖 빌런으로 화제를 모았고, 방송 외 인스타그램 발언으로도 논란을 일으켰다. 최종 선택에서 정숙과 커플이 됐으나 방송 후 약 3주 만에 결별했다.",
-      "bioSources": [
-        "https://www.elle.co.kr/article/81116",
-        "https://namu.wiki/w/%EB%82%98%EB%8A%94%20SOLO/%EB%85%BC%EB%9E%80%20%EB%B0%8F%20%EC%82%AC%EA%B1%B4%20%EC%82%AC%EA%B3%A0/2023%EB%85%84~2024%EB%85%84"
-      ],
+      "bio": null,
+      "bioSources": [],
       "finalChoice": "정숙"
     },
     {
       "seasonNo": 16,
       "gender": "M",
       "handle": "상철",
-      "photo": { "src": null, "alt": "나는 SOLO 16기 상철" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 16기 상철"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1982,
@@ -134,18 +170,18 @@
       "sources": [
         "https://www.salgoonews.com/news/articleView.html?idxno=33931"
       ],
-      "bio": "영숙에게 \"너와 관계하는 장면을 상상한다\", \"섹시하다\" 등 19금 발언을 서슴없이 하고 자신의 이성 교제 경험까지 공개해 시청자들의 비판을 받았다. 방송 종영 후 영숙 측으로부터 피해를 입었다고 밝혔으며, 두 사람의 방송 후 갈등이 큰 화제가 됐다.",
-      "bioSources": [
-        "https://www.elle.co.kr/article/81116",
-        "https://namu.wiki/w/%EB%82%98%EB%8A%94%20SOLO/%EB%85%BC%EB%9E%80%20%EB%B0%8F%20%EC%82%AC%EA%B1%B4%20%EC%82%AC%EA%B3%A0/2023%EB%85%84~2024%EB%85%84"
-      ],
+      "bio": null,
+      "bioSources": [],
       "finalChoice": "영숙"
     },
     {
       "seasonNo": 16,
       "gender": "F",
       "handle": "영숙",
-      "photo": { "src": null, "alt": "나는 SOLO 16기 영숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 16기 영숙"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1990,
@@ -155,18 +191,18 @@
       "sources": [
         "https://www.salgoonews.com/news/articleView.html?idxno=33931"
       ],
-      "bio": "영호를 향해 \"온리 영호\"를 선언하며 순자와 맞붙었고, 광수와 옥순 사이에 사실과 다른 헛소문을 퍼뜨려 관계를 망치는 행동으로 큰 논란을 일으켰다. 방송 후 옥순으로부터 명예훼손 고소 예고를 받아 방송 외적인 갈등이 이어졌다.",
-      "bioSources": [
-        "https://www.elle.co.kr/article/81116",
-        "https://namu.wiki/w/%EB%82%98%EB%8A%94%20SOLO/%EB%85%BC%EB%9E%80%20%EB%B0%8F%20%EC%82%AC%EA%B1%B4%20%EC%82%AC%EA%B3%A0/2023%EB%85%84~2024%EB%85%84"
-      ],
+      "bio": null,
+      "bioSources": [],
       "finalChoice": null
     },
     {
       "seasonNo": 16,
       "gender": "F",
       "handle": "정숙",
-      "photo": { "src": null, "alt": "나는 SOLO 16기 정숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 16기 정숙"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1986,
@@ -176,18 +212,18 @@
       "sources": [
         "https://www.salgoonews.com/news/articleView.html?idxno=33931"
       ],
-      "bio": "영숙이 영수의 슈데권 사용 소식을 전하자 말리러 달려가려는 정숙을 영숙이 뜯어말리는 장면이 10회차 최대 명장면으로 꼽혔다. 최종 선택에서 영철을 선택해 커플이 됐으나 방송 후 약 3주 만에 결별했다.",
-      "bioSources": [
-        "https://www.elle.co.kr/article/81116",
-        "https://brunch.co.kr/@67bd0e8669bc4d2/51"
-      ],
+      "bio": null,
+      "bioSources": [],
       "finalChoice": "영철"
     },
     {
       "seasonNo": 16,
       "gender": "F",
       "handle": "순자",
-      "photo": { "src": null, "alt": "나는 SOLO 16기 순자" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 16기 순자"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1993,
@@ -197,18 +233,18 @@
       "sources": [
         "https://www.salgoonews.com/news/articleView.html?idxno=33931"
       ],
-      "bio": "영호를 두고 영숙과 삼각관계를 이루며 초반부터 뜨거운 경쟁 구도를 형성했다. 최종 선택 때 아무도 고르지 않은 이유로 \"남자 출연자들과 나이 차이가 너무 났다\"고 밝혔고, 촬영 중 특정 PD를 좋아하게 됐다는 돌발 발언으로도 화제가 됐다.",
-      "bioSources": [
-        "https://www.elle.co.kr/article/81116",
-        "https://brunch.co.kr/@67bd0e8669bc4d2/51"
-      ],
+      "bio": null,
+      "bioSources": [],
       "finalChoice": null
     },
     {
       "seasonNo": 16,
       "gender": "F",
       "handle": "영자",
-      "photo": { "src": null, "alt": "나는 SOLO 16기 영자" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 16기 영자"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1992,
@@ -218,19 +254,18 @@
       "sources": [
         "https://www.salgoonews.com/news/articleView.html?idxno=33931"
       ],
-      "bio": "데이트 선택 직후 \"혹시 선택 바꾸면 안 될까요?\"라며 번복을 요청하는 돌발 행동으로 MC들을 경악하게 만들었다. 상철의 19금 발언에 격하게 반응하며 대화를 끊고 자리를 떠나는 극대노 탈주 사태로 화제가 됐고, 방송 후 인스타그램에 \"방송 보니 부끄럽고 반성한다\"는 사과문을 올렸다.",
-      "bioSources": [
-        "https://www.dailycc.net/news/articleView.html?idxno=756507",
-        "https://www.etnews.com/20230927000129",
-        "https://www.nbntv.co.kr/news/articleView.html?idxno=3002631"
-      ],
+      "bio": null,
+      "bioSources": [],
       "finalChoice": null
     },
     {
       "seasonNo": 16,
       "gender": "F",
       "handle": "옥순",
-      "photo": { "src": null, "alt": "나는 SOLO 16기 옥순" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 16기 옥순"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1988,
@@ -240,18 +275,18 @@
       "sources": [
         "https://www.salgoonews.com/news/articleView.html?idxno=33931"
       ],
-      "bio": "다수의 남자 출연자들에게 동시에 호감을 얻으며 어장관리 논란을 일으켰고, 영숙이 퍼뜨린 헛소문으로 광수와의 사이가 틀어지는 피해를 입었다. 방송 후 영숙의 지속적인 라이브 방송 언급에 명예훼손 고소를 예고했으나 이후 화해하며 고소를 취하했다.",
-      "bioSources": [
-        "https://www.hankyung.com/article/202309186519H",
-        "https://namu.wiki/w/%EB%82%98%EB%8A%94%20SOLO/%EB%85%BC%EB%9E%80%20%EB%B0%8F%20%EC%82%AC%EA%B1%B4%20%EC%82%AC%EA%B3%A0/2023%EB%85%84~2024%EB%85%84"
-      ],
+      "bio": null,
+      "bioSources": [],
       "finalChoice": null
     },
     {
       "seasonNo": 16,
       "gender": "F",
       "handle": "현숙",
-      "photo": { "src": null, "alt": "나는 SOLO 16기 현숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 16기 현숙"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1990,
@@ -261,11 +296,8 @@
       "sources": [
         "https://www.salgoonews.com/news/articleView.html?idxno=33931"
       ],
-      "bio": "영식으로부터 최종 선택을 받았고 \"그분을 만나기 위해 돌고 돌아온 것 같다\"며 화답해 커플이 됐다. 방송 후 결혼설이 돌 정도로 시청자들의 관심을 받았으나, 약 3개월 만에 재혼이라는 현실적 벽에 부딪혀 결별했다.",
-      "bioSources": [
-        "https://brunch.co.kr/@67bd0e8669bc4d2/51",
-        "https://www.elle.co.kr/article/81116"
-      ],
+      "bio": null,
+      "bioSources": [],
       "finalChoice": "영식"
     }
   ]

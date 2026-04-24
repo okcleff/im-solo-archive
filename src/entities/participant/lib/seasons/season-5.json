@@ -2,19 +2,40 @@
   "seasonNo": 5,
   "label": "5기",
   "episodes": [
-    { "ep": 25, "airDate": "2021-12-29" },
-    { "ep": 26, "airDate": "2022-01-05" },
-    { "ep": 27, "airDate": "2022-01-12" },
-    { "ep": 28, "airDate": "2022-01-19" },
-    { "ep": 29, "airDate": "2022-01-26" },
-    { "ep": 30, "airDate": "2022-02-02" }
+    {
+      "ep": 25,
+      "airDate": "2021-12-29"
+    },
+    {
+      "ep": 26,
+      "airDate": "2022-01-05"
+    },
+    {
+      "ep": 27,
+      "airDate": "2022-01-12"
+    },
+    {
+      "ep": 28,
+      "airDate": "2022-01-19"
+    },
+    {
+      "ep": 29,
+      "airDate": "2022-01-26"
+    },
+    {
+      "ep": 30,
+      "airDate": "2022-02-02"
+    }
   ],
   "participants": [
     {
       "seasonNo": 5,
       "gender": "M",
       "handle": "영수",
-      "photo": { "src": null, "alt": "나는 SOLO 5기 영수" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 5기 영수"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1978,
@@ -25,17 +46,18 @@
         "https://www.gukjenews.com/news/articleView.html?idxno=2383983",
         "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
       ],
-      "bio": "신경외과 부원장으로 의대를 17년 만에 졸업하고 마흔에 의사가 됐다는 독특한 이력으로 관심을 받았다. 최종 선택에서 커플이 되지 못했음에도 불구하고 방송 후 어머니 소개로 만난 여성과 결혼해 나는 SOLO 사상 비커플 중 최초로 결혼한 출연자가 됐다. 그러나 결혼 약 2개월 만에 SNS 언팔로우 및 사진 삭제 등 이혼설이 제기됐다.",
-      "bioSources": [
-        "https://namu.wiki/w/%EB%82%98%EB%8A%94%20SOLO/%EB%B0%A9%EC%98%81%20%EB%AA%A9%EB%A1%9D/2022%EB%85%84"
-      ],
+      "bio": null,
+      "bioSources": [],
       "finalChoice": null
     },
     {
       "seasonNo": 5,
       "gender": "M",
       "handle": "영호",
-      "photo": { "src": null, "alt": "나는 SOLO 5기 영호" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 5기 영호"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1985,
@@ -46,17 +68,18 @@
         "https://www.gukjenews.com/news/articleView.html?idxno=2383983",
         "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
       ],
-      "bio": "방송에서 정자에게 꾸준히 관심을 표현하며 구애했다. 최종 선택에서 정자를 선택했으나 정자는 영호를 선택하지 않아 커플이 되지 못했다.",
-      "bioSources": [
-        "https://news.nate.com/view/20220203n03607"
-      ],
+      "bio": null,
+      "bioSources": [],
       "finalChoice": "정자"
     },
     {
       "seasonNo": 5,
       "gender": "M",
       "handle": "영식",
-      "photo": { "src": null, "alt": "나는 SOLO 5기 영식" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 5기 영식"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1987,
@@ -67,17 +90,18 @@
         "https://www.gukjenews.com/news/articleView.html?idxno=2383983",
         "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
       ],
-      "bio": "10년차 치과의사로 등장 직후 솔로녀들로부터 \"다른 사람 볼 필요 없겠다\"는 반응이 나올 정도로 큰 인기를 모아 '5기 인기남'으로 불렸다. 최종 선택에서 영숙을 선택했으나 영숙이 선택을 보류해 커플이 성사되지 않았다.",
-      "bioSources": [
-        "https://news.nate.com/view/20220203n03607"
-      ],
+      "bio": null,
+      "bioSources": [],
       "finalChoice": "영숙"
     },
     {
       "seasonNo": 5,
       "gender": "M",
       "handle": "영철",
-      "photo": { "src": null, "alt": "나는 SOLO 5기 영철" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 5기 영철"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1989,
@@ -88,18 +112,18 @@
         "https://www.gukjenews.com/news/articleView.html?idxno=2383983",
         "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
       ],
-      "bio": "손흥민을 닮은 외모로 등장해 화제를 모았으며, '좋아하는 사람이 있으면 바로 직진하는 직진남'이라고 자신을 소개했다. 최종 선택에서 선택을 포기하며 커플이 되지 못했다.",
-      "bioSources": [
-        "https://www.camp-gazua.com/%EB%82%98%EB%8A%94-%EC%86%94%EB%A1%9C-solo-5%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90/",
-        "https://news.nate.com/view/20220203n03607"
-      ],
+      "bio": null,
+      "bioSources": [],
       "finalChoice": null
     },
     {
       "seasonNo": 5,
       "gender": "M",
       "handle": "정수",
-      "photo": { "src": null, "alt": "나는 SOLO 5기 정수" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 5기 정수"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1990,
@@ -110,17 +134,18 @@
         "https://www.gukjenews.com/news/articleView.html?idxno=2383983",
         "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
       ],
-      "bio": "방송에서 충격적인 데이트 선택으로 긴장감을 높였으며, 최종적으로 정숙과 커플이 됐다. 그러나 방송 후 정숙과 편한 오빠 동생 사이로 지내기로 했다고 밝히며 사실상 결별했고, 이후 나솔사계를 통해 1기 정순과의 기수를 초월한 교제가 공개됐으나 2024년 여름 이별했다.",
-      "bioSources": [
-        "https://news.nate.com/view/20221013n41911"
-      ],
+      "bio": null,
+      "bioSources": [],
       "finalChoice": "정숙"
     },
     {
       "seasonNo": 5,
       "gender": "M",
       "handle": "정식",
-      "photo": { "src": null, "alt": "나는 SOLO 5기 정식" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 5기 정식"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1988,
@@ -131,17 +156,18 @@
         "https://www.gukjenews.com/news/articleView.html?idxno=2383983",
         "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
       ],
-      "bio": "유쾌한 성격과 진솔한 구애 방식으로 시청자들에게 호감을 얻었다. 최종 선택에서 정순과 커플이 됐으며, 정순과 정숙이 절친 사이로 동반 입성해 둘 다 커플이 된 이례적인 결과를 낳았다.",
-      "bioSources": [
-        "https://news.nate.com/view/20220203n03607"
-      ],
+      "bio": null,
+      "bioSources": [],
       "finalChoice": "정순"
     },
     {
       "seasonNo": 5,
       "gender": "F",
       "handle": "순자",
-      "photo": { "src": null, "alt": "나는 SOLO 5기 순자" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 5기 순자"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1988,
@@ -152,17 +178,18 @@
         "https://www.gukjenews.com/news/articleView.html?idxno=2383983",
         "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
       ],
-      "bio": "스포츠과학센터 연구원이자 박사과정생으로, 아버지가 대학 교수라는 학구적 배경으로 주목받았다. 직장인 밴드에서 보컬과 기타, 피아노를 담당할 만큼 다재다능한 면모를 보였으나 최종 선택에서 커플이 되지 못했다.",
-      "bioSources": [
-        "https://www.camp-gazua.com/%EB%82%98%EB%8A%94-%EC%86%94%EB%A1%9C-solo-5%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90/"
-      ],
+      "bio": null,
+      "bioSources": [],
       "finalChoice": null
     },
     {
       "seasonNo": 5,
       "gender": "F",
       "handle": "영자",
-      "photo": { "src": null, "alt": "나는 SOLO 5기 영자" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 5기 영자"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1987,
@@ -173,17 +200,18 @@
         "https://www.gukjenews.com/news/articleView.html?idxno=2383983",
         "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
       ],
-      "bio": "방송에서 영수와 세 차례 데이트를 진행했으나 깊이 가까워지지 못했다며 최종 선택에서 눈물을 흘렸다. 영수 역시 최종 선택을 포기하며 두 사람 모두 다시 솔로로 돌아갔다.",
-      "bioSources": [
-        "https://www.edaily.co.kr/news/read?newsId=01092246632226912&mediaCodeNo=258"
-      ],
+      "bio": null,
+      "bioSources": [],
       "finalChoice": null
     },
     {
       "seasonNo": 5,
       "gender": "F",
       "handle": "정순",
-      "photo": { "src": null, "alt": "나는 SOLO 5기 정순" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 5기 정순"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1993,
@@ -194,17 +222,18 @@
         "https://www.gukjenews.com/news/articleView.html?idxno=2383983",
         "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
       ],
-      "bio": "절친인 정숙과 동반 입성해 화제가 됐다. 최종 선택에서 정식과 커플이 됐으며, 정숙도 같은 회차에 커플이 됨으로써 동반 입성한 절친 둘 다 커플이 되는 이례적인 결과가 탄생했다.",
-      "bioSources": [
-        "https://news.nate.com/view/20220203n03607"
-      ],
+      "bio": null,
+      "bioSources": [],
       "finalChoice": "정식"
     },
     {
       "seasonNo": 5,
       "gender": "F",
       "handle": "정숙",
-      "photo": { "src": null, "alt": "나는 SOLO 5기 정숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 5기 정숙"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1993,
@@ -215,17 +244,18 @@
         "https://www.gukjenews.com/news/articleView.html?idxno=2383983",
         "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
       ],
-      "bio": "해금 연주자라는 이색 직업으로 주목받았다. 최종 선택에서 정수와 커플이 됐으나, 방송 후 정수와 편한 오빠 동생 사이로 지내기로 했다고 밝히며 사실상 결별했다.",
-      "bioSources": [
-        "https://news.nate.com/view/20221013n41911"
-      ],
+      "bio": null,
+      "bioSources": [],
       "finalChoice": "정수"
     },
     {
       "seasonNo": 5,
       "gender": "F",
       "handle": "영숙",
-      "photo": { "src": null, "alt": "나는 SOLO 5기 영숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 5기 영숙"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1993,
@@ -236,17 +266,18 @@
         "https://www.gukjenews.com/news/articleView.html?idxno=2383983",
         "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
       ],
-      "bio": "좋아하는 것을 배우고 자격증을 따는 걸 즐긴다는 진취적인 자기소개로 좋은 인상을 남겼다. 최종 선택에서 영식이 영숙을 선택했으나 영숙이 선택을 보류하며 커플이 성사되지 않았다.",
-      "bioSources": [
-        "https://news.nate.com/view/20220203n03607"
-      ],
+      "bio": null,
+      "bioSources": [],
       "finalChoice": null
     },
     {
       "seasonNo": 5,
       "gender": "F",
       "handle": "정자",
-      "photo": { "src": null, "alt": "나는 SOLO 5기 정자" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 5기 정자"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1990,
@@ -257,10 +288,8 @@
         "https://www.gukjenews.com/news/articleView.html?idxno=2383983",
         "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
       ],
-      "bio": "스스로를 금사빠라고 소개하며 연애에 적극적인 면모를 드러냈다. 영호가 최종 선택에서 정자를 선택했으나 정자는 영호를 선택하지 않아 커플이 되지 못했다.",
-      "bioSources": [
-        "https://news.nate.com/view/20220203n03607"
-      ],
+      "bio": null,
+      "bioSources": [],
       "finalChoice": null
     }
   ]
