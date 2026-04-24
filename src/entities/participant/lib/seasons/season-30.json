@@ -2,22 +2,52 @@
   "seasonNo": 30,
   "label": "30기 (에겐남 & 테토녀)",
   "episodes": [
-    { "ep": 238, "airDate": "2026-01-28" },
-    { "ep": 239, "airDate": "2026-02-04" },
-    { "ep": 240, "airDate": "2026-02-11" },
-    { "ep": 241, "airDate": "2026-02-18" },
-    { "ep": 242, "airDate": "2026-02-25" },
-    { "ep": 243, "airDate": "2026-03-04" },
-    { "ep": 244, "airDate": "2026-03-11" },
-    { "ep": 245, "airDate": "2026-03-18" },
-    { "ep": 246, "airDate": "2026-03-25" }
+    {
+      "ep": 238,
+      "airDate": "2026-01-28"
+    },
+    {
+      "ep": 239,
+      "airDate": "2026-02-04"
+    },
+    {
+      "ep": 240,
+      "airDate": "2026-02-11"
+    },
+    {
+      "ep": 241,
+      "airDate": "2026-02-18"
+    },
+    {
+      "ep": 242,
+      "airDate": "2026-02-25"
+    },
+    {
+      "ep": 243,
+      "airDate": "2026-03-04"
+    },
+    {
+      "ep": 244,
+      "airDate": "2026-03-11"
+    },
+    {
+      "ep": 245,
+      "airDate": "2026-03-18"
+    },
+    {
+      "ep": 246,
+      "airDate": "2026-03-25"
+    }
   ],
   "participants": [
     {
       "seasonNo": 30,
       "gender": "M",
       "handle": "영수",
-      "photo": { "src": null, "alt": "나는 SOLO 30기 영수" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 30기 영수"
+      },
       "instagram": "_dryhands",
       "profile": {
         "birthYear": 1992,
@@ -38,7 +68,10 @@
       "seasonNo": 30,
       "gender": "M",
       "handle": "영식",
-      "photo": { "src": null, "alt": "나는 SOLO 30기 영식" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 30기 영식"
+      },
       "instagram": "shimpodo",
       "profile": {
         "birthYear": 1992,
@@ -60,7 +93,10 @@
       "seasonNo": 30,
       "gender": "M",
       "handle": "영호",
-      "photo": { "src": null, "alt": "나는 SOLO 30기 영호" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 30기 영호"
+      },
       "instagram": "jhw1773",
       "profile": {
         "birthYear": 1992,
@@ -81,7 +117,10 @@
       "seasonNo": 30,
       "gender": "M",
       "handle": "영철",
-      "photo": { "src": null, "alt": "나는 SOLO 30기 영철" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 30기 영철"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1991,
@@ -104,7 +143,10 @@
       "seasonNo": 30,
       "gender": "M",
       "handle": "광수",
-      "photo": { "src": null, "alt": "나는 SOLO 30기 광수" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 30기 광수"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1992,
@@ -125,7 +167,10 @@
       "seasonNo": 30,
       "gender": "M",
       "handle": "상철",
-      "photo": { "src": null, "alt": "나는 SOLO 30기 상철" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 30기 상철"
+      },
       "instagram": "rtmx_11",
       "profile": {
         "birthYear": 1989,
@@ -147,7 +192,10 @@
       "seasonNo": 30,
       "gender": "F",
       "handle": "영숙",
-      "photo": { "src": null, "alt": "나는 SOLO 30기 영숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 30기 영숙"
+      },
       "instagram": "bwhessy",
       "profile": {
         "birthYear": 1991,
@@ -156,7 +204,8 @@
       },
       "sources": [
         "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-30%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/",
-        "https://ccarinto.com/%EB%82%98%EB%8A%94-%EC%86%94%EB%A1%9C-30%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%A7%84-%EC%9D%B8%EC%8A%A4%ED%83%80%EA%B7%B8%EB%9E%A8-%EC%A0%95%EB%B3%B4%F0%9F%93%B7/"
+        "https://ccarinto.com/%EB%82%98%EB%8A%94-%EC%86%94%EB%A1%9C-30%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%A7%84-%EC%9D%B8%EC%8A%A4%ED%83%80%EA%B7%B8%EB%9E%A8-%EC%A0%95%EB%B3%B4%F0%9F%93%B7/",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
       ],
       "bio": "상철이 영숙의 어장관리에 직접 항의하는 장면이 화제가 됐고, 영식이 김치찌개 사건으로 속상해할 때 따뜻하게 위로해 '오은영숙'이라는 별명을 얻었다. 영호가 자신을 선택하지 않자 울분을 참지 못했으며, 영호가 \"우리 연애하면 개판 싸울 것 같다\"고 하자 \"포크를 들고 덤비니까 나도 칼을 빼드는 것\"이라고 맞받아친 대사가 명대사로 회자됐다.",
       "bioSources": [
@@ -168,7 +217,10 @@
       "seasonNo": 30,
       "gender": "F",
       "handle": "정숙",
-      "photo": { "src": null, "alt": "나는 SOLO 30기 정숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 30기 정숙"
+      },
       "instagram": "wlrkdwn",
       "profile": {
         "birthYear": 1993,
@@ -189,7 +241,10 @@
       "seasonNo": 30,
       "gender": "F",
       "handle": "순자",
-      "photo": { "src": null, "alt": "나는 SOLO 30기 순자" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 30기 순자"
+      },
       "instagram": "boxing_podo",
       "profile": {
         "birthYear": 1995,
@@ -197,7 +252,8 @@
         "region": "서울 관악구"
       },
       "sources": [
-        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-30%EA%B8%B0-%EC%88%9C%EC%9E%90-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%A0%95%EB%A6%AC/"
+        "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-30%EA%B8%B0-%EC%88%9C%EC%9E%90-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%EC%A0%95%EB%A6%AC/",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
       ],
       "bio": "영수를 두고 옥순과 삼각관계가 형성되자 옥순을 공개적으로 피하고 다른 여성 출연자들에게 \"옥순과 같이 있으면 불편하다\"고 토로하며 옥순을 사실상 고립시키는 모습으로 '진상' 논란을 일으켰다. 방송 종료 후 진행된 라이브 방송에서 눈물을 흘리며 옥순에게 \"방송을 보고 나서야 옥순이 힘들었다는 걸 알았다\"며 공개 사과했다.",
       "bioSources": [
@@ -209,7 +265,10 @@
       "seasonNo": 30,
       "gender": "F",
       "handle": "영자",
-      "photo": { "src": null, "alt": "나는 SOLO 30기 영자" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 30기 영자"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1992,
@@ -231,7 +290,10 @@
       "seasonNo": 30,
       "gender": "F",
       "handle": "옥순",
-      "photo": { "src": null, "alt": "나는 SOLO 30기 옥순" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 30기 옥순"
+      },
       "instagram": "noajoa_",
       "profile": {
         "birthYear": 1992,
@@ -240,7 +302,8 @@
       },
       "sources": [
         "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-30%EA%B8%B0-%EC%98%A5%EC%88%9C-%ED%94%84%EB%A1%9C%ED%95%84-%EB%82%98%EC%9D%B4-%EC%A7%81%EC%97%85/",
-        "https://www.thinkaloudblog.com/2026/03/blog-post_808.html"
+        "https://www.thinkaloudblog.com/2026/03/blog-post_808.html",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
       ],
       "bio": "이화여대 무용과 출신으로 이상형을 '존경할 수 있는 남자'라고 답해 MC 데프콘이 \"위인급이어야 해요?\"라고 직격해 웃음을 자아냈다. 순자의 견제와 고립 시도에도 \"마음을 내려놓겠다\"며 여유 있는 태도를 유지해 긍정적 평가를 받았으며, 영수와 최종 커플이 된 후 방송 종료 2주 만에 영수가 고백해 실제 연인이 됐다고 라이브 방송에서 공개 발표했다.",
       "bioSources": [
@@ -253,7 +316,10 @@
       "seasonNo": 30,
       "gender": "F",
       "handle": "현숙",
-      "photo": { "src": null, "alt": "나는 SOLO 30기 현숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 30기 현숙"
+      },
       "instagram": "itsgabventures",
       "profile": {
         "birthYear": 1992,
@@ -262,7 +328,8 @@
       },
       "sources": [
         "https://dategom.com/%EB%82%98%EB%8A%94%EC%86%54%EB%A1%9C-30%EA%B8%B0-%ED%98%84%EC%88%99-%ED%94%84%EB%A1%9C%ED%95%84-%EB%82%98%EC%9D%B4-%EC%A7%81%EC%97%85/",
-        "https://ccarinto.com/%EB%82%98%EB%8A%94-%EC%86%94%EB%A1%9C-30%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%A7%84-%EC%9D%B8%EC%8A%A4%ED%83%80%EA%B7%B8%EB%9E%A8-%EC%A0%95%EB%B3%B4%F0%9F%93%B7/"
+        "https://ccarinto.com/%EB%82%98%EB%8A%94-%EC%86%94%EB%A1%9C-30%EA%B8%B0-%EC%B6%9C%EC%97%B0%EC%A7%84-%EC%9D%B8%EC%8A%A4%ED%83%80%EA%B7%B8%EB%9E%A8-%EC%A0%95%EB%B3%B4%F0%9F%93%B7/",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
       ],
       "bio": "데이트 자리에서 상철에게 \"출산 후 5년은 육아에 집중하고 싶은데 외벌이가 가능하겠냐\"고 직접 질문해 가치관 충돌을 일으키는 장면이 화제가 됐다. 초반에는 조건을 먼저 따지는 직설적 화법으로 비판을 받았으나 다른 출연자들의 인성 논란이 불거지면서 오히려 '솔직한 직진녀'로 재평가받았으며, 종방 후 인스타그램에 \"행복했습니다 - 관광객 30기 현숙\"이라는 멘트와 비하인드 사진을 공유해 긍정적인 반응을 얻었다.",
       "bioSources": [

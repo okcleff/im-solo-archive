@@ -2,21 +2,48 @@
   "seasonNo": 14,
   "label": "14기",
   "episodes": [
-    { "ep": 92, "airDate": "2023-04-12" },
-    { "ep": 93, "airDate": "2023-04-19" },
-    { "ep": 94, "airDate": "2023-04-26" },
-    { "ep": 95, "airDate": "2023-05-03" },
-    { "ep": 96, "airDate": "2023-05-10" },
-    { "ep": 97, "airDate": "2023-05-17" },
-    { "ep": 98, "airDate": "2023-05-24" },
-    { "ep": 99, "airDate": "2023-05-31" }
+    {
+      "ep": 92,
+      "airDate": "2023-04-12"
+    },
+    {
+      "ep": 93,
+      "airDate": "2023-04-19"
+    },
+    {
+      "ep": 94,
+      "airDate": "2023-04-26"
+    },
+    {
+      "ep": 95,
+      "airDate": "2023-05-03"
+    },
+    {
+      "ep": 96,
+      "airDate": "2023-05-10"
+    },
+    {
+      "ep": 97,
+      "airDate": "2023-05-17"
+    },
+    {
+      "ep": 98,
+      "airDate": "2023-05-24"
+    },
+    {
+      "ep": 99,
+      "airDate": "2023-05-31"
+    }
   ],
   "participants": [
     {
       "seasonNo": 14,
       "gender": "M",
       "handle": "영수",
-      "photo": { "src": null, "alt": "나는 SOLO 14기 영수" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 14기 영수"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1981,
@@ -36,7 +63,10 @@
       "seasonNo": 14,
       "gender": "M",
       "handle": "영호",
-      "photo": { "src": null, "alt": "나는 SOLO 14기 영호" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 14기 영호"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1981,
@@ -56,7 +86,10 @@
       "seasonNo": 14,
       "gender": "M",
       "handle": "영식",
-      "photo": { "src": null, "alt": "나는 SOLO 14기 영식" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 14기 영식"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1983,
@@ -76,7 +109,10 @@
       "seasonNo": 14,
       "gender": "M",
       "handle": "영철",
-      "photo": { "src": null, "alt": "나는 SOLO 14기 영철" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 14기 영철"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1984,
@@ -97,7 +133,10 @@
       "seasonNo": 14,
       "gender": "M",
       "handle": "광수",
-      "photo": { "src": null, "alt": "나는 SOLO 14기 광수" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 14기 광수"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1982,
@@ -117,7 +156,10 @@
       "seasonNo": 14,
       "gender": "M",
       "handle": "상철",
-      "photo": { "src": null, "alt": "나는 SOLO 14기 상철" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 14기 상철"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1984,
@@ -137,7 +179,10 @@
       "seasonNo": 14,
       "gender": "M",
       "handle": "경수",
-      "photo": { "src": null, "alt": "나는 SOLO 14기 경수" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 14기 경수"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1981,
@@ -157,7 +202,10 @@
       "seasonNo": 14,
       "gender": "F",
       "handle": "영숙",
-      "photo": { "src": null, "alt": "나는 SOLO 14기 영숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 14기 영숙"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1993,
@@ -177,7 +225,10 @@
       "seasonNo": 14,
       "gender": "F",
       "handle": "정숙",
-      "photo": { "src": null, "alt": "나는 SOLO 14기 정숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 14기 정숙"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1980,
@@ -197,7 +248,10 @@
       "seasonNo": 14,
       "gender": "F",
       "handle": "순자",
-      "photo": { "src": null, "alt": "나는 SOLO 14기 순자" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 14기 순자"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1991,
@@ -217,7 +271,10 @@
       "seasonNo": 14,
       "gender": "F",
       "handle": "영자",
-      "photo": { "src": null, "alt": "나는 SOLO 14기 영자" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 14기 영자"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1993,
@@ -225,7 +282,8 @@
         "region": null
       },
       "sources": [
-        "https://www.instagram.com/graceimsu/"
+        "https://www.instagram.com/graceimsu/",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
       ],
       "bio": "상철과 최종 커플이 됐으나 방송 후 결별했다. 나솔사계에 재출연해 '다시 솔로의 길로 왔다'고 밝혔으며, 방송 중 일부 출연자에게 무례한 태도를 보였다는 지적을 받았다.",
       "bioSources": [
@@ -237,7 +295,10 @@
       "seasonNo": 14,
       "gender": "F",
       "handle": "옥순",
-      "photo": { "src": null, "alt": "나는 SOLO 14기 옥순" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 14기 옥순"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1986,
@@ -257,7 +318,10 @@
       "seasonNo": 14,
       "gender": "F",
       "handle": "현숙",
-      "photo": { "src": null, "alt": "나는 SOLO 14기 현숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 14기 현숙"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1983,

@@ -2,21 +2,48 @@
   "seasonNo": 12,
   "label": "12기",
   "episodes": [
-    { "ep": 76, "airDate": "2022-12-21" },
-    { "ep": 77, "airDate": "2022-12-28" },
-    { "ep": 78, "airDate": "2023-01-04" },
-    { "ep": 79, "airDate": "2023-01-11" },
-    { "ep": 80, "airDate": "2023-01-18" },
-    { "ep": 81, "airDate": "2023-01-25" },
-    { "ep": 82, "airDate": "2023-02-01" },
-    { "ep": 83, "airDate": "2023-02-08" }
+    {
+      "ep": 76,
+      "airDate": "2022-12-21"
+    },
+    {
+      "ep": 77,
+      "airDate": "2022-12-28"
+    },
+    {
+      "ep": 78,
+      "airDate": "2023-01-04"
+    },
+    {
+      "ep": 79,
+      "airDate": "2023-01-11"
+    },
+    {
+      "ep": 80,
+      "airDate": "2023-01-18"
+    },
+    {
+      "ep": 81,
+      "airDate": "2023-01-25"
+    },
+    {
+      "ep": 82,
+      "airDate": "2023-02-01"
+    },
+    {
+      "ep": 83,
+      "airDate": "2023-02-08"
+    }
   ],
   "participants": [
     {
       "seasonNo": 12,
       "gender": "M",
       "handle": "영수",
-      "photo": { "src": null, "alt": "나는 SOLO 12기 영수" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 12기 영수"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1984,
@@ -38,7 +65,10 @@
       "seasonNo": 12,
       "gender": "M",
       "handle": "영호",
-      "photo": { "src": null, "alt": "나는 SOLO 12기 영호" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 12기 영호"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1993,
@@ -60,7 +90,10 @@
       "seasonNo": 12,
       "gender": "M",
       "handle": "영식",
-      "photo": { "src": null, "alt": "나는 SOLO 12기 영식" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 12기 영식"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1992,
@@ -68,7 +101,8 @@
         "region": "강원 원주"
       },
       "sources": [
-        "https://enter1.youstory222.com/359"
+        "https://enter1.youstory222.com/359",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
       ],
       "bio": null,
       "bioSources": [],
@@ -78,7 +112,10 @@
       "seasonNo": 12,
       "gender": "M",
       "handle": "영철",
-      "photo": { "src": null, "alt": "나는 SOLO 12기 영철" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 12기 영철"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1985,
@@ -87,7 +124,8 @@
       },
       "sources": [
         "https://enter1.youstory222.com/359",
-        "https://as111.byslowly.com/entry/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-12%EA%B8%B0-%EB%AA%A8%ED%83%9C%EC%86%94%EB%A1%9C-%ED%8A%B9%EC%A7%91-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%ED%95%99%EA%B5%90-%EB%82%98%EC%9D%B4-%EC%A7%81%EC%97%85-%EC%B2%AB%EC%9D%B8%EC%83%81-%EC%84%A0%ED%83%9D-%EC%B4%AC%EC%98%81%EC%A7%80-%EC%8B%A0%EB%A5%B5%EC%82%AC-76%ED%9A%8C"
+        "https://as111.byslowly.com/entry/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-12%EA%B8%B0-%EB%AA%A8%ED%83%9C%EC%86%94%EB%A1%9C-%ED%8A%B9%EC%A7%91-%EC%B6%9C%EC%97%B0%EC%9E%90-%ED%94%84%EB%A1%9C%ED%95%84-%ED%95%99%EA%B5%90-%EB%82%98%EC%9D%B4-%EC%A7%81%EC%97%85-%EC%B2%AB%EC%9D%B8%EC%83%81-%EC%84%A0%ED%83%9D-%EC%B4%AC%EC%98%81%EC%A7%80-%EC%8B%A0%EB%A5%B5%EC%82%AC-76%ED%9A%8C",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
       ],
       "bio": "프로레슬러라는 이색 직업으로 화제를 모았다. 최종 선택 대기 중 저혈당 증상으로 쓰러질 뻔하는 돌발 상황이 발생했으며, 광수가 옥순에게 집착하는 모습에 '상대방을 좀 생각해'라고 직접 일침을 놓았다.",
       "bioSources": [
@@ -99,7 +137,10 @@
       "seasonNo": 12,
       "gender": "M",
       "handle": "광수",
-      "photo": { "src": null, "alt": "나는 SOLO 12기 광수" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 12기 광수"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1990,
@@ -107,7 +148,8 @@
         "region": "서울 강남"
       },
       "sources": [
-        "https://enter1.youstory222.com/359"
+        "https://enter1.youstory222.com/359",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
       ],
       "bio": "옥순에게 집착적인 어필을 반복해 이번 기수 최대 화제 인물이 됐다. 여자 숙소 앞에서 종을 다섯 번 치며 구애했지만 옥순이 '부담스럽다, 그만했으면 좋겠다'고 단호히 거절하자 옥순이 눈물을 흘리는 장면이 방송됐다. 이후 SNS에 '방송 보고 깨달았다, 미친 짓이었다'며 공개 사과했다.",
       "bioSources": [
@@ -120,7 +162,10 @@
       "seasonNo": 12,
       "gender": "M",
       "handle": "상철",
-      "photo": { "src": null, "alt": "나는 SOLO 12기 상철" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 12기 상철"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1987,
@@ -128,7 +173,8 @@
         "region": "인천"
       },
       "sources": [
-        "https://enter1.youstory222.com/359"
+        "https://enter1.youstory222.com/359",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
       ],
       "bio": "방송 종료 후 동창으로부터 여성 출연자에게 보낸 사적 메시지가 공개되며 논란이 됐다. 메시지에는 본인의 이성 교제 경험 등을 포함한 부적절한 내용이 담겨 있었으며, 여성 출연자가 선을 그었음에도 계속 이어진 것으로 알려졌다.",
       "bioSources": [
@@ -140,7 +186,10 @@
       "seasonNo": 12,
       "gender": "F",
       "handle": "영숙",
-      "photo": { "src": null, "alt": "나는 SOLO 12기 영숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 12기 영숙"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1993,
@@ -148,7 +197,8 @@
         "region": "전남 여수"
       },
       "sources": [
-        "https://fromschannel.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C12%EA%B8%B0%EC%A7%81%EC%97%85%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-12%EA%B8%B0-%EC%97%AC%EC%9E%90-%EC%A7%81%EC%97%85-%EC%98%81%EC%88%99-%EC%88%9C%EC%9E%90/"
+        "https://fromschannel.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C12%EA%B8%B0%EC%A7%81%EC%97%85%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-12%EA%B8%B0-%EC%97%AC%EC%9E%90-%EC%A7%81%EC%97%85-%EC%98%81%EC%88%99-%EC%88%9C%EC%9E%90/",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
       ],
       "bio": "필리핀 이민과 호주 유학 경험을 가진 글로벌 이력으로 주목받았으며, 자기소개에서 헨델의 '울게 하소서'를 직접 불러 가창력으로 화제가 됐다. 첫인상 선택에서 여성 중 최다인 3표를 받아 인기녀로 떠올랐다.",
       "bioSources": [
@@ -160,7 +210,10 @@
       "seasonNo": 12,
       "gender": "F",
       "handle": "정숙",
-      "photo": { "src": null, "alt": "나는 SOLO 12기 정숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 12기 정숙"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1988,
@@ -168,7 +221,8 @@
         "region": null
       },
       "sources": [
-        "https://fromschannel.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C12%EA%B8%B0%EC%A7%81%EC%97%85%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-12%EA%B8%B0-%EC%97%AC%EC%9E%90-%EC%A7%81%EC%97%85-%EC%98%81%EC%88%99-%EC%88%9C%EC%9E%90/"
+        "https://fromschannel.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C12%EA%B8%B0%EC%A7%81%EC%97%85%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-12%EA%B8%B0-%EC%97%AC%EC%9E%90-%EC%A7%81%EC%97%85-%EC%98%81%EC%88%99-%EC%88%9C%EC%9E%90/",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
       ],
       "bio": "영호와 솔로 나라에서 뽀뽀를 나눈 장면이 방송 예고편에서 예고되며 큰 화제가 됐다. 영호와 최종 커플이 됐으나 8개월 만에 결별했다.",
       "bioSources": [
@@ -180,7 +234,10 @@
       "seasonNo": 12,
       "gender": "F",
       "handle": "순자",
-      "photo": { "src": null, "alt": "나는 SOLO 12기 순자" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 12기 순자"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1994,
@@ -201,7 +258,10 @@
       "seasonNo": 12,
       "gender": "F",
       "handle": "영자",
-      "photo": { "src": null, "alt": "나는 SOLO 12기 영자" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 12기 영자"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1991,
@@ -209,7 +269,8 @@
         "region": "판교"
       },
       "sources": [
-        "https://fromschannel.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C12%EA%B8%B0%EC%A7%81%EC%97%85%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-12%EA%B8%B0-%EC%97%AC%EC%9E%90-%EC%A7%81%EC%97%85-%EC%98%81%EC%88%99-%EC%88%9C%EC%9E%90/"
+        "https://fromschannel.com/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C12%EA%B8%B0%EC%A7%81%EC%97%85%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-12%EA%B8%B0-%EC%97%AC%EC%9E%90-%EC%A7%81%EC%97%85-%EC%98%81%EC%88%99-%EC%88%9C%EC%9E%90/",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
       ],
       "bio": "히로시마 국제 애니메이션 영화제와 칸 영화제에 졸업 작품이 초청된 실력파 연출가로 화제를 모았다. '영화제 가고 싶어서 작업만 열심히 했고 연애는 우선순위가 아니었다'고 밝혀 모태솔로 이유로 공감을 얻었다.",
       "bioSources": [
@@ -221,7 +282,10 @@
       "seasonNo": 12,
       "gender": "F",
       "handle": "옥순",
-      "photo": { "src": null, "alt": "나는 SOLO 12기 옥순" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 12기 옥순"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1994,
@@ -242,7 +306,10 @@
       "seasonNo": 12,
       "gender": "F",
       "handle": "현숙",
-      "photo": { "src": null, "alt": "나는 SOLO 12기 현숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 12기 현숙"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1991,

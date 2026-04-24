@@ -2,21 +2,48 @@
   "seasonNo": 13,
   "label": "13기",
   "episodes": [
-    { "ep": 84, "airDate": "2023-02-15" },
-    { "ep": 85, "airDate": "2023-02-22" },
-    { "ep": 86, "airDate": "2023-03-01" },
-    { "ep": 87, "airDate": "2023-03-08" },
-    { "ep": 88, "airDate": "2023-03-15" },
-    { "ep": 89, "airDate": "2023-03-22" },
-    { "ep": 90, "airDate": "2023-03-29" },
-    { "ep": 91, "airDate": "2023-04-05" }
+    {
+      "ep": 84,
+      "airDate": "2023-02-15"
+    },
+    {
+      "ep": 85,
+      "airDate": "2023-02-22"
+    },
+    {
+      "ep": 86,
+      "airDate": "2023-03-01"
+    },
+    {
+      "ep": 87,
+      "airDate": "2023-03-08"
+    },
+    {
+      "ep": 88,
+      "airDate": "2023-03-15"
+    },
+    {
+      "ep": 89,
+      "airDate": "2023-03-22"
+    },
+    {
+      "ep": 90,
+      "airDate": "2023-03-29"
+    },
+    {
+      "ep": 91,
+      "airDate": "2023-04-05"
+    }
   ],
   "participants": [
     {
       "seasonNo": 13,
       "gender": "M",
       "handle": "영수",
-      "photo": { "src": null, "alt": "나는 SOLO 13기 영수" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 13기 영수"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1982,
@@ -38,7 +65,10 @@
       "seasonNo": 13,
       "gender": "M",
       "handle": "영호",
-      "photo": { "src": null, "alt": "나는 SOLO 13기 영호" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 13기 영호"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1986,
@@ -46,7 +76,8 @@
         "region": "서울"
       },
       "sources": [
-        "https://enter1.youstory222.com/404"
+        "https://enter1.youstory222.com/404",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
       ],
       "bio": "정숙과 최종 커플이 됐으며 역대 최다 커플(5쌍) 탄생이라는 13기의 기록에 기여했다. 방송 후 두 사람은 친구로 남기로 했다고 라이브 방송에서 밝혔다.",
       "bioSources": [
@@ -59,7 +90,10 @@
       "seasonNo": 13,
       "gender": "M",
       "handle": "영식",
-      "photo": { "src": null, "alt": "나는 SOLO 13기 영식" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 13기 영식"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1988,
@@ -67,7 +101,8 @@
         "region": null
       },
       "sources": [
-        "https://enter1.youstory222.com/404"
+        "https://enter1.youstory222.com/404",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
       ],
       "bio": "체육고 역도부 코치라는 이색 직업이 화제를 모았다. 영숙을 최종 선택해 커플이 됐으나 방송 후 친구로 남기로 했다고 밝혔다.",
       "bioSources": [
@@ -80,7 +115,10 @@
       "seasonNo": 13,
       "gender": "M",
       "handle": "영철",
-      "photo": { "src": null, "alt": "나는 SOLO 13기 영철" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 13기 영철"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1994,
@@ -88,7 +126,8 @@
         "region": "청주"
       },
       "sources": [
-        "https://enter1.youstory222.com/404"
+        "https://enter1.youstory222.com/404",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
       ],
       "bio": "국내 최대 규모 동양란 농장을 운영하는 부농 2세로 주목받았다. 2016년 아버지 농장에서 50억 원 규모의 난 도난 사건이 발생했다는 사실이 알려지며 '청주 50억 난초 도난 사건 피해자'로 화제가 됐다. 첫인상 선택에서 여성 출연자 전원에게 선택받는 올킬을 기록했다.",
       "bioSources": [
@@ -101,7 +140,10 @@
       "seasonNo": 13,
       "gender": "M",
       "handle": "광수",
-      "photo": { "src": null, "alt": "나는 SOLO 13기 광수" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 13기 광수"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1989,
@@ -109,7 +151,8 @@
         "region": null
       },
       "sources": [
-        "https://enter1.youstory222.com/404"
+        "https://enter1.youstory222.com/404",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
       ],
       "bio": "삼성전자 내 사내 수상 경력이 있는 우수 개발자로 소개됐으며 말이 많아 별명이 '교수님'이었다. 순자와 최종 커플이 됐으며 13기 역대 최다 5커플 탄생에 함께했다.",
       "bioSources": [
@@ -122,7 +165,10 @@
       "seasonNo": 13,
       "gender": "M",
       "handle": "상철",
-      "photo": { "src": null, "alt": "나는 SOLO 13기 상철" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 13기 상철"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1989,
@@ -144,7 +190,10 @@
       "seasonNo": 13,
       "gender": "F",
       "handle": "영숙",
-      "photo": { "src": null, "alt": "나는 SOLO 13기 영숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 13기 영숙"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1990,
@@ -166,7 +215,10 @@
       "seasonNo": 13,
       "gender": "F",
       "handle": "정숙",
-      "photo": { "src": null, "alt": "나는 SOLO 13기 정숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 13기 정숙"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1991,
@@ -174,7 +226,8 @@
         "region": null
       },
       "sources": [
-        "https://enter1.youstory222.com/403"
+        "https://enter1.youstory222.com/403",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
       ],
       "bio": "방송 중 출연 분량이 제작진에 의해 최소화됐으며 관련 영상이 공식 유튜브 채널에서 전면 삭제됐다. 촌장엔터테인먼트는 공식 사과문을 발표하고 정숙의 분량을 최대한 편집해 방영하겠다고 밝혔다.",
       "bioSources": [
@@ -186,7 +239,10 @@
       "seasonNo": 13,
       "gender": "F",
       "handle": "순자",
-      "photo": { "src": null, "alt": "나는 SOLO 13기 순자" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 13기 순자"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1988,
@@ -194,7 +250,8 @@
         "region": null
       },
       "sources": [
-        "https://enter1.youstory222.com/403"
+        "https://enter1.youstory222.com/403",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
       ],
       "bio": "아마존 코리아 클라우드 엔지니어라는 이색 직업으로 주목받았다. 광수와 최종 커플이 됐으며 역대 최다 5커플 배출이라는 13기의 기록을 함께 세웠다.",
       "bioSources": [
@@ -207,7 +264,10 @@
       "seasonNo": 13,
       "gender": "F",
       "handle": "영자",
-      "photo": { "src": null, "alt": "나는 SOLO 13기 영자" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 13기 영자"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1990,
@@ -215,7 +275,8 @@
         "region": null
       },
       "sources": [
-        "https://enter1.youstory222.com/403"
+        "https://enter1.youstory222.com/403",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
       ],
       "bio": "데이트 선택을 받지 못해 '고독정식'을 먹으며 눈물을 쏟는 장면이 방송됐다. '첫인상 0표, 혼자 울면서 짜장면 먹기, 호감 있는 사람에게 반응이 없어서 어필하려 아침 만들기' 등 원치 않는 장면들만 경험했다고 솔직하게 털어놓아 시청자들의 공감을 얻었다.",
       "bioSources": [
@@ -227,7 +288,10 @@
       "seasonNo": 13,
       "gender": "F",
       "handle": "옥순",
-      "photo": { "src": null, "alt": "나는 SOLO 13기 옥순" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 13기 옥순"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1990,
@@ -235,7 +299,8 @@
         "region": null
       },
       "sources": [
-        "https://enter1.youstory222.com/403"
+        "https://enter1.youstory222.com/403",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
       ],
       "bio": "영숙의 정보 왜곡에 피해를 보면서도 당당하게 사과를 요구하는 모습으로 시청자들의 지지를 받았다. 상철과 최종 커플이 됐으며 이후 실제 결혼으로 이어져 나는 SOLO 제8대 결혼 커플의 주인공이 됐다.",
       "bioSources": [
@@ -248,7 +313,10 @@
       "seasonNo": 13,
       "gender": "F",
       "handle": "현숙",
-      "photo": { "src": null, "alt": "나는 SOLO 13기 현숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 13기 현숙"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1994,
@@ -256,7 +324,8 @@
         "region": "경북 경주"
       },
       "sources": [
-        "https://enter1.youstory222.com/403"
+        "https://enter1.youstory222.com/403",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
       ],
       "bio": "영수를 향한 마음을 가슴에 품고 끝까지 기다리면서도 '왜 나만 난이도 극상이지'라고 토로하는 장면이 시청자들의 공감을 샀다. 영수가 다른 여성 출연자와 아침 준비를 하는 모습을 전해 듣고 눈물을 흘렸으며, 결국 영수와 최종 커플이 됐다.",
       "bioSources": [
