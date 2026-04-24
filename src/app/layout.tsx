@@ -59,8 +59,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ko" suppressHydrationWarning>
-      <GoogleTagManagerScript />
       <head>
+        <GoogleTagManagerScript />
         <script
           dangerouslySetInnerHTML={{
             __html: `try{document.documentElement.setAttribute("data-theme",localStorage.getItem("theme"))}catch(e){}`,
