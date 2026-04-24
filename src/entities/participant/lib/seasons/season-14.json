@@ -2,21 +2,48 @@
   "seasonNo": 14,
   "label": "14기",
   "episodes": [
-    { "ep": 92, "airDate": "2023-04-12" },
-    { "ep": 93, "airDate": "2023-04-19" },
-    { "ep": 94, "airDate": "2023-04-26" },
-    { "ep": 95, "airDate": "2023-05-03" },
-    { "ep": 96, "airDate": "2023-05-10" },
-    { "ep": 97, "airDate": "2023-05-17" },
-    { "ep": 98, "airDate": "2023-05-24" },
-    { "ep": 99, "airDate": "2023-05-31" }
+    {
+      "ep": 92,
+      "airDate": "2023-04-12"
+    },
+    {
+      "ep": 93,
+      "airDate": "2023-04-19"
+    },
+    {
+      "ep": 94,
+      "airDate": "2023-04-26"
+    },
+    {
+      "ep": 95,
+      "airDate": "2023-05-03"
+    },
+    {
+      "ep": 96,
+      "airDate": "2023-05-10"
+    },
+    {
+      "ep": 97,
+      "airDate": "2023-05-17"
+    },
+    {
+      "ep": 98,
+      "airDate": "2023-05-24"
+    },
+    {
+      "ep": 99,
+      "airDate": "2023-05-31"
+    }
   ],
   "participants": [
     {
       "seasonNo": 14,
       "gender": "M",
       "handle": "영수",
-      "photo": { "src": null, "alt": "나는 SOLO 14기 영수" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 14기 영수"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1981,
@@ -26,17 +53,18 @@
       "sources": [
         "https://www.hankooki.com/news/articleView.html?idxno=72074"
       ],
-      "bio": "현숙과 최종 커플이 됐으며 방송 후 실제 교제로 이어졌다. 현숙은 이후 '꽤 오래 잘 지내다 결별했다, 결혼을 원했지만 뜻대로 되지 않았다'고 밝혔다.",
-      "bioSources": [
-        "https://www.hankooki.com/news/articleView.html?idxno=72074"
-      ],
+      "bio": null,
+      "bioSources": [],
       "finalChoice": "현숙"
     },
     {
       "seasonNo": 14,
       "gender": "M",
       "handle": "영호",
-      "photo": { "src": null, "alt": "나는 SOLO 14기 영호" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 14기 영호"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1981,
@@ -46,17 +74,18 @@
       "sources": [
         "https://www.hankooki.com/news/articleView.html?idxno=72074"
       ],
-      "bio": "서울시 공무원으로 이필형 동대문구청장이 직원들과 함께 응원 메시지를 남겨 화제가 됐다. 슈퍼데이트 권한을 따낸 뒤 광수가 이를 이용해 원치 않는 매칭을 시도하는 상황이 방송에서 갈등 요소로 부각됐다.",
-      "bioSources": [
-        "https://www.hankooki.com/news/articleView.html?idxno=72074"
-      ],
+      "bio": null,
+      "bioSources": [],
       "finalChoice": null
     },
     {
       "seasonNo": 14,
       "gender": "M",
       "handle": "영식",
-      "photo": { "src": null, "alt": "나는 SOLO 14기 영식" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 14기 영식"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1983,
@@ -66,17 +95,18 @@
       "sources": [
         "https://www.hankooki.com/news/articleView.html?idxno=72074"
       ],
-      "bio": "아버지 사업을 물려받아 알루미늄 제조업을 운영하는 40대 사업가로 소개됐다. 골드 특집에 어울리는 안정된 사업가 이미지로 주목받았으나 최종 선택으로는 이어지지 않았다.",
-      "bioSources": [
-        "https://www.hankooki.com/news/articleView.html?idxno=72074"
-      ],
+      "bio": null,
+      "bioSources": [],
       "finalChoice": null
     },
     {
       "seasonNo": 14,
       "gender": "M",
       "handle": "영철",
-      "photo": { "src": null, "alt": "나는 SOLO 14기 영철" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 14기 영철"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1984,
@@ -86,18 +116,18 @@
       "sources": [
         "https://www.hankooki.com/news/articleView.html?idxno=72074"
       ],
-      "bio": "경남 통영에서 호텔을 운영하는 사업가로 소개됐다. 정숙과 최종 커플이 됐으며 14기 최종 세 커플 탄생에 기여했다.",
-      "bioSources": [
-        "https://www.hankooki.com/news/articleView.html?idxno=72074",
-        "https://isplus.com/article/view/isp202306040033"
-      ],
+      "bio": null,
+      "bioSources": [],
       "finalChoice": "정숙"
     },
     {
       "seasonNo": 14,
       "gender": "M",
       "handle": "광수",
-      "photo": { "src": null, "alt": "나는 SOLO 14기 광수" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 14기 광수"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1982,
@@ -107,17 +137,18 @@
       "sources": [
         "https://www.hankooki.com/news/articleView.html?idxno=72074"
       ],
-      "bio": "해군 장교와 경찰을 거쳐 노무사로 일하는 화려한 이력으로 화제를 모았다. 슈퍼데이트 권한을 따내 원치 않는 매칭을 시도하다 옥순이 이를 다른 여성 출연자들에게 공개하면서 신뢰를 잃었다.",
-      "bioSources": [
-        "https://www.hankooki.com/news/articleView.html?idxno=72074"
-      ],
+      "bio": null,
+      "bioSources": [],
       "finalChoice": null
     },
     {
       "seasonNo": 14,
       "gender": "M",
       "handle": "상철",
-      "photo": { "src": null, "alt": "나는 SOLO 14기 상철" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 14기 상철"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1984,
@@ -127,17 +158,18 @@
       "sources": [
         "https://www.hankooki.com/news/articleView.html?idxno=72074"
       ],
-      "bio": "영자와 최종 커플이 됐으며 방송 후 실제 교제로 이어졌으나 이후 결별했다. 영자는 나솔사계에 재출연해 '다시 솔로의 길로 왔다'고 전했다.",
-      "bioSources": [
-        "https://www.hankooki.com/news/articleView.html?idxno=72074"
-      ],
+      "bio": null,
+      "bioSources": [],
       "finalChoice": "영자"
     },
     {
       "seasonNo": 14,
       "gender": "M",
       "handle": "경수",
-      "photo": { "src": null, "alt": "나는 SOLO 14기 경수" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 14기 경수"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1981,
@@ -147,17 +179,18 @@
       "sources": [
         "https://www.hankooki.com/news/articleView.html?idxno=72074"
       ],
-      "bio": "영숙에게 '네가 대단한 사람인 거지, 이거까지 할 수 있는 마음을 올라오게 해준 거지'라고 말해 MC들로부터 '대한민국에 이런 남자 없다'는 극찬을 받았다. 영숙과 최종 커플이 됐으며, 이후 교제를 이어가다 결별했다.",
-      "bioSources": [
-        "https://www.hankooki.com/news/articleView.html?idxno=72074"
-      ],
+      "bio": null,
+      "bioSources": [],
       "finalChoice": "영숙"
     },
     {
       "seasonNo": 14,
       "gender": "F",
       "handle": "영숙",
-      "photo": { "src": null, "alt": "나는 SOLO 14기 영숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 14기 영숙"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1993,
@@ -167,17 +200,18 @@
       "sources": [
         "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
       ],
-      "bio": "경수의 진심 어린 고백에 감동해 최종 선택에서 경수를 택했다. 이후 결별하고 나솔사계에 재출연해 '결혼까지 생각했지만 맞지 않는 부분이 있었다'고 밝혔다.",
-      "bioSources": [
-        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
-      ],
+      "bio": null,
+      "bioSources": [],
       "finalChoice": "경수"
     },
     {
       "seasonNo": 14,
       "gender": "F",
       "handle": "정숙",
-      "photo": { "src": null, "alt": "나는 SOLO 14기 정숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 14기 정숙"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1980,
@@ -187,17 +221,18 @@
       "sources": [
         "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
       ],
-      "bio": "14기 최연장자 여성 출연자로 43세 나이가 방송 초반 커뮤니티 화제가 됐다. 경쟁자를 제거하려는 의도가 드러나는 발언과 행동으로 평가가 엇갈렸으며, 영철을 선택해 최종 커플이 됐다.",
-      "bioSources": [
-        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
-      ],
+      "bio": null,
+      "bioSources": [],
       "finalChoice": "영철"
     },
     {
       "seasonNo": 14,
       "gender": "F",
       "handle": "순자",
-      "photo": { "src": null, "alt": "나는 SOLO 14기 순자" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 14기 순자"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1991,
@@ -207,17 +242,18 @@
       "sources": [
         "https://www.hankookilbo.com/News/Read/A2023060108100001472"
       ],
-      "bio": "10년 넘게 여성이 드문 직군에서 근무해온 경력을 밝히며 선이나 소개팅을 한 번도 해본 적이 없다고 밝혔다. 테니스·탁구부터 쇼트트랙 국가대표 준비까지 해온 이력으로 반전 매력을 드러냈다.",
-      "bioSources": [
-        "https://www.hankookilbo.com/News/Read/A2023060108100001472"
-      ],
+      "bio": null,
+      "bioSources": [],
       "finalChoice": null
     },
     {
       "seasonNo": 14,
       "gender": "F",
       "handle": "영자",
-      "photo": { "src": null, "alt": "나는 SOLO 14기 영자" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 14기 영자"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1993,
@@ -225,19 +261,21 @@
         "region": null
       },
       "sources": [
-        "https://www.instagram.com/graceimsu/"
+        "https://www.instagram.com/graceimsu/",
+        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
       ],
-      "bio": "상철과 최종 커플이 됐으나 방송 후 결별했다. 나솔사계에 재출연해 '다시 솔로의 길로 왔다'고 밝혔으며, 방송 중 일부 출연자에게 무례한 태도를 보였다는 지적을 받았다.",
-      "bioSources": [
-        "https://www.instagram.com/graceimsu/"
-      ],
+      "bio": null,
+      "bioSources": [],
       "finalChoice": "상철"
     },
     {
       "seasonNo": 14,
       "gender": "F",
       "handle": "옥순",
-      "photo": { "src": null, "alt": "나는 SOLO 14기 옥순" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 14기 옥순"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1986,
@@ -247,17 +285,18 @@
       "sources": [
         "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
       ],
-      "bio": "카타르항공 전직 승무원 출신 한국어 강사로 첫인상 선택에서 영수·영호·영식에게 지목되며 인기녀로 떠올랐다. 광수가 슈퍼데이트 권한을 이용해 원치 않는 매칭을 시도하자 이를 다른 여성 출연자들에게 직접 공개해 갈등을 촉발했다.",
-      "bioSources": [
-        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
-      ],
+      "bio": null,
+      "bioSources": [],
       "finalChoice": null
     },
     {
       "seasonNo": 14,
       "gender": "F",
       "handle": "현숙",
-      "photo": { "src": null, "alt": "나는 SOLO 14기 현숙" },
+      "photo": {
+        "src": null,
+        "alt": "나는 SOLO 14기 현숙"
+      },
       "instagram": null,
       "profile": {
         "birthYear": 1983,
@@ -267,10 +306,8 @@
       "sources": [
         "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
       ],
-      "bio": "방송 중 '맑은 눈의 광녀'라는 별명이 붙을 만큼 예측 불가한 캐릭터로 화제를 모았다. 영수와 최종 커플이 됐으며 방송 후 실제 교제를 이어가다 결별했고, 이후 나솔사계에 재출연해 새 사랑을 찾았다.",
-      "bioSources": [
-        "https://www.blacknews.co.kr/%EB%82%98%EB%8A%94%EC%86%94%EB%A1%9C-%EC%97%AD%EB%8C%80-%EC%B6%9C%EC%97%B0%EC%9E%90-%EC%A7%81%EC%97%85-%EB%82%98%EC%9D%B4-%EC%82%AC%EC%A7%84-%ED%94%84%EB%A1%9C%ED%95%84-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
-      ],
+      "bio": null,
+      "bioSources": [],
       "finalChoice": "영수"
     }
   ]
