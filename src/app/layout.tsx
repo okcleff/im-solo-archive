@@ -14,7 +14,9 @@ import {
 
 function getLastUpdated(): string {
   try {
-    return execSync("git log -1 --format=%cd --date=short", { encoding: "utf-8" }).trim();
+    return execSync("git log -1 --format=%cd --date=short", {
+      encoding: "utf-8",
+    }).trim();
   } catch {
     return new Date().toISOString().slice(0, 10);
   }
@@ -124,7 +126,9 @@ export default function RootLayout({
                   나는 SOLO 공식 VOD
                 </a>
               </p>
-              <p className="mt-1.5">출연자 사진은 초상권 보호를 위해 게재하지 않습니다.</p>
+              <p className="mt-1.5">
+                출연자 사진은 초상권 보호를 위해 게재하지 않습니다.
+              </p>
               <p className="mt-1.5">
                 문의:{" "}
                 <a
@@ -134,18 +138,9 @@ export default function RootLayout({
                   imsoloarchive@gmail.com
                 </a>
               </p>
-              <p className="mt-1.5">
-                GitHub:{" "}
-                <a
-                  href="https://github.com/okcleff/im-solo-archive"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="link link-primary font-medium"
-                >
-                  github.com/okcleff/im-solo-archive
-                </a>
+              <p className="mt-1.5 text-xs">
+                데이터 최종 업데이트: {getLastUpdated()}
               </p>
-              <p className="mt-1.5 text-xs">데이터 최종 업데이트: {getLastUpdated()}</p>
             </div>
           </footer>
         </ThemeProvider>
