@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { execSync } from "child_process";
 import "./globals.css";
 import { SEASONS_DATA, SHOW_INFO } from "@/entities/participant/server";
 import { SeasonNav } from "@/widgets/season-nav";
+import { resolveLastUpdated } from "@/shared/config/last-updated";
 import { getSiteUrl, SITE_NAME } from "@/shared/config/site";
 import ThemeProvider from "@/shared/ui/ThemeProvider";
 import ThemeToggle from "@/shared/ui/ThemeToggle";
@@ -12,17 +12,8 @@ import {
   GoogleTagManagerNoScript,
 } from "@/shared/analytics/GoogleTagManager";
 
-function getLastUpdated(): string {
-  try {
-    return execSync("git log -1 --format=%cd --date=short", {
-      encoding: "utf-8",
-    }).trim();
-  } catch {
-    return new Date().toISOString().slice(0, 10);
-  }
-}
-
 const BASE = getSiteUrl();
+const LAST_UPDATED = resolveLastUpdated();
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE),
@@ -139,7 +130,7 @@ export default function RootLayout({
                 </a>
               </p>
               <p className="mt-1.5 text-xs">
-                데이터 최종 업데이트: {getLastUpdated()}
+                데이터 최종 업데이트: {LAST_UPDATED}
               </p>
             </div>
           </footer>
