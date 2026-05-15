@@ -129,9 +129,9 @@ export default function RootLayout({
                   imsoloarchive@gmail.com
                 </a>
               </p>
-              <p className="mt-1.5 text-xs">
+              {/* <p className="mt-1.5 text-xs">
                 데이터 최종 업데이트: {LAST_UPDATED}
-              </p>
+              </p> */}
             </div>
           </footer>
         </ThemeProvider>
