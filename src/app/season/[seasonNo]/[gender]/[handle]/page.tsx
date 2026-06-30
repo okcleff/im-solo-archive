@@ -135,10 +135,10 @@ export default async function ParticipantPage({ params }: Props) {
             </span>
           </div>
 
-          <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-base-content/45">
-            info
+          <p className="text-sm font-semibold text-secondary">
+            나는 SOLO {p.seasonNo}기
           </p>
-          <h1 className="mt-3 font-(--font-title) text-5xl tracking-tight text-base-content sm:text-6xl">
+          <h1 className="mt-2 font-(--font-title) text-5xl tracking-tight text-base-content sm:text-6xl">
             {p.handle}
           </h1>
           <p className="mt-4 text-base leading-7 text-base-content/65 sm:text-lg">
@@ -146,21 +146,21 @@ export default async function ParticipantPage({ params }: Props) {
           </p>
 
           <div className="mt-8 grid gap-3 sm:grid-cols-3">
-            <div className="rounded-xl border border-base-300 bg-base-200 px-4 py-3">
-              <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-base-content/45">
-                season
+            <div className="rounded-xl border border-base-300 bg-base-100 px-4 py-3">
+              <p className="text-[11px] font-semibold text-base-content/50">
+                기수
               </p>
               <p className="mt-2 text-lg font-semibold">{p.seasonNo}기</p>
             </div>
-            <div className="rounded-xl border border-base-300 bg-base-200 px-4 py-3">
-              <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-base-content/45">
-                age
+            <div className="rounded-xl border border-base-300 bg-base-100 px-4 py-3">
+              <p className="text-[11px] font-semibold text-base-content/50">
+                나이
               </p>
               <p className="mt-2 text-lg font-semibold">{age}</p>
             </div>
-            <div className="rounded-xl border border-base-300 bg-base-200 px-4 py-3">
-              <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-base-content/45">
-                region
+            <div className="rounded-xl border border-base-300 bg-base-100 px-4 py-3">
+              <p className="text-[11px] font-semibold text-base-content/50">
+                지역
               </p>
               <p className="mt-2 text-lg font-semibold">
                 {p.profile.region ?? "미공개"}
@@ -193,6 +193,7 @@ export default async function ParticipantPage({ params }: Props) {
               age={age}
               finalChoiceParticipant={finalChoiceParticipant}
               showGender
+              hideAgeRegion
             />
           </div>
         </section>

@@ -8,6 +8,8 @@ interface Props {
   finalChoiceParticipant?: Participant | null;
   showGender?: boolean;
   showInstagramInFacts?: boolean;
+  /** 나이·지역을 상단 영역에서 이미 보여줄 때 중복 표시를 숨긴다. */
+  hideAgeRegion?: boolean;
   className?: string;
 }
 
@@ -20,7 +22,7 @@ function InfoItem({
 }) {
   return (
     <div className="stat">
-      <dt className="stat-title text-[10px] font-bold uppercase tracking-wider">
+      <dt className="stat-title text-[11px] font-semibold tracking-tight text-base-content/55">
         {label}
       </dt>
       <dd className="stat-value mt-0 text-sm font-medium">
@@ -36,16 +38,19 @@ export default function ParticipantDetailsSections({
   finalChoiceParticipant = null,
   showGender = false,
   showInstagramInFacts = false,
+  hideAgeRegion = false,
   className,
 }: Props) {
   return (
     <div className={className}>
       <dl className="stats stats-vertical sm:stats-horizontal w-full border border-base-300 bg-base-200/70 shadow-sm">
-        <InfoItem label="나이" value={age} />
+        {!hideAgeRegion ? <InfoItem label="나이" value={age} /> : null}
         <InfoItem label="직업" value={p.profile.job} />
-        <InfoItem label="지역" value={p.profile.region} />
+        {!hideAgeRegion ? (
+          <InfoItem label="지역" value={p.profile.region} />
+        ) : null}
         <div className="stat">
-          <dt className="stat-title text-[10px] font-bold uppercase tracking-wider">
+          <dt className="stat-title text-[11px] font-semibold tracking-tight text-base-content/55">
             최종 선택
           </dt>
           <dd className="stat-value mt-0 text-sm font-medium">
@@ -70,7 +75,7 @@ export default function ParticipantDetailsSections({
         ) : null}
         {showInstagramInFacts && p.instagram ? (
           <div className="stat">
-            <dt className="stat-title text-[10px] font-bold uppercase tracking-wider">
+            <dt className="stat-title text-[11px] font-semibold tracking-tight text-base-content/55">
               인스타그램
             </dt>
             <dd className="stat-value mt-0 text-sm font-medium">
@@ -93,7 +98,7 @@ export default function ParticipantDetailsSections({
             📷 출연자 사진은 초상권 보호를 위해 게재하지 않습니다.
             아래 출처 링크에서 확인하실 수 있습니다.
           </p>
-          <h2 className="mb-2.5 text-xs font-bold uppercase tracking-wider text-base-content/55">
+          <h2 className="mb-2.5 text-sm font-semibold text-base-content/60">
             출처
           </h2>
           <ul className="space-y-2">

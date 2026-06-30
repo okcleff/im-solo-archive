@@ -91,7 +91,7 @@ export default async function SeasonPage({ params }: Props) {
         {males.length > 0 ? (
           <section>
             <h2 className="section-title mb-4 flex items-center gap-2">
-              <span className="badge badge-accent badge-xs" />남자 출연자 ({males.length}명)
+              <span className="badge badge-info badge-xs" />남자 출연자 ({males.length}명)
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
               {males.map((p) => (
