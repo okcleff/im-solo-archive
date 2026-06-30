@@ -5,28 +5,28 @@
   logs: false;
 }
 
-/* ── Paper & Terracotta (light) ─────────────────────────
-   브랜드 액센트 = 테라코타-코랄(secondary/accent). 다크 모드의 코랄과
-   같은 hue 계열로 라이트/다크 정체성을 통일한다.
-   카드(base-100)는 순백으로, 페이지 배경(base-200)은 따뜻한 종이톤으로
+/* ── Cool Slate & Coral (light) ─────────────────────────
+   크림/노란기를 걷어내고 차가운 슬레이트 그레이-블루를 기조로.
+   다크 모드의 네이비와 같은 쿨 계열로 묶고, 브랜드 액센트는 코랄로 통일한다.
+   카드(base-100)는 순백, 페이지 배경(base-200)은 옅은 쿨 그레이로
    명도 차를 벌려 카드가 또렷이 떠 보이게 한다. */
 :root,
 [data-theme="bumblebee"] {
   --color-base-100: #FFFFFF;
-  --color-base-200: #F1ECE2;
-  --color-base-300: #DED6C8;
-  --color-base-content: #1F1A15;
-  --color-primary: #1F1A15;
+  --color-base-200: #EBEEF2;
+  --color-base-300: #D6DCE3;
+  --color-base-content: #1A1E24;
+  --color-primary: #1A1E24;
   --color-primary-content: #FFFFFF;
-  --color-secondary: #C2502E;
+  --color-secondary: #CB5237;
   --color-secondary-content: #FFFFFF;
-  --color-accent: #C2502E;
+  --color-accent: #CB5237;
   --color-accent-content: #FFFFFF;
-  --color-neutral: #6B6258;
+  --color-neutral: #5A626E;
   --color-neutral-content: #FFFFFF;
-  --color-info: #2F5C86;
+  --color-info: #2E5C88;
   --color-info-content: #FFFFFF;
-  --color-error: #C2502E;
+  --color-error: #CB5237;
   --color-error-content: #FFFFFF;
   --color-success: #4F7355;
   --color-success-content: #FFFFFF;

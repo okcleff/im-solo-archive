@@ -27,11 +27,7 @@ export default function ParticipantCard({
   const accentBadgeClass = isMale
     ? "bg-info text-info-content"
     : "bg-secondary text-secondary-content";
-  const monogramClass = isMale
-    ? "border-info/30 bg-info/10 text-info"
-    : "border-secondary/30 bg-secondary/10 text-secondary";
   const accentBarClass = isMale ? "bg-info" : "bg-secondary";
-  const initial = Array.from(p.handle)[0] ?? "";
 
   const content = (
     <div
@@ -42,32 +38,23 @@ export default function ParticipantCard({
         aria-hidden="true"
       />
 
-      <div className="flex items-start gap-3">
-        <span
-          className={`grid h-11 w-11 shrink-0 place-items-center rounded-xl border font-(--font-title) text-lg ${monogramClass}`}
-          aria-hidden="true"
-        >
-          {initial}
+      <div className="flex items-center gap-1.5">
+        <span className="text-[11px] font-semibold text-base-content/50">
+          {p.seasonNo}기
         </span>
-        <div className="min-w-0">
-          <div className="flex items-center gap-1.5">
-            <span className="text-[11px] font-semibold text-base-content/50">
-              {p.seasonNo}기
-            </span>
-            <span
-              className={`inline-flex items-center rounded-full px-1.5 py-0.5 text-[10px] font-bold ${accentBadgeClass}`}
-            >
-              {isMale ? "남" : "여"}
-            </span>
-          </div>
-          <h3 className="mt-0.5 font-(--font-title) text-xl tracking-tight leading-tight truncate">
-            {p.handle}
-          </h3>
-        </div>
+        <span
+          className={`inline-flex items-center rounded-full px-1.5 py-0.5 text-[10px] font-bold ${accentBadgeClass}`}
+        >
+          {isMale ? "남" : "여"}
+        </span>
       </div>
 
+      <h3 className="mt-1 font-(--font-title) text-xl tracking-tight leading-tight">
+        {p.handle}
+      </h3>
+
       {p.profile.job ? (
-        <p className="mt-3 text-sm text-base-content/70">{p.profile.job}</p>
+        <p className="mt-2 text-sm text-base-content/70">{p.profile.job}</p>
       ) : null}
 
       {metaParts.length > 0 ? (

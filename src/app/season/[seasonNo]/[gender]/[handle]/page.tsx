@@ -154,9 +154,11 @@ export default async function ParticipantPage({ params }: Props) {
             </div>
             <div className="rounded-xl border border-base-300 bg-base-100 px-4 py-3">
               <p className="text-[11px] font-semibold text-base-content/50">
-                나이
+                출생
               </p>
-              <p className="mt-2 text-lg font-semibold">{age}</p>
+              <p className="mt-2 text-lg font-semibold">
+                {p.profile.birthYear ? `${p.profile.birthYear}년생` : "미공개"}
+              </p>
             </div>
             <div className="rounded-xl border border-base-300 bg-base-100 px-4 py-3">
               <p className="text-[11px] font-semibold text-base-content/50">
@@ -192,7 +194,6 @@ export default async function ParticipantPage({ params }: Props) {
               participant={p}
               age={age}
               finalChoiceParticipant={finalChoiceParticipant}
-              showGender
               hideAgeRegion
             />
           </div>
