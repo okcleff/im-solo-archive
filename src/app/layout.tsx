@@ -26,12 +26,32 @@ export const metadata: Metadata = {
     apple: "/favicon/apple-touch-icon.png",
   },
   title: {
-    default: `${SITE_NAME} | 나는 SOLO 전 기수 출연자 프로필`,
+    default: `${SITE_NAME} | 나는 SOLO 역대 기수별 출연자 프로필`,
     template: `%s | ${SITE_NAME}`,
   },
   description:
-    "나는 SOLO(나는솔로) 전 기수 출연자 직업, 나이, 지역, 특징, 이슈를 한눈에 검색하세요.",
-  keywords: ["나는솔로", "나는SOLO", "솔로나라", "출연자", "프로필"],
+    "나는 SOLO(나는솔로) 역대 기수별 출연자 직업, 나이, 지역, 특징, 이슈를 한눈에 검색하세요.",
+  keywords: [
+    "나는솔로",
+    "나는 솔로",
+    "나는SOLO",
+    "나는솔로 아카이브",
+    "나는솔로 역대 출연자",
+    "나는 솔로 역대 출연자",
+    "나는솔로 역대 기수",
+    "나는솔로 기수별 출연자",
+    "나는솔로 출연자",
+    "나는솔로 출연진",
+    "솔로나라",
+    "출연자",
+    "프로필",
+  ],
+  verification: {
+    google: process.env.GOOGLE_SITE_VERIFICATION,
+    other: process.env.NAVER_SITE_VERIFICATION
+      ? { "naver-site-verification": process.env.NAVER_SITE_VERIFICATION }
+      : {},
+  },
   openGraph: {
     type: "website",
     siteName: SITE_NAME,
