@@ -43,6 +43,7 @@ export default async function SeasonPage({ params }: Props) {
   if (!season) notFound();
 
   const base = getSiteUrl();
+  const isLatestSeason = season.seasonNo === SEASONS_DATA[0].seasonNo;
   const males = season.participants.filter((p) => p.gender === 'M');
   const females = season.participants.filter((p) => p.gender === 'F');
 
@@ -88,6 +89,14 @@ export default async function SeasonPage({ params }: Props) {
       </section>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10 sm:py-12 space-y-10">
+        {isLatestSeason ? (
+          <p className="rounded-lg border border-base-300 bg-base-200/60 px-4 py-3 text-sm leading-relaxed text-base-content/70">
+            <span aria-hidden="true">ⓘ </span>
+            최신 기수는 방영이 진행 중일 수 있어, 출연자 정보는 해당 기수가
+            종영된 이후 순차적으로 업데이트됩니다.
+          </p>
+        ) : null}
+
         {males.length > 0 ? (
           <section>
             <h2 className="section-title mb-4 flex items-center gap-2">

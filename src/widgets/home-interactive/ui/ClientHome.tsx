@@ -87,6 +87,7 @@ export default function ClientHome({
 
   const currentSeason =
     seasons.find((s) => s.seasonNo === selectedSeasonNo) ?? seasons[0];
+  const isLatestSeason = currentSeason.seasonNo === seasons[0].seasonNo;
   const searchScopeParticipants = hasQuery
     ? seasons.flatMap((s) => s.participants)
     : currentSeason.participants;
@@ -140,6 +141,14 @@ export default function ClientHome({
       />
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 pt-5 pb-14 space-y-8">
+        {isLatestSeason && !hasQuery ? (
+          <p className="rounded-lg border border-base-300 bg-base-200/60 px-4 py-3 text-sm leading-relaxed text-base-content/70">
+            <span aria-hidden="true">ⓘ </span>
+            최신 기수는 방영이 진행 중일 수 있어, 출연자 정보는 해당 기수가
+            종영된 이후 순차적으로 업데이트됩니다.
+          </p>
+        ) : null}
+
         {filtered.length === 0 ? (
           <p className="text-sm text-base-content/55 py-12 text-center">
             검색 결과가 없습니다.
