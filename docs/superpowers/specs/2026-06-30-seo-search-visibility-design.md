@@ -30,12 +30,12 @@
 ### 2. 전역 메타 `src/app/layout.tsx`, `src/shared/config/site.ts`
 - `keywords` 배열 확장 (역대 출연자, 역대 기수, 기수별 출연자, 나는 솔로, 출연진(보조))
 - 기본 title/description "출연진" → "출연자", "역대" 추가
-- `metadata.verification`: 구글 + 네이버 인증 태그 자리 (env 변수 주입)
-  - `GOOGLE_SITE_VERIFICATION`, `NAVER_SITE_VERIFICATION`
+- 소유권 확인은 구글·네이버 모두 `public/` HTML 파일 업로드 방식으로 처리 (meta/env 불필요)
+  - `public/google3ada63211b95f42e.html`, `public/naver6dc61e43703c0861e9efde98131c1dfb.html`
 
 ### 3. 검색엔진 등록 가이드 `docs/seo-registration-guide.md`
 - 네이버 서치어드바이저 + 구글 서치콘솔 단계별 등록 절차
-- 인증 태그 발급 → `.env` 입력 → 재배포 → sitemap 제출
+- 파일 업로드로 소유확인 → 재배포 → sitemap 제출
 
 ## 검증
 

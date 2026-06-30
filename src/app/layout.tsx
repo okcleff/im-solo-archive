@@ -45,12 +45,7 @@ export const metadata: Metadata = {
     "출연자",
     "프로필",
   ],
-  // 구글 소유권 확인은 public/google*.html 파일 업로드로 완료됨.
-  verification: {
-    other: process.env.NAVER_SITE_VERIFICATION
-      ? { "naver-site-verification": process.env.NAVER_SITE_VERIFICATION }
-      : {},
-  },
+  // 구글/네이버 소유권 확인은 public/{google,naver}*.html 파일 업로드로 완료됨.
   openGraph: {
     type: "website",
     siteName: SITE_NAME,
