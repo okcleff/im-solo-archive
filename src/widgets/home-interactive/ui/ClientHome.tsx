@@ -144,7 +144,7 @@ export default function ClientHome({
         {isLatestSeason && !hasQuery ? (
           <p className="rounded-lg border border-base-300 bg-base-200/60 px-4 py-3 text-sm leading-relaxed text-base-content/70">
             <span aria-hidden="true">ⓘ </span>
-            최신 기수는 방영이 진행 중일 수 있어, 출연자 정보는 해당 기수가
+            현재 방영 중인 최신 기수 출연자 정보는 해당 기수가
             종영된 이후 순차적으로 업데이트됩니다.
           </p>
         ) : null}
