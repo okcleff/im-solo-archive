@@ -3,7 +3,6 @@ import Link from "next/link";
 import "./globals.css";
 import { SEASONS_DATA, SHOW_INFO } from "@/entities/participant/server";
 import { SeasonNav } from "@/widgets/season-nav";
-import { resolveLastUpdated } from "@/shared/config/last-updated";
 import { getSiteUrl, SITE_NAME } from "@/shared/config/site";
 import ThemeProvider from "@/shared/ui/ThemeProvider";
 import ThemeToggle from "@/shared/ui/ThemeToggle";
@@ -13,7 +12,7 @@ import {
 } from "@/shared/analytics/GoogleTagManager";
 
 const BASE = getSiteUrl();
-const LAST_UPDATED = resolveLastUpdated();
+
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE),
@@ -46,8 +45,8 @@ export const metadata: Metadata = {
     "출연자",
     "프로필",
   ],
+  // 구글 소유권 확인은 public/google*.html 파일 업로드로 완료됨.
   verification: {
-    google: process.env.GOOGLE_SITE_VERIFICATION,
     other: process.env.NAVER_SITE_VERIFICATION
       ? { "naver-site-verification": process.env.NAVER_SITE_VERIFICATION }
       : {},

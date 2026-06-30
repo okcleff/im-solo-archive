@@ -3,12 +3,15 @@
 코드 최적화만으로는 부족하고, 검색엔진에 사이트를 **직접 등록**해야 노출이 시작됩니다.
 아래 순서대로 1회만 진행하면 됩니다.
 
-> 인증 태그 값은 코드에 이미 자리를 만들어 두었습니다. 발급받은 값을 `.env`(로컬)와
+> **진행 현황**
+> - ✅ **구글 서치콘솔 소유권 확인 완료** — `public/google3ada63211b95f42e.html` 파일 업로드 방식. 남은 건 sitemap 제출(2번 참고).
+> - ⬜ **네이버 서치어드바이저** — 아래 1번 절차 진행 필요.
+>
+> 네이버 인증 태그 자리는 코드에 이미 만들어 두었습니다. 발급받은 값을 `.env.local`(로컬)와
 > Vercel 환경변수(배포)에 넣고 재배포하면 `<head>`에 자동으로 삽입됩니다.
 >
 > | 환경변수 | 검색엔진 |
 > |---|---|
-> | `GOOGLE_SITE_VERIFICATION` | 구글 서치콘솔 |
 > | `NAVER_SITE_VERIFICATION` | 네이버 서치어드바이저 |
 
 ---
@@ -34,20 +37,21 @@
 
 ## 2. 구글 서치콘솔
 
-1. https://search.google.com/search-console 접속 → 구글 로그인
-2. 속성 추가 → **URL 접두어**에 `https://im-solo-archive.vercel.app` 입력
-3. 소유권 확인에서 **"HTML 태그"** 방식 선택
-   - `<meta name="google-site-verification" content="여기값" />` 의 `content` 값 복사
-4. `GOOGLE_SITE_VERIFICATION=여기값` 을 `.env.local` + Vercel 환경변수에 등록
-5. **재배포** 후 서치콘솔에서 **확인** 클릭
-6. 좌측 **Sitemaps** → `sitemap.xml` 제출
-7. **URL 검사** 도구에 홈 URL 입력 → **색인 생성 요청**
+> 소유권 확인은 `public/google3ada63211b95f42e.html` 파일 업로드로 **이미 완료**됨.
+> (이 파일은 절대 삭제·이동하지 말 것 — 삭제 시 소유권 확인이 풀립니다.)
+
+남은 작업:
+
+1. https://search.google.com/search-console 접속 → 해당 속성 선택
+2. 좌측 **Sitemaps** → `sitemap.xml` 제출
+3. **URL 검사** 도구에 홈 URL 입력 → **색인 생성 요청**
 
 ---
 
 ## 3. 등록 후 확인 체크리스트
 
-- [ ] 배포본 `https://im-solo-archive.vercel.app` `<head>`에 두 인증 meta 태그가 보이는지 (브라우저 소스 보기)
+- [ ] 배포본 `<head>`에 네이버 인증 meta 태그가 보이는지 (브라우저 소스 보기)
+- [ ] `https://im-solo-archive.vercel.app/google3ada63211b95f42e.html` 정상 응답 (구글 소유권)
 - [ ] `https://im-solo-archive.vercel.app/sitemap.xml` 정상 응답
 - [ ] `https://im-solo-archive.vercel.app/robots.txt` 정상 응답
 - [ ] 구글: `site:im-solo-archive.vercel.app` 검색으로 색인 여부 확인 (며칠 후)
