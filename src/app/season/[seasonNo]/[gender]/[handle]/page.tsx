@@ -11,6 +11,7 @@ import {
   getFinalChoiceParticipant,
   getParticipantUrl,
   getParticipantSummary,
+  buildPersonJsonLd,
   ParticipantDetailsSections,
 } from "@/entities/participant";
 import { getSiteUrl } from "@/shared/config/site";
@@ -97,21 +98,7 @@ export default async function ParticipantPage({ params }: Props) {
   const summary = getParticipantSummary(p);
   const finalChoiceParticipant = getFinalChoiceParticipant(season, p);
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    name: `${p.handle} (나는 SOLO ${p.seasonNo}기)`,
-    description: summary,
-    jobTitle: p.profile.job ?? undefined,
-    homeLocation: p.profile.region
-      ? { "@type": "Place", name: p.profile.region }
-      : undefined,
-    url: `${base}${getParticipantUrl(p)}`,
-    sameAs: [
-      ...p.sources,
-      ...(p.instagram ? [`https://instagram.com/${p.instagram}`] : []),
-    ],
-  };
+  const jsonLd = buildPersonJsonLd({ base, participant: p, summary });
   const genderLabel = p.gender === "M" ? "남성 출연자" : "여성 출연자";
   const accentTone = p.gender === "M" ? "badge-info" : "badge-error";
 

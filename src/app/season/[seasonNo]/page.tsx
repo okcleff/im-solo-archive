@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { SEASONS_DATA, getSeasonByNo } from '@/entities/participant/server';
-import { ParticipantCard, getParticipantUrl, getParticipantSummary } from '@/entities/participant';
+import { ParticipantCard, buildSeasonJsonLd } from '@/entities/participant';
 import { getSiteUrl } from '@/shared/config/site';
 import JsonLd from '@/shared/ui/JsonLd';
 
@@ -47,20 +47,7 @@ export default async function SeasonPage({ params }: Props) {
   const males = season.participants.filter((p) => p.gender === 'M');
   const females = season.participants.filter((p) => p.gender === 'F');
 
-  const jsonLd = {
-    '@context': 'https://schema.org',
-    '@type': 'ItemList',
-    name: `나는 SOLO ${season.seasonNo}기 출연자 목록`,
-    url: `${base}/season/${season.seasonNo}`,
-    numberOfItems: season.participants.length,
-    itemListElement: season.participants.map((p, i) => ({
-      '@type': 'ListItem',
-      position: i + 1,
-      name: `${p.handle} (나는 SOLO ${p.seasonNo}기)`,
-      url: `${base}${getParticipantUrl(p)}`,
-      description: getParticipantSummary(p),
-    })),
-  };
+  const jsonLd = buildSeasonJsonLd({ base, season });
 
   return (
     <>

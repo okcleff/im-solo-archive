@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import { SEASONS_DATA } from "@/entities/participant/server";
-import { getSiteUrl, SITE_NAME } from "@/shared/config/site";
+import { SEASONS_DATA, SHOW_INFO } from "@/entities/participant/server";
+import { buildHomeJsonLd } from "@/entities/participant";
+import { getSiteUrl } from "@/shared/config/site";
 import JsonLd from "@/shared/ui/JsonLd";
 import { ClientHome } from "@/widgets/home-interactive";
 
@@ -43,50 +44,12 @@ const FAQ = [
   },
 ];
 
-const websiteJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  name: SITE_NAME,
-  alternateName: [
-    "나는솔로 아카이브",
-    "나는 솔로 출연자 아카이브",
-    "나는 SOLO 역대 출연자 아카이브",
-  ],
-  url: BASE,
-  description: "나는 SOLO 역대 기수별 출연자 아카이브",
-  potentialAction: {
-    "@type": "SearchAction",
-    target: {
-      "@type": "EntryPoint",
-      urlTemplate: `${BASE}/?q={search_term_string}`,
-    },
-    "query-input": "required name=search_term_string",
-  },
-};
-
-const itemListJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  name: `${SITE_NAME} 역대 기수 목록`,
-  description: "나는 SOLO 역대 기수별 출연자 아카이브",
-  url: BASE,
-  itemListElement: SEASONS_DATA.map((s, i) => ({
-    "@type": "ListItem",
-    position: i + 1,
-    name: s.label,
-    url: `${BASE}/season/${s.seasonNo}`,
-  })),
-};
-
-const faqJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: FAQ.map((item) => ({
-    "@type": "Question",
-    name: item.q,
-    acceptedAnswer: { "@type": "Answer", text: item.a },
-  })),
-};
+const homeJsonLd = buildHomeJsonLd({
+  base: BASE,
+  showInfo: SHOW_INFO,
+  seasons: SEASONS_DATA,
+  faq: FAQ,
+});
 
 interface Props {
   searchParams: Promise<{ season?: string; gender?: string; q?: string }>;
@@ -101,9 +64,7 @@ export default async function HomePage({ searchParams }: Props) {
 
   return (
     <>
-      <JsonLd data={websiteJsonLd} />
-      <JsonLd data={itemListJsonLd} />
-      <JsonLd data={faqJsonLd} />
+      <JsonLd data={homeJsonLd} />
 
       <header className="max-w-6xl mx-auto px-4 pt-8 pb-2">
         <h1 className="text-2xl sm:text-3xl font-(--font-title) tracking-tight">
