@@ -3,12 +3,13 @@ import { getSiteUrl } from "@/shared/config/site";
 
 const BASE = getSiteUrl();
 const CONTACT_EMAIL = "imsoloarchive@gmail.com";
-const EFFECTIVE_DATE = "2026년 7월 1일";
+const EFFECTIVE_DATE = "2026.07.01";
+const LAST_UPDATED = "2026.07.01";
 
 export const metadata: Metadata = {
   title: "개인정보처리방침",
   description:
-    "나는 SOLO 아카이브 개인정보처리방침 — 수집 항목, 이용 목적, 쿠키 및 웹 분석, 정보주체의 권리 안내.",
+    "나는 SOLO 아카이브 개인정보처리방침 — 수집 항목, 이용 목적, 쿠키 및 웹 분석, 국외 이전, 정보주체의 권리 안내.",
   alternates: { canonical: `${BASE}/privacy` },
   robots: { index: true, follow: true },
 };
@@ -48,9 +49,9 @@ export default function PrivacyPage() {
 
       <Section no={1} title="수집하는 개인정보 항목 및 방법">
         <p>
-          사이트는 회원가입·로그인 기능이 없으며, 이용자로부터 개인정보를 직접
-          입력받지 않습니다. 다만 서비스 이용 과정에서 아래 정보가 자동으로
-          생성·수집될 수 있습니다.
+          사이트는 회원가입·로그인 및 댓글 기능을 제공하지 않으며, 서비스 이용
+          과정에서 이용자의 개인정보를 직접 수집하지 않습니다. 다만 아래 정보가
+          자동으로 생성·수집될 수 있습니다.
         </p>
         <ul className="list-disc pl-5 space-y-1">
           <li>
@@ -72,36 +73,43 @@ export default function PrivacyPage() {
 
       <Section no={3} title="개인정보의 보유 및 이용 기간">
         <ul className="list-disc pl-5 space-y-1">
-          <li>자동 수집 정보: 웹 분석 도구의 보관 정책에 따름</li>
           <li>
-            문의 관련 정보: 문의 처리 완료 후 지체 없이 파기 (관련 법령상 보관이
-            필요한 경우 해당 기간 동안 보관)
+            자동 수집 정보: 웹 분석 도구(Google Analytics)가 제공하는 기본 보관
+            정책에 따릅니다.
+          </li>
+          <li>
+            문의 관련 정보: 문의 처리 완료 후 지체 없이 파기하며, 관련 법령상
+            보관이 필요한 경우 해당 기간 동안 보관합니다.
           </li>
         </ul>
       </Section>
 
-      <Section no={4} title="개인정보 처리의 위탁 및 제3자 제공">
+      <Section no={4} title="개인정보 처리의 위탁 및 국외 이전">
         <p>
           사이트는 이용자의 개인정보를 제3자에게 판매하거나 제공하지 않습니다.
-          다만 원활한 서비스 운영을 위해 아래 업무를 위탁하고 있습니다.
+          다만 웹사이트 이용 통계 분석을 위해 Google Tag Manager를 통해 Google
+          Analytics 등 분석 태그를 운영하고 있으며, 이 과정에서 자동 수집 정보가
+          국외로 이전될 수 있습니다.
         </p>
         <ul className="list-disc pl-5 space-y-1">
-          <li>
-            수탁자: Google LLC — Google Analytics / Google Tag Manager (웹사이트
-            이용 통계 분석)
-          </li>
-          <li>
-            향후 광고를 게재하는 경우, Google AdSense 등을 통한 광고 제공 및 관련
-            쿠키 이용이 추가될 수 있으며, 변경 시 본 방침을 통해 고지합니다.
-          </li>
+          <li>이전받는 자: Google LLC</li>
+          <li>이전 국가: 미국</li>
+          <li>이전 항목: 쿠키·접속기록 등 자동 수집 정보</li>
+          <li>이전 목적: 웹사이트 이용 통계 분석</li>
+          <li>이용·보유 기간: Google의 보관 정책에 따름</li>
         </ul>
+        <p>
+          향후 Google AdSense 등 광고 서비스를 도입하는 경우, 광고 제공을 위한
+          쿠키의 수집 및 이용에 관한 사항을 본 개인정보처리방침을 통해
+          안내하겠습니다.
+        </p>
       </Section>
 
       <Section no={5} title="쿠키의 사용 및 거부">
         <p>
           사이트는 이용 통계 분석을 위해 쿠키를 사용합니다. 이용자는 브라우저
-          설정에서 쿠키 저장을 거부할 수 있으며, 이 경우 일부 기능 이용에 제한이
-          있을 수 있습니다.
+          설정에서 쿠키 저장을 거부할 수 있으며, 이 경우 일부 통계 기능이
+          정상적으로 동작하지 않을 수 있습니다.
         </p>
         <p>
           Google Analytics 수집 거부:{" "}
@@ -119,28 +127,29 @@ export default function PrivacyPage() {
       <Section no={6} title="정보주체의 권리">
         <p>
           이용자는 언제든지 자신의 개인정보에 대한 열람·정정·삭제·처리정지를
-          요청할 수 있으며, 아래 연락처로 요청 시 지체 없이 조치합니다.
+          요청할 수 있습니다. 또한 본 사이트에 게시된 정보의 당사자(방송 출연자
+          등)는 해당 정보의 정정·삭제를 요청할 수 있으며, 아래 연락처로 요청 시
+          확인 후 지체 없이 조치합니다. (사이트 성격 및 게시 정보에 관한 안내는{" "}
+          <a href="/disclaimer" className="link link-primary">
+            면책조항
+          </a>
+          을 참고하세요.)
         </p>
       </Section>
 
-      <Section no={7} title="게시된 출연자 정보에 관한 안내">
+      <Section no={7} title="만 14세 미만 아동의 개인정보">
         <p>
-          본 사이트는 공개된 언론 보도 등을 기반으로 한 비공식·비영리 팬
-          아카이브이며, 방송 출연자의 초상(사진)은 게재하지 않습니다. 게시된
-          정보의 정정·삭제를 원하는 당사자 또는 관계자는 아래 연락처로 요청하실
-          수 있으며, 확인 후 신속히 처리합니다.
+          본 사이트는 만 14세 미만 아동을 대상으로 서비스를 제공하지 않으며,
+          아동의 개인정보를 의도적으로 수집하지 않습니다.
         </p>
       </Section>
 
       <Section no={8} title="개인정보 보호책임자 및 문의">
         <ul className="list-disc pl-5 space-y-1">
-          <li>운영: 나는 SOLO 아카이브 운영자</li>
+          <li>운영자: 나는 SOLO 아카이브 운영자</li>
           <li>
-            연락처:{" "}
-            <a
-              href={`mailto:${CONTACT_EMAIL}`}
-              className="link link-primary"
-            >
+            이메일:{" "}
+            <a href={`mailto:${CONTACT_EMAIL}`} className="link link-primary">
               {CONTACT_EMAIL}
             </a>
           </li>
@@ -149,14 +158,15 @@ export default function PrivacyPage() {
 
       <Section no={9} title="고지의 의무">
         <p>
-          본 개인정보처리방침의 내용에 추가·삭제·수정이 있을 경우 사이트를 통해
-          사전 고지합니다.
+          본 개인정보처리방침의 내용에 추가·삭제·수정이 있을 경우 변경사항을 본
+          페이지를 통하여 공지합니다.
         </p>
       </Section>
 
-      <p className="mt-10 text-xs text-base-content/55">
-        시행일: {EFFECTIVE_DATE}
-      </p>
+      <div className="mt-10 space-y-0.5 text-xs text-base-content/55">
+        <p>시행일: {EFFECTIVE_DATE}</p>
+        <p>최종 수정일: {LAST_UPDATED}</p>
+      </div>
     </div>
   );
 }

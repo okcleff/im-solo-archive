@@ -150,6 +150,9 @@ export default function RootLayout({
                 <Link href="/privacy" className="link link-hover">
                   개인정보처리방침
                 </Link>
+                <Link href="/disclaimer" className="link link-hover">
+                  면책조항
+                </Link>
               </p>
               {/* <p className="mt-1.5 text-xs">
                 데이터 최종 업데이트: {LAST_UPDATED}

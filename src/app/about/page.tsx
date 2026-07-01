@@ -83,6 +83,11 @@ export default function AboutPage() {
               개인정보처리방침
             </Link>
           </li>
+          <li>
+            <Link href="/disclaimer" className="link link-primary">
+              면책조항 및 저작권 안내
+            </Link>
+          </li>
         </ul>
       </section>
     </div>
