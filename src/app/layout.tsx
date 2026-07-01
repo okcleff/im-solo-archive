@@ -143,6 +143,14 @@ export default function RootLayout({
                   imsoloarchive@gmail.com
                 </a>
               </p>
+              <p className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-xs">
+                <Link href="/about" className="link link-hover">
+                  사이트 소개
+                </Link>
+                <Link href="/privacy" className="link link-hover">
+                  개인정보처리방침
+                </Link>
+              </p>
               {/* <p className="mt-1.5 text-xs">
                 데이터 최종 업데이트: {LAST_UPDATED}
               </p> */}
