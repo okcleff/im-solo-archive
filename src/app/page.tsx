@@ -8,13 +8,13 @@ import { ClientHome } from "@/widgets/home-interactive";
 const BASE = getSiteUrl();
 
 export const metadata: Metadata = {
-  title: `나는 SOLO 역대 기수별 출연자 아카이브 | 출연자 프로필 총정리`,
-  description: `나는 SOLO(나는솔로) 역대 출연자를 기수별로 총정리. 1기부터 최신 기수까지 출연자 직업, 나이, 지역, 특징을 한눈에 검색하세요.`,
+  title: `나는 SOLO(나는 솔로) 역대 기수별 출연자 아카이브 | 출연자 프로필 총정리`,
+  description: `나는 솔로(나는 SOLO·나는솔로) 역대 출연자를 기수별로 총정리. 1기부터 최신 기수까지 출연자 직업, 나이, 지역, 특징을 한눈에 검색하세요.`,
   alternates: { canonical: BASE },
   openGraph: {
-    title: `나는 SOLO 역대 기수별 출연자 아카이브`,
+    title: `나는 SOLO(나는 솔로) 역대 기수별 출연자 아카이브`,
     description:
-      "나는 SOLO 역대 출연자를 기수별로 검색하고 비교하세요. 직업·나이·지역·특징 총정리.",
+      "나는 솔로(나는 SOLO) 역대 출연자를 기수별로 검색하고 비교하세요. 직업·나이·지역·특징 총정리.",
     url: BASE,
   },
 };
@@ -71,8 +71,8 @@ export default async function HomePage({ searchParams }: Props) {
           나는 SOLO 역대 기수별 출연자 아카이브
         </h1>
         <p className="mt-2 max-w-3xl text-sm sm:text-base text-base-content/68">
-          1기부터 최신 {latestSeason.seasonNo}기까지, 나는 SOLO(나는솔로) 역대
-          출연자를 기수별로 정리했습니다. 출연자 직업·나이·지역·특징을 한눈에
+          1기부터 최신 {latestSeason.seasonNo}기까지, 나는 솔로(나는 SOLO·나는솔로)
+          역대 출연자를 기수별로 정리했습니다. 출연자 직업·나이·지역·특징을 한눈에
           검색하고 비교해 보세요.
         </p>
       </header>

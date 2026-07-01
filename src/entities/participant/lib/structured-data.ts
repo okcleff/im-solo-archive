@@ -20,9 +20,13 @@ const LANG = "ko-KR";
 /** 표기 변형 — 엔티티 동일성(entity disambiguation) 신호 */
 const SITE_ALT_NAMES = [
   "나는솔로 아카이브",
+  "나는 솔로 아카이브",
   "나는 솔로 출연자 아카이브",
   "나는 SOLO 역대 출연자 아카이브",
 ];
+
+/** 프로그램명 표기 변형 (영문/한글 붙임·띄어쓰기) — 검색어 대응 */
+const SHOW_ALT_NAMES = (titleEn: string) => [titleEn, "나는 솔로", "나는솔로"];
 
 // ── 안정적 @id 앵커 ──────────────────────────────────────
 const orgId = (base: string) => `${base}/#organization`;
@@ -75,7 +79,7 @@ function tvSeries(base: string, showInfo: ShowInfo, seasons: Season[]) {
     "@type": "TVSeries",
     "@id": tvSeriesId(base),
     name: showInfo.titleKo,
-    alternateName: showInfo.titleEn,
+    alternateName: SHOW_ALT_NAMES(showInfo.titleEn),
     url: base,
     inLanguage: LANG,
     numberOfSeasons: seasons.length,

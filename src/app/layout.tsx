@@ -25,11 +25,11 @@ export const metadata: Metadata = {
     apple: "/favicon/apple-touch-icon.png",
   },
   title: {
-    default: `${SITE_NAME} | 나는 SOLO 역대 기수별 출연자 프로필`,
+    default: `${SITE_NAME} | 나는 SOLO(나는 솔로) 역대 기수별 출연자 프로필`,
     template: `%s | ${SITE_NAME}`,
   },
   description:
-    "나는 SOLO(나는솔로) 역대 기수별 출연자 직업, 나이, 지역, 특징, 이슈를 한눈에 검색하세요.",
+    "나는 솔로(나는 SOLO·나는솔로) 역대 기수별 출연자 직업, 나이, 지역, 특징, 이슈를 한눈에 검색하세요.",
   keywords: [
     "나는솔로",
     "나는 솔로",
