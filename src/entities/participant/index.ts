@@ -7,7 +7,13 @@ export {
   type FaqItem,
 } from './lib/structured-data';
 export { formatKoreanAge, formatAgeWithBirthYear } from './lib/age';
-export { getFinalChoiceParticipant, getParticipantByRoute, getSeasonByNo } from './lib/selectors';
+export {
+  getFinalChoiceParticipant,
+  getParticipantByRoute,
+  getSeasonByNo,
+  getAdjacentSeasons,
+  getSameHandleParticipants,
+} from './lib/selectors';
 export { default as ParticipantCard } from './ui/ParticipantCard';
 export { default as ParticipantDetailsSections } from './ui/ParticipantDetailsSections';
 

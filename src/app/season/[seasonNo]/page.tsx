@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { SEASONS_DATA, getSeasonByNo } from '@/entities/participant/server';
+import { SEASONS_DATA, getSeasonByNo, getAdjacentSeasons } from '@/entities/participant/server';
 import { ParticipantCard, buildSeasonJsonLd } from '@/entities/participant';
 import { getSiteUrl } from '@/shared/config/site';
 import JsonLd from '@/shared/ui/JsonLd';
@@ -46,6 +46,7 @@ export default async function SeasonPage({ params }: Props) {
   const isLatestSeason = season.seasonNo === SEASONS_DATA[0].seasonNo;
   const males = season.participants.filter((p) => p.gender === 'M');
   const females = season.participants.filter((p) => p.gender === 'F');
+  const { prev, next } = getAdjacentSeasons(SEASONS_DATA, season.seasonNo);
 
   const jsonLd = buildSeasonJsonLd({ base, season });
 
@@ -109,6 +110,30 @@ export default async function SeasonPage({ params }: Props) {
             </div>
           </section>
         ) : null}
+
+        {/* 기수 간 순차 이동 링크: 크롤러가 한 기수에서 인접 기수로 이어갈 수 있게 한다. */}
+        <nav
+          aria-label="기수 이동"
+          className="flex flex-col gap-3 border-t border-base-300 pt-6 sm:flex-row sm:items-center sm:justify-between"
+        >
+          {prev ? (
+            <Link href={`/season/${prev.seasonNo}`} className="btn btn-ghost btn-sm justify-start border border-base-300">
+              ← 나는 SOLO {prev.seasonNo}기 출연자
+            </Link>
+          ) : (
+            <span />
+          )}
+          <Link href="/#season-index" className="btn btn-ghost btn-sm border border-base-300">
+            전체 기수 목록
+          </Link>
+          {next ? (
+            <Link href={`/season/${next.seasonNo}`} className="btn btn-ghost btn-sm justify-end border border-base-300">
+              나는 SOLO {next.seasonNo}기 출연자 →
+            </Link>
+          ) : (
+            <span />
+          )}
+        </nav>
       </div>
     </>
   );

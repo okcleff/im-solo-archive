@@ -5,4 +5,9 @@ export {
   SEASONS_DATA,
   LATEST_SEASON,
 } from './lib/data';
-export { getParticipantByRoute, getSeasonByNo } from './lib/selectors';
+export {
+  getParticipantByRoute,
+  getSeasonByNo,
+  getAdjacentSeasons,
+  getSameHandleParticipants,
+} from './lib/selectors';

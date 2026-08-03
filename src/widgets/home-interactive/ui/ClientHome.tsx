@@ -20,12 +20,10 @@ function ParticipantBoard({
   title,
   tone,
   participants,
-  onSelect,
 }: {
   title: string;
   tone: "info" | "secondary";
   participants: Participant[];
-  onSelect: (participant: Participant) => void;
 }) {
   return (
     <section className="space-y-3">
@@ -48,7 +46,7 @@ function ParticipantBoard({
           <ParticipantCard
             key={`${participant.seasonNo}-${participant.gender}-${participant.handle}`}
             participant={participant}
-            onClick={() => onSelect(participant)}
+            asLink
           />
         ))}
       </div>
@@ -160,7 +158,6 @@ export default function ClientHome({
                 title="남성 출연자"
                 tone="info"
                 participants={males}
-                onSelect={(p) => router.push(`/season/${p.seasonNo}/${p.gender.toLowerCase()}/${p.handle}`)}
               />
             )}
             {females.length > 0 && (
@@ -168,7 +165,6 @@ export default function ClientHome({
                 title="여성 출연자"
                 tone="secondary"
                 participants={females}
-                onSelect={(p) => router.push(`/season/${p.seasonNo}/${p.gender.toLowerCase()}/${p.handle}`)}
               />
             )}
           </>
@@ -177,7 +173,6 @@ export default function ClientHome({
             title={selectedGender === "M" ? "남성 출연자" : "여성 출연자"}
             tone={selectedGender === "M" ? "info" : "secondary"}
             participants={filtered}
-            onSelect={(p) => router.push(`/season/${p.seasonNo}/${p.gender.toLowerCase()}/${p.handle}`)}
           />
         )}
       </div>

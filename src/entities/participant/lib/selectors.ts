@@ -44,6 +44,42 @@ export function getParticipantByRoute(
 }
 
 /**
+ * 기준 기수의 앞뒤 기수를 반환한다. 기수 페이지 간 순차 이동 링크에 사용한다.
+ *
+ * @returns `prev`는 한 기수 이전(번호가 작은 쪽), `next`는 한 기수 이후. 없으면 `null`
+ */
+export function getAdjacentSeasons(
+  seasons: Season[],
+  seasonNo: number,
+): { prev: Season | null; next: Season | null } {
+  return {
+    prev: getSeasonByNo(seasons, seasonNo - 1),
+    next: getSeasonByNo(seasons, seasonNo + 1),
+  };
+}
+
+/**
+ * 다른 기수에서 같은 이름(handle)으로 출연한 참가자 목록을 반환한다.
+ *
+ * `영수`, `옥순` 등 이름이 기수마다 재사용되는 특성을 이용해 기수 간 내부 링크를 만든다.
+ *
+ * @returns 기수 번호 내림차순 목록 (자기 자신 제외)
+ */
+export function getSameHandleParticipants(
+  seasons: Season[],
+  participant: Participant,
+): Participant[] {
+  return seasons
+    .flatMap((season) => season.participants)
+    .filter(
+      (candidate) =>
+        candidate.handle === participant.handle &&
+        candidate.seasonNo !== participant.seasonNo,
+    )
+    .sort((a, b) => b.seasonNo - a.seasonNo);
+}
+
+/**
  * 출연자의 최종 선택 상대를 같은 기수 내 참가자 목록에서 찾는다.
  *
  * `finalChoice`는 이름만 저장하므로, 동일 기수의 반대 성별 참가자 중 handle이 일치하는 대상을 반환한다.

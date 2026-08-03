@@ -53,8 +53,13 @@ export default function SeasonNav({ seasons, currentSeasonNo }: Props) {
         </svg>
       </button>
 
-      {open && (
-        <div className="menu dropdown-content mt-2 w-[280px] rounded-2xl glass-panel p-3 shadow-2xl z-50 animate-float-in">
+      {/* 닫힌 상태에서도 DOM에 남긴다: 크롤러가 전 기수 링크를 볼 수 있어야 한다.
+          visibility 기반으로 숨기므로 닫혀 있을 때는 탭 순서에서도 제외된다. */}
+      <div
+        className={`menu dropdown-content mt-2 w-[280px] rounded-2xl glass-panel p-3 shadow-2xl z-50 ${
+          open ? "visible opacity-100 animate-float-in" : "invisible opacity-0"
+        }`}
+      >
           <p className="px-2 pb-2 text-[10px] uppercase tracking-[0.18em] text-base-content/55">
             전체 기수 ({seasons.length})
           </p>
@@ -84,8 +89,7 @@ export default function SeasonNav({ seasons, currentSeasonNo }: Props) {
               );
             })}
           </div>
-        </div>
-      )}
+      </div>
     </div>
   );
 }
