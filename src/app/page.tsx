@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { SEASONS_DATA, SHOW_INFO } from "@/entities/participant/server";
 import { buildHomeJsonLd } from "@/entities/participant";
 import { getSiteUrl } from "@/shared/config/site";
@@ -85,6 +86,44 @@ export default async function HomePage({ searchParams }: Props) {
           initialQuery={initialQuery}
         />
       </div>
+
+      {/* 전 기수 페이지로 가는 정적 링크 인덱스.
+          기수 탭·출연자 카드는 클라이언트 상태로 동작하므로, 크롤러가 기수별
+          페이지에 도달할 수 있는 경로를 HTML에 항상 남겨둔다. */}
+      <section
+        id="season-index"
+        aria-labelledby="season-index-heading"
+        className="max-w-6xl mx-auto px-4 mt-14"
+      >
+        <h2
+          id="season-index-heading"
+          className="text-xl sm:text-2xl font-(--font-title) tracking-tight"
+        >
+          기수별 출연자 페이지
+        </h2>
+        <p className="mt-2 text-sm text-base-content/65">
+          1기부터 {latestSeason.seasonNo}기까지 기수별 상세 페이지에서 남녀 출연자
+          프로필과 방영 회차를 확인할 수 있습니다.
+        </p>
+
+        <ul className="mt-5 grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-3">
+          {SEASONS_DATA.map((season) => (
+            <li key={season.seasonNo}>
+              <Link
+                href={`/season/${season.seasonNo}`}
+                className="surface-card flex items-baseline justify-between gap-3 rounded-xl px-4 py-3 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md"
+              >
+                <span className="font-semibold">
+                  나는 SOLO {season.seasonNo}기 출연자
+                </span>
+                <span className="shrink-0 text-[11px] text-base-content/50">
+                  {season.participants.length}명
+                </span>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </section>
 
       <section
         aria-labelledby="faq-heading"

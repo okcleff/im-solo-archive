@@ -5,6 +5,7 @@ import {
   SEASONS_DATA,
   getParticipantByRoute,
   getSeasonByNo,
+  getSameHandleParticipants,
 } from "@/entities/participant/server";
 import {
   formatKoreanAge,
@@ -97,6 +98,11 @@ export default async function ParticipantPage({ params }: Props) {
   const age = formatKoreanAge(p.profile.birthYear, getCurrentYear());
   const summary = getParticipantSummary(p);
   const finalChoiceParticipant = getFinalChoiceParticipant(season, p);
+  const sameSeasonParticipants = season.participants.filter(
+    (candidate) =>
+      !(candidate.gender === p.gender && candidate.handle === p.handle),
+  );
+  const sameHandleParticipants = getSameHandleParticipants(SEASONS_DATA, p);
 
   const jsonLd = buildPersonJsonLd({ base, participant: p, summary });
   const genderLabel = p.gender === "M" ? "남성 출연자" : "여성 출연자";
@@ -196,6 +202,59 @@ export default async function ParticipantPage({ params }: Props) {
             </div>
           </section>
         )}
+
+        {/* 같은 기수 · 동명 출연자로 이어지는 내부 링크.
+            출연자 페이지끼리 서로를 참조해 크롤러가 상세 페이지를 순회할 수 있게 한다. */}
+        {sameSeasonParticipants.length > 0 ? (
+          <section className="card border border-base-300 bg-base-100 shadow-sm">
+            <div className="card-body p-5 sm:p-6">
+              <h2 className="text-base font-semibold mb-4">
+                {p.seasonNo}기 다른 출연자
+              </h2>
+              <ul className="flex flex-wrap gap-2">
+                {sameSeasonParticipants.map((candidate) => (
+                  <li key={`${candidate.gender}-${candidate.handle}`}>
+                    <Link
+                      href={getParticipantUrl(candidate)}
+                      className="btn btn-ghost btn-sm rounded-full border border-base-300 font-medium"
+                    >
+                      {candidate.handle}
+                      <span className="text-[10px] text-base-content/45">
+                        {candidate.gender === "M" ? "남" : "여"}
+                      </span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </section>
+        ) : null}
+
+        {sameHandleParticipants.length > 0 ? (
+          <section className="card border border-base-300 bg-base-100 shadow-sm">
+            <div className="card-body p-5 sm:p-6">
+              <h2 className="text-base font-semibold mb-1">
+                다른 기수 {p.handle}
+              </h2>
+              <p className="mb-4 text-xs text-base-content/55">
+                나는 SOLO는 기수마다 같은 가명을 사용합니다. 동명의 다른 기수
+                출연자를 확인해 보세요.
+              </p>
+              <ul className="flex flex-wrap gap-2">
+                {sameHandleParticipants.map((candidate) => (
+                  <li key={`${candidate.seasonNo}-${candidate.gender}`}>
+                    <Link
+                      href={getParticipantUrl(candidate)}
+                      className="btn btn-ghost btn-sm rounded-full border border-base-300 font-medium"
+                    >
+                      {candidate.seasonNo}기 {candidate.handle}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </section>
+        ) : null}
       </div>
     </>
   );
