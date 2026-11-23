@@ -144,13 +144,13 @@ export default function RootLayout({
                 </a>
               </p>
               <p className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-xs">
-                <Link href="/about" className="link link-hover">
+                <Link href="/about" prefetch={false} className="link link-hover">
                   사이트 소개
                 </Link>
-                <Link href="/privacy" className="link link-hover">
+                <Link href="/privacy" prefetch={false} className="link link-hover">
                   개인정보처리방침
                 </Link>
-                <Link href="/disclaimer" className="link link-hover">
+                <Link href="/disclaimer" prefetch={false} className="link link-hover">
                   면책조항
                 </Link>
               </p>

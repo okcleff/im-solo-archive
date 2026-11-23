@@ -216,6 +216,7 @@ export default async function ParticipantPage({ params }: Props) {
                   <li key={`${candidate.gender}-${candidate.handle}`}>
                     <Link
                       href={getParticipantUrl(candidate)}
+                      prefetch={false}
                       className="btn btn-ghost btn-sm rounded-full border border-base-300 font-medium"
                     >
                       {candidate.handle}
@@ -245,6 +246,7 @@ export default async function ParticipantPage({ params }: Props) {
                   <li key={`${candidate.seasonNo}-${candidate.gender}`}>
                     <Link
                       href={getParticipantUrl(candidate)}
+                      prefetch={false}
                       className="btn btn-ghost btn-sm rounded-full border border-base-300 font-medium"
                     >
                       {candidate.seasonNo}기 {candidate.handle}
