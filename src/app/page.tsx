@@ -111,6 +111,7 @@ export default async function HomePage({ searchParams }: Props) {
             <li key={season.seasonNo}>
               <Link
                 href={`/season/${season.seasonNo}`}
+                prefetch={false}
                 className="surface-card flex items-baseline justify-between gap-3 rounded-xl px-4 py-3 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md"
               >
                 <span className="font-semibold">

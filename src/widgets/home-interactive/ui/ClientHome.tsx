@@ -1,7 +1,7 @@
 "use client";
 
-import { useState, useCallback, useTransition, useEffect } from "react";
-import { useRouter, usePathname } from "next/navigation";
+import { useState, useCallback, useEffect } from "react";
+import { usePathname, useSearchParams } from "next/navigation";
 import type { Season, Participant } from "@/entities/participant";
 import { ParticipantCard } from "@/entities/participant";
 import { SeasonTabs } from "@/features/season-select";
@@ -60,13 +60,21 @@ export default function ClientHome({
   initialGender,
   initialQuery,
 }: Props) {
-  const router = useRouter();
   const pathname = usePathname();
-  const [, startTransition] = useTransition();
 
-  const [selectedSeasonNo, setSelectedSeasonNo] = useState(initialSeasonNo);
-  const [selectedGender, setSelectedGender] = useState(initialGender);
-  const [searchQuery, setSearchQuery] = useState(initialQuery);
+  // URL은 history.replaceState로만 갱신되므로, 뒤로가기로 재마운트될 때
+  // 서버 props(이전 값)가 아니라 현재 URL에서 상태를 복원한다.
+  const searchParams = useSearchParams();
+  const [selectedSeasonNo, setSelectedSeasonNo] = useState(() => {
+    const season = searchParams.get("season");
+    return season ? Number(season) : initialSeasonNo;
+  });
+  const [selectedGender, setSelectedGender] = useState(
+    () => searchParams.get("gender") ?? initialGender,
+  );
+  const [searchQuery, setSearchQuery] = useState(
+    () => searchParams.get("q") ?? initialQuery,
+  );
 
   const hasQuery = searchQuery.trim().length > 0;
 
@@ -116,11 +124,10 @@ export default function ClientHome({
       if (nextQuery.trim()) params.set("q", nextQuery);
 
       const qs = params.toString();
-      startTransition(() => {
-        router.replace(qs ? `${pathname}?${qs}` : pathname, { scroll: false });
-      });
+      // 필터 상태는 클라이언트에만 있으므로 서버 RSC 요청 없이 URL만 갱신한다.
+      window.history.replaceState(null, "", qs ? `${pathname}?${qs}` : pathname);
     },
-    [router, pathname, selectedSeasonNo, selectedGender, searchQuery, seasons],
+    [pathname, selectedSeasonNo, selectedGender, searchQuery, seasons],
   );
 
   return (

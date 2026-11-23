@@ -58,6 +58,7 @@ export default function ParticipantDetailsSections({
               finalChoiceParticipant ? (
                 <Link
                   href={getParticipantUrl(finalChoiceParticipant)}
+                  prefetch={false}
                   className="link link-primary"
                 >
                   {p.finalChoice}

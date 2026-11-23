@@ -70,6 +70,7 @@ export default function ParticipantCard({
       <article>
         <Link
           href={href}
+          prefetch={false}
           className="block"
           onClick={() => trackParticipantCardClick(p.seasonNo, p.handle, p.gender)}
         >
